@@ -14,7 +14,10 @@ var searchData=
   ['extractimages',['ExtractImages',['../classnet_1_1pdfix_1_1samples_1_1_extract_images.html',1,'net::pdfix::samples']]],
   ['export_20extract_20images_20sample',['Export Extract Images Sample',['../_extract_images_java.html',1,'JAVA_Samples']]],
   ['extracttables',['ExtractTables',['../classnet_1_1pdfix_1_1samples_1_1_extract_tables.html',1,'net::pdfix::samples']]],
+  ['extract_20tables_20sample',['Extract Tables Sample',['../_extract_tables_cs.html',1,'CS_Samples']]],
   ['export_20extract_20tables_20sample',['Export Extract Tables Sample',['../_extract_tables_java.html',1,'JAVA_Samples']]],
   ['extracttext',['ExtractText',['../classnet_1_1pdfix_1_1samples_1_1_extract_text.html',1,'net::pdfix::samples']]],
-  ['export_20extract_20text_20sample',['Export Extract Text Sample',['../_extract_text_java.html',1,'JAVA_Samples']]]
+  ['extract_20text_20sample',['Extract Text Sample',['../_extract_text_cs.html',1,'CS_Samples']]],
+  ['export_20extract_20text_20sample',['Export Extract Text Sample',['../_extract_text_java.html',1,'JAVA_Samples']]],
+  ['extract_20text_20sample',['Extract Text Sample',['../_extract_text_py.html',1,'Python_Samples']]]
 ];

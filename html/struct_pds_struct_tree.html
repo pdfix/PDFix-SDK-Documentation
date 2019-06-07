@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.14-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -22,6 +23,25 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="pdfix.css" rel="stylesheet" type="text/css"/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77127933-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-77127933-1');
+</script>
+<!-- Global site tag (gtag.js) - Google AdWords: 1045119916 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1045119916"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-1045119916');
+</script>
+<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd1053e21acc59f3158afb604e53d360b4b25a254208ed63c1bd54", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.eu/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+</script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -32,7 +52,7 @@
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.0.0</span>
+   &#160;<span id="projectnumber">4.1.2</span>
    </div>
   </td>
  </tr>
@@ -88,17 +108,247 @@ $(document).ready(function(){initNavTree('struct_pds_struct_tree.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="struct_pds_struct_tree-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PdsStructTree Struct Reference</div>  </div>
+<div class="title">PdsStructTree Struct Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group___pds___p_d_fix___s_d_k.html">Pds Layer</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="struct_pds_struct_tree.html" title="PdsStructTree class. ">PdsStructTree</a> class.  
+ <a href="struct_pds_struct_tree.html#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aadc1d06556ded831e8a96b5277a0b575"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_class_map.html">PdsClassMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_tree.html#aadc1d06556ded831e8a96b5277a0b575">GetClassMap</a> ()=0</td></tr>
+<tr class="memdesc:aadc1d06556ded831e8a96b5277a0b575"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="struct_pds_class_map.html" title="PdsClassMap class. ">PdsClassMap</a> object for the specified structure tree root.  <a href="#aadc1d06556ded831e8a96b5277a0b575">More...</a><br /></td></tr>
+<tr class="separator:aadc1d06556ded831e8a96b5277a0b575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39d9936155dd99079deb2131bd928e31"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_tree.html#a39d9936155dd99079deb2131bd928e31">GetKidObject</a> (int index)=0</td></tr>
+<tr class="memdesc:a39d9936155dd99079deb2131bd928e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the kid's object at an array index in the specified structure tree root.  <a href="#a39d9936155dd99079deb2131bd928e31">More...</a><br /></td></tr>
+<tr class="separator:a39d9936155dd99079deb2131bd928e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7937644ee17efaa681b62ba2e508e189"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_tree.html#a7937644ee17efaa681b62ba2e508e189">GetNumKids</a> ()=0</td></tr>
+<tr class="memdesc:a7937644ee17efaa681b62ba2e508e189"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of kids of the structure tree root.  <a href="#a7937644ee17efaa681b62ba2e508e189">More...</a><br /></td></tr>
+<tr class="separator:a7937644ee17efaa681b62ba2e508e189"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0b2f152dd38bbd1d697a127dfc12a9e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_role_map.html">PdsRoleMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_tree.html#ab0b2f152dd38bbd1d697a127dfc12a9e">GetRoleMap</a> ()=0</td></tr>
+<tr class="memdesc:ab0b2f152dd38bbd1d697a127dfc12a9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="struct_pds_role_map.html" title="PdsRoleMap class. ">PdsRoleMap</a> object for the specified structure tree root.  <a href="#ab0b2f152dd38bbd1d697a127dfc12a9e">More...</a><br /></td></tr>
+<tr class="separator:ab0b2f152dd38bbd1d697a127dfc12a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a1fca5afa17a918fa480c91adfa24f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_struct_element.html">PdsStructElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_tree.html#ac4a1fca5afa17a918fa480c91adfa24f">AcquireStructElement</a> (<a class="el" href="struct_pds_object.html">PdsObject</a> *object)=0</td></tr>
+<tr class="separator:ac4a1fca5afa17a918fa480c91adfa24f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5db385e5db194182e654b22e6cb7869f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_tree.html#a5db385e5db194182e654b22e6cb7869f">ReleaseStructElement</a> (<a class="el" href="struct_pds_struct_element.html">PdsStructElement</a> *element)=0</td></tr>
+<tr class="memdesc:a5db385e5db194182e654b22e6cb7869f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases structure element's resources.  <a href="#a5db385e5db194182e654b22e6cb7869f">More...</a><br /></td></tr>
+<tr class="separator:a5db385e5db194182e654b22e6cb7869f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="struct_pds_struct_tree.html" title="PdsStructTree class. ">PdsStructTree</a> class. </p>
+<p>The root of the structure tree, which is a central repository for information related to a PDF document’s logical structure. There is at most one PDSTreeRoot in each document. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac4a1fca5afa17a918fa480c91adfa24f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4a1fca5afa17a918fa480c91adfa24f">&#9670;&nbsp;</a></span>AcquireStructElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_struct_element.html">PdsStructElement</a>* PdsStructTree::AcquireStructElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td>
+          <td class="paramname"><em>object</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets a <a class="el" href="struct_pds_struct_element.html" title="PdsStructElement class. ">PdsStructElement</a> from a Pds object. The struct elements is cached, so that subsequent calls on the same object return The same <a class="el" href="struct_pds_struct_element.html" title="PdsStructElement class. ">PdsStructElement</a>. The <a class="el" href="struct_pds_struct_element.html" title="PdsStructElement class. ">PdsStructElement</a> remains in the cache as long as <a class="el" href="struct_pds_struct_tree.html" title="PdsStructTree class. ">PdsStructTree</a> exists or ReleaseStructElement was not called. NOTE: After you are done using the structure element, release it using ReleaseStructElement to release resources. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">page_num</td><td>The page number of the page to get. The first page is 0. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The requested page. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pds_struct_tree.html#a5db385e5db194182e654b22e6cb7869f" title="Releases structure element&#39;s resources. ">PdsStructTree::ReleaseStructElement</a> </dd></dl>
+
+</div>
+</div>
+<a id="aadc1d06556ded831e8a96b5277a0b575"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadc1d06556ded831e8a96b5277a0b575">&#9670;&nbsp;</a></span>GetClassMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_class_map.html">PdsClassMap</a>* PdsStructTree::GetClassMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the <a class="el" href="struct_pds_class_map.html" title="PdsClassMap class. ">PdsClassMap</a> object for the specified structure tree root. </p>
+<dl class="section return"><dt>Returns</dt><dd>The class map, if one exists, nullptr otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a39d9936155dd99079deb2131bd928e31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39d9936155dd99079deb2131bd928e31">&#9670;&nbsp;</a></span>GetKidObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_object.html">PdsObject</a>* PdsStructTree::GetKidObject </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the kid's object at an array index in the specified structure tree root. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Index of the kid to obtain. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Pointer to the kid's object at index. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pds_struct_tree.html#ac4a1fca5afa17a918fa480c91adfa24f">PdsStructTree::AcquireStructElement</a> </dd></dl>
+
+</div>
+</div>
+<a id="a7937644ee17efaa681b62ba2e508e189"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7937644ee17efaa681b62ba2e508e189">&#9670;&nbsp;</a></span>GetNumKids()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdsStructTree::GetNumKids </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the number of kids of the structure tree root. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">class_name</td><td>The string of a class name for which an associated attribute objects is found. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The number of kids of the structure tree root. </dd></dl>
+
+</div>
+</div>
+<a id="ab0b2f152dd38bbd1d697a127dfc12a9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0b2f152dd38bbd1d697a127dfc12a9e">&#9670;&nbsp;</a></span>GetRoleMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_role_map.html">PdsRoleMap</a>* PdsStructTree::GetRoleMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the <a class="el" href="struct_pds_role_map.html" title="PdsRoleMap class. ">PdsRoleMap</a> object for the specified structure tree root. </p>
+<dl class="section return"><dt>Returns</dt><dd>The role map, if one exists, nullptr otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a5db385e5db194182e654b22e6cb7869f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5db385e5db194182e654b22e6cb7869f">&#9670;&nbsp;</a></span>ReleaseStructElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdsStructTree::ReleaseStructElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a> *&#160;</td>
+          <td class="paramname"><em>element</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Releases structure element's resources. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">element</td><td>The structure element to release. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if structure element was released, false otherwise. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pds_struct_tree.html#ac4a1fca5afa17a918fa480c91adfa24f">PdsStructTree::AcquireStructElement</a> </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a></li>
-    <li class="footer">Generated on Fri Jun 7 2019 13:07:20 for PDFix SDK by
+    <li class="footer">Generated on Fri Nov 2 2018 01:40:15 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

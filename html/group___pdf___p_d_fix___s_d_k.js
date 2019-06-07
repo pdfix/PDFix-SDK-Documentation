@@ -43,6 +43,15 @@ var group___pdf___p_d_fix___s_d_k =
       [ "GetFontName", "struct_pdf_widget_annot.html#a9f8942dab76c209831369e31bb49c7f3", null ],
       [ "GetFormField", "struct_pdf_widget_annot.html#aada6b5f4d51a2bba57e3af086637353f", null ]
     ] ],
+    [ "PdfBaseDigSig", "struct_pdf_base_dig_sig.html", [
+      [ "Destroy", "struct_pdf_base_dig_sig.html#a2bd43e9a5c9fd84035997d05e4100318", null ],
+      [ "SetContactInfo", "struct_pdf_base_dig_sig.html#abaee5ee920ac5347871bbe277244af66", null ],
+      [ "SetLocation", "struct_pdf_base_dig_sig.html#a90764e1c47147f1447f7a4dba49a8be1", null ],
+      [ "SetName", "struct_pdf_base_dig_sig.html#a8bea19685a0e514339756bbd3d7dce26", null ],
+      [ "SetReason", "struct_pdf_base_dig_sig.html#ac3ffa0d9c29cd9573b9e82d890332e37", null ],
+      [ "SetTimeStampServer", "struct_pdf_base_dig_sig.html#ae61fcd33da4380dfabaf63d9faa243be", null ],
+      [ "SignDoc", "struct_pdf_base_dig_sig.html#acdd43835dcbf31de4f2da7ff8f8a2766", null ]
+    ] ],
     [ "PdfDigSig", "struct_pdf_dig_sig.html", [
       [ "SetPfxFile", "struct_pdf_dig_sig.html#a2a259a0ffb2281fac5b09968e23fe73e", null ]
     ] ],
@@ -66,6 +75,7 @@ var group___pdf___p_d_fix___s_d_k =
       [ "GetFormField", "struct_pdf_doc.html#a8b71c7ea91a676be0421c5ce3d8961ce", null ],
       [ "GetFormFieldByName", "struct_pdf_doc.html#a505c5254b1c5d359658e9b0ce9d6f4e3", null ],
       [ "GetInfo", "struct_pdf_doc.html#aa937ca51f803ed09190889b10d7ace66", null ],
+      [ "GetInfoObject", "struct_pdf_doc.html#a1651902bce0902b4e0831219b3846239", null ],
       [ "GetLang", "struct_pdf_doc.html#a7996bab6277639a54161c20a322b6cb2", null ],
       [ "GetMetadata", "struct_pdf_doc.html#a64cda51b33fe4cd1eb259843ecada65f", null ],
       [ "GetNumAlternates", "struct_pdf_doc.html#a38bd471f266c8e1bb18678d767e51258", null ],
@@ -73,6 +83,8 @@ var group___pdf___p_d_fix___s_d_k =
       [ "GetNumDocumentJavaScripts", "struct_pdf_doc.html#a3ca2f2c7d30455b6ca05308ee8b6e9e9", null ],
       [ "GetNumFormFields", "struct_pdf_doc.html#ab5cdfad628ea5ef008fc9e548728abff", null ],
       [ "GetNumPages", "struct_pdf_doc.html#a375456c4a7f5f8d3a40047792dad92fb", null ],
+      [ "GetRootObject", "struct_pdf_doc.html#a2c6acd1932aa40dd721766d16f3ef79c", null ],
+      [ "GetStructTree", "struct_pdf_doc.html#a27bf932e09e7275cc327a265f78cb465", null ],
       [ "MakeAccessible", "struct_pdf_doc.html#a7e8d9b9054ca4433ee95ec8366d1f6d7", null ],
       [ "ReleasePage", "struct_pdf_doc.html#aa97d89333421746334bc731b91520718", null ],
       [ "RemoveStructTree", "struct_pdf_doc.html#ab3a9d17f3f7431eba3165859c55e14e6", null ],
@@ -137,11 +149,13 @@ var group___pdf___p_d_fix___s_d_k =
       [ "GetAnnotAtRect", "struct_pdf_page.html#aeda2d2248171abd6e4a9083e304735d4", null ],
       [ "GetCropBox", "struct_pdf_page.html#aff7b4438a9297997ae3401bcfec5727d", null ],
       [ "GetDefaultMatrix", "struct_pdf_page.html#a7e78de95b702561efe490d81735a722c", null ],
+      [ "GetMcidPageObject", "struct_pdf_page.html#a089e95306ed99be08680de7affb81fd7", null ],
       [ "GetMediaBox", "struct_pdf_page.html#a29b062004ff7e5c5ab94e3ce72ee1922", null ],
       [ "GetNumAnnots", "struct_pdf_page.html#ac5a8d60fab1768d107d0839d3fa3bb95", null ],
       [ "GetNumAnnotsAtPoint", "struct_pdf_page.html#aa4c14e494f89ab958dde9d568d26b515", null ],
       [ "GetNumAnnotsAtRect", "struct_pdf_page.html#ae5527402d8172fbe68e1de4876c5e3c0", null ],
       [ "GetNumber", "struct_pdf_page.html#a3900615960382320bee608f0c79fd2ff", null ],
+      [ "GetNumMcidPageObjects", "struct_pdf_page.html#a51a680123dea5285f5fba20367d61c4c", null ],
       [ "GetRotate", "struct_pdf_page.html#a3d5a53c755a17efef74e2d9a870648a7", null ],
       [ "ReleasePageMap", "struct_pdf_page.html#a8d01692da4f4a89f0293b0157978855f", null ],
       [ "ReleasePageView", "struct_pdf_page.html#a6f75d4f65d437743c4b146e597632873", null ],
@@ -161,10 +175,5 @@ var group___pdf___p_d_fix___s_d_k =
       [ "GetNumChildren", "struct_pdf_bookmark.html#a0ce73f73eff9da7770a0a03925389adf", null ],
       [ "GetParent", "struct_pdf_bookmark.html#ad77a188c0e5a79ecb2cd26164eb5e3cb", null ],
       [ "GetTitle", "struct_pdf_bookmark.html#a7f04f3fda5efe3f13372fc11520a444a", null ]
-    ] ],
-    [ "PdfStructElement", "struct_pdf_struct_element.html", [
-      [ "GetActualText", "struct_pdf_struct_element.html#a1569c4a8b53eabee05c0760646cb4bae", null ],
-      [ "GetSubtype", "struct_pdf_struct_element.html#ae32a0a6fd3663087b0dff6355112da33", null ],
-      [ "GetType", "struct_pdf_struct_element.html#aeca7c91dfb05bd1087223361bf922eb9", null ]
     ] ]
 ];

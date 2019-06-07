@@ -29,6 +29,16 @@ var group___ps___p_d_fix___s_d_k =
       [ "Read", "struct_ps_stream.html#aa4d4b8641ab5e2a3ee53de50a0ca6d59", null ],
       [ "Write", "struct_ps_stream.html#aee7ea8cc10f0f84b674e9bd241b686e8", null ]
     ] ],
+    [ "PsFileStream", "struct_ps_file_stream.html", null ],
+    [ "PsMemoryStream", "struct_ps_memory_stream.html", [
+      [ "Resize", "struct_ps_memory_stream.html#a9c2455a2ece6857f63c4c6ed7ebbfaa9", null ]
+    ] ],
+    [ "PsProcStream", "struct_ps_proc_stream.html", [
+      [ "SetDestroyProc", "struct_ps_proc_stream.html#a5a0ac482801d8e4ed6dedc3943d548c8", null ],
+      [ "SetGetSizeProc", "struct_ps_proc_stream.html#a9bc4dc51cbeea6d897e0ae4a287c49e0", null ],
+      [ "SetReadProc", "struct_ps_proc_stream.html#aa02f08a652aa3952decce288ff8d20aa", null ],
+      [ "SetWriteProc", "struct_ps_proc_stream.html#af5a4c5287c6fbba04db942e84d647840", null ]
+    ] ],
     [ "PsMetadata", "struct_ps_metadata.html", [
       [ "LoadFromStream", "struct_ps_metadata.html#a5511db06b29b5fd0349930f6a7093f94", null ],
       [ "SaveToStream", "struct_ps_metadata.html#af5d5446b2fdc0036f03bea4d9dd8b87b", null ]

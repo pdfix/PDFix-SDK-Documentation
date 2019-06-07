@@ -9,6 +9,7 @@ var searchData=
   ['releasepage',['ReleasePage',['../struct_pdf_doc.html#aa97d89333421746334bc731b91520718',1,'PdfDoc']]],
   ['releasepagemap',['ReleasePageMap',['../struct_pdf_page.html#a8d01692da4f4a89f0293b0157978855f',1,'PdfPage']]],
   ['releasepageview',['ReleasePageView',['../struct_pdf_page.html#a6f75d4f65d437743c4b146e597632873',1,'PdfPage']]],
+  ['releasestructelement',['ReleaseStructElement',['../struct_pds_struct_tree.html#a5db385e5db194182e654b22e6cb7869f',1,'PdsStructTree']]],
   ['removeannot',['RemoveAnnot',['../struct_pdf_page.html#ab3c6ed26da5357b8d41c29ef2413302f',1,'PdfPage']]],
   ['removequad',['RemoveQuad',['../struct_pdf_link_annot.html#a843e0e192ef2f82c8ad15a74bce353f9',1,'PdfLinkAnnot::RemoveQuad()'],['../struct_pdf_text_markup_annot.html#a17bcd258e5f1aa165feb2f7c77561537',1,'PdfTextMarkupAnnot::RemoveQuad()']]],
   ['removestructtree',['RemoveStructTree',['../struct_pdf_doc.html#ab3a9d17f3f7431eba3165859c55e14e6',1,'PdfDoc']]],

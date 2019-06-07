@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.14-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -22,6 +23,25 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="pdfix.css" rel="stylesheet" type="text/css"/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77127933-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-77127933-1');
+</script>
+<!-- Global site tag (gtag.js) - Google AdWords: 1045119916 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1045119916"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-1045119916');
+</script>
+<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd1053e21acc59f3158afb604e53d360b4b25a254208ed63c1bd54", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.eu/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+</script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -32,7 +52,7 @@
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.0.0</span>
+   &#160;<span id="projectnumber">4.1.2</span>
    </div>
   </td>
  </tr>
@@ -111,26 +131,29 @@ $(document).ready(function(){initNavTree('struct_pdf_doc.html','');});
   <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#a8b71c7ea91a676be0421c5ce3d8961ce">GetFormField</a>(int index)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#a505c5254b1c5d359658e9b0ce9d6f4e3">GetFormFieldByName</a>(const wchar_t *buffer)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#aa937ca51f803ed09190889b10d7ace66">GetInfo</a>(const wchar_t *key, _out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#a7996bab6277639a54161c20a322b6cb2">GetLang</a>(_out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#a64cda51b33fe4cd1eb259843ecada65f">GetMetadata</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#a38bd471f266c8e1bb18678d767e51258">GetNumAlternates</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#a0a8765a84e38d279376b23932d4222e8">GetNumCalculatedFormFields</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#a3ca2f2c7d30455b6ca05308ee8b6e9e9">GetNumDocumentJavaScripts</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#ab5cdfad628ea5ef008fc9e548728abff">GetNumFormFields</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#a375456c4a7f5f8d3a40047792dad92fb">GetNumPages</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#a7e8d9b9054ca4433ee95ec8366d1f6d7">MakeAccessible</a>(PdfAccessibleParams *params, _callback_ PdfCancelProc cancel_proc, void *cancel_data)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#aa97d89333421746334bc731b91520718">ReleasePage</a>(PdfPage *page)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#ab3a9d17f3f7431eba3165859c55e14e6">RemoveStructTree</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#a21a1c8b214a2a0e8c39256cd1a0185be">Save</a>(const wchar_t *path, PdfSaveFlags flags)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#ad0dea43e862c09b9b418ae4326c936e7">SaveToStream</a>(PsStream *stream, PdfSaveFlags flags)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#a185af15a251468a4de0ab48dc46437bc">SetInfo</a>(const wchar_t *key, const wchar_t *buffer)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#a935351497faff8c9fa56ec2cf777ad35">SetLang</a>(const wchar_t *buffer)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#a1651902bce0902b4e0831219b3846239">GetInfoObject</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#a7996bab6277639a54161c20a322b6cb2">GetLang</a>(_out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#a64cda51b33fe4cd1eb259843ecada65f">GetMetadata</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#a38bd471f266c8e1bb18678d767e51258">GetNumAlternates</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#a0a8765a84e38d279376b23932d4222e8">GetNumCalculatedFormFields</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#a3ca2f2c7d30455b6ca05308ee8b6e9e9">GetNumDocumentJavaScripts</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#ab5cdfad628ea5ef008fc9e548728abff">GetNumFormFields</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#a375456c4a7f5f8d3a40047792dad92fb">GetNumPages</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#a2c6acd1932aa40dd721766d16f3ef79c">GetRootObject</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#a27bf932e09e7275cc327a265f78cb465">GetStructTree</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#a7e8d9b9054ca4433ee95ec8366d1f6d7">MakeAccessible</a>(PdfAccessibleParams *params, _callback_ PdfCancelProc cancel_proc, void *cancel_data)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#aa97d89333421746334bc731b91520718">ReleasePage</a>(PdfPage *page)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#ab3a9d17f3f7431eba3165859c55e14e6">RemoveStructTree</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#a21a1c8b214a2a0e8c39256cd1a0185be">Save</a>(const wchar_t *path, PdfSaveFlags flags)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#ad0dea43e862c09b9b418ae4326c936e7">SaveToStream</a>(PsStream *stream, PdfSaveFlags flags)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pdf_doc.html#a185af15a251468a4de0ab48dc46437bc">SetInfo</a>(const wchar_t *key, const wchar_t *buffer)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc.html#a935351497faff8c9fa56ec2cf777ad35">SetLang</a>(const wchar_t *buffer)=0</td><td class="entry"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Jun 7 2019 13:07:20 for PDFix SDK by
+    <li class="footer">Generated on Fri Nov 2 2018 01:40:14 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

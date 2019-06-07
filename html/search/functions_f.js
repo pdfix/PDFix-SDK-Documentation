@@ -21,13 +21,10 @@ var searchData=
   ['setflags',['SetFlags',['../struct_pdf_form_field.html#a3a42280b7ff77cefac6ebe2de69c95ea',1,'PdfFormField']]],
   ['setgetsizeproc',['SetGetSizeProc',['../struct_ps_proc_stream.html#a9bc4dc51cbeea6d897e0ae4a287c49e0',1,'PsProcStream']]],
   ['setinfo',['SetInfo',['../struct_pdf_doc.html#a185af15a251468a4de0ab48dc46437bc',1,'PdfDoc']]],
-  ['setintegervalue',['SetIntegerValue',['../struct_pds_number.html#ae90c49f9a8673110c37f37d4b488e56b',1,'PdsNumber']]],
   ['setlang',['SetLang',['../struct_pdf_doc.html#a935351497faff8c9fa56ec2cf777ad35',1,'PdfDoc']]],
   ['setlanguage',['SetLanguage',['../struct_ocr_tesseract.html#a9f18970e20ce30c1b599a78c4caa0ce6',1,'OcrTesseract']]],
   ['setlocation',['SetLocation',['../struct_pdf_base_dig_sig.html#a90764e1c47147f1447f7a4dba49a8be1',1,'PdfBaseDigSig']]],
   ['setname',['SetName',['../struct_pdf_base_dig_sig.html#a8bea19685a0e514339756bbd3d7dce26',1,'PdfBaseDigSig']]],
-  ['setnumbervalue',['SetNumberValue',['../struct_pds_number.html#a292dbba056f673e5dbbfd34d77baa1a7',1,'PdsNumber']]],
-  ['setobject',['SetObject',['../struct_pds_dictionary.html#adf2eb08b929097c62389907167cbaca0',1,'PdsDictionary']]],
   ['setpattern',['SetPattern',['../struct_ps_regex.html#a79ebb49945f8b56f4535854545b7547e',1,'PsRegex']]],
   ['setpfxfile',['SetPfxFile',['../struct_pdf_dig_sig.html#a2a259a0ffb2281fac5b09968e23fe73e',1,'PdfDigSig']]],
   ['setreadproc',['SetReadProc',['../struct_ps_proc_stream.html#aa02f08a652aa3952decce288ff8d20aa',1,'PsProcStream']]],
@@ -35,7 +32,7 @@ var searchData=
   ['setregex',['SetRegex',['../struct_pdfix.html#ac4caaa6eee87e391aa695c0840f7ba4e',1,'Pdfix']]],
   ['setrendermode',['SetRenderMode',['../struct_pde_element.html#aad23b012cf67b48f9895149a6d0a75cd',1,'PdeElement']]],
   ['settimestampserver',['SetTimeStampServer',['../struct_pdf_base_dig_sig.html#ae61fcd33da4380dfabaf63d9faa243be',1,'PdfBaseDigSig']]],
-  ['setvalue',['SetValue',['../struct_pds_boolean.html#a6a4c4450e41d435c58ffd57a93ab93cf',1,'PdsBoolean::SetValue()'],['../struct_pds_string.html#a95f884e240a6547b4fe74ad0458714b4',1,'PdsString::SetValue()'],['../struct_pdf_form_field.html#a1f082748f5498b26dda0cb16e8a1e7ed',1,'PdfFormField::SetValue()']]],
+  ['setvalue',['SetValue',['../struct_pdf_form_field.html#a1f082748f5498b26dda0cb16e8a1e7ed',1,'PdfFormField']]],
   ['setwriteproc',['SetWriteProc',['../struct_ps_proc_stream.html#af5a4c5287c6fbba04db942e84d647840',1,'PsProcStream']]],
   ['signdoc',['SignDoc',['../struct_pdf_base_dig_sig.html#acdd43835dcbf31de4f2da7ff8f8a2766',1,'PdfBaseDigSig']]]
 ];

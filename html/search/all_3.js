@@ -10,6 +10,7 @@ var searchData=
   ['color_5fstate',['color_state',['../struct___pdf_text_state.html#a2efcf5b06b4a213a322b78ed7ab03cf0',1,'_PdfTextState::color_state()'],['../struct___pdf_graphic_state.html#afe2e4129f0cd4ca8b7e9396ca191097e',1,'_PdfGraphicState::color_state()']]],
   ['configuration_20samples',['Configuration Samples',['../_c_o_n_f_i_g__samples.html',1,'Samples']]],
   ['converttohtml',['ConvertToHtml',['../classnet_1_1pdfix_1_1samples_1_1_convert_to_html.html',1,'net::pdfix::samples']]],
+  ['convert_20pdf_20to_20html',['Convert PDF to HTML',['../_convert_to_html_py.html',1,'Python_Samples']]],
   ['c_2b_2b_20samples',['C++ Samples',['../_c_p_p__samples.html',1,'Samples']]],
   ['createcustomdigsig',['CreateCustomDigSig',['../struct_pdfix.html#a59f4938915251589e9ad89a68526a4f7',1,'Pdfix']]],
   ['createcustomstream',['CreateCustomStream',['../struct_pdfix.html#a17295a4a3b2b722e8b47bc8a0237fdcf',1,'Pdfix']]],

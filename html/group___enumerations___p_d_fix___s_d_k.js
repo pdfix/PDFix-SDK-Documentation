@@ -147,7 +147,6 @@ var group___enumerations___p_d_fix___s_d_k =
       [ "kPdeFormField", "group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93ad50858d7d1c84c47852d23ec7ab9d1a1", null ],
       [ "kPdeHeader", "group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93a758b93f5db8a2df162f51b1f7ca8346c", null ],
       [ "kPdeFooter", "group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93a556186b6a8a68cbb0151d05c8fd071ea", null ],
-      [ "kPdeTag", "group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93aab26cad103621f52bff3a9fa1aad7f6f", null ],
       [ "kPdeColumn", "group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93a0c53a0f7523285014e6a06567c5e138a", null ],
       [ "kPdeRow", "group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93af15baba4e2b125b727fa2d3d88f0bc4f", null ]
     ] ],
@@ -260,6 +259,14 @@ var group___enumerations___p_d_fix___s_d_k =
       [ "kPdsNull", "group___enumerations___p_d_fix___s_d_k.html#ggad65489df6626d2f4ddf0fc89c9dab38dab1fbee823ecedaeea58351b731fbe318", null ],
       [ "kPdsReference", "group___enumerations___p_d_fix___s_d_k.html#ggad65489df6626d2f4ddf0fc89c9dab38da41e346731a600bdadb32f7b56e717649", null ]
     ] ],
+    [ "PdfPageObjectType", "group___enumerations___p_d_fix___s_d_k.html#ga2306b15dba32cdf89aad65de6103eb28", [
+      [ "kPdsPageUnknown", "group___enumerations___p_d_fix___s_d_k.html#gga2306b15dba32cdf89aad65de6103eb28a8a951b2937044e98741428122178e4bc", null ],
+      [ "kPdsPageText", "group___enumerations___p_d_fix___s_d_k.html#gga2306b15dba32cdf89aad65de6103eb28a2ebda45ff2a3701d400d8918e938ffac", null ],
+      [ "kPdsPagePath", "group___enumerations___p_d_fix___s_d_k.html#gga2306b15dba32cdf89aad65de6103eb28a54e8acffaeb4350bbd25ae6a05f722e2", null ],
+      [ "kPdsPageImage", "group___enumerations___p_d_fix___s_d_k.html#gga2306b15dba32cdf89aad65de6103eb28a56259582f0172a573b5d817e62872ddf", null ],
+      [ "kPdsPageShading", "group___enumerations___p_d_fix___s_d_k.html#gga2306b15dba32cdf89aad65de6103eb28af5051af38d6fc45c77aa58deb07d0fc2", null ],
+      [ "kPdsPageForm", "group___enumerations___p_d_fix___s_d_k.html#gga2306b15dba32cdf89aad65de6103eb28a83f9fc7037983e1831c6867f48560b25", null ]
+    ] ],
     [ "PdfPageRangeType", "group___enumerations___p_d_fix___s_d_k.html#gae468c9b1bc70120930d07733435e9a28", [
       [ "kAllPages", "group___enumerations___p_d_fix___s_d_k.html#ggae468c9b1bc70120930d07733435e9a28a9b9f225a1391788e355224b5d45f7e16", null ],
       [ "kEvenPagesOnly", "group___enumerations___p_d_fix___s_d_k.html#ggae468c9b1bc70120930d07733435e9a28a3c6a5c117f0752efebac9160a7c2b5b1", null ],
@@ -309,6 +316,21 @@ var group___enumerations___p_d_fix___s_d_k =
       [ "kFileStream", "group___enumerations___p_d_fix___s_d_k.html#gga73ac411633ebb9e4b190beaa07bfea8cabdd6b12ffefa918355533c35fc9fcfba", null ],
       [ "kMemoryStream", "group___enumerations___p_d_fix___s_d_k.html#gga73ac411633ebb9e4b190beaa07bfea8ca766349eb33d6552b2fc099d66d61cc29", null ],
       [ "kProcStream", "group___enumerations___p_d_fix___s_d_k.html#gga73ac411633ebb9e4b190beaa07bfea8ca74df3f8e4bfd96c87fa519331919bfeb", null ]
+    ] ],
+    [ "PdfStructElementType", "group___enumerations___p_d_fix___s_d_k.html#ga53ae24c0fb62c29c6c0b3d7d8cfbfb13", [
+      [ "kPdsStructKidInvalid", "group___enumerations___p_d_fix___s_d_k.html#gga53ae24c0fb62c29c6c0b3d7d8cfbfb13aa13d6ad7fc0f8e395d3c6615b4ce767f", null ],
+      [ "kPdsStructKidElement", "group___enumerations___p_d_fix___s_d_k.html#gga53ae24c0fb62c29c6c0b3d7d8cfbfb13ac5602a6046cfafe082dc34ed554cf186", null ],
+      [ "kPdsStructKidPageContent", "group___enumerations___p_d_fix___s_d_k.html#gga53ae24c0fb62c29c6c0b3d7d8cfbfb13ac19fca51c6223c7208f2ac10de75ee52", null ],
+      [ "kPdsStructKidStreamContent", "group___enumerations___p_d_fix___s_d_k.html#gga53ae24c0fb62c29c6c0b3d7d8cfbfb13a45cceb6d6a9a0bc0cb6c48463db8fe11", null ],
+      [ "kPdsStructKidObject", "group___enumerations___p_d_fix___s_d_k.html#gga53ae24c0fb62c29c6c0b3d7d8cfbfb13acecc7463e8e00c45362f3cba6ed4dccc", null ]
+    ] ],
+    [ "PdfTableType", "group___enumerations___p_d_fix___s_d_k.html#gaa975262b1cbf1203dca6949419e8269a", [
+      [ "kTableGraphic", "group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aa55b0a2f25f9055ad87f6af7ee6f05c50", null ],
+      [ "kTableIsolated", "group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aa6f2c562f02e9a8d91b9b6d2b59aea234", null ],
+      [ "kTableIsolatedCol", "group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aad0b7770ef1cb53602629dab995b09637", null ],
+      [ "kTableIsolatedRow", "group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aa143d788dc5b8f11386c529104f984177", null ],
+      [ "kTableForm", "group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aa19e2fa94346c318a234a9871a8f91173", null ],
+      [ "kTableElement", "group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aaddf086d5b31ad200c89943d7f68a78e2", null ]
     ] ],
     [ "PdfTextAlignment", "group___enumerations___p_d_fix___s_d_k.html#ga61624edf4fcf0c49d8f8cf59b8d4a4f5", [
       [ "kTextAlignmentNone", "group___enumerations___p_d_fix___s_d_k.html#gga61624edf4fcf0c49d8f8cf59b8d4a4f5a8d3e8efbe74296bd4b0b8435d106475f", null ],

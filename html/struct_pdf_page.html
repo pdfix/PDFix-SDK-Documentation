@@ -1,3 +1,4 @@
+<!-- HTML header for doxygen 1.8.14-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -22,6 +23,25 @@
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="pdfix.css" rel="stylesheet" type="text/css"/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77127933-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-77127933-1');
+</script>
+<!-- Global site tag (gtag.js) - Google AdWords: 1045119916 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1045119916"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-1045119916');
+</script>
+<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd1053e21acc59f3158afb604e53d360b4b25a254208ed63c1bd54", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.eu/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+</script>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -32,7 +52,7 @@
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.0.0</span>
+   &#160;<span id="projectnumber">4.1.2</span>
    </div>
   </td>
  </tr>
@@ -151,6 +171,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeda2d2248171abd6e4a9083e304735d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4057a74b6a4a3dfad6f489fe26b0a7b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#ac4057a74b6a4a3dfad6f489fe26b0a7b">DrawContent</a> (<a class="el" href="group___structures___p_d_fix___s_d_k.html#ga4c8aadc299bbaf1f2bf9146b7aba9da6">PdfPageRenderParams</a> *params, _callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a> cancel_proc, void *cancel_data)=0</td></tr>
 <tr class="separator:ac4057a74b6a4a3dfad6f489fe26b0a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a680123dea5285f5fba20367d61c4c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a51a680123dea5285f5fba20367d61c4c">GetNumMcidPageObjects</a> (int mcid)=0</td></tr>
+<tr class="memdesc:a51a680123dea5285f5fba20367d61c4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of PdsPageObjects with the same MCID.  <a href="#a51a680123dea5285f5fba20367d61c4c">More...</a><br /></td></tr>
+<tr class="separator:a51a680123dea5285f5fba20367d61c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a089e95306ed99be08680de7affb81fd7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_page_object.html">PdsPageObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a089e95306ed99be08680de7affb81fd7">GetMcidPageObject</a> (int mcid, int index)=0</td></tr>
+<tr class="memdesc:a089e95306ed99be08680de7affb81fd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the PdsPageObjects with MCID by index.  <a href="#a089e95306ed99be08680de7affb81fd7">More...</a><br /></td></tr>
+<tr class="separator:a089e95306ed99be08680de7affb81fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pdf_page.html" title="PdfPage class. ">PdfPage</a> class. </p>
@@ -655,6 +681,53 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a089e95306ed99be08680de7affb81fd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a089e95306ed99be08680de7affb81fd7">&#9670;&nbsp;</a></span>GetMcidPageObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_page_object.html">PdsPageObject</a>* PdfPage::GetMcidPageObject </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mcid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the PdsPageObjects with MCID by index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mcid</td><td>The MCID to search for. </td></tr>
+    <tr><td class="paramname">index</td><td>Index of the page object to be retrieved. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The page object with specified MCID and index. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>PdfPageView::GetNumMcidPageObjects </dd></dl>
+
+</div>
+</div>
 <a id="a29b062004ff7e5c5ab94e3ce72ee1922"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29b062004ff7e5c5ab94e3ce72ee1922">&#9670;&nbsp;</a></span>GetMediaBox()</h2>
 
@@ -821,6 +894,42 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a51a680123dea5285f5fba20367d61c4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51a680123dea5285f5fba20367d61c4c">&#9670;&nbsp;</a></span>GetNumMcidPageObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdfPage::GetNumMcidPageObjects </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mcid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the number of PdsPageObjects with the same MCID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mcid</td><td>The MCID to search for. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of objects with requested MCID. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>PdfPageView::GetMcidPageObject </dd></dl>
+
+</div>
+</div>
 <a id="a3d5a53c755a17efef74e2d9a870648a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d5a53c755a17efef74e2d9a870648a7">&#9670;&nbsp;</a></span>GetRotate()</h2>
 
@@ -971,7 +1080,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pdf_page.html">PdfPage</a></li>
-    <li class="footer">Generated on Fri Jun 7 2019 13:07:20 for PDFix SDK by
+    <li class="footer">Generated on Fri Nov 2 2018 01:40:14 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

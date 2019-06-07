@@ -1,5 +1,5 @@
 var struct_pds_string =
 [
-    [ "GetValue", "struct_pds_string.html#a0a9effb365df7f9240ccb1bd29895e9a", null ],
-    [ "SetValue", "struct_pds_string.html#a95f884e240a6547b4fe74ad0458714b4", null ]
+    [ "GetText", "struct_pds_string.html#aeb60311b697d139cae0827dc73378434", null ],
+    [ "GetValue", "struct_pds_string.html#a781e7eec3094e49ea80972d61a7c94e4", null ]
 ];

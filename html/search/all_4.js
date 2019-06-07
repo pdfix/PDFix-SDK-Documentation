@@ -9,5 +9,6 @@ var searchData=
   ['doc',['doc',['../struct___pdf_event_params.html#a90e37e902f9615d50089d17f77de918d',1,'_PdfEventParams']]],
   ['documentmetadata',['DocumentMetadata',['../classnet_1_1pdfix_1_1samples_1_1_document_metadata.html',1,'net::pdfix::samples']]],
   ['document_20metadata_20sample',['Document Metadata Sample',['../_document_metadata_java.html',1,'JAVA_Samples']]],
+  ['doesmap',['DoesMap',['../struct_pds_role_map.html#af6950c7f867c429f121f8527f79bd75d',1,'PdsRoleMap']]],
   ['drawcontent',['DrawContent',['../struct_pdf_page.html#ac4057a74b6a4a3dfad6f489fe26b0a7b',1,'PdfPage']]]
 ];

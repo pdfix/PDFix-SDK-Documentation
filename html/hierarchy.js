@@ -14,6 +14,7 @@ var hierarchy =
     [ "_PdfGraphicState", "struct___pdf_graphic_state.html", null ],
     [ "_PdfHtmlParams", "struct___pdf_html_params.html", null ],
     [ "_PdfImageParams", "struct___pdf_image_params.html", null ],
+    [ "_PdfJsonRec", "struct___pdf_json_rec.html", null ],
     [ "_PdfMatrix", "struct___pdf_matrix.html", null ],
     [ "_PdfMediaQueryParams", "struct___pdf_media_query_params.html", null ],
     [ "_PdfPageRangeParams", "struct___pdf_page_range_params.html", null ],
@@ -25,6 +26,7 @@ var hierarchy =
     [ "_PdfTextState", "struct___pdf_text_state.html", null ],
     [ "_PdfWatermarkParams", "struct___pdf_watermark_params.html", null ],
     [ "_PdfWhitespaceParams", "struct___pdf_whitespace_params.html", null ],
+    [ "_PdfXmlRec", "struct___pdf_xml_rec.html", null ],
     [ "net.pdfix.samples.AddComment", "classnet_1_1pdfix_1_1samples_1_1_add_comment.html", null ],
     [ "net.pdfix.samples.AddTags", "classnet_1_1pdfix_1_1samples_1_1_add_tags.html", null ],
     [ "net.pdfix.samples.AddWatermark", "classnet_1_1pdfix_1_1samples_1_1_add_watermark.html", null ],
@@ -56,7 +58,6 @@ var hierarchy =
       ] ],
       [ "PdeLine", "struct_pde_line.html", null ],
       [ "PdeList", "struct_pde_list.html", null ],
-      [ "PdeTag", "struct_pde_tag.html", null ],
       [ "PdeText", "struct_pde_text.html", null ],
       [ "PdeTextLine", "struct_pde_text_line.html", null ],
       [ "PdeToc", "struct_pde_toc.html", null ],
@@ -92,7 +93,7 @@ var hierarchy =
     ] ],
     [ "PdfPage", "struct_pdf_page.html", null ],
     [ "PdfPageView", "struct_pdf_page_view.html", null ],
-    [ "PdfStructElement", "struct_pdf_struct_element.html", null ],
+    [ "PdsClassMap", "struct_pds_class_map.html", null ],
     [ "PdsObject", "struct_pds_object.html", [
       [ "PdsArray", "struct_pds_array.html", null ],
       [ "PdsBoolean", "struct_pds_boolean.html", null ],
@@ -104,6 +105,15 @@ var hierarchy =
       [ "PdsStream", "struct_pds_stream.html", null ],
       [ "PdsString", "struct_pds_string.html", null ]
     ] ],
+    [ "PdsPageObject", "struct_pds_page_object.html", [
+      [ "PdsForm", "struct_pds_form.html", null ],
+      [ "PdsImage", "struct_pds_image.html", null ],
+      [ "PdsPath", "struct_pds_path.html", null ],
+      [ "PdsShading", "struct_pds_shading.html", null ],
+      [ "PdsText", "struct_pds_text.html", null ]
+    ] ],
+    [ "PdsRoleMap", "struct_pds_role_map.html", null ],
+    [ "PdsStructElement", "struct_pds_struct_element.html", null ],
     [ "PdsStructTree", "struct_pds_struct_tree.html", null ],
     [ "PsImage", "struct_ps_image.html", null ],
     [ "PsMetadata", "struct_ps_metadata.html", null ],

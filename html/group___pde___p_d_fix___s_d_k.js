@@ -11,10 +11,26 @@ var group___pde___p_d_fix___s_d_k =
       [ "GetType", "struct_pde_element.html#aa60261d785404f1da583ed3b50fe4c8e", null ],
       [ "SetRenderMode", "struct_pde_element.html#aad23b012cf67b48f9895149a6d0a75cd", null ]
     ] ],
+    [ "PdeContainer", "struct_pde_container.html", null ],
+    [ "PdeList", "struct_pde_list.html", null ],
+    [ "PdeToc", "struct_pde_toc.html", null ],
+    [ "PdeAnnot", "struct_pde_annot.html", [
+      [ "GetAnnot", "struct_pde_annot.html#ae16e696d6c8b003d0eacbc8bf23f48b6", null ]
+    ] ],
     [ "PdeFormField", "struct_pde_form_field.html", null ],
     [ "PdeImage", "struct_pde_image.html", [
       [ "GetCaption", "struct_pde_image.html#a35b1b119b5bb33ff575f863526160e67", null ],
       [ "GetImageType", "struct_pde_image.html#a646a85cbdb0dcfa6063b268731b91691", null ]
+    ] ],
+    [ "PdeLine", "struct_pde_line.html", null ],
+    [ "PdeRect", "struct_pde_rect.html", null ],
+    [ "PdeHeader", "struct_pde_header.html", null ],
+    [ "PdeFooter", "struct_pde_footer.html", null ],
+    [ "PdeCell", "struct_pde_cell.html", [
+      [ "GetColSpan", "struct_pde_cell.html#a244d3f389475e9110b6dbabd49fa6787", null ],
+      [ "GetRowSpan", "struct_pde_cell.html#a50fde4e4e2c5ef82c2e9c794910a3d0f", null ],
+      [ "GetSpanCell", "struct_pde_cell.html#a969baa9ad608c9534cc6471000c2e6ee", null ],
+      [ "HasBorderGraphicState", "struct_pde_cell.html#a968a2bfc26708105ce6050ef7bf53580", null ]
     ] ],
     [ "PdeTable", "struct_pde_table.html", [
       [ "GetCaption", "struct_pde_table.html#a08bc6219fa125b38ddf425f3bd375112", null ],
@@ -22,7 +38,8 @@ var group___pde___p_d_fix___s_d_k =
       [ "GetColAlignment", "struct_pde_table.html#a8efba291dc484b71c393ab104f057f3c", null ],
       [ "GetNumCols", "struct_pde_table.html#ad4e071aedc4ba2db447e821404533c74", null ],
       [ "GetNumRows", "struct_pde_table.html#a21d8f3edd138457507d70b6bb691936d", null ],
-      [ "GetRowAlignment", "struct_pde_table.html#ae847c443eba8e53cb3caa547154a2097", null ]
+      [ "GetRowAlignment", "struct_pde_table.html#ae847c443eba8e53cb3caa547154a2097", null ],
+      [ "GetTableType", "struct_pde_table.html#a4bac13769e8c27ab915fb63fb40d442d", null ]
     ] ],
     [ "PdeWord", "struct_pde_word.html", [
       [ "GetBackground", "struct_pde_word.html#af97e586a490af7bf93abc06a88a708fc", null ],

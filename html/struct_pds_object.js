@@ -1,4 +1,4 @@
 var struct_pds_object =
 [
-    [ "GetType", "struct_pds_object.html#a3aa296aa011ef7fd88d9aca332850689", null ]
+    [ "GetObjectType", "struct_pds_object.html#a36bf68d87600e052fff1c82fd7cbe0de", null ]
 ];

@@ -1,6 +1,7 @@
 var struct_pds_dictionary =
 [
-    [ "GetObject", "struct_pds_dictionary.html#a0cae9483ff193248d889f468cc44146c", null ],
-    [ "KnownObject", "struct_pds_dictionary.html#a2acd1f4832065b0287d31ed22cc28038", null ],
-    [ "SetObject", "struct_pds_dictionary.html#adf2eb08b929097c62389907167cbaca0", null ]
+    [ "Get", "struct_pds_dictionary.html#a2d8b648c8712cfe8dfc84c03bd7ac182", null ],
+    [ "GetKey", "struct_pds_dictionary.html#af38fd10eb215298af8463094f6571386", null ],
+    [ "GetNumKeys", "struct_pds_dictionary.html#a45967ba419bdb3a0d5f155314c9c5028", null ],
+    [ "Known", "struct_pds_dictionary.html#a531a2ccaa7862da3bf1e50f33101503d", null ]
 ];

@@ -3,7 +3,7 @@ var modules =
     [ "PDFix SDK", "group___pdfix___p_d_fix___s_d_k.html", "group___pdfix___p_d_fix___s_d_k" ],
     [ "Pdf Layer", "group___pdf___p_d_fix___s_d_k.html", "group___pdf___p_d_fix___s_d_k" ],
     [ "Pde Layer", "group___pde___p_d_fix___s_d_k.html", "group___pde___p_d_fix___s_d_k" ],
-    [ "Pds Layer", "group___pds_object___p_d_fix___s_d_k.html", "group___pds_object___p_d_fix___s_d_k" ],
+    [ "Pds Layer", "group___pds___p_d_fix___s_d_k.html", "group___pds___p_d_fix___s_d_k" ],
     [ "Ps Layer", "group___ps___p_d_fix___s_d_k.html", "group___ps___p_d_fix___s_d_k" ],
     [ "Enumerations", "group___enumerations___p_d_fix___s_d_k.html", "group___enumerations___p_d_fix___s_d_k" ],
     [ "Structures", "group___structures___p_d_fix___s_d_k.html", "group___structures___p_d_fix___s_d_k" ],
