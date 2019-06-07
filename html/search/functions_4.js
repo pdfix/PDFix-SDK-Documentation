@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['flattenannots',['FlattenAnnots',['../struct_pdf_doc.html#a3bc9d537ab5a4e457cf9eab0fc90a160',1,'PdfDoc']]]
+  ['embedfonts',['EmbedFonts',['../struct_pdf_doc.html#a86d8b1d8683dfc61177e0fe4835f9f9c',1,'PdfDoc']]]
 ];

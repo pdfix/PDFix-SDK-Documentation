@@ -1,0 +1,25 @@
+var namespacenet_1_1pdfix_1_1samples =
+[
+    [ "AddComment", "classnet_1_1pdfix_1_1samples_1_1_add_comment.html", null ],
+    [ "AddTags", "classnet_1_1pdfix_1_1samples_1_1_add_tags.html", null ],
+    [ "AddWatermark", "classnet_1_1pdfix_1_1samples_1_1_add_watermark.html", null ],
+    [ "ConvertToHtml", "classnet_1_1pdfix_1_1samples_1_1_convert_to_html.html", null ],
+    [ "DigitalSignature", "classnet_1_1pdfix_1_1samples_1_1_digital_signature.html", null ],
+    [ "DocumentMetadata", "classnet_1_1pdfix_1_1samples_1_1_document_metadata.html", null ],
+    [ "EmbedFonts", "classnet_1_1pdfix_1_1samples_1_1_embed_fonts.html", null ],
+    [ "ExportFormFieldValues", "classnet_1_1pdfix_1_1samples_1_1_export_form_field_values.html", null ],
+    [ "ExtractImages", "classnet_1_1pdfix_1_1samples_1_1_extract_images.html", null ],
+    [ "ExtractTables", "classnet_1_1pdfix_1_1samples_1_1_extract_tables.html", null ],
+    [ "ExtractText", "classnet_1_1pdfix_1_1samples_1_1_extract_text.html", null ],
+    [ "FlattenAnnots", "classnet_1_1pdfix_1_1samples_1_1_flatten_annots.html", null ],
+    [ "GetBookmarks", "classnet_1_1pdfix_1_1samples_1_1_get_bookmarks.html", null ],
+    [ "GetWhitespace", "classnet_1_1pdfix_1_1samples_1_1_get_whitespace.html", null ],
+    [ "Initialization", "classnet_1_1pdfix_1_1samples_1_1_initialization.html", null ],
+    [ "MakeAccessible", "classnet_1_1pdfix_1_1samples_1_1_make_accessible.html", null ],
+    [ "OcrWithTesseract", "classnet_1_1pdfix_1_1samples_1_1_ocr_with_tesseract.html", null ],
+    [ "RegexSearch", "classnet_1_1pdfix_1_1samples_1_1_regex_search.html", null ],
+    [ "RemoveComments", "classnet_1_1pdfix_1_1samples_1_1_remove_comments.html", null ],
+    [ "RenderPage", "classnet_1_1pdfix_1_1samples_1_1_render_page.html", null ],
+    [ "SetFieldFlags", "classnet_1_1pdfix_1_1samples_1_1_set_field_flags.html", null ],
+    [ "SetFormFieldValue", "classnet_1_1pdfix_1_1samples_1_1_set_form_field_value.html", null ]
+];

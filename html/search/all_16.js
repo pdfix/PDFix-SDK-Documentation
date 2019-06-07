@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['x',['x',['../struct___pdf_point.html#ac3a35b2a97656e23210cb5f6bcc0e5eb',1,'_PdfPoint::x()'],['../struct___pdf_dev_point.html#ad21f7fa54179220e39ee06e97f00e3c1',1,'_PdfDevPoint::x()']]]
+  ['v_5falign',['v_align',['../struct___pdf_watermark_params.html#acf11c0ee119e655f96ca846fc60bb72c',1,'_PdfWatermarkParams']]],
+  ['v_5fvalue',['v_value',['../struct___pdf_watermark_params.html#aadd2a6fd39ea67de59be9c445fc0467c',1,'_PdfWatermarkParams']]],
+  ['vertical',['vertical',['../struct___pdf_font_state.html#ab9dddb912ca926972e7d7d2c0658f523',1,'_PdfFontState']]]
 ];

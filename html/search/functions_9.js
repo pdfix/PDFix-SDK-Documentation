@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loadfromstream',['LoadFromStream',['../struct_pdf_doc_template.html#a92918659eb00f4600f4a1173f2d978f8',1,'PdfDocTemplate']]]
+  ['knownobject',['KnownObject',['../struct_pds_dictionary.html#a2acd1f4832065b0287d31ed22cc28038',1,'PdsDictionary']]]
 ];

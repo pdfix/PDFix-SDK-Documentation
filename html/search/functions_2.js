@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['close',['Close',['../struct_pdf_doc.html#a0376d7841fc32cea2ef5f5323388ae09',1,'PdfDoc::Close()'],['../struct_pdf_html_doc.html#aa343c74f6b22fa3b3f80c1b4ef4ac191',1,'PdfHtmlDoc::Close()']]],
+  ['close',['Close',['../struct_pdf_doc.html#a0376d7841fc32cea2ef5f5323388ae09',1,'PdfDoc::Close()'],['../struct_pdf_html_doc.html#aa343c74f6b22fa3b3f80c1b4ef4ac191',1,'PdfHtmlDoc::Close()'],['../struct_tesseract_doc.html#ac06bae15a99cfb979ce66ca6a8fb6202',1,'TesseractDoc::Close()']]],
   ['createcustomdigsig',['CreateCustomDigSig',['../struct_pdfix.html#a59f4938915251589e9ad89a68526a4f7',1,'Pdfix']]],
   ['createcustomstream',['CreateCustomStream',['../struct_pdfix.html#a17295a4a3b2b722e8b47bc8a0237fdcf',1,'Pdfix']]],
   ['createdigsig',['CreateDigSig',['../struct_pdfix.html#ad0e6467958f2c7e69b4a53abe98bb120',1,'Pdfix']]],

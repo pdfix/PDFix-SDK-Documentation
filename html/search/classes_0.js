@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['_5focrtesseractparams',['_OcrTesseractParams',['../struct___ocr_tesseract_params.html',1,'']]],
+  ['_5fpdfaccessibleparams',['_PdfAccessibleParams',['../struct___pdf_accessible_params.html',1,'']]],
   ['_5fpdfannotappearance',['_PdfAnnotAppearance',['../struct___pdf_annot_appearance.html',1,'']]],
   ['_5fpdfbookmarkappearance',['_PdfBookmarkAppearance',['../struct___pdf_bookmark_appearance.html',1,'']]],
   ['_5fpdfcolorstate',['_PdfColorState',['../struct___pdf_color_state.html',1,'']]],

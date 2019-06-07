@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['opendoc',['OpenDoc',['../struct_pdfix.html#a66f6c7e4950421b8fc595c4f66690fdb',1,'Pdfix']]],
-  ['opendocfromstream',['OpenDocFromStream',['../struct_pdfix.html#ae5cc39d2b65b6f302ea9777457909ba4',1,'Pdfix']]],
-  ['openhtmldoc',['OpenHtmlDoc',['../struct_pdf_to_html.html#a79e527940d5af5c82295cc2ae84c74bc',1,'PdfToHtml']]]
+  ['loadfromstream',['LoadFromStream',['../struct_pdf_doc_template.html#a92918659eb00f4600f4a1173f2d978f8',1,'PdfDocTemplate::LoadFromStream()'],['../struct_ps_metadata.html#a5511db06b29b5fd0349930f6a7093f94',1,'PsMetadata::LoadFromStream()']]]
 ];

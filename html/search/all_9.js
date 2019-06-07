@@ -2,6 +2,10 @@ var searchData=
 [
   ['image',['image',['../struct___pdf_page_render_params.html#add58bd1321cf90682a45998892fba6e6',1,'_PdfPageRenderParams']]],
   ['image_5fparams',['image_params',['../struct___pdf_html_params.html#a674ac387643c5a1b7c896b5e8488dd38',1,'_PdfHtmlParams']]],
+  ['initialization',['Initialization',['../classnet_1_1pdfix_1_1samples_1_1_initialization.html',1,'net::pdfix::samples']]],
+  ['initialization_20sample',['Initialization Sample',['../_initialization_cpp.html',1,'CPP_Samples']]],
+  ['initialization_20sample',['Initialization Sample',['../_initialization_cs.html',1,'CS_Samples']]],
+  ['initialization_20sample',['Initialization Sample',['../_initialization_java.html',1,'JAVA_Samples']]],
   ['initialize',['Initialize',['../struct_pdfix_plugin.html#a144055b7d5e1f7553f16cfaa4e34fa0d',1,'PdfixPlugin']]],
   ['isauthorized',['IsAuthorized',['../struct_pdfix.html#ab8c4c7d27f4dce0f6f85bef7f274621e',1,'Pdfix']]],
   ['isauthorizedoption',['IsAuthorizedOption',['../struct_pdfix.html#a816fb2046e79311dcf6e5a76ca77f7cc',1,'Pdfix']]],
