@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -115,15 +115,19 @@ $(document).ready(function(){initNavTree('struct_pde_page_map.html','');});
 
 <p>This is the complete list of members for <a class="el" href="struct_pde_page_map.html">PdePageMap</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="struct_pde_page_map.html#a6e811f4ad31c90d08664d247bd771345">GetBBox</a>(_out_ PdfRect *bbox)=0</td><td class="entry"><a class="el" href="struct_pde_page_map.html">PdePageMap</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pde_page_map.html#a074e532585810ca104f159c478c7b371">GetElement</a>()=0</td><td class="entry"><a class="el" href="struct_pde_page_map.html">PdePageMap</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_pde_page_map.html#af5f925651c81991018fe9cd38c95445e">GetWhitespace</a>(PdfWhitespaceParams *params, int index, _out_ PdfRect *bbox)=0</td><td class="entry"><a class="el" href="struct_pde_page_map.html">PdePageMap</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pde_page_map.html#a61a0a06c00879f45f3072a67ed3d5840">AcquireElements</a>(_callback_ PdfCancelProc cancel_proc, void *cancel_data)=0</td><td class="entry"><a class="el" href="struct_pde_page_map.html">PdePageMap</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pde_page_map.html#a563a9d26a597b6c8afb4a306aa15e7f1">AddTags</a>(PdsStructElement *element, _callback_ PdfCancelProc cancel_proc, void *cancel_data)=0</td><td class="entry"><a class="el" href="struct_pde_page_map.html">PdePageMap</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pde_page_map.html#a23c0b8d31c40731db9a46ebee9c24090">CreateElement</a>(PdfElementType type, PdeElement *parent)=0</td><td class="entry"><a class="el" href="struct_pde_page_map.html">PdePageMap</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pde_page_map.html#a42aab4c3af72bd3545eacb3c91c17cda">GetBBox</a>(PdfRect *bbox)=0</td><td class="entry"><a class="el" href="struct_pde_page_map.html">PdePageMap</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pde_page_map.html#a074e532585810ca104f159c478c7b371">GetElement</a>()=0</td><td class="entry"><a class="el" href="struct_pde_page_map.html">PdePageMap</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pde_page_map.html#af5f925651c81991018fe9cd38c95445e">GetWhitespace</a>(PdfWhitespaceParams *params, int index, _out_ PdfRect *bbox)=0</td><td class="entry"><a class="el" href="struct_pde_page_map.html">PdePageMap</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pde_page_map.html#a7bc1656739f59ee664cbf3dc50b04db9">Release</a>()=0</td><td class="entry"><a class="el" href="struct_pde_page_map.html">PdePageMap</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:13 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:42 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -116,17 +116,21 @@ $(document).ready(function(){initNavTree('struct_pds_struct_tree.html','');});
 <p>This is the complete list of members for <a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_tree.html#ac4a1fca5afa17a918fa480c91adfa24f">AcquireStructElement</a>(PdsObject *object)=0</td><td class="entry"><a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pds_struct_tree.html#aadc1d06556ded831e8a96b5277a0b575">GetClassMap</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_struct_tree.html#a065541261e206a3e139c56d0604fdf70">CreateStructElement</a>(const wchar_t *type, int index)=0</td><td class="entry"><a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_tree.html#aadc1d06556ded831e8a96b5277a0b575">GetClassMap</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_struct_tree.html#ac37bba858374289d5623d7562c1259fe">GetDoc</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_tree.html#a39d9936155dd99079deb2131bd928e31">GetKidObject</a>(int index)=0</td><td class="entry"><a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="struct_pds_struct_tree.html#a7937644ee17efaa681b62ba2e508e189">GetNumKids</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_tree.html#ab0b2f152dd38bbd1d697a127dfc12a9e">GetRoleMap</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pds_struct_tree.html#a5db385e5db194182e654b22e6cb7869f">ReleaseStructElement</a>(PdsStructElement *element)=0</td><td class="entry"><a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_tree.html#a05afeb69def74d61c0c235073df4a048">GetObject</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_struct_tree.html#ab0b2f152dd38bbd1d697a127dfc12a9e">GetRoleMap</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_tree.html#abcb2550d339ac674639e3dd245b590ea">RemoveKid</a>(int index)=0</td><td class="entry"><a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_struct_tree.html#a944cbca3c10f1532c213690c3268ee49">UpdateParentTree</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:15 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:45 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

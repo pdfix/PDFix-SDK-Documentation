@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -115,7 +115,6 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="struct_pdf_doc.html#a21a1c8b214a2a0e8c39256cd1a0185be">PdfDoc</a>
 , <a class="el" href="struct_pdf_html_doc.html#aa20fa46718131fcb81a1d1bc8f187411">PdfHtmlDoc</a>
 , <a class="el" href="struct_ps_image.html#ae9a786cb00ec2b5ce2baa6f07ce8f8d9">PsImage</a>
-, <a class="el" href="struct_tesseract_doc.html#aaeba208a7945eb0602bf7f1c4a27ec7c">TesseractDoc</a>
 </li>
 <li>SaveContent()
 : <a class="el" href="struct_pdf_alternate.html#a7629bfd9cc9853aecae89e7eec5c5bb9">PdfAlternate</a>
@@ -154,17 +153,33 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>Search()
 : <a class="el" href="struct_ps_regex.html#a0338e28703ca2873b00a7063761cb75a">PsRegex</a>
 </li>
+<li>SetActualText()
+: <a class="el" href="struct_pde_element.html#a9bb63f989b3daf0ed2ccd249205a666f">PdeElement</a>
+</li>
+<li>SetAlt()
+: <a class="el" href="struct_pde_element.html#a60e71e645253156907d55c397ae79b86">PdeElement</a>
+, <a class="el" href="struct_pds_struct_element.html#a728755a78f12ddec0a88890f44137867">PdsStructElement</a>
+</li>
 <li>SetAuthor()
-: <a class="el" href="struct_pdf_markup_annot.html#ad819efa5b82773694419b054d5937173">PdfMarkupAnnot</a>
+: <a class="el" href="struct_pdf_markup_annot.html#a4e2b7b5cb41de935e716352f43a6db69">PdfMarkupAnnot</a>
+</li>
+<li>SetBBox()
+: <a class="el" href="struct_pde_element.html#af3ad42234f6186c334c2a20abe62123e">PdeElement</a>
 </li>
 <li>SetContactInfo()
 : <a class="el" href="struct_pdf_base_dig_sig.html#abaee5ee920ac5347871bbe277244af66">PdfBaseDigSig</a>
 </li>
+<li>SetContent()
+: <a class="el" href="struct_pdf_page.html#ab05f6791b1c442b01fb51828c8637b39">PdfPage</a>
+</li>
 <li>SetContents()
-: <a class="el" href="struct_pdf_markup_annot.html#a53d851909cc3b458c82b70cda2009860">PdfMarkupAnnot</a>
+: <a class="el" href="struct_pdf_markup_annot.html#ada6ff013c139e1b814eac020a5364947">PdfMarkupAnnot</a>
 </li>
 <li>SetData()
-: <a class="el" href="struct_ocr_tesseract.html#af8cf854214fa4cad19e10ba797a70b00">OcrTesseract</a>
+: <a class="el" href="struct_pde_element.html#aa80ae9e64f6dc9592dcf4a32bb302b1d">PdeElement</a>
+</li>
+<li>SetDataPath()
+: <a class="el" href="struct_ocr_tesseract.html#a1d6e19a0da46777e4b5c80dbca7a80ba">OcrTesseract</a>
 </li>
 <li>SetDefaults()
 : <a class="el" href="struct_pdf_doc_template.html#aa5dc86b39ba15a9b52f66cdc3539352a">PdfDocTemplate</a>
@@ -172,20 +187,27 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>SetDestroyProc()
 : <a class="el" href="struct_ps_proc_stream.html#a5a0ac482801d8e4ed6dedc3943d548c8">PsProcStream</a>
 </li>
+<li>SetEngine()
+: <a class="el" href="struct_ocr_tesseract.html#ad01221d8e4b3af82d27aca4574104ee8">OcrTesseract</a>
+</li>
 <li>SetError()
 : <a class="el" href="struct_pdfix.html#a3dfc06c427ee56918b90ea7866d1fd04">Pdfix</a>
 </li>
 <li>SetFlags()
-: <a class="el" href="struct_pdf_form_field.html#a3a42280b7ff77cefac6ebe2de69c95ea">PdfFormField</a>
+: <a class="el" href="struct_pde_element.html#aacbaeec8b367178bb9eb1e4e101b0561">PdeElement</a>
+, <a class="el" href="struct_pdf_form_field.html#a3a42280b7ff77cefac6ebe2de69c95ea">PdfFormField</a>
 </li>
 <li>SetGetSizeProc()
 : <a class="el" href="struct_ps_proc_stream.html#a9bc4dc51cbeea6d897e0ae4a287c49e0">PsProcStream</a>
 </li>
 <li>SetInfo()
-: <a class="el" href="struct_pdf_doc.html#a185af15a251468a4de0ab48dc46437bc">PdfDoc</a>
+: <a class="el" href="struct_pdf_doc.html#a1eb6bda173fac409b4fff367b6794b64">PdfDoc</a>
+</li>
+<li>SetLabelLevel()
+: <a class="el" href="struct_pde_text.html#a98aab8e83047012289e458e74ef10be2">PdeText</a>
 </li>
 <li>SetLang()
-: <a class="el" href="struct_pdf_doc.html#a935351497faff8c9fa56ec2cf777ad35">PdfDoc</a>
+: <a class="el" href="struct_pdf_doc.html#abdcd6fdbc329ff270b625fad14cc99f0">PdfDoc</a>
 </li>
 <li>SetLanguage()
 : <a class="el" href="struct_ocr_tesseract.html#a9f18970e20ce30c1b599a78c4caa0ce6">OcrTesseract</a>
@@ -196,11 +218,17 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>SetName()
 : <a class="el" href="struct_pdf_base_dig_sig.html#a8bea19685a0e514339756bbd3d7dce26">PdfBaseDigSig</a>
 </li>
+<li>SetParent()
+: <a class="el" href="struct_pds_struct_element.html#a685af9922b2b3aa3a75ee0847d1f5255">PdsStructElement</a>
+</li>
 <li>SetPattern()
 : <a class="el" href="struct_ps_regex.html#a79ebb49945f8b56f4535854545b7547e">PsRegex</a>
 </li>
 <li>SetPfxFile()
 : <a class="el" href="struct_pdf_dig_sig.html#a2a259a0ffb2281fac5b09968e23fe73e">PdfDigSig</a>
+</li>
+<li>SetProperty()
+: <a class="el" href="struct_pdf_doc_template.html#a41bb0dd4420571b340223157447f616e">PdfDocTemplate</a>
 </li>
 <li>SetReadProc()
 : <a class="el" href="struct_ps_proc_stream.html#aa02f08a652aa3952decce288ff8d20aa">PsProcStream</a>
@@ -209,16 +237,20 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="struct_pdf_base_dig_sig.html#ac3ffa0d9c29cd9573b9e82d890332e37">PdfBaseDigSig</a>
 </li>
 <li>SetRegex()
-: <a class="el" href="struct_pdfix.html#ac4caaa6eee87e391aa695c0840f7ba4e">Pdfix</a>
+: <a class="el" href="struct_pdf_doc_template.html#a38604cd8c8112a02d71394577d8ee417">PdfDocTemplate</a>
 </li>
-<li>SetRenderMode()
-: <a class="el" href="struct_pde_element.html#aad23b012cf67b48f9895149a6d0a75cd">PdeElement</a>
+<li>SetRender()
+: <a class="el" href="struct_pde_element.html#a491c32ea3fc0cb1b6537653f44c48edd">PdeElement</a>
+, <a class="el" href="struct_pds_page_object.html#abbc08040c46d2579f299cf0f5e6c156f">PdsPageObject</a>
 </li>
 <li>SetTimeStampServer()
 : <a class="el" href="struct_pdf_base_dig_sig.html#ae61fcd33da4380dfabaf63d9faa243be">PdfBaseDigSig</a>
 </li>
+<li>SetType()
+: <a class="el" href="struct_pds_struct_element.html#a716613e93fba0db0f5efe7285efb396c">PdsStructElement</a>
+</li>
 <li>SetValue()
-: <a class="el" href="struct_pdf_form_field.html#a1f082748f5498b26dda0cb16e8a1e7ed">PdfFormField</a>
+: <a class="el" href="struct_pdf_form_field.html#a5096d5f0aa35ca4300e000cd329b2a70">PdfFormField</a>
 </li>
 <li>SetWriteProc()
 : <a class="el" href="struct_ps_proc_stream.html#af5a4c5287c6fbba04db942e84d647840">PsProcStream</a>
@@ -244,7 +276,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:18 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:49 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

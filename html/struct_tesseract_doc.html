@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -124,9 +124,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac06bae15a99cfb979ce66ca6a8fb6202"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_tesseract_doc.html#ac06bae15a99cfb979ce66ca6a8fb6202">Close</a> ()=0</td></tr>
 <tr class="memdesc:ac06bae15a99cfb979ce66ca6a8fb6202"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closes <a class="el" href="struct_tesseract_doc.html" title="TesseractDoc class. ">TesseractDoc</a>.  <a href="#ac06bae15a99cfb979ce66ca6a8fb6202">More...</a><br /></td></tr>
 <tr class="separator:ac06bae15a99cfb979ce66ca6a8fb6202"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaeba208a7945eb0602bf7f1c4a27ec7c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_tesseract_doc.html#aaeba208a7945eb0602bf7f1c4a27ec7c">Save</a> (const wchar_t *path, <a class="el" href="group___structures___p_d_fix___ocr___tesseract.html#ga3b1443a1f24d0bfea473774e01acdf81">OcrTesseractParams</a> *params, _callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a> cancel_proc, void *cancel_data)=0</td></tr>
-<tr class="memdesc:aaeba208a7945eb0602bf7f1c4a27ec7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save an image based PDF into a searchable PDF.  <a href="#aaeba208a7945eb0602bf7f1c4a27ec7c">More...</a><br /></td></tr>
-<tr class="separator:aaeba208a7945eb0602bf7f1c4a27ec7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4928b1568671ebd4374a612f7bacfbd1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_tesseract_doc.html#a4928b1568671ebd4374a612f7bacfbd1">OcrImageToPage</a> (<a class="el" href="struct_ps_image.html">PsImage</a> *image, <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga62a284c4f97f794a307fd90589c119f0">PdfMatrix</a> *matrix, <a class="el" href="struct_pdf_page.html">PdfPage</a> *page, _callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a> cancel_proc, void *cancel_data)=0</td></tr>
+<tr class="memdesc:a4928b1568671ebd4374a612f7bacfbd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recognize text on the page and add recognized text on the page.  <a href="#a4928b1568671ebd4374a612f7bacfbd1">More...</a><br /></td></tr>
+<tr class="separator:a4928b1568671ebd4374a612f7bacfbd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_tesseract_doc.html" title="TesseractDoc class. ">TesseractDoc</a> class. </p>
@@ -160,8 +160,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aaeba208a7945eb0602bf7f1c4a27ec7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaeba208a7945eb0602bf7f1c4a27ec7c">&#9670;&nbsp;</a></span>Save()</h2>
+<a id="a4928b1568671ebd4374a612f7bacfbd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4928b1568671ebd4374a612f7bacfbd1">&#9670;&nbsp;</a></span>OcrImageToPage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -170,16 +170,22 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool TesseractDoc::Save </td>
+          <td class="memname">virtual bool TesseractDoc::OcrImageToPage </td>
           <td>(</td>
-          <td class="paramtype">const wchar_t *&#160;</td>
-          <td class="paramname"><em>path</em>, </td>
+          <td class="paramtype"><a class="el" href="struct_ps_image.html">PsImage</a> *&#160;</td>
+          <td class="paramname"><em>image</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___structures___p_d_fix___ocr___tesseract.html#ga3b1443a1f24d0bfea473774e01acdf81">OcrTesseractParams</a> *&#160;</td>
-          <td class="paramname"><em>params</em>, </td>
+          <td class="paramtype"><a class="el" href="group___structures___p_d_fix___s_d_k.html#ga62a284c4f97f794a307fd90589c119f0">PdfMatrix</a> *&#160;</td>
+          <td class="paramname"><em>matrix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_pdf_page.html">PdfPage</a> *&#160;</td>
+          <td class="paramname"><em>page</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -206,17 +212,29 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Save an image based PDF into a searchable PDF. </p>
+<p>Recognize text on the page and add recognized text on the page. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">path</td><td>Path to the output searchable PDF file including extension. </td></tr>
     <tr><td class="paramname">params</td><td>OcrTesseractParams that allows modify the OCR algorithm. </td></tr>
+    <tr><td class="paramname">page</td><td>The page to be processed </td></tr>
     <tr><td class="paramname">cancel_proc</td><td>Callback to check for canceling operations. </td></tr>
     <tr><td class="paramname">cancel_data</td><td>Pointer to client data for the cancel procedure. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true if the searchable document was created successfully or false in case of an error. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the searchable document was created successfully or false in case of an error.Process OCR on an image and insert recognized text onto the page.</dd></dl>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">image</td><td>The image to be processed. </td></tr>
+    <tr><td class="paramname">matrix</td><td>Transformation matrix to be applied on the text added to page. </td></tr>
+    <tr><td class="paramname">page</td><td>The destination page where the text will be added. </td></tr>
+    <tr><td class="paramname">cancel_proc</td><td>Callback to check for canceling operations. </td></tr>
+    <tr><td class="paramname">cancel_data</td><td>Pointer to client data for the cancel procedure. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the image was processed successfully and text was added to the page or false in case of an error. </dd></dl>
 
 </div>
 </div>
@@ -226,7 +244,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_tesseract_doc.html">TesseractDoc</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:16 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:45 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

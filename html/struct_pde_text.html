@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -159,12 +159,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aea7cf398931cb3657d3cb1c39c93d344"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga2cf28478abc1d02dcfe6520b9c886630">PdfTextStyle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_text.html#aea7cf398931cb3657d3cb1c39c93d344">GetTextStyle</a> ()=0</td></tr>
 <tr class="memdesc:aea7cf398931cb3657d3cb1c39c93d344"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the text element type.  <a href="#aea7cf398931cb3657d3cb1c39c93d344">More...</a><br /></td></tr>
 <tr class="separator:aea7cf398931cb3657d3cb1c39c93d344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18760a719483b4f3c16f443757d8ab07"><td class="memItemLeft" align="right" valign="top">virtual PdfTextRegexFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_text.html#a18760a719483b4f3c16f443757d8ab07">GetTextFlags</a> ()=0</td></tr>
+<tr class="memdesc:a18760a719483b4f3c16f443757d8ab07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the text element flags.  <a href="#a18760a719483b4f3c16f443757d8ab07">More...</a><br /></td></tr>
+<tr class="separator:a18760a719483b4f3c16f443757d8ab07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1085c0002becc0bf452e4e4c243db78"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_text.html#af1085c0002becc0bf452e4e4c243db78">GetLabelLevel</a> ()=0</td></tr>
+<tr class="memdesc:af1085c0002becc0bf452e4e4c243db78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the text element label level.  <a href="#af1085c0002becc0bf452e4e4c243db78">More...</a><br /></td></tr>
+<tr class="separator:af1085c0002becc0bf452e4e4c243db78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98aab8e83047012289e458e74ef10be2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_text.html#a98aab8e83047012289e458e74ef10be2">SetLabelLevel</a> (int level)=0</td></tr>
+<tr class="memdesc:a98aab8e83047012289e458e74ef10be2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the text element label level.  <a href="#a98aab8e83047012289e458e74ef10be2">More...</a><br /></td></tr>
+<tr class="separator:a98aab8e83047012289e458e74ef10be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_struct_pde_element"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_struct_pde_element')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="struct_pde_element.html">PdeElement</a></td></tr>
 <tr class="memitem:aa60261d785404f1da583ed3b50fe4c8e inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga1c46809f4a04b62054561924c9fe4b93">PdfElementType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#aa60261d785404f1da583ed3b50fe4c8e">GetType</a> ()=0</td></tr>
 <tr class="memdesc:aa60261d785404f1da583ed3b50fe4c8e inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the type of an element.  <a href="struct_pde_element.html#aa60261d785404f1da583ed3b50fe4c8e">More...</a><br /></td></tr>
 <tr class="separator:aa60261d785404f1da583ed3b50fe4c8e inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecc3441eb670eeb0c059374d8cb3421b inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#aecc3441eb670eeb0c059374d8cb3421b">GetBBox</a> (_out_ <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *bbox)=0</td></tr>
 <tr class="separator:aecc3441eb670eeb0c059374d8cb3421b inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ad42234f6186c334c2a20abe62123e inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#af3ad42234f6186c334c2a20abe62123e">SetBBox</a> (const <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *bbox)=0</td></tr>
+<tr class="separator:af3ad42234f6186c334c2a20abe62123e inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33d921be337f11d47ca260d5b7577c54 inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a33d921be337f11d47ca260d5b7577c54">GetId</a> ()=0</td></tr>
 <tr class="memdesc:a33d921be337f11d47ca260d5b7577c54 inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the id of an element. The id is unique number on a page.  <a href="struct_pde_element.html#a33d921be337f11d47ca260d5b7577c54">More...</a><br /></td></tr>
 <tr class="separator:a33d921be337f11d47ca260d5b7577c54 inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,9 +194,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a106b1abb8d75a8da78eca4e34cd0a5a0 inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a106b1abb8d75a8da78eca4e34cd0a5a0">GetAngle</a> ()=0</td></tr>
 <tr class="memdesc:a106b1abb8d75a8da78eca4e34cd0a5a0 inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the element angle.  <a href="struct_pde_element.html#a106b1abb8d75a8da78eca4e34cd0a5a0">More...</a><br /></td></tr>
 <tr class="separator:a106b1abb8d75a8da78eca4e34cd0a5a0 inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad23b012cf67b48f9895149a6d0a75cd inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#aad23b012cf67b48f9895149a6d0a75cd">SetRenderMode</a> (<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga1ede2b9d3683edfec84e796be0c8491e">PdfRenderMode</a> mode)=0</td></tr>
-<tr class="memdesc:aad23b012cf67b48f9895149a6d0a75cd inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets render mode of the element. This mode is used, when element is saved.  <a href="struct_pde_element.html#aad23b012cf67b48f9895149a6d0a75cd">More...</a><br /></td></tr>
-<tr class="separator:aad23b012cf67b48f9895149a6d0a75cd inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a491c32ea3fc0cb1b6537653f44c48edd inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a491c32ea3fc0cb1b6537653f44c48edd">SetRender</a> (bool render)=0</td></tr>
+<tr class="memdesc:a491c32ea3fc0cb1b6537653f44c48edd inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets render mode of the element. This mode is used, when element is saved.  <a href="struct_pde_element.html#a491c32ea3fc0cb1b6537653f44c48edd">More...</a><br /></td></tr>
+<tr class="separator:a491c32ea3fc0cb1b6537653f44c48edd inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80ae9e64f6dc9592dcf4a32bb302b1d inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#aa80ae9e64f6dc9592dcf4a32bb302b1d">SetData</a> (void *data)=0</td></tr>
+<tr class="memdesc:aa80ae9e64f6dc9592dcf4a32bb302b1d inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets user-supplied data to pass to the element.  <a href="struct_pde_element.html#aa80ae9e64f6dc9592dcf4a32bb302b1d">More...</a><br /></td></tr>
+<tr class="separator:aa80ae9e64f6dc9592dcf4a32bb302b1d inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe586fb5b0c2abb54dbeecaccda2c76e inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#afe586fb5b0c2abb54dbeecaccda2c76e">GetData</a> ()=0</td></tr>
+<tr class="memdesc:afe586fb5b0c2abb54dbeecaccda2c76e inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets user-supplied data to pass to the element.  <a href="struct_pde_element.html#afe586fb5b0c2abb54dbeecaccda2c76e">More...</a><br /></td></tr>
+<tr class="separator:afe586fb5b0c2abb54dbeecaccda2c76e inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e71e645253156907d55c397ae79b86 inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a60e71e645253156907d55c397ae79b86">SetAlt</a> (const wchar_t *alt)=0</td></tr>
+<tr class="memdesc:a60e71e645253156907d55c397ae79b86 inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the alternate description of the element.  <a href="struct_pde_element.html#a60e71e645253156907d55c397ae79b86">More...</a><br /></td></tr>
+<tr class="separator:a60e71e645253156907d55c397ae79b86 inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bb63f989b3daf0ed2ccd249205a666f inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a9bb63f989b3daf0ed2ccd249205a666f">SetActualText</a> (const wchar_t *text)=0</td></tr>
+<tr class="memdesc:a9bb63f989b3daf0ed2ccd249205a666f inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the actual text of the element.  <a href="struct_pde_element.html#a9bb63f989b3daf0ed2ccd249205a666f">More...</a><br /></td></tr>
+<tr class="separator:a9bb63f989b3daf0ed2ccd249205a666f inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad42f0533265423838a3eebf4a1ea16e7 inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#ad42f0533265423838a3eebf4a1ea16e7">GetFlags</a> ()=0</td></tr>
+<tr class="memdesc:ad42f0533265423838a3eebf4a1ea16e7 inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the element state flags.  <a href="struct_pde_element.html#ad42f0533265423838a3eebf4a1ea16e7">More...</a><br /></td></tr>
+<tr class="separator:ad42f0533265423838a3eebf4a1ea16e7 inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacbaeec8b367178bb9eb1e4e101b0561 inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#aacbaeec8b367178bb9eb1e4e101b0561">SetFlags</a> (int flags)=0</td></tr>
+<tr class="memdesc:aacbaeec8b367178bb9eb1e4e101b0561 inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the element state flags.  <a href="struct_pde_element.html#aacbaeec8b367178bb9eb1e4e101b0561">More...</a><br /></td></tr>
+<tr class="separator:aacbaeec8b367178bb9eb1e4e101b0561 inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pde_text.html" title="PdeText class. ">PdeText</a> class. </p>
@@ -216,6 +245,34 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the text element indent. </p>
 <dl class="section return"><dt>Returns</dt><dd>The text element indent. </dd></dl>
+
+</div>
+</div>
+<a id="af1085c0002becc0bf452e4e4c243db78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1085c0002becc0bf452e4e4c243db78">&#9670;&nbsp;</a></span>GetLabelLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdeText::GetLabelLevel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the text element label level. </p>
+<dl class="section return"><dt>Returns</dt><dd>The text element label level if exists. Otherwise returns -1. </dd></dl>
 
 </div>
 </div>
@@ -349,6 +406,34 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Number of characters written into buffer of required length. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pde_text_line.html#a1f94ad6048233b4a1d393cef4bef451d" title="Gets the text of the text line element. ">PdeTextLine::GetText</a>, <a class="el" href="struct_pde_word.html#ab2d16b755d3358b67947217e3c94f6a8" title="Gets the text of the word element. ">PdeWord::GetText</a> </dd></dl>
+
+</div>
+</div>
+<a id="a18760a719483b4f3c16f443757d8ab07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18760a719483b4f3c16f443757d8ab07">&#9670;&nbsp;</a></span>GetTextFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual PdfTextRegexFlags PdeText::GetTextFlags </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the text element flags. </p>
+<dl class="section return"><dt>Returns</dt><dd>The text element flags. </dd></dl>
 
 </div>
 </div>
@@ -517,13 +602,48 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a98aab8e83047012289e458e74ef10be2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98aab8e83047012289e458e74ef10be2">&#9670;&nbsp;</a></span>SetLabelLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdeText::SetLabelLevel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the text element label level. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">level</td><td>Element label level zero based. To remove label flag, set label level to -1. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if text label level was set, false otherwise. </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pde_text.html">PdeText</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:13 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:42 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

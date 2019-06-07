@@ -17,10 +17,17 @@ var _j_a_v_a__samples =
     [ "Initialization Sample", "_initialization_java.html", null ],
     [ "Make PDF Accessible Sample", "_make_accessible_java.html", null ],
     [ "Ocr With Tesseract Sample", "_ocr_with_tesseract_java.html", null ],
+    [ "Parse PDF Objects Sample", "_parse_pds_objects_java.html", null ],
     [ "Regex Search Sample", "_regex_search_java.html", null ],
     [ "Set Regex Pattern Sample", "_regex_set_pattern_java.html", null ],
     [ "Remove Comments Sample", "_remove_comments_java.html", null ],
     [ "Render Page Sample", "_render_page_java.html", null ],
     [ "Set Field Flags Sample", "_set_field_flags_java.html", null ],
-    [ "Set Form Field Value Sample", "_set_form_field_value_java.html", null ]
+    [ "Set Form Field Value Sample", "_set_form_field_value_java.html", null ],
+    [ "Tag annotation added on a page", "_tag_annotation_java.html", null ],
+    [ "Mark tagged page objects as artifact", "_tag_as_artifact_java.html", null ],
+    [ "Render Page Sample", "_render_page_java.html", null ],
+    [ "Edit structure tree reading order", "_tags_reading_order_java.html", null ],
+    [ "Edit structure tree reading order", "_tags_read_structure_tree_java.html", null ],
+    [ "Tag elements as Figure", "_tag_table_as_figure_java.html", null ]
 ];

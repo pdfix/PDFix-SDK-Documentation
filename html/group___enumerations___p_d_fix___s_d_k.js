@@ -1,6 +1,6 @@
 var group___enumerations___p_d_fix___s_d_k =
 [
-    [ "PdfDocConfig", "group___pdf_doc_config.html", "group___pdf_doc_config" ],
+    [ "PdfErrorType", "group___pdf_error_type.html", "group___pdf_error_type" ],
     [ "PdfActionEventType", "group___enumerations___p_d_fix___s_d_k.html#gab7f41c15de69ac2b0d25f00d103118dc", [
       [ "kActionEventAnnotEnter", "group___enumerations___p_d_fix___s_d_k.html#ggab7f41c15de69ac2b0d25f00d103118dca5fb1bfacfff7bc857315417f438240da", null ],
       [ "kActionEventAnnotExit", "group___enumerations___p_d_fix___s_d_k.html#ggab7f41c15de69ac2b0d25f00d103118dca738f8ea25ffc5ad3a15755f715414a50", null ],
@@ -107,6 +107,11 @@ var group___enumerations___p_d_fix___s_d_k =
       [ "kBorderInset", "group___enumerations___p_d_fix___s_d_k.html#gga506e6a7d4677c945fd32e543ae5dd0a6a5c6a668414c28395afba1c298398a6cc", null ],
       [ "kBorderUnderline", "group___enumerations___p_d_fix___s_d_k.html#gga506e6a7d4677c945fd32e543ae5dd0a6a109286eb890504e3772a7f7d6a11b6e5", null ]
     ] ],
+    [ "PdfContainerType", "group___enumerations___p_d_fix___s_d_k.html#ga3907d71c6d3ff4ebe5de25ed92d64bf8", [
+      [ "kPdeContainerUnknown", "group___enumerations___p_d_fix___s_d_k.html#gga3907d71c6d3ff4ebe5de25ed92d64bf8a7089c99d9f81c51d728c16c9570c2b99", null ],
+      [ "kPdeContainerPage", "group___enumerations___p_d_fix___s_d_k.html#gga3907d71c6d3ff4ebe5de25ed92d64bf8a41525fe2250f06d2558e5793f1d4ce80", null ],
+      [ "kPdeContainerArt", "group___enumerations___p_d_fix___s_d_k.html#gga3907d71c6d3ff4ebe5de25ed92d64bf8a86c7a7391fc7535b9024a72a6516161f", null ]
+    ] ],
     [ "PdfDestZoomType", "group___enumerations___p_d_fix___s_d_k.html#ga482bd9f4164bb6d4eda28f75c7cb1787", [
       [ "kPdfZoomXYZ", "group___enumerations___p_d_fix___s_d_k.html#gga482bd9f4164bb6d4eda28f75c7cb1787a0825c010eebbad84db854baa1ba96403", null ],
       [ "kPdfZoomFitPage", "group___enumerations___p_d_fix___s_d_k.html#gga482bd9f4164bb6d4eda28f75c7cb1787a77d59d7dc12f676dfe008b02aeb4cdb1", null ],
@@ -147,8 +152,7 @@ var group___enumerations___p_d_fix___s_d_k =
       [ "kPdeFormField", "group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93ad50858d7d1c84c47852d23ec7ab9d1a1", null ],
       [ "kPdeHeader", "group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93a758b93f5db8a2df162f51b1f7ca8346c", null ],
       [ "kPdeFooter", "group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93a556186b6a8a68cbb0151d05c8fd071ea", null ],
-      [ "kPdeColumn", "group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93a0c53a0f7523285014e6a06567c5e138a", null ],
-      [ "kPdeRow", "group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93af15baba4e2b125b727fa2d3d88f0bc4f", null ]
+      [ "kPdeAnnot", "group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93a5d0f1701e0d7d29732db8de7a21c4a99", null ]
     ] ],
     [ "PdfEventType", "group___enumerations___p_d_fix___s_d_k.html#gae88c6d02fc9ba398de7969899b55a406", [
       [ "kEventUnknown", "group___enumerations___p_d_fix___s_d_k.html#ggae88c6d02fc9ba398de7969899b55a406a04a53a82f90bb16ba9e3188e90ed13ef", null ],
@@ -162,7 +166,7 @@ var group___enumerations___p_d_fix___s_d_k =
       [ "kEventPageWillRemoveAnnot", "group___enumerations___p_d_fix___s_d_k.html#ggae88c6d02fc9ba398de7969899b55a406a45561d9693ff45d2b5fc59253396b47c", null ],
       [ "kEventPageDidAddAnnot", "group___enumerations___p_d_fix___s_d_k.html#ggae88c6d02fc9ba398de7969899b55a406a2776536e4596d3caeae326ea80a572ba", null ],
       [ "kEventPageDidRemoveAnnot", "group___enumerations___p_d_fix___s_d_k.html#ggae88c6d02fc9ba398de7969899b55a406aac9760be8b4b36b799dc964ff103ec82", null ],
-      [ "kEventageContentsDidChange", "group___enumerations___p_d_fix___s_d_k.html#ggae88c6d02fc9ba398de7969899b55a406ae63a8212e618c65b505760692b10c969", null ]
+      [ "kEventPageContentsDidChange", "group___enumerations___p_d_fix___s_d_k.html#ggae88c6d02fc9ba398de7969899b55a406a15b322a906e6f076896ca206f18573f6", null ]
     ] ],
     [ "PdfFieldType", "group___enumerations___p_d_fix___s_d_k.html#ga5465b5233138b77d794faeee014a4df0", [
       [ "kFieldUnknown", "group___enumerations___p_d_fix___s_d_k.html#gga5465b5233138b77d794faeee014a4df0a16d37e95589dc7e910127eeb709f59ce", null ],
@@ -225,7 +229,7 @@ var group___enumerations___p_d_fix___s_d_k =
       [ "kImagePath", "group___enumerations___p_d_fix___s_d_k.html#gga2d67209ba90b9d207f3268df23a0a2e6a081645062ecd95621d9755e78ea677e0", null ],
       [ "kImageRect", "group___enumerations___p_d_fix___s_d_k.html#gga2d67209ba90b9d207f3268df23a0a2e6a4c8628a0e3fdec287cf18835a014bbd5", null ],
       [ "kImageShading", "group___enumerations___p_d_fix___s_d_k.html#gga2d67209ba90b9d207f3268df23a0a2e6abfc9defb824d01698a9cd8355edf6074", null ],
-      [ "kImageTable", "group___enumerations___p_d_fix___s_d_k.html#gga2d67209ba90b9d207f3268df23a0a2e6a62fbe81bed26a4c234c021069fa115ea", null ]
+      [ "kImageForm", "group___enumerations___p_d_fix___s_d_k.html#gga2d67209ba90b9d207f3268df23a0a2e6af0ed25e60cbea9a0e27dcd0ba1f6a008", null ]
     ] ],
     [ "PdfLineCap", "group___enumerations___p_d_fix___s_d_k.html#ga5b9c3dea60e7004a6a9bbe3a7e9b741d", [
       [ "kPdfLineCapButt", "group___enumerations___p_d_fix___s_d_k.html#gga5b9c3dea60e7004a6a9bbe3a7e9b741daebd36a0aab4aa881a380bb2c8ba4b93a", null ],
@@ -238,8 +242,14 @@ var group___enumerations___p_d_fix___s_d_k =
       [ "kPdfLineJoinBevel", "group___enumerations___p_d_fix___s_d_k.html#gga6388de0ac450b410ef6980455e0b226fa26bc4b4c937985a7cf6097b100b13e9c", null ]
     ] ],
     [ "PdfListType", "group___enumerations___p_d_fix___s_d_k.html#ga5a7aac4eee8fe845efaf925bdb062371", [
+      [ "kListNone", "group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371a177bde4d1915b1a1cac053e1a0303b82", null ],
       [ "kListUnordered", "group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371a1b86aeb9e1e73bf201333c89ed0ae3c7", null ],
-      [ "kListOrdered", "group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371a03e034d0fe729a103c7ad3abae265f63", null ]
+      [ "kListOrdered", "group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371a03e034d0fe729a103c7ad3abae265f63", null ],
+      [ "kListDecimal", "group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371a274aed2c8d1f923ddef559d1958c97e9", null ],
+      [ "kListRomanUpper", "group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371ab39e2f0f10c4e4537832ccc3ee10a248", null ],
+      [ "kListRomanLower", "group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371af431bbf35e73dea236319b452bf7b3bb", null ],
+      [ "kListLetterUpper", "group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371abea9215641db086d0b20fc86b76c16c9", null ],
+      [ "kListLetterLower", "group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371ae6ad925f4830ebd897bf91a877e9d599", null ]
     ] ],
     [ "PdfMediaType", "group___enumerations___p_d_fix___s_d_k.html#ga642e8f66dafb8c13ce110dca6cd9952a", [
       [ "kCSSMediaTypeAll", "group___enumerations___p_d_fix___s_d_k.html#gga642e8f66dafb8c13ce110dca6cd9952aaee483c50e08557f40c8a02db16e6986c", null ],
@@ -272,36 +282,6 @@ var group___enumerations___p_d_fix___s_d_k =
       [ "kEvenPagesOnly", "group___enumerations___p_d_fix___s_d_k.html#ggae468c9b1bc70120930d07733435e9a28a3c6a5c117f0752efebac9160a7c2b5b1", null ],
       [ "kOddPagesOnly", "group___enumerations___p_d_fix___s_d_k.html#ggae468c9b1bc70120930d07733435e9a28a7e9d36e0fcc8422b8549871a6ae2686a", null ]
     ] ],
-    [ "PdfRegexType", "group___enumerations___p_d_fix___s_d_k.html#gad9a7598d5d284b41ed8fa46ca6c04983", [
-      [ "kRegexHyphen", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983ab6a917079ff7b9b406efee18eb26c415", null ],
-      [ "kRegexBullet", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a881f8a2d781041f08c23a9d91bab8f4b", null ],
-      [ "kRegexBulletFont", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a9ef6ab590122e1d5b3be0c078b33277a", null ],
-      [ "kRegexBulletLine", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a4c062bf91c43180a4662836453e527ac", null ],
-      [ "kRegexFilling", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983ab47618225548bf2387de4b3e60892fc9", null ],
-      [ "kRegexToc", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a1e6ee85fb3d3f4f46058e8d33aa34688", null ],
-      [ "kRegexNumber", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983aeb18a74cc38ed6b07ff5a0cd5559ae82", null ],
-      [ "kRegexAllCaps", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a23efc6e6879e8b7a4a9b4d13d3369bf7", null ],
-      [ "kRegexFirstCap", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a8953ad00b1427141f760cf13819dc3bd", null ],
-      [ "kRegexCurrency", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983afbbb82bf1a23181f315bad6c67f0e0e0", null ],
-      [ "kRegexPercent", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983acac7bf65194f4b2821ee4849a6ad663a", null ],
-      [ "kRegexTerminal", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a081775d13a7ca78f95961ec8047c8fd1", null ],
-      [ "kRegexTableCaption", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a990bcfcae6da3bf17368c78056a15ec5", null ],
-      [ "kRegexImageCaption", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a0e7967c22ee4d507a4e29f051fc092e9", null ],
-      [ "kRegexChartCaption", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a00c3781f26efd813047a8ab2d3020e74", null ],
-      [ "kRegexNoteCaption", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a732fa928076261417e043788058983df", null ],
-      [ "kRegexNumberedList", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a978b1a163a4af482617449cbd7fd838c", null ],
-      [ "kRegexNumberedSplit", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a55f085c4a8bad7f4df500cd26905be72", null ],
-      [ "kRegexSentences", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a628476702695663dc9e155ad9ba11c8f", null ],
-      [ "kRegexAlphaNum", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983afab4b3223964a9c9bd56a036e6dd8631", null ],
-      [ "kRegexColon", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a58e8ec3f0e0a45f422385a468f6d4dbb", null ],
-      [ "kRegexPhoneNumber", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983ac2092d72921b8292d80a77af719dab1d", null ],
-      [ "kRegexDate", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a93213ee885ca600f032d8ef18445aec1", null ],
-      [ "kRegexPageNumber", "group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a460b4ddfd40acfa20646445e4b50d3e0", null ]
-    ] ],
-    [ "PdfRenderMode", "group___enumerations___p_d_fix___s_d_k.html#ga1ede2b9d3683edfec84e796be0c8491e", [
-      [ "kRenderElemNone", "group___enumerations___p_d_fix___s_d_k.html#gga1ede2b9d3683edfec84e796be0c8491eaa34b8dbe6b6b8e61a04b1dcdc58419d8", null ],
-      [ "kRenderElem", "group___enumerations___p_d_fix___s_d_k.html#gga1ede2b9d3683edfec84e796be0c8491ea7d2424f00892a694a8fcdc8449eb9285", null ]
-    ] ],
     [ "PdfRotate", "group___enumerations___p_d_fix___s_d_k.html#gad84548ba31797140b44ee1dcd589aca6", [
       [ "kRotate0", "group___enumerations___p_d_fix___s_d_k.html#ggad84548ba31797140b44ee1dcd589aca6a590ad2626a323017f31cabb3a3f77ff7", null ],
       [ "kRotate90", "group___enumerations___p_d_fix___s_d_k.html#ggad84548ba31797140b44ee1dcd589aca6af18cd2ac4155d04069766f714a64a458", null ],
@@ -324,13 +304,10 @@ var group___enumerations___p_d_fix___s_d_k =
       [ "kPdsStructKidStreamContent", "group___enumerations___p_d_fix___s_d_k.html#gga53ae24c0fb62c29c6c0b3d7d8cfbfb13a45cceb6d6a9a0bc0cb6c48463db8fe11", null ],
       [ "kPdsStructKidObject", "group___enumerations___p_d_fix___s_d_k.html#gga53ae24c0fb62c29c6c0b3d7d8cfbfb13acecc7463e8e00c45362f3cba6ed4dccc", null ]
     ] ],
-    [ "PdfTableType", "group___enumerations___p_d_fix___s_d_k.html#gaa975262b1cbf1203dca6949419e8269a", [
-      [ "kTableGraphic", "group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aa55b0a2f25f9055ad87f6af7ee6f05c50", null ],
-      [ "kTableIsolated", "group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aa6f2c562f02e9a8d91b9b6d2b59aea234", null ],
-      [ "kTableIsolatedCol", "group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aad0b7770ef1cb53602629dab995b09637", null ],
-      [ "kTableIsolatedRow", "group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aa143d788dc5b8f11386c529104f984177", null ],
-      [ "kTableForm", "group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aa19e2fa94346c318a234a9871a8f91173", null ],
-      [ "kTableElement", "group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aaddf086d5b31ad200c89943d7f68a78e2", null ]
+    [ "PdfTagType", "group___enumerations___p_d_fix___s_d_k.html#gae457fa19b803fdc406724e06a2cd6e04", [
+      [ "kTagUnknown", "group___enumerations___p_d_fix___s_d_k.html#ggae457fa19b803fdc406724e06a2cd6e04ae23fa6dd9d2cb07374ec32b4cf0aa27e", null ],
+      [ "kTagSect", "group___enumerations___p_d_fix___s_d_k.html#ggae457fa19b803fdc406724e06a2cd6e04abc7a31e9fec84eb2201045afefa4d92f", null ],
+      [ "kTagArt", "group___enumerations___p_d_fix___s_d_k.html#ggae457fa19b803fdc406724e06a2cd6e04a1f64ebafe0f2c3b6d1e3dc737bd592a9", null ]
     ] ],
     [ "PdfTextAlignment", "group___enumerations___p_d_fix___s_d_k.html#ga61624edf4fcf0c49d8f8cf59b8d4a4f5", [
       [ "kTextAlignmentNone", "group___enumerations___p_d_fix___s_d_k.html#gga61624edf4fcf0c49d8f8cf59b8d4a4f5a8d3e8efbe74296bd4b0b8435d106475f", null ],
@@ -349,7 +326,8 @@ var group___enumerations___p_d_fix___s_d_k =
       [ "kTextH6", "group___enumerations___p_d_fix___s_d_k.html#gga2cf28478abc1d02dcfe6520b9c886630aa97e3170dc8af09beec90105d203f259", null ],
       [ "kTextH7", "group___enumerations___p_d_fix___s_d_k.html#gga2cf28478abc1d02dcfe6520b9c886630af49b358c4cc8663a833bbaaddd15df8b", null ],
       [ "kTextH8", "group___enumerations___p_d_fix___s_d_k.html#gga2cf28478abc1d02dcfe6520b9c886630a8816783fed4a53a3ff54dfc71693a882", null ],
-      [ "kTextNote", "group___enumerations___p_d_fix___s_d_k.html#gga2cf28478abc1d02dcfe6520b9c886630a8b6dc11183ed3b3c8dd3553b0bb5bd63", null ]
+      [ "kTextNote", "group___enumerations___p_d_fix___s_d_k.html#gga2cf28478abc1d02dcfe6520b9c886630a8b6dc11183ed3b3c8dd3553b0bb5bd63", null ],
+      [ "kTextTitle", "group___enumerations___p_d_fix___s_d_k.html#gga2cf28478abc1d02dcfe6520b9c886630a3edd924a7d8610d873e00ee5c1f9d1cd", null ]
     ] ],
     [ "PsDataFormat", "group___enumerations___p_d_fix___s_d_k.html#gab4ff31131204bf1a7cae7d0e4ce532d2", [
       [ "kDataFormatJson", "group___enumerations___p_d_fix___s_d_k.html#ggab4ff31131204bf1a7cae7d0e4ce532d2aa576163f2e074668ea6345b75c5a2173", null ],

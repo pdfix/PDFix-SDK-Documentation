@@ -1,8 +1,6 @@
 var group___enumerations___p_d_fix___ocr___tesseract =
 [
     [ "OcrTesseractEngineType", "group___enumerations___p_d_fix___ocr___tesseract.html#ga0f5cf12cf5bece5b02b78292d43ffc8d", [
-      [ "kOcrNone", "group___enumerations___p_d_fix___ocr___tesseract.html#ggac36f475ca5b446f4fde4c9b90bec77c8a39c9ee5119bc51fd89190e63cfbd970b", null ],
-      [ "kOcrImages", "group___enumerations___p_d_fix___ocr___tesseract.html#ggac36f475ca5b446f4fde4c9b90bec77c8a51177eb03606403a559ccf69cecf0e07", null ],
       [ "kOcrTesseractOnly", "group___enumerations___p_d_fix___ocr___tesseract.html#gga0f5cf12cf5bece5b02b78292d43ffc8da3665141385f0bcf959666bf7059647ea", null ],
       [ "kOcrTesseractLSTMOnlly", "group___enumerations___p_d_fix___ocr___tesseract.html#gga0f5cf12cf5bece5b02b78292d43ffc8da228b226f74e7695a23bf31cbe66cf87a", null ],
       [ "kOcrTesseractLSTMCombined", "group___enumerations___p_d_fix___ocr___tesseract.html#gga0f5cf12cf5bece5b02b78292d43ffc8da29a6481c81d7ca2db15dfa0a8664b7e0", null ],

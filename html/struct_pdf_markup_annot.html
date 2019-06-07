@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -134,14 +134,14 @@ Inheritance diagram for PdfMarkupAnnot:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a86f416239ebdaf720d8290212771c31f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_markup_annot.html#a86f416239ebdaf720d8290212771c31f">GetContents</a> (_out_ wchar_t *buffer, int len)=0</td></tr>
 <tr class="separator:a86f416239ebdaf720d8290212771c31f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53d851909cc3b458c82b70cda2009860"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_markup_annot.html#a53d851909cc3b458c82b70cda2009860">SetContents</a> (const wchar_t *buffer)=0</td></tr>
-<tr class="separator:a53d851909cc3b458c82b70cda2009860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada6ff013c139e1b814eac020a5364947"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_markup_annot.html#ada6ff013c139e1b814eac020a5364947">SetContents</a> (const wchar_t *contents)=0</td></tr>
+<tr class="separator:ada6ff013c139e1b814eac020a5364947"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ce8b654c851337c7f401bd1faee38ee"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_markup_annot.html#a0ce8b654c851337c7f401bd1faee38ee">GetAuthor</a> (_out_ wchar_t *buffer, int len)=0</td></tr>
 <tr class="memdesc:a0ce8b654c851337c7f401bd1faee38ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the author of the markup annotation.  <a href="#a0ce8b654c851337c7f401bd1faee38ee">More...</a><br /></td></tr>
 <tr class="separator:a0ce8b654c851337c7f401bd1faee38ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad819efa5b82773694419b054d5937173"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_markup_annot.html#ad819efa5b82773694419b054d5937173">SetAuthor</a> (const wchar_t *buffer)=0</td></tr>
-<tr class="memdesc:ad819efa5b82773694419b054d5937173"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the author of the markup annotation.  <a href="#ad819efa5b82773694419b054d5937173">More...</a><br /></td></tr>
-<tr class="separator:ad819efa5b82773694419b054d5937173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2b7b5cb41de935e716352f43a6db69"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_markup_annot.html#a4e2b7b5cb41de935e716352f43a6db69">SetAuthor</a> (const wchar_t *author)=0</td></tr>
+<tr class="memdesc:a4e2b7b5cb41de935e716352f43a6db69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the author of the markup annotation.  <a href="#a4e2b7b5cb41de935e716352f43a6db69">More...</a><br /></td></tr>
+<tr class="separator:a4e2b7b5cb41de935e716352f43a6db69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f10226288299d8f0d4a3c600b21f5c8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_markup_annot.html#a9f10226288299d8f0d4a3c600b21f5c8">GetNumReplies</a> ()=0</td></tr>
 <tr class="memdesc:a9f10226288299d8f0d4a3c600b21f5c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Both annotations must be on the same page of the document.  <a href="#a9f10226288299d8f0d4a3c600b21f5c8">More...</a><br /></td></tr>
 <tr class="separator:a9f10226288299d8f0d4a3c600b21f5c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,6 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1d807c6a8ff1d3a2d8fe524f29d83d1d inherit pub_methods_struct_pdf_annot"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc33624d0b1a0d4cb06f2c1f743dc488 inherit pub_methods_struct_pdf_annot"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_annot.html#acc33624d0b1a0d4cb06f2c1f743dc488">RectInAnnot</a> (<a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *rect)=0</td></tr>
 <tr class="separator:acc33624d0b1a0d4cb06f2c1f743dc488 inherit pub_methods_struct_pdf_annot"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cbe9a4170277459dc49e80925e78516 inherit pub_methods_struct_pdf_annot"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_annot.html#a9cbe9a4170277459dc49e80925e78516">GetStructObject</a> (bool struct_parent)=0</td></tr>
+<tr class="separator:a9cbe9a4170277459dc49e80925e78516 inherit pub_methods_struct_pdf_annot"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pdf_markup_annot.html" title="PdfMarkupAnnot class. ">PdfMarkupAnnot</a> class. </p>
@@ -257,7 +259,7 @@ Public Member Functions</h2></td></tr>
 <p>Gets the author of the markup annotation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
@@ -305,7 +307,7 @@ Public Member Functions</h2></td></tr>
 <p><br />
 </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>(filled by method) if the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
@@ -378,8 +380,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad819efa5b82773694419b054d5937173"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad819efa5b82773694419b054d5937173">&#9670;&nbsp;</a></span>SetAuthor()</h2>
+<a id="a4e2b7b5cb41de935e716352f43a6db69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e2b7b5cb41de935e716352f43a6db69">&#9670;&nbsp;</a></span>SetAuthor()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -391,7 +393,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">virtual bool PdfMarkupAnnot::SetAuthor </td>
           <td>(</td>
           <td class="paramtype">const wchar_t *&#160;</td>
-          <td class="paramname"><em>buffer</em></td><td>)</td>
+          <td class="paramname"><em>author</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -405,17 +407,17 @@ Public Member Functions</h2></td></tr>
 <p>Sets the author of the markup annotation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>The content string to be set. </td></tr>
+    <tr><td class="paramname">author</td><td>The content string to be set. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the author was set, false otherwise. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_markup_annot.html#ad819efa5b82773694419b054d5937173" title="Sets the author of the markup annotation. ">PdfMarkupAnnot::SetAuthor</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_markup_annot.html#a4e2b7b5cb41de935e716352f43a6db69" title="Sets the author of the markup annotation. ">PdfMarkupAnnot::SetAuthor</a> </dd></dl>
 
 </div>
 </div>
-<a id="a53d851909cc3b458c82b70cda2009860"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53d851909cc3b458c82b70cda2009860">&#9670;&nbsp;</a></span>SetContents()</h2>
+<a id="ada6ff013c139e1b814eac020a5364947"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada6ff013c139e1b814eac020a5364947">&#9670;&nbsp;</a></span>SetContents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -427,7 +429,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">virtual bool PdfMarkupAnnot::SetContents </td>
           <td>(</td>
           <td class="paramtype">const wchar_t *&#160;</td>
-          <td class="paramname"><em>buffer</em></td><td>)</td>
+          <td class="paramname"><em>contents</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -442,12 +444,12 @@ Public Member Functions</h2></td></tr>
 <p><br />
 </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>The content string to be set. </td></tr>
+    <tr><td class="paramname">contens</td><td>The content string to be set. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the content was set, false otherwise. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_markup_annot.html#a53d851909cc3b458c82b70cda2009860">PdfMarkupAnnot::SetContents</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_markup_annot.html#ada6ff013c139e1b814eac020a5364947">PdfMarkupAnnot::SetContents</a> </dd></dl>
 
 </div>
 </div>
@@ -457,7 +459,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pdf_markup_annot.html">PdfMarkupAnnot</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:14 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:43 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

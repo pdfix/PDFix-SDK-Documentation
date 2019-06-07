@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -117,9 +117,6 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>accept_tags
 : <a class="el" href="struct___pdf_accessible_params.html#ae197795376c571200cd883333edde346">_PdfAccessibleParams</a>
 </li>
-<li>annot
-: <a class="el" href="struct___pdf_event_params.html#aeacf01f121c12c71eef8675e11bebd98">_PdfEventParams</a>
-</li>
 <li>ascent
 : <a class="el" href="struct___pdf_font_state.html#a1d78a9b7daedf97cd93143640247fb59">_PdfFontState</a>
 </li>
@@ -169,9 +166,8 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>char_spacing
 : <a class="el" href="struct___pdf_text_state.html#a1de6ce4147e203764c1418d4d3738490">_PdfTextState</a>
 </li>
-<li>clip_rect
-: <a class="el" href="struct___ocr_tesseract_params.html#a8729c87e908760465a4c7708040105a8">_OcrTesseractParams</a>
-, <a class="el" href="struct___pdf_page_render_params.html#a165ed89249dff2c7274f701973afcae1">_PdfPageRenderParams</a>
+<li>clip_box
+: <a class="el" href="struct___pdf_page_render_params.html#a62ac3aae6e104b8d1fe0c11b13431493">_PdfPageRenderParams</a>
 </li>
 <li>color
 : <a class="el" href="struct___pdf_bookmark_appearance.html#ab58c4311873a9aad883a0737b50266e2">_PdfBookmarkAppearance</a>
@@ -193,9 +189,6 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>device
 : <a class="el" href="struct___pdf_page_render_params.html#af8c3c4a95b64004346e211fc608ca180">_PdfPageRenderParams</a>
 </li>
-<li>doc
-: <a class="el" href="struct___pdf_event_params.html#a90e37e902f9615d50089d17f77de918d">_PdfEventParams</a>
-</li>
 </ul>
 
 
@@ -208,9 +201,6 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 </li>
 <li>embedded
 : <a class="el" href="struct___pdf_font_state.html#a4a201345a906f95038128d56423612f1">_PdfFontState</a>
-</li>
-<li>engine
-: <a class="el" href="struct___ocr_tesseract_params.html#ab2fffee95b702bba94f888d1ac8217c2">_OcrTesseractParams</a>
 </li>
 </ul>
 
@@ -234,8 +224,7 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 : <a class="el" href="struct___pdf_font_state.html#a3774efb48700dbba3b3bcc67f80ace09">_PdfFontState</a>
 </li>
 <li>flags
-: <a class="el" href="struct___ocr_tesseract_params.html#abd95d9f81643ab060146ee8af5c4850c">_OcrTesseractParams</a>
-, <a class="el" href="struct___pdf_flatten_annots_params.html#a8a002e7e65eb21564f58e476b02e2e8f">_PdfFlattenAnnotsParams</a>
+: <a class="el" href="struct___pdf_flatten_annots_params.html#a8a002e7e65eb21564f58e476b02e2e8f">_PdfFlattenAnnotsParams</a>
 , <a class="el" href="struct___pdf_font_state.html#a75507a4f1060d14a290854a7db06ed9c">_PdfFontState</a>
 , <a class="el" href="struct___pdf_html_params.html#a3fca039f4df1d2161ac5c5f8d626f5a8">_PdfHtmlParams</a>
 , <a class="el" href="struct___pdf_text_state.html#a09278e6245af11c21acc5a71328c18f1">_PdfTextState</a>
@@ -330,15 +319,9 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 
 
 <h3><a id="index_p"></a>- p -</h3><ul>
-<li>page
-: <a class="el" href="struct___pdf_event_params.html#ad5b40484ede0758798a21a42bb62ced8">_PdfEventParams</a>
-</li>
 <li>page_range
 : <a class="el" href="struct___pdf_flatten_annots_params.html#ad698347a76656b6f59b1158addbddc31">_PdfFlattenAnnotsParams</a>
 , <a class="el" href="struct___pdf_watermark_params.html#a4f93eb2818032d8f25479d3ad7ed65b0">_PdfWatermarkParams</a>
-</li>
-<li>page_seg
-: <a class="el" href="struct___ocr_tesseract_params.html#ad24ac13daa3f9b4a793a622c62db93c5">_OcrTesseractParams</a>
 </li>
 <li>percentage_vals
 : <a class="el" href="struct___pdf_watermark_params.html#a9c59f075eb3df58ad08fa32e3997fa02">_PdfWatermarkParams</a>
@@ -363,9 +346,6 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <li>right
 : <a class="el" href="struct___pdf_dev_rect.html#a4a38b74523d9af0b7c5e8d61bf283457">_PdfDevRect</a>
 , <a class="el" href="struct___pdf_rect.html#a1917b84fbb3447c6fed878047dc0cd0f">_PdfRect</a>
-</li>
-<li>rotate
-: <a class="el" href="struct___ocr_tesseract_params.html#afdcdf7bd398b4d1b3c81270cc5019e59">_OcrTesseractParams</a>
 </li>
 <li>rotation
 : <a class="el" href="struct___pdf_watermark_params.html#ad6611ab13dbd42d678ac57de84a01074">_PdfWatermarkParams</a>
@@ -409,8 +389,7 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 , <a class="el" href="struct___pdf_quad.html#aabd5ba4f5a2b3ba1fab12e552a179d8a">_PdfQuad</a>
 </li>
 <li>type
-: <a class="el" href="struct___pdf_event_params.html#a6575127a34fce41609f4f340f48de178">_PdfEventParams</a>
-, <a class="el" href="struct___pdf_font_state.html#a03ca7e268770d41c851d744553cb17b2">_PdfFontState</a>
+: <a class="el" href="struct___pdf_font_state.html#a03ca7e268770d41c851d744553cb17b2">_PdfFontState</a>
 , <a class="el" href="struct___pdf_html_params.html#a77495be14cdcf238204e93fad7c29634">_PdfHtmlParams</a>
 , <a class="el" href="struct___pdf_media_query_params.html#a8d61ef3d060b1e810e2061d165e40b9f">_PdfMediaQueryParams</a>
 </li>
@@ -455,19 +434,12 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 , <a class="el" href="struct___pdf_point.html#a95cd7ba0b0bb21c225eacb8f99088e7b">_PdfPoint</a>
 </li>
 </ul>
-
-
-<h3><a id="index_z"></a>- z -</h3><ul>
-<li>zoom
-: <a class="el" href="struct___ocr_tesseract_params.html#a06533df2aa17ba27ddf02221b4aa9b42">_OcrTesseractParams</a>
-</li>
-</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:19 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:50 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

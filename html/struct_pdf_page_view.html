@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -121,6 +121,8 @@ $(document).ready(function(){initNavTree('struct_pdf_page_view.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a8174742e28a08d20b88a84468042ec25"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page_view.html#a8174742e28a08d20b88a84468042ec25">Release</a> ()=0</td></tr>
+<tr class="separator:a8174742e28a08d20b88a84468042ec25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a093927e8068bc676c5acfb3e59134906"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page_view.html#a093927e8068bc676c5acfb3e59134906">GetDeviceWidth</a> ()=0</td></tr>
 <tr class="memdesc:a093927e8068bc676c5acfb3e59134906"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a width of the page view in device space coordinates.  <a href="#a093927e8068bc676c5acfb3e59134906">More...</a><br /></td></tr>
 <tr class="separator:a093927e8068bc676c5acfb3e59134906"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -339,7 +341,7 @@ Public Member Functions</h2></td></tr>
 <br />
 <br />
 </p><dl class="section return"><dt>Returns</dt><dd>Acquired Image data for page view. Returns null if there are no image data. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>PdfPageView::DrawPageTransforms a rectangle's coordinates from user space to device space. The resulting AVRect will be normalized, that is, left &lt; right and top &lt; bottom. <br />
+<dl class="section see"><dt>See also</dt><dd>PdfPageView::DrawPageTransforms a rectangle's coordinates from user space to device space. The resulting <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga147a25fb403e6a97d5abb86c39aaf373" title="PdfDevRect. ">PdfDevRect</a> will be normalized, that is, left &lt; right and top &lt; bottom. <br />
 </dd></dl>
 <p><br />
 </p><dl class="params"><dt>Parameters</dt><dd>
@@ -353,13 +355,48 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8174742e28a08d20b88a84468042ec25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8174742e28a08d20b88a84468042ec25">&#9670;&nbsp;</a></span>Release()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PdfPageView::Release </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Releases the page view resources. NOTE: The caller can call <a class="el" href="struct_pdf_page_view.html#a8174742e28a08d20b88a84468042ec25">PdfPageView::Release</a> to optimize a memory handling. Otherwise the page is responsible for freeing PdfPageViews resources. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">page_view</td><td>The page view to delete. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_page.html#af9b832af9f341bd61506f4354f38f732">PdfPage::AcquirePageView</a> </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pdf_page_view.html">PdfPageView</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:14 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:44 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

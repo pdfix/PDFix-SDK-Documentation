@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y',['y',['../struct___pdf_point.html#a95cd7ba0b0bb21c225eacb8f99088e7b',1,'_PdfPoint::y()'],['../struct___pdf_dev_point.html#a41c85bb5296685ebbedf668a5e1a0fdc',1,'_PdfDevPoint::y()']]]
+  ['x',['x',['../struct___pdf_point.html#ac3a35b2a97656e23210cb5f6bcc0e5eb',1,'_PdfPoint::x()'],['../struct___pdf_dev_point.html#ad21f7fa54179220e39ee06e97f00e3c1',1,'_PdfDevPoint::x()']]]
 ];

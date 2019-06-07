@@ -11,6 +11,8 @@ var struct_pdfix =
     [ "Destroy", "struct_pdfix.html#a511cb1ecf1fdd4fd8bf49b0a79616e9a", null ],
     [ "GetError", "struct_pdfix.html#ae85d1fb5ee51b99de00e7858b97e9082", null ],
     [ "GetErrorType", "struct_pdfix.html#a1d5c0c288d36fcd67c0dd4fdd98ae992", null ],
+    [ "GetEvent", "struct_pdfix.html#a94114570cbf7975b75e5406daa29da9b", null ],
+    [ "GetPluginByName", "struct_pdfix.html#abdc79d0c23dcf5a111fdf4cafb193cf3", null ],
     [ "GetVersionMajor", "struct_pdfix.html#a6f566bbdf1eff5fcb1699cf20723872e", null ],
     [ "GetVersionMinor", "struct_pdfix.html#a394aa5c83d3bae1c74006b4788985c11", null ],
     [ "GetVersionPatch", "struct_pdfix.html#a0fb3c9f87aa5afbdadb6d9864c7801e2", null ],
@@ -20,7 +22,7 @@ var struct_pdfix =
     [ "OpenDoc", "struct_pdfix.html#a66f6c7e4950421b8fc595c4f66690fdb", null ],
     [ "OpenDocFromStream", "struct_pdfix.html#ae5cc39d2b65b6f302ea9777457909ba4", null ],
     [ "RegisterEvent", "struct_pdfix.html#a61777cb0e259c55d6b3f610b015006ae", null ],
+    [ "RegisterPlugin", "struct_pdfix.html#a7264cb584f041f976b62dd05e9062bed", null ],
     [ "SetError", "struct_pdfix.html#a3dfc06c427ee56918b90ea7866d1fd04", null ],
-    [ "SetRegex", "struct_pdfix.html#ac4caaa6eee87e391aa695c0840f7ba4e", null ],
     [ "UnregisterEvent", "struct_pdfix.html#af47d0c346196335677504c70e74a89b3", null ]
 ];

@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -116,16 +116,26 @@ $(document).ready(function(){initNavTree('struct_pds_dictionary.html','');});
 <p>This is the complete list of members for <a class="el" href="struct_pds_dictionary.html">PdsDictionary</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="struct_pds_dictionary.html#a2d8b648c8712cfe8dfc84c03bd7ac182">Get</a>(const wchar_t *key)=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pds_dictionary.html#af38fd10eb215298af8463094f6571386">GetKey</a>(int index, _out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_dictionary.html#a9cebb3d736406b834368c460e2139007">GetArray</a>(const wchar_t *key)=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_dictionary.html#a8bccbe43cb0a41d59585c1ec429e81a2">GetBoolean</a>(const wchar_t *key, bool default_value)=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_dictionary.html#a0ea942dcc26da8f58d86f8e792fd9ea0">GetDictionary</a>(const wchar_t *key)=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_object.html#a867610249a33d19f40ea2b4c0dfd4ed8">GetId</a>()=0</td><td class="entry"><a class="el" href="struct_pds_object.html">PdsObject</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_dictionary.html#a573849831221f12c6275dcfdfd9baac0">GetInteger</a>(const wchar_t *key, int default_value)=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_dictionary.html#af38fd10eb215298af8463094f6571386">GetKey</a>(int index, _out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_dictionary.html#a3bf5018131d0752598391e64830b94d7">GetNumber</a>(const wchar_t *key)=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_pds_dictionary.html#a45967ba419bdb3a0d5f155314c9c5028">GetNumKeys</a>()=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="struct_pds_object.html#a36bf68d87600e052fff1c82fd7cbe0de">GetObjectType</a>()=0</td><td class="entry"><a class="el" href="struct_pds_object.html">PdsObject</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_pds_dictionary.html#a531a2ccaa7862da3bf1e50f33101503d">Known</a>(const wchar_t *key)=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_dictionary.html#a7c90a0554106b96bb66fda9a815a55b6">GetStream</a>(const wchar_t *key)=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_dictionary.html#aea2c48b26ded599d1c57b71677b616df">GetString</a>(const wchar_t *key, _out_ char *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_dictionary.html#ad6213fded56f13142ce65ac6ce231563">GetText</a>(const wchar_t *key, _out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_dictionary.html#a531a2ccaa7862da3bf1e50f33101503d">Known</a>(const wchar_t *key)=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_dictionary.html#abdb7e0652b0fe9c70e1d10448fbf4661">Put</a>(const wchar_t *key, PdsObject *value)=0</td><td class="entry"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:15 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:44 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

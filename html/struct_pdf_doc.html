@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -136,9 +136,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a375456c4a7f5f8d3a40047792dad92fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a4399c11e91b254a7c8efbbb3f7c860"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pdf_page.html">PdfPage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a4a4399c11e91b254a7c8efbbb3f7c860">AcquirePage</a> (int page_num)=0</td></tr>
 <tr class="separator:a4a4399c11e91b254a7c8efbbb3f7c860"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa97d89333421746334bc731b91520718"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#aa97d89333421746334bc731b91520718">ReleasePage</a> (<a class="el" href="struct_pdf_page.html">PdfPage</a> *page)=0</td></tr>
-<tr class="memdesc:aa97d89333421746334bc731b91520718"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases page's resources.  <a href="#aa97d89333421746334bc731b91520718">More...</a><br /></td></tr>
-<tr class="separator:aa97d89333421746334bc731b91520718"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ca2f2c7d30455b6ca05308ee8b6e9e9"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a3ca2f2c7d30455b6ca05308ee8b6e9e9">GetNumDocumentJavaScripts</a> ()=0</td></tr>
 <tr class="memdesc:a3ca2f2c7d30455b6ca05308ee8b6e9e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of document JavaScript name/action pairs in the document JavaScript name tree.  <a href="#a3ca2f2c7d30455b6ca05308ee8b6e9e9">More...</a><br /></td></tr>
 <tr class="separator:a3ca2f2c7d30455b6ca05308ee8b6e9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,17 +163,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa937ca51f803ed09190889b10d7ace66"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#aa937ca51f803ed09190889b10d7ace66">GetInfo</a> (const wchar_t *key, _out_ wchar_t *buffer, int len)=0</td></tr>
 <tr class="memdesc:aa937ca51f803ed09190889b10d7ace66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the value of a key in a document's Info dictionary.  <a href="#aa937ca51f803ed09190889b10d7ace66">More...</a><br /></td></tr>
 <tr class="separator:aa937ca51f803ed09190889b10d7ace66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a185af15a251468a4de0ab48dc46437bc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a185af15a251468a4de0ab48dc46437bc">SetInfo</a> (const wchar_t *key, const wchar_t *buffer)=0</td></tr>
-<tr class="memdesc:a185af15a251468a4de0ab48dc46437bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of a key in a document's Info dictionary.  <a href="#a185af15a251468a4de0ab48dc46437bc">More...</a><br /></td></tr>
-<tr class="separator:a185af15a251468a4de0ab48dc46437bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eb6bda173fac409b4fff367b6794b64"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a1eb6bda173fac409b4fff367b6794b64">SetInfo</a> (const wchar_t *key, const wchar_t *info)=0</td></tr>
+<tr class="memdesc:a1eb6bda173fac409b4fff367b6794b64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of a key in a document's Info dictionary.  <a href="#a1eb6bda173fac409b4fff367b6794b64">More...</a><br /></td></tr>
+<tr class="separator:a1eb6bda173fac409b4fff367b6794b64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a974bdc41012b4f8cc9c86a9b848f25d7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pdf_bookmark.html">PdfBookmark</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a974bdc41012b4f8cc9c86a9b848f25d7">GetBookmarkRoot</a> ()=0</td></tr>
 <tr class="separator:a974bdc41012b4f8cc9c86a9b848f25d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bc9d537ab5a4e457cf9eab0fc90a160"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a3bc9d537ab5a4e457cf9eab0fc90a160">FlattenAnnots</a> (<a class="el" href="group___structures___p_d_fix___s_d_k.html#ga912ea0f6208db1396cbdd730737737b3">PdfFlattenAnnotsParams</a> *params)=0</td></tr>
 <tr class="separator:a3bc9d537ab5a4e457cf9eab0fc90a160"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3a9d17f3f7431eba3165859c55e14e6"><td class="memItemLeft" align="right" valign="top"><a id="ab3a9d17f3f7431eba3165859c55e14e6"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#ab3a9d17f3f7431eba3165859c55e14e6">RemoveStructTree</a> ()=0</td></tr>
-<tr class="memdesc:ab3a9d17f3f7431eba3165859c55e14e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes and destroy the StructTreeRoot element from the specified <a class="el" href="struct_pdf_doc.html" title="PdfDoc class. ">PdfDoc</a>. <br /></td></tr>
-<tr class="separator:ab3a9d17f3f7431eba3165859c55e14e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38bd471f266c8e1bb18678d767e51258"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a38bd471f266c8e1bb18678d767e51258">GetNumAlternates</a> ()=0</td></tr>
 <tr class="memdesc:a38bd471f266c8e1bb18678d767e51258"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of PDF alternate in the document.  <a href="#a38bd471f266c8e1bb18678d767e51258">More...</a><br /></td></tr>
 <tr class="separator:a38bd471f266c8e1bb18678d767e51258"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,8 +180,10 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memdesc:a8bd7e6413365113c736154ed46a22e62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new <a class="el" href="struct_pds_object.html" title="PdsObject class. ">PdsObject</a> associated with the specified document.  <a href="#a8bd7e6413365113c736154ed46a22e62">More...</a><br /></td></tr>
 <tr class="separator:a8bd7e6413365113c736154ed46a22e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affdcb49bf400abd918f8641f1ec4a9a6"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#affdcb49bf400abd918f8641f1ec4a9a6">AddTags</a> (_callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a> cancel_proc, void *cancel_data)=0</td></tr>
-<tr class="memdesc:affdcb49bf400abd918f8641f1ec4a9a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add tags into PdfDocument.  <a href="#affdcb49bf400abd918f8641f1ec4a9a6">More...</a><br /></td></tr>
+<tr class="memdesc:affdcb49bf400abd918f8641f1ec4a9a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add tags into document.  <a href="#affdcb49bf400abd918f8641f1ec4a9a6">More...</a><br /></td></tr>
 <tr class="separator:affdcb49bf400abd918f8641f1ec4a9a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4691ce3bcc86af3e255a05fdef21dae"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#aa4691ce3bcc86af3e255a05fdef21dae">RemoveTags</a> (_callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a> cancel_proc, void *cancel_data)=0</td></tr>
+<tr class="separator:aa4691ce3bcc86af3e255a05fdef21dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9e225e6c7b70e689b7ed38fea758bc6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pdf_doc_template.html">PdfDocTemplate</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#ae9e225e6c7b70e689b7ed38fea758bc6">GetDocTemplate</a> ()=0</td></tr>
 <tr class="memdesc:ae9e225e6c7b70e689b7ed38fea758bc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accesses document template.  <a href="#ae9e225e6c7b70e689b7ed38fea758bc6">More...</a><br /></td></tr>
 <tr class="separator:ae9e225e6c7b70e689b7ed38fea758bc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,24 +193,61 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memitem:a7996bab6277639a54161c20a322b6cb2"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a7996bab6277639a54161c20a322b6cb2">GetLang</a> (_out_ wchar_t *buffer, int len)=0</td></tr>
 <tr class="memdesc:a7996bab6277639a54161c20a322b6cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets documnent primary language.  <a href="#a7996bab6277639a54161c20a322b6cb2">More...</a><br /></td></tr>
 <tr class="separator:a7996bab6277639a54161c20a322b6cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a935351497faff8c9fa56ec2cf777ad35"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a935351497faff8c9fa56ec2cf777ad35">SetLang</a> (const wchar_t *buffer)=0</td></tr>
-<tr class="memdesc:a935351497faff8c9fa56ec2cf777ad35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets documnent primary language.  <a href="#a935351497faff8c9fa56ec2cf777ad35">More...</a><br /></td></tr>
-<tr class="separator:a935351497faff8c9fa56ec2cf777ad35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdcd6fdbc329ff270b625fad14cc99f0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#abdcd6fdbc329ff270b625fad14cc99f0">SetLang</a> (const wchar_t *lang)=0</td></tr>
+<tr class="memdesc:abdcd6fdbc329ff270b625fad14cc99f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets documnent primary language.  <a href="#abdcd6fdbc329ff270b625fad14cc99f0">More...</a><br /></td></tr>
+<tr class="separator:abdcd6fdbc329ff270b625fad14cc99f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86d8b1d8683dfc61177e0fe4835f9f9c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a86d8b1d8683dfc61177e0fe4835f9f9c">EmbedFonts</a> (bool subset, _callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a> cancel_proc, void *cancel_data)=0</td></tr>
 <tr class="memdesc:a86d8b1d8683dfc61177e0fe4835f9f9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Embeds or subsets fonts used in the document.  <a href="#a86d8b1d8683dfc61177e0fe4835f9f9c">More...</a><br /></td></tr>
 <tr class="separator:a86d8b1d8683dfc61177e0fe4835f9f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e8d9b9054ca4433ee95ec8366d1f6d7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a7e8d9b9054ca4433ee95ec8366d1f6d7">MakeAccessible</a> (<a class="el" href="group___structures___p_d_fix___s_d_k.html#ga536b231aaf8f0b2e6cae67667d7c3744">PdfAccessibleParams</a> *params, _callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a> cancel_proc, void *cancel_data)=0</td></tr>
 <tr class="memdesc:a7e8d9b9054ca4433ee95ec8366d1f6d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a PDF document accessible.  <a href="#a7e8d9b9054ca4433ee95ec8366d1f6d7">More...</a><br /></td></tr>
 <tr class="separator:a7e8d9b9054ca4433ee95ec8366d1f6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c6acd1932aa40dd721766d16f3ef79c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a2c6acd1932aa40dd721766d16f3ef79c">GetRootObject</a> ()=0</td></tr>
-<tr class="memdesc:a2c6acd1932aa40dd721766d16f3ef79c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the document catalog dictionary which is a Root entry.  <a href="#a2c6acd1932aa40dd721766d16f3ef79c">More...</a><br /></td></tr>
-<tr class="separator:a2c6acd1932aa40dd721766d16f3ef79c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1651902bce0902b4e0831219b3846239"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a1651902bce0902b4e0831219b3846239">GetInfoObject</a> ()=0</td></tr>
-<tr class="memdesc:a1651902bce0902b4e0831219b3846239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Info dictionary of the document.  <a href="#a1651902bce0902b4e0831219b3846239">More...</a><br /></td></tr>
-<tr class="separator:a1651902bce0902b4e0831219b3846239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6cce9dab0eed06d2a5d84e2fade237a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_dictionary.html">PdsDictionary</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#aa6cce9dab0eed06d2a5d84e2fade237a">GetRootObject</a> ()=0</td></tr>
+<tr class="memdesc:aa6cce9dab0eed06d2a5d84e2fade237a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the document catalog dictionary which is a Root entry.  <a href="#aa6cce9dab0eed06d2a5d84e2fade237a">More...</a><br /></td></tr>
+<tr class="separator:aa6cce9dab0eed06d2a5d84e2fade237a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27d82ce6a561e70cead54a105078fecf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_dictionary.html">PdsDictionary</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a27d82ce6a561e70cead54a105078fecf">GetInfoObject</a> ()=0</td></tr>
+<tr class="memdesc:a27d82ce6a561e70cead54a105078fecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Info dictionary of the document.  <a href="#a27d82ce6a561e70cead54a105078fecf">More...</a><br /></td></tr>
+<tr class="separator:a27d82ce6a561e70cead54a105078fecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a930ebbd89e8236ce320d861977025c56"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_dictionary.html">PdsDictionary</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a930ebbd89e8236ce320d861977025c56">CreateDictObject</a> (bool indirect)=0</td></tr>
+<tr class="memdesc:a930ebbd89e8236ce320d861977025c56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new <a class="el" href="struct_pds_dictionary.html" title="PdsDictionary class. ">PdsDictionary</a> object.  <a href="#a930ebbd89e8236ce320d861977025c56">More...</a><br /></td></tr>
+<tr class="separator:a930ebbd89e8236ce320d861977025c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8bd127fff82f77f83c6319bd0fc1922"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_array.html">PdsArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#aa8bd127fff82f77f83c6319bd0fc1922">CreateArrayObject</a> (bool indirect)=0</td></tr>
+<tr class="memdesc:aa8bd127fff82f77f83c6319bd0fc1922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new <a class="el" href="struct_pds_array.html" title="PdsArray class. ">PdsArray</a> object.  <a href="#aa8bd127fff82f77f83c6319bd0fc1922">More...</a><br /></td></tr>
+<tr class="separator:aa8bd127fff82f77f83c6319bd0fc1922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7916f82797afd078e30ebab2aa8aea27"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_name.html">PdsName</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a7916f82797afd078e30ebab2aa8aea27">CreateNameObject</a> (bool indirect, const wchar_t *value)=0</td></tr>
+<tr class="memdesc:a7916f82797afd078e30ebab2aa8aea27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new <a class="el" href="struct_pds_name.html" title="PdsName class. ">PdsName</a> object.  <a href="#a7916f82797afd078e30ebab2aa8aea27">More...</a><br /></td></tr>
+<tr class="separator:a7916f82797afd078e30ebab2aa8aea27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e32acb975af6403bb6cb998c378afcf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_string.html">PdsString</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a5e32acb975af6403bb6cb998c378afcf">CreateStringObject</a> (bool indirect, const wchar_t *value, bool hex)=0</td></tr>
+<tr class="memdesc:a5e32acb975af6403bb6cb998c378afcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new <a class="el" href="struct_pds_string.html" title="PdsString class. ">PdsString</a> object.  <a href="#a5e32acb975af6403bb6cb998c378afcf">More...</a><br /></td></tr>
+<tr class="separator:a5e32acb975af6403bb6cb998c378afcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc0ff380efd56f7d893697f009cb5b1f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_number.html">PdsNumber</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#acc0ff380efd56f7d893697f009cb5b1f">CreateIntObject</a> (bool indirect, int value)=0</td></tr>
+<tr class="memdesc:acc0ff380efd56f7d893697f009cb5b1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new <a class="el" href="struct_pds_number.html" title="PdsNumber class. ">PdsNumber</a> (integer) object.  <a href="#acc0ff380efd56f7d893697f009cb5b1f">More...</a><br /></td></tr>
+<tr class="separator:acc0ff380efd56f7d893697f009cb5b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5349dd7c6d43253fe330825ae589018"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_number.html">PdsNumber</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#ae5349dd7c6d43253fe330825ae589018">CreateNumberObject</a> (bool indirect, double value)=0</td></tr>
+<tr class="memdesc:ae5349dd7c6d43253fe330825ae589018"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new <a class="el" href="struct_pds_number.html" title="PdsNumber class. ">PdsNumber</a> (float) object.  <a href="#ae5349dd7c6d43253fe330825ae589018">More...</a><br /></td></tr>
+<tr class="separator:ae5349dd7c6d43253fe330825ae589018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35a58bc7cd2c5eb37cd5c75394a25e1f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_stream.html">PdsStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a35a58bc7cd2c5eb37cd5c75394a25e1f">CreateStreamObject</a> (bool indirect, <a class="el" href="struct_pds_dictionary.html">PdsDictionary</a> *dict, _in_ const uint8_t *buffer, int size)=0</td></tr>
+<tr class="memdesc:a35a58bc7cd2c5eb37cd5c75394a25e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create new <a class="el" href="struct_pds_stream.html" title="PdsStream class. ">PdsStream</a> object.  <a href="#a35a58bc7cd2c5eb37cd5c75394a25e1f">More...</a><br /></td></tr>
+<tr class="separator:a35a58bc7cd2c5eb37cd5c75394a25e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a937f3193ed6ceb6d711b78c98019204d"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a937f3193ed6ceb6d711b78c98019204d">GetObjectById</a> (int obj_id)=0</td></tr>
+<tr class="memdesc:a937f3193ed6ceb6d711b78c98019204d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the document object by number.  <a href="#a937f3193ed6ceb6d711b78c98019204d">More...</a><br /></td></tr>
+<tr class="separator:a937f3193ed6ceb6d711b78c98019204d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a501a8a63aa9983fb9b9f17e36b562e0f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a501a8a63aa9983fb9b9f17e36b562e0f">CreateStructTree</a> ()=0</td></tr>
+<tr class="separator:a501a8a63aa9983fb9b9f17e36b562e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27bf932e09e7275cc327a265f78cb465"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#a27bf932e09e7275cc327a265f78cb465">GetStructTree</a> ()=0</td></tr>
 <tr class="memdesc:a27bf932e09e7275cc327a265f78cb465"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Struct Tree root object of the document.  <a href="#a27bf932e09e7275cc327a265f78cb465">More...</a><br /></td></tr>
 <tr class="separator:a27bf932e09e7275cc327a265f78cb465"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3a9d17f3f7431eba3165859c55e14e6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#ab3a9d17f3f7431eba3165859c55e14e6">RemoveStructTree</a> ()=0</td></tr>
+<tr class="separator:ab3a9d17f3f7431eba3165859c55e14e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaab12b16a2704b9f3e7bff4f604dd840"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#aaab12b16a2704b9f3e7bff4f604dd840">RemoveBookmarks</a> ()=0</td></tr>
+<tr class="memdesc:aaab12b16a2704b9f3e7bff4f604dd840"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all bookmarks from the document.  <a href="#aaab12b16a2704b9f3e7bff4f604dd840">More...</a><br /></td></tr>
+<tr class="separator:aaab12b16a2704b9f3e7bff4f604dd840"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca5179e0f9247879e3fe0125d771d732"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#aca5179e0f9247879e3fe0125d771d732">CreateBookmarks</a> (_callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a> cancel_proc, void *cancel_data)=0</td></tr>
+<tr class="memdesc:aca5179e0f9247879e3fe0125d771d732"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create bookmark tree from the document's structure tree headings.  <a href="#aca5179e0f9247879e3fe0125d771d732">More...</a><br /></td></tr>
+<tr class="separator:aca5179e0f9247879e3fe0125d771d732"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af531aaf07b55199d528dc7af2f8e2d1c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_doc.html#af531aaf07b55199d528dc7af2f8e2d1c">AddFontMissingUnicode</a> (_callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a> cancel_proc, void *cancel_data)=0</td></tr>
+<tr class="memdesc:af531aaf07b55199d528dc7af2f8e2d1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Search used font's characters and add appropriate unicode character if not present.  <a href="#af531aaf07b55199d528dc7af2f8e2d1c">More...</a><br /></td></tr>
+<tr class="separator:af531aaf07b55199d528dc7af2f8e2d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pdf_doc.html" title="PdfDoc class. ">PdfDoc</a> class. </p>
@@ -278,7 +310,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Gets a <a class="el" href="struct_pdf_page.html" title="PdfPage class. ">PdfPage</a> from a document. The page is cached, so that subsequent calls on the same PDPage return The same <a class="el" href="struct_pdf_page.html" title="PdfPage class. ">PdfPage</a>. The page remains in the cache as long as document exists or ReleasePage was not called. NOTE: After you are done using the page, release it using ReleasePage to release resources. <br />
+<p>Gets a <a class="el" href="struct_pdf_page.html" title="PdfPage class. ">PdfPage</a> from a document. The page is cached, so that subsequent calls on the same PDPage return The same <a class="el" href="struct_pdf_page.html" title="PdfPage class. ">PdfPage</a> and increments the reference count. The page remains in the cache as long as document exists or <a class="el" href="struct_pdf_page.html#a3b715b3da8c51d04866ed714ab5742e8">PdfPage::Release</a> was not called. AcquirePage increments a page’s reference count. The page will not be released until the reference count is zero, or the application terminates. NOTE: After you are done using the page, release it using <a class="el" href="struct_pdf_page.html#a3b715b3da8c51d04866ed714ab5742e8">PdfPage::Release</a> to release resources. <br />
 </p>
 <p><br />
 </p><dl class="params"><dt>Parameters</dt><dd>
@@ -288,7 +320,54 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The requested page. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>PdfPage::ReleasePage </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_page.html#a3b715b3da8c51d04866ed714ab5742e8">PdfPage::Release</a> </dd></dl>
+
+</div>
+</div>
+<a id="af531aaf07b55199d528dc7af2f8e2d1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af531aaf07b55199d528dc7af2f8e2d1c">&#9670;&nbsp;</a></span>AddFontMissingUnicode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdfDoc::AddFontMissingUnicode </td>
+          <td>(</td>
+          <td class="paramtype">_callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a>&#160;</td>
+          <td class="paramname"><em>cancel_proc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>cancel_data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Search used font's characters and add appropriate unicode character if not present. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cancel_proc</td><td>Callback to check for canceling operations. A CancelProc is typically passed to some method that takes a long time to complete. At frequent intervals, the method calls the CancelProc. If it returns true, then the method cancels its operation; if false, it continues. </td></tr>
+    <tr><td class="paramname">cancel_data</td><td>Pointer to client data for the cancel procedure. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if successfull. false othervise </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_doc.html#a86d8b1d8683dfc61177e0fe4835f9f9c" title="Embeds or subsets fonts used in the document. ">PdfDoc::EmbedFonts</a> </dd></dl>
 
 </div>
 </div>
@@ -326,7 +405,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </table>
 </div><div class="memdoc">
 
-<p>Add tags into PdfDocument. </p>
+<p>Add tags into document. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">cancel_proc</td><td>Callback to check for canceling operations. A CancelProc is typically passed to some method that takes a long time to complete. At frequent intervals, the method calls the CancelProc. If it returns true, then the method cancels its operation; if false, it continues. </td></tr>
@@ -413,6 +492,261 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 
 </div>
 </div>
+<a id="aa8bd127fff82f77f83c6319bd0fc1922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8bd127fff82f77f83c6319bd0fc1922">&#9670;&nbsp;</a></span>CreateArrayObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_array.html">PdsArray</a>* PdfDoc::CreateArrayObject </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>indirect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create new <a class="el" href="struct_pds_array.html" title="PdsArray class. ">PdsArray</a> object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indirect</td><td>if true the method creates indorect object othervise a direct object. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>newly created <a class="el" href="struct_pds_array.html" title="PdsArray class. ">PdsArray</a> object. </dd></dl>
+
+</div>
+</div>
+<a id="aca5179e0f9247879e3fe0125d771d732"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca5179e0f9247879e3fe0125d771d732">&#9670;&nbsp;</a></span>CreateBookmarks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdfDoc::CreateBookmarks </td>
+          <td>(</td>
+          <td class="paramtype">_callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a>&#160;</td>
+          <td class="paramname"><em>cancel_proc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>cancel_data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create bookmark tree from the document's structure tree headings. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cancel_proc</td><td>Callback to check for canceling operations. A CancelProc is typically passed to some method that takes a long time to complete. At frequent intervals, the method calls the CancelProc. If it returns true, then the method cancels its operation; if false, it continues. </td></tr>
+    <tr><td class="paramname">cancel_data</td><td>Pointer to client data for the cancel procedure. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if successfull. false othervise </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_doc.html#aaab12b16a2704b9f3e7bff4f604dd840" title="Removes all bookmarks from the document. ">PdfDoc::RemoveBookmarks</a> </dd></dl>
+
+</div>
+</div>
+<a id="a930ebbd89e8236ce320d861977025c56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a930ebbd89e8236ce320d861977025c56">&#9670;&nbsp;</a></span>CreateDictObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_dictionary.html">PdsDictionary</a>* PdfDoc::CreateDictObject </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>indirect</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create new <a class="el" href="struct_pds_dictionary.html" title="PdsDictionary class. ">PdsDictionary</a> object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indirect</td><td>if true the method creates indorect object othervise a direct object. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>newly created <a class="el" href="struct_pds_dictionary.html" title="PdsDictionary class. ">PdsDictionary</a> object. </dd></dl>
+
+</div>
+</div>
+<a id="acc0ff380efd56f7d893697f009cb5b1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc0ff380efd56f7d893697f009cb5b1f">&#9670;&nbsp;</a></span>CreateIntObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_number.html">PdsNumber</a>* PdfDoc::CreateIntObject </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>indirect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create new <a class="el" href="struct_pds_number.html" title="PdsNumber class. ">PdsNumber</a> (integer) object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indirect</td><td>if true the method creates indorect object othervise a direct object. </td></tr>
+    <tr><td class="paramname">value</td><td>the value to be set to an object. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>newly created <a class="el" href="struct_pds_number.html" title="PdsNumber class. ">PdsNumber</a> object. </dd></dl>
+
+</div>
+</div>
+<a id="a7916f82797afd078e30ebab2aa8aea27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7916f82797afd078e30ebab2aa8aea27">&#9670;&nbsp;</a></span>CreateNameObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_name.html">PdsName</a>* PdfDoc::CreateNameObject </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>indirect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const wchar_t *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create new <a class="el" href="struct_pds_name.html" title="PdsName class. ">PdsName</a> object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indirect</td><td>if true the methods indorect object othervise a direct object. </td></tr>
+    <tr><td class="paramname">value</td><td>the value to be set to an object. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>newly created <a class="el" href="struct_pds_name.html" title="PdsName class. ">PdsName</a> object. </dd></dl>
+
+</div>
+</div>
+<a id="ae5349dd7c6d43253fe330825ae589018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5349dd7c6d43253fe330825ae589018">&#9670;&nbsp;</a></span>CreateNumberObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_number.html">PdsNumber</a>* PdfDoc::CreateNumberObject </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>indirect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create new <a class="el" href="struct_pds_number.html" title="PdsNumber class. ">PdsNumber</a> (float) object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indirect</td><td>if true the method creates indorect object othervise a direct object. </td></tr>
+    <tr><td class="paramname">value</td><td>the value to be set to an object. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>newly created <a class="el" href="struct_pds_number.html" title="PdsNumber class. ">PdsNumber</a> object. </dd></dl>
+
+</div>
+</div>
 <a id="a8bd7e6413365113c736154ed46a22e62"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8bd7e6413365113c736154ed46a22e62">&#9670;&nbsp;</a></span>CreatePdsObject()</h2>
 
@@ -456,6 +790,147 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The newly created object. </dd></dl>
+
+</div>
+</div>
+<a id="a35a58bc7cd2c5eb37cd5c75394a25e1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35a58bc7cd2c5eb37cd5c75394a25e1f">&#9670;&nbsp;</a></span>CreateStreamObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_stream.html">PdsStream</a>* PdfDoc::CreateStreamObject </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>indirect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_pds_dictionary.html">PdsDictionary</a> *&#160;</td>
+          <td class="paramname"><em>dict</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_in_ const uint8_t *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create new <a class="el" href="struct_pds_stream.html" title="PdsStream class. ">PdsStream</a> object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indirect</td><td>if true the method creates indorect object othervise a direct object. </td></tr>
+    <tr><td class="paramname">dict</td><td>the stream dictionary object. </td></tr>
+    <tr><td class="paramname">buffer</td><td>data to be set a a stream value. </td></tr>
+    <tr><td class="paramname">size</td><td>the size of the buffer in bytes. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>newly created <a class="el" href="struct_pds_stream.html" title="PdsStream class. ">PdsStream</a> object. </dd></dl>
+
+</div>
+</div>
+<a id="a5e32acb975af6403bb6cb998c378afcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e32acb975af6403bb6cb998c378afcf">&#9670;&nbsp;</a></span>CreateStringObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_string.html">PdsString</a>* PdfDoc::CreateStringObject </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>indirect</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const wchar_t *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>hex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create new <a class="el" href="struct_pds_string.html" title="PdsString class. ">PdsString</a> object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indirect</td><td>if true the method creates indorect object othervise a direct object. </td></tr>
+    <tr><td class="paramname">value</td><td>the value to be set to an object. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>newly created <a class="el" href="struct_pds_string.html" title="PdsString class. ">PdsString</a> object. </dd></dl>
+
+</div>
+</div>
+<a id="a501a8a63aa9983fb9b9f17e36b562e0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a501a8a63aa9983fb9b9f17e36b562e0f">&#9670;&nbsp;</a></span>CreateStructTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a>* PdfDoc::CreateStructTree </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Creates the Struct Tree root object of the document. If <a class="el" href="struct_pdf_doc.html" title="PdfDoc class. ">PdfDoc</a> already has a StructTree it returns the existing structure tree. <br />
+</p>
+<p><br />
+</p><dl class="section return"><dt>Returns</dt><dd><a class="el" href="struct_pds_struct_tree.html" title="PdsStructTree class. ">PdsStructTree</a> object that represents document struct tree root. </dd></dl>
 
 </div>
 </div>
@@ -509,6 +984,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the was embedded successfully </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_doc.html#af531aaf07b55199d528dc7af2f8e2d1c" title="Search used font&#39;s characters and add appropriate unicode character if not present. ">PdfDoc::AddFontMissingUnicode</a> </dd></dl>
 
 </div>
 </div>
@@ -690,7 +1166,7 @@ PdfDoc::GetNumFormFieldCounts </dd>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>The index of a JavaScript action name to retrieve </td></tr>
-    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
@@ -746,7 +1222,7 @@ PdfDoc::GetNumFormFieldCounts </dd>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>The index of a JavaScript action name to retrieve </td></tr>
-    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
@@ -870,7 +1346,7 @@ PdfDoc::GetNumFormFieldCounts </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">key</td><td>The name of the Info dictionary key whose value is obtained. </td></tr>
-    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
@@ -879,8 +1355,8 @@ PdfDoc::GetNumFormFieldCounts </dd></dl>
 
 </div>
 </div>
-<a id="a1651902bce0902b4e0831219b3846239"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1651902bce0902b4e0831219b3846239">&#9670;&nbsp;</a></span>GetInfoObject()</h2>
+<a id="a27d82ce6a561e70cead54a105078fecf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27d82ce6a561e70cead54a105078fecf">&#9670;&nbsp;</a></span>GetInfoObject()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -889,7 +1365,7 @@ PdfDoc::GetNumFormFieldCounts </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="struct_pds_object.html">PdsObject</a>* PdfDoc::GetInfoObject </td>
+          <td class="memname">virtual <a class="el" href="struct_pds_dictionary.html">PdsDictionary</a>* PdfDoc::GetInfoObject </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -944,13 +1420,13 @@ PdfDoc::GetNumFormFieldCounts </dd></dl>
 <p>Gets documnent primary language. </p>
 <p>A language identifier that shall specify the natural language for all text in the document except where overridden by language specifications for structure elements or marked content. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of the buffer. </td></tr>
-    <tr><td class="paramname">len</td><td>Length of the buffer to be filled in. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
+    <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Number of characters written into the buffer of required length. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_doc.html#a935351497faff8c9fa56ec2cf777ad35" title="Sets documnent primary language. ">PdfDoc::SetLang</a> </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of characters written into buffer of required length. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_doc.html#abdcd6fdbc329ff270b625fad14cc99f0" title="Sets documnent primary language. ">PdfDoc::SetLang</a> </dd></dl>
 
 </div>
 </div>
@@ -1135,8 +1611,8 @@ PdfDoc::GetNumFormFieldCounts </dd>
 
 </div>
 </div>
-<a id="a2c6acd1932aa40dd721766d16f3ef79c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c6acd1932aa40dd721766d16f3ef79c">&#9670;&nbsp;</a></span>GetRootObject()</h2>
+<a id="a937f3193ed6ceb6d711b78c98019204d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a937f3193ed6ceb6d711b78c98019204d">&#9670;&nbsp;</a></span>GetObjectById()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1145,7 +1621,42 @@ PdfDoc::GetNumFormFieldCounts </dd>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="struct_pds_object.html">PdsObject</a>* PdfDoc::GetRootObject </td>
+          <td class="memname">virtual <a class="el" href="struct_pds_object.html">PdsObject</a>* PdfDoc::GetObjectById </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>obj_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the document object by number. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">obj_id</td><td>The number of the object to retrieve </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Corresponding object or null if no such object exists in the document </dd></dl>
+
+</div>
+</div>
+<a id="aa6cce9dab0eed06d2a5d84e2fade237a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6cce9dab0eed06d2a5d84e2fade237a">&#9670;&nbsp;</a></span>GetRootObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_dictionary.html">PdsDictionary</a>* PdfDoc::GetRootObject </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1244,8 +1755,8 @@ PdfDoc::GetNumFormFieldCounts </dd>
 
 </div>
 </div>
-<a id="aa97d89333421746334bc731b91520718"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa97d89333421746334bc731b91520718">&#9670;&nbsp;</a></span>ReleasePage()</h2>
+<a id="aaab12b16a2704b9f3e7bff4f604dd840"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaab12b16a2704b9f3e7bff4f604dd840">&#9670;&nbsp;</a></span>RemoveBookmarks()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1254,10 +1765,9 @@ PdfDoc::GetNumFormFieldCounts </dd>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool PdfDoc::ReleasePage </td>
+          <td class="memname">virtual void PdfDoc::RemoveBookmarks </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_pdf_page.html">PdfPage</a> *&#160;</td>
-          <td class="paramname"><em>page</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1268,15 +1778,83 @@ PdfDoc::GetNumFormFieldCounts </dd>
 </table>
 </div><div class="memdoc">
 
-<p>Releases page's resources. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Removes all bookmarks from the document. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_doc.html#aca5179e0f9247879e3fe0125d771d732" title="Create bookmark tree from the document&#39;s structure tree headings. ">PdfDoc::CreateBookmarks</a> </dd></dl>
+
+</div>
+</div>
+<a id="ab3a9d17f3f7431eba3165859c55e14e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3a9d17f3f7431eba3165859c55e14e6">&#9670;&nbsp;</a></span>RemoveStructTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PdfDoc::RemoveStructTree </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Removes and destroy the StructTreeRoot element from the specified <a class="el" href="struct_pdf_doc.html" title="PdfDoc class. ">PdfDoc</a>. This methods doesn't remove marked-content from pages. To do that each page needs to be acquired with CPdfDoc::AcquirePage and marked-content needs to be removed. To be sure that all structural elements were removed, rather call <a class="el" href="struct_pdf_doc.html#aa4691ce3bcc86af3e255a05fdef21dae">PdfDoc::RemoveTags</a>. <br />
+</p>
+<p><br />
+</p><dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_doc.html#aa4691ce3bcc86af3e255a05fdef21dae">PdfDoc::RemoveTags</a> </dd></dl>
+
+</div>
+</div>
+<a id="aa4691ce3bcc86af3e255a05fdef21dae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4691ce3bcc86af3e255a05fdef21dae">&#9670;&nbsp;</a></span>RemoveTags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdfDoc::RemoveTags </td>
+          <td>(</td>
+          <td class="paramtype">_callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a>&#160;</td>
+          <td class="paramname"><em>cancel_proc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>cancel_data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Remove tags and all structural elements from the document. This method is internally called in CPdfDoc::AddTags method to be sure that all previous tags were removed. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">page</td><td>The page to release. </td></tr>
+    <tr><td class="paramname">cancel_proc</td><td>Callback to check for canceling operations. A CancelProc is typically passed to some method that takes a long time to complete. At frequent intervals, the method calls the CancelProc. If it returns true, then the method cancels its operation; if false, it continues. </td></tr>
+    <tr><td class="paramname">cancel_data</td><td>Pointer to client data for the cancel procedure. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true if page was released, false otherwise. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>PdfPage::AcquirePage </dd></dl>
 
 </div>
 </div>
@@ -1376,8 +1954,8 @@ PdfDoc::GetNumFormFieldCounts </dd>
 
 </div>
 </div>
-<a id="a185af15a251468a4de0ab48dc46437bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a185af15a251468a4de0ab48dc46437bc">&#9670;&nbsp;</a></span>SetInfo()</h2>
+<a id="a1eb6bda173fac409b4fff367b6794b64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eb6bda173fac409b4fff367b6794b64">&#9670;&nbsp;</a></span>SetInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1395,7 +1973,7 @@ PdfDoc::GetNumFormFieldCounts </dd>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const wchar_t *&#160;</td>
-          <td class="paramname"><em>buffer</em>&#160;</td>
+          <td class="paramname"><em>info</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1422,8 +2000,8 @@ PdfDoc::GetNumFormFieldCounts </dd>
 
 </div>
 </div>
-<a id="a935351497faff8c9fa56ec2cf777ad35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a935351497faff8c9fa56ec2cf777ad35">&#9670;&nbsp;</a></span>SetLang()</h2>
+<a id="abdcd6fdbc329ff270b625fad14cc99f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdcd6fdbc329ff270b625fad14cc99f0">&#9670;&nbsp;</a></span>SetLang()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1435,7 +2013,7 @@ PdfDoc::GetNumFormFieldCounts </dd>
           <td class="memname">virtual bool PdfDoc::SetLang </td>
           <td>(</td>
           <td class="paramtype">const wchar_t *&#160;</td>
-          <td class="paramname"><em>buffer</em></td><td>)</td>
+          <td class="paramname"><em>lang</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1464,7 +2042,7 @@ PdfDoc::GetNumFormFieldCounts </dd>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pdf_doc.html">PdfDoc</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:14 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:43 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

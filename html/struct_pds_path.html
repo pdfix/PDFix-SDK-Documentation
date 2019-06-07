@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -135,6 +135,19 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:a7181b7c9b13f002cb748c684e75d98a6 inherit pub_methods_struct_pds_page_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb7e149f1aa27f890f584f9113d572fb inherit pub_methods_struct_pds_page_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_page_object.html#acb7e149f1aa27f890f584f9113d572fb">GetBBox</a> (_out_ <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *bbox)=0</td></tr>
 <tr class="separator:acb7e149f1aa27f890f584f9113d572fb inherit pub_methods_struct_pds_page_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af21450a12367323025232ed2f5e166bd inherit pub_methods_struct_pds_page_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_page_object.html#af21450a12367323025232ed2f5e166bd">GetId</a> ()=0</td></tr>
+<tr class="memdesc:af21450a12367323025232ed2f5e166bd inherit pub_methods_struct_pds_page_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the ordinal number of a page object.  <a href="struct_pds_page_object.html#af21450a12367323025232ed2f5e166bd">More...</a><br /></td></tr>
+<tr class="separator:af21450a12367323025232ed2f5e166bd inherit pub_methods_struct_pds_page_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbc08040c46d2579f299cf0f5e6c156f inherit pub_methods_struct_pds_page_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_page_object.html#abbc08040c46d2579f299cf0f5e6c156f">SetRender</a> (bool render)=0</td></tr>
+<tr class="memdesc:abbc08040c46d2579f299cf0f5e6c156f inherit pub_methods_struct_pds_page_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set page object element to draw or not while rendering page content.  <a href="struct_pds_page_object.html#abbc08040c46d2579f299cf0f5e6c156f">More...</a><br /></td></tr>
+<tr class="separator:abbc08040c46d2579f299cf0f5e6c156f inherit pub_methods_struct_pds_page_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6724054d431e317b273c84e98e002c7b inherit pub_methods_struct_pds_page_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_page_object.html#a6724054d431e317b273c84e98e002c7b">GetStructObject</a> (bool struct_parent)=0</td></tr>
+<tr class="separator:a6724054d431e317b273c84e98e002c7b inherit pub_methods_struct_pds_page_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedba1cfab4e74f985c46c3127a21ad42 inherit pub_methods_struct_pds_page_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_content_mark.html">PdsContentMark</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_page_object.html#aedba1cfab4e74f985c46c3127a21ad42">GetContentMark</a> ()=0</td></tr>
+<tr class="separator:aedba1cfab4e74f985c46c3127a21ad42 inherit pub_methods_struct_pds_page_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af42d527c5523f011e6d2ef549aba1884 inherit pub_methods_struct_pds_page_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pdf_page.html">PdfPage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_page_object.html#af42d527c5523f011e6d2ef549aba1884">GetPage</a> ()=0</td></tr>
+<tr class="memdesc:af42d527c5523f011e6d2ef549aba1884 inherit pub_methods_struct_pds_page_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a reference to the page on which the object is present.  <a href="struct_pds_page_object.html#af42d527c5523f011e6d2ef549aba1884">More...</a><br /></td></tr>
+<tr class="separator:af42d527c5523f011e6d2ef549aba1884 inherit pub_methods_struct_pds_page_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pds_path.html" title="PdsPath class. ">PdsPath</a> class. </p>
@@ -145,7 +158,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pds_path.html">PdsPath</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:15 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:44 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

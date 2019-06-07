@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -109,9 +109,10 @@ $(document).ready(function(){initNavTree('struct_pds_form.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="struct_pds_form-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PdsForm Struct Reference<div class="ingroups"><a class="el" href="group___pds___p_d_fix___s_d_k.html">Pds Layer</a></div></div>  </div>
+<div class="title">PdsForm Struct Reference<span class="mlabels"><span class="mlabel">abstract</span></span><div class="ingroups"><a class="el" href="group___pds___p_d_fix___s_d_k.html">Pds Layer</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -127,25 +128,108 @@ Inheritance diagram for PdsForm:</div>
 </map>
  </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aeefc03c204b20cb3557f84da8ed16f3a"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_form.html#aeefc03c204b20cb3557f84da8ed16f3a">GetNumPageObjects</a> ()=0</td></tr>
+<tr class="memdesc:aeefc03c204b20cb3557f84da8ed16f3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of page objects.  <a href="#aeefc03c204b20cb3557f84da8ed16f3a">More...</a><br /></td></tr>
+<tr class="separator:aeefc03c204b20cb3557f84da8ed16f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30386d32a70848ce7828e7fdcd71e3c9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_page_object.html">PdsPageObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_form.html#a30386d32a70848ce7828e7fdcd71e3c9">GetPageObject</a> (int index)=0</td></tr>
+<tr class="separator:a30386d32a70848ce7828e7fdcd71e3c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_struct_pds_page_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_struct_pds_page_object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="struct_pds_page_object.html">PdsPageObject</a></td></tr>
 <tr class="memitem:a7181b7c9b13f002cb748c684e75d98a6 inherit pub_methods_struct_pds_page_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga2306b15dba32cdf89aad65de6103eb28">PdfPageObjectType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_page_object.html#a7181b7c9b13f002cb748c684e75d98a6">GetObjectType</a> ()=0</td></tr>
 <tr class="memdesc:a7181b7c9b13f002cb748c684e75d98a6 inherit pub_methods_struct_pds_page_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the type of an object.  <a href="struct_pds_page_object.html#a7181b7c9b13f002cb748c684e75d98a6">More...</a><br /></td></tr>
 <tr class="separator:a7181b7c9b13f002cb748c684e75d98a6 inherit pub_methods_struct_pds_page_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb7e149f1aa27f890f584f9113d572fb inherit pub_methods_struct_pds_page_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_page_object.html#acb7e149f1aa27f890f584f9113d572fb">GetBBox</a> (_out_ <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *bbox)=0</td></tr>
 <tr class="separator:acb7e149f1aa27f890f584f9113d572fb inherit pub_methods_struct_pds_page_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af21450a12367323025232ed2f5e166bd inherit pub_methods_struct_pds_page_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_page_object.html#af21450a12367323025232ed2f5e166bd">GetId</a> ()=0</td></tr>
+<tr class="memdesc:af21450a12367323025232ed2f5e166bd inherit pub_methods_struct_pds_page_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the ordinal number of a page object.  <a href="struct_pds_page_object.html#af21450a12367323025232ed2f5e166bd">More...</a><br /></td></tr>
+<tr class="separator:af21450a12367323025232ed2f5e166bd inherit pub_methods_struct_pds_page_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbc08040c46d2579f299cf0f5e6c156f inherit pub_methods_struct_pds_page_object"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_page_object.html#abbc08040c46d2579f299cf0f5e6c156f">SetRender</a> (bool render)=0</td></tr>
+<tr class="memdesc:abbc08040c46d2579f299cf0f5e6c156f inherit pub_methods_struct_pds_page_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set page object element to draw or not while rendering page content.  <a href="struct_pds_page_object.html#abbc08040c46d2579f299cf0f5e6c156f">More...</a><br /></td></tr>
+<tr class="separator:abbc08040c46d2579f299cf0f5e6c156f inherit pub_methods_struct_pds_page_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6724054d431e317b273c84e98e002c7b inherit pub_methods_struct_pds_page_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_page_object.html#a6724054d431e317b273c84e98e002c7b">GetStructObject</a> (bool struct_parent)=0</td></tr>
+<tr class="separator:a6724054d431e317b273c84e98e002c7b inherit pub_methods_struct_pds_page_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedba1cfab4e74f985c46c3127a21ad42 inherit pub_methods_struct_pds_page_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_content_mark.html">PdsContentMark</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_page_object.html#aedba1cfab4e74f985c46c3127a21ad42">GetContentMark</a> ()=0</td></tr>
+<tr class="separator:aedba1cfab4e74f985c46c3127a21ad42 inherit pub_methods_struct_pds_page_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af42d527c5523f011e6d2ef549aba1884 inherit pub_methods_struct_pds_page_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pdf_page.html">PdfPage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_page_object.html#af42d527c5523f011e6d2ef549aba1884">GetPage</a> ()=0</td></tr>
+<tr class="memdesc:af42d527c5523f011e6d2ef549aba1884 inherit pub_methods_struct_pds_page_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a reference to the page on which the object is present.  <a href="struct_pds_page_object.html#af42d527c5523f011e6d2ef549aba1884">More...</a><br /></td></tr>
+<tr class="separator:af42d527c5523f011e6d2ef549aba1884 inherit pub_methods_struct_pds_page_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pds_form.html" title="PdsForm class. ">PdsForm</a> class. </p>
 <p>A <a class="el" href="struct_pds_form.html" title="PdsForm class. ">PdsForm</a> is a form object in a PDF page content. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aeefc03c204b20cb3557f84da8ed16f3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeefc03c204b20cb3557f84da8ed16f3a">&#9670;&nbsp;</a></span>GetNumPageObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdsForm::GetNumPageObjects </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the number of page objects. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of page objects in the form content. </dd></dl>
+
+</div>
+</div>
+<a id="a30386d32a70848ce7828e7fdcd71e3c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30386d32a70848ce7828e7fdcd71e3c9">&#9670;&nbsp;</a></span>GetPageObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_page_object.html">PdsPageObject</a>* PdsForm::GetPageObject </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the requested page object from a form content. NOTE: This method does not copy the page object. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>Index of page object to obtain. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The requested page objects. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pds_form.html">PdsForm</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:15 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:44 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

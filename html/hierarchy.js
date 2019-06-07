@@ -1,6 +1,5 @@
 var hierarchy =
 [
-    [ "_OcrTesseractParams", "struct___ocr_tesseract_params.html", null ],
     [ "_PdfAccessibleParams", "struct___pdf_accessible_params.html", null ],
     [ "_PdfAnnotAppearance", "struct___pdf_annot_appearance.html", null ],
     [ "_PdfBookmarkAppearance", "struct___pdf_bookmark_appearance.html", null ],
@@ -8,7 +7,6 @@ var hierarchy =
     [ "_PdfDevPoint", "struct___pdf_dev_point.html", null ],
     [ "_PdfDevQuad", "struct___pdf_dev_quad.html", null ],
     [ "_PdfDevRect", "struct___pdf_dev_rect.html", null ],
-    [ "_PdfEventParams", "struct___pdf_event_params.html", null ],
     [ "_PdfFlattenAnnotsParams", "struct___pdf_flatten_annots_params.html", null ],
     [ "_PdfFontState", "struct___pdf_font_state.html", null ],
     [ "_PdfGraphicState", "struct___pdf_graphic_state.html", null ],
@@ -44,6 +42,7 @@ var hierarchy =
     [ "net.pdfix.samples.Initialization", "classnet_1_1pdfix_1_1samples_1_1_initialization.html", null ],
     [ "net.pdfix.samples.MakeAccessible", "classnet_1_1pdfix_1_1samples_1_1_make_accessible.html", null ],
     [ "net.pdfix.samples.OcrWithTesseract", "classnet_1_1pdfix_1_1samples_1_1_ocr_with_tesseract.html", null ],
+    [ "net.pdfix.samples.ParsePdsObjects", "classnet_1_1pdfix_1_1samples_1_1_parse_pds_objects.html", null ],
     [ "PdeElement", "struct_pde_element.html", [
       [ "PdeAnnot", "struct_pde_annot.html", [
         [ "PdeFormField", "struct_pde_form_field.html", null ]
@@ -54,13 +53,13 @@ var hierarchy =
         [ "PdeHeader", "struct_pde_header.html", null ],
         [ "PdeImage", "struct_pde_image.html", null ],
         [ "PdeRect", "struct_pde_rect.html", null ],
-        [ "PdeTable", "struct_pde_table.html", null ]
+        [ "PdeTable", "struct_pde_table.html", null ],
+        [ "PdeToc", "struct_pde_toc.html", null ]
       ] ],
       [ "PdeLine", "struct_pde_line.html", null ],
       [ "PdeList", "struct_pde_list.html", null ],
       [ "PdeText", "struct_pde_text.html", null ],
       [ "PdeTextLine", "struct_pde_text_line.html", null ],
-      [ "PdeToc", "struct_pde_toc.html", null ],
       [ "PdeWord", "struct_pde_word.html", null ]
     ] ],
     [ "PdePageMap", "struct_pde_page_map.html", null ],
@@ -94,6 +93,7 @@ var hierarchy =
     [ "PdfPage", "struct_pdf_page.html", null ],
     [ "PdfPageView", "struct_pdf_page_view.html", null ],
     [ "PdsClassMap", "struct_pds_class_map.html", null ],
+    [ "PdsContentMark", "struct_pds_content_mark.html", null ],
     [ "PdsObject", "struct_pds_object.html", [
       [ "PdsArray", "struct_pds_array.html", null ],
       [ "PdsBoolean", "struct_pds_boolean.html", null ],
@@ -101,7 +101,6 @@ var hierarchy =
       [ "PdsName", "struct_pds_name.html", null ],
       [ "PdsNull", "struct_pds_null.html", null ],
       [ "PdsNumber", "struct_pds_number.html", null ],
-      [ "PdsReference", "struct_pds_reference.html", null ],
       [ "PdsStream", "struct_pds_stream.html", null ],
       [ "PdsString", "struct_pds_string.html", null ]
     ] ],
@@ -115,6 +114,7 @@ var hierarchy =
     [ "PdsRoleMap", "struct_pds_role_map.html", null ],
     [ "PdsStructElement", "struct_pds_struct_element.html", null ],
     [ "PdsStructTree", "struct_pds_struct_tree.html", null ],
+    [ "PsEvent", "struct_ps_event.html", null ],
     [ "PsImage", "struct_ps_image.html", null ],
     [ "PsMetadata", "struct_ps_metadata.html", null ],
     [ "PsRegex", "struct_ps_regex.html", null ],
@@ -128,5 +128,15 @@ var hierarchy =
     [ "net.pdfix.samples.RenderPage", "classnet_1_1pdfix_1_1samples_1_1_render_page.html", null ],
     [ "net.pdfix.samples.SetFieldFlags", "classnet_1_1pdfix_1_1samples_1_1_set_field_flags.html", null ],
     [ "net.pdfix.samples.SetFormFieldValue", "classnet_1_1pdfix_1_1samples_1_1_set_form_field_value.html", null ],
-    [ "TesseractDoc", "struct_tesseract_doc.html", null ]
+    [ "net.pdfix.samples.TagAnnotation", "classnet_1_1pdfix_1_1samples_1_1_tag_annotation.html", null ],
+    [ "net.pdfix.samples.TagAsArtifact", "classnet_1_1pdfix_1_1samples_1_1_tag_as_artifact.html", null ],
+    [ "net.pdfix.samples.TagsEditStructTree", "classnet_1_1pdfix_1_1samples_1_1_tags_edit_struct_tree.html", null ],
+    [ "net.pdfix.samples.TagsReadingOrder", "classnet_1_1pdfix_1_1samples_1_1_tags_reading_order.html", null ],
+    [ "net.pdfix.samples.TagsReadStructureTree", "classnet_1_1pdfix_1_1samples_1_1_tags_read_structure_tree.html", null ],
+    [ "net.pdfix.samples.TagTableAsFigure", "classnet_1_1pdfix_1_1samples_1_1_tag_table_as_figure.html", null ],
+    [ "TesseractDoc", "struct_tesseract_doc.html", null ],
+    [ "net.pdfix.samples.ThreadSafePdfix", "classnet_1_1pdfix_1_1samples_1_1_thread_safe_pdfix.html", null ],
+    [ "PdfEventProc", null, [
+      [ "net.pdfix.samples.DocDidOpenCallback", "classnet_1_1pdfix_1_1samples_1_1_doc_did_open_callback.html", null ]
+    ] ]
 ];

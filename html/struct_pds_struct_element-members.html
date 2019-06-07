@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -115,12 +115,16 @@ $(document).ready(function(){initNavTree('struct_pds_struct_element.html','');})
 
 <p>This is the complete list of members for <a class="el" href="struct_pds_struct_element.html">PdsStructElement</a>, including all inherited members.</p>
 <table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_element.html#aef9ce9d97ffba3cc8876837832865a14">AddAnnot</a>(PdfAnnot *annot, int index)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_struct_element.html#a1d2007ec5a663805b284984f19250ab3">AddAttrObj</a>(PdsObject *object)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_element.html#a0e6dcd838d3f420321dcd48cf60c18ad">AddPageObject</a>(PdsPageObject *object, int index)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_struct_element.html#a5c57a14f435ce4d2888d9ed25e6db094">CreateStructElement</a>(const wchar_t *type, PdsStructElement *parent, int index)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_element.html#af13ab18c43e745ed9a89ce2c2ba7820b">GetAbbreviation</a>(_out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="struct_pds_struct_element.html#aeb0451111805645fe2d67999d14dfd5d">GetActualText</a>(_out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_element.html#af4d2a55e24891b7d5998c927cc35487d">GetAlt</a>(_out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="struct_pds_struct_element.html#a6053d34afe981c65dfcc59d0967b373e">GetAttrObject</a>(int index)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_element.html#ad297525b5e8e45f9f38206154359cad5">GetElementObject</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pds_struct_element.html#ab3fc46c644afcb48dd20a6e53f24928c">GetID</a>(_out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_struct_element.html#afa13e8c18b46b3213d51a68a1d86fcd1">GetId</a>(_out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_element.html#a8f489680d4320a7c9cfeeb67b0fb2818">GetKidMcid</a>(int index)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="struct_pds_struct_element.html#a8e344761a73253316a13c9428874cebb">GetKidObject</a>(int index)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_element.html#a32e2bc56b0aeb17e5953e9f65c42af99">GetKidPageNumber</a>(int index)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
@@ -129,14 +133,21 @@ $(document).ready(function(){initNavTree('struct_pds_struct_element.html','');})
   <tr><td class="entry"><a class="el" href="struct_pds_struct_element.html#a1f4fec1b7b346560ac2f43c2e31a4f43">GetNumKids</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_element.html#a8715580b1335a7bb17036fbd322e843b">GetPageNumber</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="struct_pds_struct_element.html#a66be592641c0e215062a8440674a94fb">GetParentObject</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_element.html#a5322ebef89de32af615303bf20ace4b3">GetTitle</a>(_out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pds_struct_element.html#ac0cceb84b5c78035a3ebe9d23f401bdc">GetType</a>(_out_ wchar_t *text, int len)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_element.html#a68f6cb33f426172eff5350366af15273">GetStructTree</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_struct_element.html#a5322ebef89de32af615303bf20ace4b3">GetTitle</a>(_out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_element.html#a8f7254e7f70194a75ffd597118a0c55b">GetType</a>(bool mapped, _out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_struct_element.html#a5632e9457b317bd75a98ffbcabdb26d4">Release</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_element.html#a7f4b698bf21d6c76c6ae145e6f97f79b">RemoveAttrObj</a>()=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_struct_element.html#a0ff3a94931da1dd59dd3e7df7037721e">RemoveKid</a>(int index)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_element.html#a728755a78f12ddec0a88890f44137867">SetAlt</a>(const wchar_t *alt)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pds_struct_element.html#a685af9922b2b3aa3a75ee0847d1f5255">SetParent</a>(PdsStructElement *parent, int index)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pds_struct_element.html#a716613e93fba0db0f5efe7285efb396c">SetType</a>(const wchar_t *type)=0</td><td class="entry"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:15 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:45 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -124,14 +124,21 @@ Inheritance diagram for PdeElement:</div>
  <div class="center">
   <img src="struct_pde_element.png" usemap="#PdeElement_map" alt=""/>
   <map id="PdeElement_map" name="PdeElement_map">
-<area href="struct_pde_annot.html" title="PdeAnnot class. " alt="PdeAnnot" shape="rect" coords="99,56,188,80"/>
-<area href="struct_pde_container.html" title="PdeContainer class. " alt="PdeContainer" shape="rect" coords="99,112,188,136"/>
-<area href="struct_pde_line.html" title="PdeLine class. " alt="PdeLine" shape="rect" coords="99,168,188,192"/>
-<area href="struct_pde_list.html" title="PdeList class. " alt="PdeList" shape="rect" coords="99,224,188,248"/>
-<area href="struct_pde_text.html" title="PdeText class. " alt="PdeText" shape="rect" coords="99,280,188,304"/>
-<area href="struct_pde_text_line.html" title="PdeTextLine class. " alt="PdeTextLine" shape="rect" coords="99,336,188,360"/>
-<area href="struct_pde_toc.html" title="PdeToc class. " alt="PdeToc" shape="rect" coords="99,392,188,416"/>
-<area href="struct_pde_word.html" title="PdeWord class. " alt="PdeWord" shape="rect" coords="99,448,188,472"/>
+<area href="struct_pde_annot.html" title="PdeAnnot class. " alt="PdeAnnot" shape="rect" coords="0,56,91,80"/>
+<area href="struct_pde_container.html" title="PdeContainer class. " alt="PdeContainer" shape="rect" coords="101,56,192,80"/>
+<area href="struct_pde_line.html" title="PdeLine class. " alt="PdeLine" shape="rect" coords="202,56,293,80"/>
+<area href="struct_pde_list.html" title="PdeList class. " alt="PdeList" shape="rect" coords="303,56,394,80"/>
+<area href="struct_pde_text.html" title="PdeText class. " alt="PdeText" shape="rect" coords="404,56,495,80"/>
+<area href="struct_pde_text_line.html" title="PdeTextLine class. " alt="PdeTextLine" shape="rect" coords="505,56,596,80"/>
+<area href="struct_pde_word.html" title="PdeWord class. " alt="PdeWord" shape="rect" coords="606,56,697,80"/>
+<area href="struct_pde_form_field.html" title="PdeFormField class. " alt="PdeFormField" shape="rect" coords="0,112,91,136"/>
+<area href="struct_pde_cell.html" title="PdeCell class. " alt="PdeCell" shape="rect" coords="202,112,293,136"/>
+<area href="struct_pde_footer.html" title="PdeFooter class. " alt="PdeFooter" shape="rect" coords="202,168,293,192"/>
+<area href="struct_pde_header.html" title="PdeHeader class. " alt="PdeHeader" shape="rect" coords="202,224,293,248"/>
+<area href="struct_pde_image.html" title="PdeImage class. " alt="PdeImage" shape="rect" coords="202,280,293,304"/>
+<area href="struct_pde_rect.html" title="PdeRect class. " alt="PdeRect" shape="rect" coords="202,336,293,360"/>
+<area href="struct_pde_table.html" title="PdeTable class. " alt="PdeTable" shape="rect" coords="202,392,293,416"/>
+<area href="struct_pde_toc.html" title="PdeToc class. " alt="PdeToc" shape="rect" coords="202,448,293,472"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -142,6 +149,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa60261d785404f1da583ed3b50fe4c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecc3441eb670eeb0c059374d8cb3421b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#aecc3441eb670eeb0c059374d8cb3421b">GetBBox</a> (_out_ <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *bbox)=0</td></tr>
 <tr class="separator:aecc3441eb670eeb0c059374d8cb3421b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ad42234f6186c334c2a20abe62123e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#af3ad42234f6186c334c2a20abe62123e">SetBBox</a> (const <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *bbox)=0</td></tr>
+<tr class="separator:af3ad42234f6186c334c2a20abe62123e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33d921be337f11d47ca260d5b7577c54"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a33d921be337f11d47ca260d5b7577c54">GetId</a> ()=0</td></tr>
 <tr class="memdesc:a33d921be337f11d47ca260d5b7577c54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the id of an element. The id is unique number on a page.  <a href="#a33d921be337f11d47ca260d5b7577c54">More...</a><br /></td></tr>
 <tr class="separator:a33d921be337f11d47ca260d5b7577c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,9 +169,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a106b1abb8d75a8da78eca4e34cd0a5a0"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a106b1abb8d75a8da78eca4e34cd0a5a0">GetAngle</a> ()=0</td></tr>
 <tr class="memdesc:a106b1abb8d75a8da78eca4e34cd0a5a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the element angle.  <a href="#a106b1abb8d75a8da78eca4e34cd0a5a0">More...</a><br /></td></tr>
 <tr class="separator:a106b1abb8d75a8da78eca4e34cd0a5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad23b012cf67b48f9895149a6d0a75cd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#aad23b012cf67b48f9895149a6d0a75cd">SetRenderMode</a> (<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga1ede2b9d3683edfec84e796be0c8491e">PdfRenderMode</a> mode)=0</td></tr>
-<tr class="memdesc:aad23b012cf67b48f9895149a6d0a75cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets render mode of the element. This mode is used, when element is saved.  <a href="#aad23b012cf67b48f9895149a6d0a75cd">More...</a><br /></td></tr>
-<tr class="separator:aad23b012cf67b48f9895149a6d0a75cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a491c32ea3fc0cb1b6537653f44c48edd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a491c32ea3fc0cb1b6537653f44c48edd">SetRender</a> (bool render)=0</td></tr>
+<tr class="memdesc:a491c32ea3fc0cb1b6537653f44c48edd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets render mode of the element. This mode is used, when element is saved.  <a href="#a491c32ea3fc0cb1b6537653f44c48edd">More...</a><br /></td></tr>
+<tr class="separator:a491c32ea3fc0cb1b6537653f44c48edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80ae9e64f6dc9592dcf4a32bb302b1d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#aa80ae9e64f6dc9592dcf4a32bb302b1d">SetData</a> (void *data)=0</td></tr>
+<tr class="memdesc:aa80ae9e64f6dc9592dcf4a32bb302b1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets user-supplied data to pass to the element.  <a href="#aa80ae9e64f6dc9592dcf4a32bb302b1d">More...</a><br /></td></tr>
+<tr class="separator:aa80ae9e64f6dc9592dcf4a32bb302b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe586fb5b0c2abb54dbeecaccda2c76e"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#afe586fb5b0c2abb54dbeecaccda2c76e">GetData</a> ()=0</td></tr>
+<tr class="memdesc:afe586fb5b0c2abb54dbeecaccda2c76e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets user-supplied data to pass to the element.  <a href="#afe586fb5b0c2abb54dbeecaccda2c76e">More...</a><br /></td></tr>
+<tr class="separator:afe586fb5b0c2abb54dbeecaccda2c76e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e71e645253156907d55c397ae79b86"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a60e71e645253156907d55c397ae79b86">SetAlt</a> (const wchar_t *alt)=0</td></tr>
+<tr class="memdesc:a60e71e645253156907d55c397ae79b86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the alternate description of the element.  <a href="#a60e71e645253156907d55c397ae79b86">More...</a><br /></td></tr>
+<tr class="separator:a60e71e645253156907d55c397ae79b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bb63f989b3daf0ed2ccd249205a666f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a9bb63f989b3daf0ed2ccd249205a666f">SetActualText</a> (const wchar_t *text)=0</td></tr>
+<tr class="memdesc:a9bb63f989b3daf0ed2ccd249205a666f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the actual text of the element.  <a href="#a9bb63f989b3daf0ed2ccd249205a666f">More...</a><br /></td></tr>
+<tr class="separator:a9bb63f989b3daf0ed2ccd249205a666f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad42f0533265423838a3eebf4a1ea16e7"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#ad42f0533265423838a3eebf4a1ea16e7">GetFlags</a> ()=0</td></tr>
+<tr class="memdesc:ad42f0533265423838a3eebf4a1ea16e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the element state flags.  <a href="#ad42f0533265423838a3eebf4a1ea16e7">More...</a><br /></td></tr>
+<tr class="separator:ad42f0533265423838a3eebf4a1ea16e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacbaeec8b367178bb9eb1e4e101b0561"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#aacbaeec8b367178bb9eb1e4e101b0561">SetFlags</a> (int flags)=0</td></tr>
+<tr class="memdesc:aacbaeec8b367178bb9eb1e4e101b0561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the element state flags.  <a href="#aacbaeec8b367178bb9eb1e4e101b0561">More...</a><br /></td></tr>
+<tr class="separator:aacbaeec8b367178bb9eb1e4e101b0561"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pde_element.html" title="PdeElement class. ">PdeElement</a> class. </p>
@@ -295,6 +322,62 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="afe586fb5b0c2abb54dbeecaccda2c76e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe586fb5b0c2abb54dbeecaccda2c76e">&#9670;&nbsp;</a></span>GetData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void* PdeElement::GetData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets user-supplied data to pass to the element. </p>
+<dl class="section return"><dt>Returns</dt><dd>User-supplied data from the element. </dd></dl>
+
+</div>
+</div>
+<a id="ad42f0533265423838a3eebf4a1ea16e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad42f0533265423838a3eebf4a1ea16e7">&#9670;&nbsp;</a></span>GetFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdeElement::GetFlags </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the element state flags. </p>
+<dl class="section return"><dt>Returns</dt><dd>the element flags as PdfElementStateFlags. </dd></dl>
+
+</div>
+</div>
 <a id="ad27f0f1c664aa82159510c69ffbf7695"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad27f0f1c664aa82159510c69ffbf7695">&#9670;&nbsp;</a></span>GetGraphicState()</h2>
 
@@ -414,8 +497,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aad23b012cf67b48f9895149a6d0a75cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad23b012cf67b48f9895149a6d0a75cd">&#9670;&nbsp;</a></span>SetRenderMode()</h2>
+<a id="a9bb63f989b3daf0ed2ccd249205a666f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bb63f989b3daf0ed2ccd249205a666f">&#9670;&nbsp;</a></span>SetActualText()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -424,10 +507,184 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void PdeElement::SetRenderMode </td>
+          <td class="memname">virtual bool PdeElement::SetActualText </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga1ede2b9d3683edfec84e796be0c8491e">PdfRenderMode</a>&#160;</td>
-          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td class="paramtype">const wchar_t *&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the actual text of the element. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">alt</td><td>The actual text to be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the actual text was set, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a60e71e645253156907d55c397ae79b86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60e71e645253156907d55c397ae79b86">&#9670;&nbsp;</a></span>SetAlt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdeElement::SetAlt </td>
+          <td>(</td>
+          <td class="paramtype">const wchar_t *&#160;</td>
+          <td class="paramname"><em>alt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the alternate description of the element. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">alt</td><td>The alternate decsription to be set. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the description was set, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="af3ad42234f6186c334c2a20abe62123e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3ad42234f6186c334c2a20abe62123e">&#9670;&nbsp;</a></span>SetBBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdeElement::SetBBox </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *&#160;</td>
+          <td class="paramname"><em>bbox</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the bounding box for an element in user space coordinates. To avoid the device-dependent effects of specifying objects in device space, PDF defines a device-independent coordinate system that always bears the same relationship to the current page, regardless of the output device on which printing or displaying occurs. This device-independent coordinate system is called user space. The origin of the user space(0, 0) represents the bottom-left corner of the PDF page. PDF files specify 72 points to 1 physical inch. The returned bounding box is guaranteed to encompass the element. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bbox</td><td>A pointer to a PdfRect structure specifying the bounding box of an element, specified in user space coordinates. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa80ae9e64f6dc9592dcf4a32bb302b1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa80ae9e64f6dc9592dcf4a32bb302b1d">&#9670;&nbsp;</a></span>SetData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PdeElement::SetData </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets user-supplied data to pass to the element. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>User-supplied data to pass to element. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aacbaeec8b367178bb9eb1e4e101b0561"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacbaeec8b367178bb9eb1e4e101b0561">&#9670;&nbsp;</a></span>SetFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdeElement::SetFlags </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>flags</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the element state flags. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flags</td><td>the PdfElementFlags flags to be set </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the element flags was set false othervise </dd></dl>
+
+</div>
+</div>
+<a id="a491c32ea3fc0cb1b6537653f44c48edd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a491c32ea3fc0cb1b6537653f44c48edd">&#9670;&nbsp;</a></span>SetRender()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PdeElement::SetRender </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>render</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -454,7 +711,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pde_element.html">PdeElement</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:12 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:42 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

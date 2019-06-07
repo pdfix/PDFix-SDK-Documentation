@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zoom',['zoom',['../struct___ocr_tesseract_params.html#a06533df2aa17ba27ddf02221b4aa9b42',1,'_OcrTesseractParams']]]
+  ['y',['y',['../struct___pdf_point.html#a95cd7ba0b0bb21c225eacb8f99088e7b',1,'_PdfPoint::y()'],['../struct___pdf_dev_point.html#a41c85bb5296685ebbedf668a5e1a0fdc',1,'_PdfDevPoint::y()']]]
 ];

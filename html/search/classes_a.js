@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['parsepdsobjects',['ParsePdsObjects',['../classnet_1_1pdfix_1_1samples_1_1_parse_pds_objects.html',1,'net::pdfix::samples']]],
   ['pdeannot',['PdeAnnot',['../struct_pde_annot.html',1,'']]],
   ['pdecell',['PdeCell',['../struct_pde_cell.html',1,'']]],
   ['pdecontainer',['PdeContainer',['../struct_pde_container.html',1,'']]],
@@ -43,6 +44,7 @@ var searchData=
   ['pdsarray',['PdsArray',['../struct_pds_array.html',1,'']]],
   ['pdsboolean',['PdsBoolean',['../struct_pds_boolean.html',1,'']]],
   ['pdsclassmap',['PdsClassMap',['../struct_pds_class_map.html',1,'']]],
+  ['pdscontentmark',['PdsContentMark',['../struct_pds_content_mark.html',1,'']]],
   ['pdsdictionary',['PdsDictionary',['../struct_pds_dictionary.html',1,'']]],
   ['pdsform',['PdsForm',['../struct_pds_form.html',1,'']]],
   ['pdsimage',['PdsImage',['../struct_pds_image.html',1,'']]],
@@ -52,7 +54,6 @@ var searchData=
   ['pdsobject',['PdsObject',['../struct_pds_object.html',1,'']]],
   ['pdspageobject',['PdsPageObject',['../struct_pds_page_object.html',1,'']]],
   ['pdspath',['PdsPath',['../struct_pds_path.html',1,'']]],
-  ['pdsreference',['PdsReference',['../struct_pds_reference.html',1,'']]],
   ['pdsrolemap',['PdsRoleMap',['../struct_pds_role_map.html',1,'']]],
   ['pdsshading',['PdsShading',['../struct_pds_shading.html',1,'']]],
   ['pdsstream',['PdsStream',['../struct_pds_stream.html',1,'']]],
@@ -60,6 +61,7 @@ var searchData=
   ['pdsstructelement',['PdsStructElement',['../struct_pds_struct_element.html',1,'']]],
   ['pdsstructtree',['PdsStructTree',['../struct_pds_struct_tree.html',1,'']]],
   ['pdstext',['PdsText',['../struct_pds_text.html',1,'']]],
+  ['psevent',['PsEvent',['../struct_ps_event.html',1,'']]],
   ['psfilestream',['PsFileStream',['../struct_ps_file_stream.html',1,'']]],
   ['psimage',['PsImage',['../struct_ps_image.html',1,'']]],
   ['psmemorystream',['PsMemoryStream',['../struct_ps_memory_stream.html',1,'']]],

@@ -6,7 +6,7 @@ var searchData=
   ['device',['device',['../struct___pdf_page_render_params.html#af8c3c4a95b64004346e211fc608ca180',1,'_PdfPageRenderParams']]],
   ['digitalsignature',['DigitalSignature',['../classnet_1_1pdfix_1_1samples_1_1_digital_signature.html',1,'net::pdfix::samples']]],
   ['digital_20signature_20sample',['Digital Signature Sample',['../_digital_signature_java.html',1,'JAVA_Samples']]],
-  ['doc',['doc',['../struct___pdf_event_params.html#a90e37e902f9615d50089d17f77de918d',1,'_PdfEventParams']]],
+  ['docdidopencallback',['DocDidOpenCallback',['../classnet_1_1pdfix_1_1samples_1_1_doc_did_open_callback.html',1,'net::pdfix::samples']]],
   ['documentmetadata',['DocumentMetadata',['../classnet_1_1pdfix_1_1samples_1_1_document_metadata.html',1,'net::pdfix::samples']]],
   ['document_20metadata_20sample',['Document Metadata Sample',['../_document_metadata_java.html',1,'JAVA_Samples']]],
   ['doesmap',['DoesMap',['../struct_pds_role_map.html#af6950c7f867c429f121f8527f79bd75d',1,'PdsRoleMap']]],

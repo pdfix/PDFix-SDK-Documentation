@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -129,11 +129,49 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac736d51e0fca1462a612e00770819baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c9683980c85853a584c94eca01370fd"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_action.html#a4c9683980c85853a584c94eca01370fd">GetURI</a> (_out_ wchar_t *buffer, int len)=0</td></tr>
 <tr class="separator:a4c9683980c85853a584c94eca01370fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a673c282a58d5b5c93389ea33bebef2bd"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_action.html#a673c282a58d5b5c93389ea33bebef2bd">GetDestPageNum</a> (<a class="el" href="struct_pdf_doc.html">PdfDoc</a> *doc)=0</td></tr>
+<tr class="separator:a673c282a58d5b5c93389ea33bebef2bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pdf_action.html" title="PdfAction class. ">PdfAction</a> class. </p>
 <p>The <a class="el" href="struct_pdf_action.html" title="PdfAction class. ">PdfAction</a> are tasks that pdf viewer performs when a user clicks on a link or a bookmark. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a673c282a58d5b5c93389ea33bebef2bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a673c282a58d5b5c93389ea33bebef2bd">&#9670;&nbsp;</a></span>GetDestPageNum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdfAction::GetDestPageNum </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_pdf_doc.html">PdfDoc</a> *&#160;</td>
+          <td class="paramname"><em>doc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the page number of the destination's page. Method applicable to actions of the type GoTo and GoToR <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">doc</td><td>Pointer to target pdf document object of the action. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The page number of the destination's page, -1 otherwise. </dd></dl>
+
+</div>
+</div>
 <a id="ac736d51e0fca1462a612e00770819baf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac736d51e0fca1462a612e00770819baf">&#9670;&nbsp;</a></span>GetJavaScript()</h2>
 
@@ -171,7 +209,7 @@ Public Member Functions</h2></td></tr>
 <p>Gets the string buffer from the JavaScript action. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>(filled by method) if the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
@@ -246,7 +284,7 @@ Public Member Functions</h2></td></tr>
 <p><br />
 </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>(filled by method) if the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
@@ -261,7 +299,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pdf_action.html">PdfAction</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:13 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:43 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

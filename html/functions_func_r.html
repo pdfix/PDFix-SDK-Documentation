@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -112,7 +112,8 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 
 <h3><a id="index_r"></a>- r -</h3><ul>
 <li>Read()
-: <a class="el" href="struct_ps_stream.html#aa4d4b8641ab5e2a3ee53de50a0ca6d59">PsStream</a>
+: <a class="el" href="struct_pds_stream.html#a013444c819cc9ff475f59f8e326d88ea">PdsStream</a>
+, <a class="el" href="struct_ps_stream.html#aa4d4b8641ab5e2a3ee53de50a0ca6d59">PsStream</a>
 </li>
 <li>RectInAnnot()
 : <a class="el" href="struct_pdf_annot.html#acc33624d0b1a0d4cb06f2c1f743dc488">PdfAnnot</a>
@@ -126,23 +127,28 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 <li>RegisterEvent()
 : <a class="el" href="struct_pdfix.html#a61777cb0e259c55d6b3f610b015006ae">Pdfix</a>
 </li>
+<li>RegisterPlugin()
+: <a class="el" href="struct_pdfix.html#a7264cb584f041f976b62dd05e9062bed">Pdfix</a>
+</li>
 <li>Release()
-: <a class="el" href="struct_pdf_alternate.html#a88ce442e9e1809f9bf233dfcfab6ee5e">PdfAlternate</a>
-</li>
-<li>ReleasePage()
-: <a class="el" href="struct_pdf_doc.html#aa97d89333421746334bc731b91520718">PdfDoc</a>
-</li>
-<li>ReleasePageMap()
-: <a class="el" href="struct_pdf_page.html#a8d01692da4f4a89f0293b0157978855f">PdfPage</a>
-</li>
-<li>ReleasePageView()
-: <a class="el" href="struct_pdf_page.html#a6f75d4f65d437743c4b146e597632873">PdfPage</a>
-</li>
-<li>ReleaseStructElement()
-: <a class="el" href="struct_pds_struct_tree.html#a5db385e5db194182e654b22e6cb7869f">PdsStructTree</a>
+: <a class="el" href="struct_pde_page_map.html#a7bc1656739f59ee664cbf3dc50b04db9">PdePageMap</a>
+, <a class="el" href="struct_pdf_alternate.html#a88ce442e9e1809f9bf233dfcfab6ee5e">PdfAlternate</a>
+, <a class="el" href="struct_pdf_page.html#a3b715b3da8c51d04866ed714ab5742e8">PdfPage</a>
+, <a class="el" href="struct_pdf_page_view.html#a8174742e28a08d20b88a84468042ec25">PdfPageView</a>
+, <a class="el" href="struct_pds_struct_element.html#a5632e9457b317bd75a98ffbcabdb26d4">PdsStructElement</a>
 </li>
 <li>RemoveAnnot()
 : <a class="el" href="struct_pdf_page.html#ab3c6ed26da5357b8d41c29ef2413302f">PdfPage</a>
+</li>
+<li>RemoveAttrObj()
+: <a class="el" href="struct_pds_struct_element.html#a7f4b698bf21d6c76c6ae145e6f97f79b">PdsStructElement</a>
+</li>
+<li>RemoveBookmarks()
+: <a class="el" href="struct_pdf_doc.html#aaab12b16a2704b9f3e7bff4f604dd840">PdfDoc</a>
+</li>
+<li>RemoveKid()
+: <a class="el" href="struct_pds_struct_element.html#a0ff3a94931da1dd59dd3e7df7037721e">PdsStructElement</a>
+, <a class="el" href="struct_pds_struct_tree.html#abcb2550d339ac674639e3dd245b590ea">PdsStructTree</a>
 </li>
 <li>RemoveQuad()
 : <a class="el" href="struct_pdf_link_annot.html#a843e0e192ef2f82c8ad15a74bce353f9">PdfLinkAnnot</a>
@@ -150,6 +156,12 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 </li>
 <li>RemoveStructTree()
 : <a class="el" href="struct_pdf_doc.html#ab3a9d17f3f7431eba3165859c55e14e6">PdfDoc</a>
+</li>
+<li>RemoveTag()
+: <a class="el" href="struct_pds_content_mark.html#a963fabf41c674c9ac1e40fcb9bca1a72">PdsContentMark</a>
+</li>
+<li>RemoveTags()
+: <a class="el" href="struct_pdf_doc.html#aa4691ce3bcc86af3e255a05fdef21dae">PdfDoc</a>
 </li>
 <li>Resize()
 : <a class="el" href="struct_ps_memory_stream.html#a9c2455a2ece6857f63c4c6ed7ebbfaa9">PsMemoryStream</a>
@@ -160,7 +172,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:19 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:49 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

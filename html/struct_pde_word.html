@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -141,6 +141,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adf53239935836cbdcc98369894cae061"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_word.html#adf53239935836cbdcc98369894cae061">GetNumChars</a> ()=0</td></tr>
 <tr class="memdesc:adf53239935836cbdcc98369894cae061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of characters in word element.  <a href="#adf53239935836cbdcc98369894cae061">More...</a><br /></td></tr>
 <tr class="separator:adf53239935836cbdcc98369894cae061"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae39443b25337e2501a4bc1bd9db9bfbc"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_word.html#ae39443b25337e2501a4bc1bd9db9bfbc">GetCharCode</a> (int index)=0</td></tr>
+<tr class="memdesc:ae39443b25337e2501a4bc1bd9db9bfbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the text of one character of the word.  <a href="#ae39443b25337e2501a4bc1bd9db9bfbc">More...</a><br /></td></tr>
+<tr class="separator:ae39443b25337e2501a4bc1bd9db9bfbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59f1572ec352bf7c80a93081d61c6ed7"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_word.html#a59f1572ec352bf7c80a93081d61c6ed7">GetCharText</a> (int index, _out_ wchar_t *buffer, int len)=0</td></tr>
 <tr class="memdesc:a59f1572ec352bf7c80a93081d61c6ed7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the text of one character of the word.  <a href="#a59f1572ec352bf7c80a93081d61c6ed7">More...</a><br /></td></tr>
 <tr class="separator:a59f1572ec352bf7c80a93081d61c6ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,9 +153,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa763c95b66f189da7c09f94a6e0620ca"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_word.html#aa763c95b66f189da7c09f94a6e0620ca">GetCharBBox</a> (int index, _out_ <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *bbox)=0</td></tr>
 <tr class="memdesc:aa763c95b66f189da7c09f94a6e0620ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the bounding box of one character in user space coordinates.  <a href="#aa763c95b66f189da7c09f94a6e0620ca">More...</a><br /></td></tr>
 <tr class="separator:aa763c95b66f189da7c09f94a6e0620ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe15d36dbacee36eab9af11a16c884c5"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_word.html#abe15d36dbacee36eab9af11a16c884c5">GetFlags</a> ()=0</td></tr>
-<tr class="memdesc:abe15d36dbacee36eab9af11a16c884c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the word flags like filling, etc.  <a href="#abe15d36dbacee36eab9af11a16c884c5">More...</a><br /></td></tr>
-<tr class="separator:abe15d36dbacee36eab9af11a16c884c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e92f00fb1f60e86f6443fb8b4e33a96"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_word.html#a6e92f00fb1f60e86f6443fb8b4e33a96">GetWordFlags</a> ()=0</td></tr>
+<tr class="memdesc:a6e92f00fb1f60e86f6443fb8b4e33a96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the word flags like filling, etc.  <a href="#a6e92f00fb1f60e86f6443fb8b4e33a96">More...</a><br /></td></tr>
+<tr class="separator:a6e92f00fb1f60e86f6443fb8b4e33a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af97e586a490af7bf93abc06a88a708fc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pde_element.html">PdeElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_word.html#af97e586a490af7bf93abc06a88a708fc">GetBackground</a> ()=0</td></tr>
 <tr class="memdesc:af97e586a490af7bf93abc06a88a708fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the background element. Iterate it's children to get background images.  <a href="#af97e586a490af7bf93abc06a88a708fc">More...</a><br /></td></tr>
 <tr class="separator:af97e586a490af7bf93abc06a88a708fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,6 +168,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa60261d785404f1da583ed3b50fe4c8e inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecc3441eb670eeb0c059374d8cb3421b inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#aecc3441eb670eeb0c059374d8cb3421b">GetBBox</a> (_out_ <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *bbox)=0</td></tr>
 <tr class="separator:aecc3441eb670eeb0c059374d8cb3421b inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ad42234f6186c334c2a20abe62123e inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#af3ad42234f6186c334c2a20abe62123e">SetBBox</a> (const <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *bbox)=0</td></tr>
+<tr class="separator:af3ad42234f6186c334c2a20abe62123e inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33d921be337f11d47ca260d5b7577c54 inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a33d921be337f11d47ca260d5b7577c54">GetId</a> ()=0</td></tr>
 <tr class="memdesc:a33d921be337f11d47ca260d5b7577c54 inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the id of an element. The id is unique number on a page.  <a href="struct_pde_element.html#a33d921be337f11d47ca260d5b7577c54">More...</a><br /></td></tr>
 <tr class="separator:a33d921be337f11d47ca260d5b7577c54 inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,9 +188,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a106b1abb8d75a8da78eca4e34cd0a5a0 inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a106b1abb8d75a8da78eca4e34cd0a5a0">GetAngle</a> ()=0</td></tr>
 <tr class="memdesc:a106b1abb8d75a8da78eca4e34cd0a5a0 inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the element angle.  <a href="struct_pde_element.html#a106b1abb8d75a8da78eca4e34cd0a5a0">More...</a><br /></td></tr>
 <tr class="separator:a106b1abb8d75a8da78eca4e34cd0a5a0 inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad23b012cf67b48f9895149a6d0a75cd inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#aad23b012cf67b48f9895149a6d0a75cd">SetRenderMode</a> (<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga1ede2b9d3683edfec84e796be0c8491e">PdfRenderMode</a> mode)=0</td></tr>
-<tr class="memdesc:aad23b012cf67b48f9895149a6d0a75cd inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets render mode of the element. This mode is used, when element is saved.  <a href="struct_pde_element.html#aad23b012cf67b48f9895149a6d0a75cd">More...</a><br /></td></tr>
-<tr class="separator:aad23b012cf67b48f9895149a6d0a75cd inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a491c32ea3fc0cb1b6537653f44c48edd inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a491c32ea3fc0cb1b6537653f44c48edd">SetRender</a> (bool render)=0</td></tr>
+<tr class="memdesc:a491c32ea3fc0cb1b6537653f44c48edd inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets render mode of the element. This mode is used, when element is saved.  <a href="struct_pde_element.html#a491c32ea3fc0cb1b6537653f44c48edd">More...</a><br /></td></tr>
+<tr class="separator:a491c32ea3fc0cb1b6537653f44c48edd inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80ae9e64f6dc9592dcf4a32bb302b1d inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#aa80ae9e64f6dc9592dcf4a32bb302b1d">SetData</a> (void *data)=0</td></tr>
+<tr class="memdesc:aa80ae9e64f6dc9592dcf4a32bb302b1d inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets user-supplied data to pass to the element.  <a href="struct_pde_element.html#aa80ae9e64f6dc9592dcf4a32bb302b1d">More...</a><br /></td></tr>
+<tr class="separator:aa80ae9e64f6dc9592dcf4a32bb302b1d inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe586fb5b0c2abb54dbeecaccda2c76e inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#afe586fb5b0c2abb54dbeecaccda2c76e">GetData</a> ()=0</td></tr>
+<tr class="memdesc:afe586fb5b0c2abb54dbeecaccda2c76e inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets user-supplied data to pass to the element.  <a href="struct_pde_element.html#afe586fb5b0c2abb54dbeecaccda2c76e">More...</a><br /></td></tr>
+<tr class="separator:afe586fb5b0c2abb54dbeecaccda2c76e inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e71e645253156907d55c397ae79b86 inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a60e71e645253156907d55c397ae79b86">SetAlt</a> (const wchar_t *alt)=0</td></tr>
+<tr class="memdesc:a60e71e645253156907d55c397ae79b86 inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the alternate description of the element.  <a href="struct_pde_element.html#a60e71e645253156907d55c397ae79b86">More...</a><br /></td></tr>
+<tr class="separator:a60e71e645253156907d55c397ae79b86 inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bb63f989b3daf0ed2ccd249205a666f inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#a9bb63f989b3daf0ed2ccd249205a666f">SetActualText</a> (const wchar_t *text)=0</td></tr>
+<tr class="memdesc:a9bb63f989b3daf0ed2ccd249205a666f inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the actual text of the element.  <a href="struct_pde_element.html#a9bb63f989b3daf0ed2ccd249205a666f">More...</a><br /></td></tr>
+<tr class="separator:a9bb63f989b3daf0ed2ccd249205a666f inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad42f0533265423838a3eebf4a1ea16e7 inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#ad42f0533265423838a3eebf4a1ea16e7">GetFlags</a> ()=0</td></tr>
+<tr class="memdesc:ad42f0533265423838a3eebf4a1ea16e7 inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the element state flags.  <a href="struct_pde_element.html#ad42f0533265423838a3eebf4a1ea16e7">More...</a><br /></td></tr>
+<tr class="separator:ad42f0533265423838a3eebf4a1ea16e7 inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacbaeec8b367178bb9eb1e4e101b0561 inherit pub_methods_struct_pde_element"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_element.html#aacbaeec8b367178bb9eb1e4e101b0561">SetFlags</a> (int flags)=0</td></tr>
+<tr class="memdesc:aacbaeec8b367178bb9eb1e4e101b0561 inherit pub_methods_struct_pde_element"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the element state flags.  <a href="struct_pde_element.html#aacbaeec8b367178bb9eb1e4e101b0561">More...</a><br /></td></tr>
+<tr class="separator:aacbaeec8b367178bb9eb1e4e101b0561 inherit pub_methods_struct_pde_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pde_word.html" title="PdeWord class. ">PdeWord</a> class. </p>
@@ -264,6 +287,44 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae39443b25337e2501a4bc1bd9db9bfbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae39443b25337e2501a4bc1bd9db9bfbc">&#9670;&nbsp;</a></span>GetCharCode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdeWord::GetCharCode </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the text of one character of the word. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of a character. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Charcode of the characted </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pde_word.html#adf53239935836cbdcc98369894cae061" title="Gets the number of characters in word element. ">PdeWord::GetNumChars</a> </dd>
+<dd>
+<a class="el" href="struct_pde_word.html#a59f1572ec352bf7c80a93081d61c6ed7" title="Gets the text of one character of the word. ">PdeWord::GetCharText</a> </dd></dl>
+
+</div>
+</div>
 <a id="a59f1572ec352bf7c80a93081d61c6ed7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a59f1572ec352bf7c80a93081d61c6ed7">&#9670;&nbsp;</a></span>GetCharText()</h2>
 
@@ -308,13 +369,15 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>The index of a character. </td></tr>
-    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Number of characters written into buffer of required length. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pde_word.html#adf53239935836cbdcc98369894cae061" title="Gets the number of characters in word element. ">PdeWord::GetNumChars</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pde_word.html#adf53239935836cbdcc98369894cae061" title="Gets the number of characters in word element. ">PdeWord::GetNumChars</a> </dd>
+<dd>
+<a class="el" href="struct_pde_word.html#ae39443b25337e2501a4bc1bd9db9bfbc" title="Gets the text of one character of the word. ">PdeWord::GetCharCode</a> </dd></dl>
 
 </div>
 </div>
@@ -360,34 +423,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="abe15d36dbacee36eab9af11a16c884c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe15d36dbacee36eab9af11a16c884c5">&#9670;&nbsp;</a></span>GetFlags()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual int PdeWord::GetFlags </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets the word flags like filling, etc. </p>
-<dl class="section return"><dt>Returns</dt><dd>The combination of PdfWordFlags. </dd></dl>
 
 </div>
 </div>
@@ -490,7 +525,7 @@ Public Member Functions</h2></td></tr>
 <p>Gets the text of the word element. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
@@ -535,6 +570,34 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a6e92f00fb1f60e86f6443fb8b4e33a96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e92f00fb1f60e86f6443fb8b4e33a96">&#9670;&nbsp;</a></span>GetWordFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdeWord::GetWordFlags </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the word flags like filling, etc. </p>
+<dl class="section return"><dt>Returns</dt><dd>The combination of PdfWordFlags. </dd></dl>
+
+</div>
+</div>
 <a id="aaf829c49abed0bf81a4747a19640a70d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf829c49abed0bf81a4747a19640a70d">&#9670;&nbsp;</a></span>HasTextState()</h2>
 
@@ -571,7 +634,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pde_word.html">PdeWord</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:13 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:43 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

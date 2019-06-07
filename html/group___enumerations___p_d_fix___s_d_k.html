@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -118,8 +118,8 @@ $(document).ready(function(){initNavTree('group___enumerations___p_d_fix___s_d_k
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="groups"></a>
 Modules</h2></td></tr>
-<tr class="memitem:group___pdf_doc_config"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___pdf_doc_config.html">PdfDocConfig</a></td></tr>
-<tr class="memdesc:group___pdf_doc_config"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfDocConfig. <br /></td></tr>
+<tr class="memitem:group___pdf_error_type"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___pdf_error_type.html">PdfErrorType</a></td></tr>
+<tr class="memdesc:group___pdf_error_type"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfErrorType. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -142,150 +142,6 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:gabd9ca0d079d5fbf44dc525885ee8884e"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfAuthOption.  <a href="group___enumerations___p_d_fix___s_d_k.html#gabd9ca0d079d5fbf44dc525885ee8884e">More...</a><br /></td></tr>
 <tr class="separator:gabd9ca0d079d5fbf44dc525885ee8884e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga06fc87d81c62e9abb8790b6e5713c55b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba68ea8d0b08b4beab8e60f294ae971a1b">kErrorUnknown</a> = 1, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba240aa6b8e6e3c694dc49c77c778e0584">kErrorOutOfMemory</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba2d4adcfd78389b020bfc0618c7dc1a07">kErrorMalformedInput</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55baada07bc126ba0108b12fdb347067b3be">kErrorMethodNotImplemented</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55badb13907dd4b3da6dc975b47114649e67">kErrorPdfDocInvalid</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55baf1fac7495fcad8a228556e12feead0ab">kErrorPdfDocOpen</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba9b744172d25e737d91d07f6b0b5a86e7">kErrorPdfDocCreate</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55baaa38449003d9ad77f7952b8195060863">kErrorPdfDocSave</a>, 
-<br />
-&#160;&#160;<b>kErrorPdfDocXFA</b>, 
-<b>kErrorPdfDocInterForm</b>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55bae67ec48ecbdadb5af84a34b7a43d25ab">kErrorPdfDocClose</a>, 
-<b>kErrorPdfDocInfo</b>, 
-<br />
-&#160;&#160;<b>kErrorPdfDocStructTreeMissing</b>, 
-<b>kErrorPdfDigSigDestroy</b>, 
-<b>kErrorPdfDigSigOpenPfxFile</b>, 
-<b>kErrorPdfDigSigSaveFile</b>, 
-<br />
-&#160;&#160;<b>kErrorPdfDigSigReadFile</b>, 
-<b>kErrorPdfDigSigCertOpenSystemStore</b>, 
-<b>kErrorPdfDigSigPFXImportCertStore</b>, 
-<b>kErrorPdfDigSigCertFindInStore</b>, 
-<br />
-&#160;&#160;<b>kErrorPdfDigSigPFXImportOpenSSL</b>, 
-<b>kErrorPdfDigSigPFXParseOpenSSL</b>, 
-<b>kErrorPdfDigSigByteRange</b>, 
-<b>kErrorPdfDigSigCryptMemAlloc</b>, 
-<br />
-&#160;&#160;<b>kErrorPdfDigSigCryptSignMessage</b>, 
-<b>kErrorPdfDigSigTimeStampMessage</b>, 
-<b>kErrorPdfDigSigTimeStampRequest</b>, 
-<b>kErrorPdfDigSigCryptHash</b>, 
-<br />
-&#160;&#160;<b>kErrorPdfDigSigVerifyDetachedMessage</b>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba7f6923259acec24b083ea01eae31ca11">kErrorPdfDigSigUnknownType</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55bad93e1f3e9d5f2eefdb29393b60961921">kErrorPdfDigSigCallback</a>, 
-<b>kErrorPdsObjectInvalid</b>, 
-<br />
-&#160;&#160;<b>kErrorPdfFontSubstFontMissing</b>, 
-<b>kErrorPdfPageRelease</b>, 
-<b>kErrorPdfPageGetImage</b>, 
-<b>kErrorPdfPageInvalidObj</b>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55bada56c5d2498bdbfe11465d62b4759759">kErrorPdfPageInvalidColorSpace</a>, 
-<b>kErrorPdfPageMapInvalidObj</b>, 
-<b>kErrorPdfPageMapParse</b>, 
-<b>kErrorPdfPageMapRangeOutOf</b>, 
-<br />
-&#160;&#160;<b>kErrorPdfPageMapAddElement</b>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55bac46c258fae1a89d552cbf776c00fed2f">kErrorPdfPageMapCantInsertTj</a>, 
-<b>kErrorPdfPageViewNotFound</b>, 
-<b>kErrorPsImageOpenFile</b>, 
-<br />
-&#160;&#160;<b>kErrorPsImageUnsupportedFormat</b>, 
-<b>kErrorPsImageWriteBMP</b>, 
-<b>kErrorPsImageWritePNG</b>, 
-<b>kErrorPsImageWriteJPG</b>, 
-<br />
-&#160;&#160;<b>kErrorPsImageInvalidBitmap</b>, 
-<b>kErrorPsImageFormat</b>, 
-<b>kErrorPdfAnnotMalformed</b>, 
-<b>kErrorPdfAnnotInvalidType</b>, 
-<br />
-&#160;&#160;<b>kErrorPdeAnnotMalformed</b>, 
-<b>kErrorPdeElementMalformed</b>, 
-<b>kErrorPdeTextRunMalformed</b>, 
-<b>kErrorPdeWordMalformed</b>, 
-<br />
-&#160;&#160;<b>kErrorPdeLineMalformed</b>, 
-<b>kErrorPdeListMalformed</b>, 
-<b>kErrorPdeTextMalformed</b>, 
-<b>kErrorPdeTextRangeOutOf</b>, 
-<br />
-&#160;&#160;<b>kErrorPdeTextSelectRange</b>, 
-<b>kErrorPdeTableMalformed</b>, 
-<b>kErrorPdeTableCellRangeOutOf</b>, 
-<b>kErrorPdeCellRangeOutOf</b>, 
-<br />
-&#160;&#160;<b>kErrorPsRegexDestroy</b>, 
-<b>kErrorPsRegexPatternMissing</b>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba90a8fe1f4f90dbbf2e0de24f2a099fb5">kErrorPsEventMalformed</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba7dc45a8e558ccc350d9938e5a47c2c0b">kErrorPsEventExists</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55bac40d8ed01308ecf493128eacedbd1af1">kErrorPsNoEvent</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba21c7cdfd57dde16b9328b44d7fe2a150">kErrorPdfBookmarkMalformed</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55bac6dc3a798c0a046b0746ccbb4cd76f94">kErrorPdfBookmarkRoot</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba5796c7a572e03966123398eedbc7c1c6">kErrorPsAuthorizationFailed</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55baedc11e65d2f69cd50628c684925d8ee7">kErrorPsAuthorizationNeeded</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba4415f0e2b470713a16f15ce6ae13391b">kErrorPsAuthorizationCalled</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55bafcbea584c0971627b60ea6d9919eb369">kErrorPsAuthorizationEmail</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55bacb73a2bd4e13eca52b37772262b8acef">kErrorPsAuthorizationWin</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba429b5d376492676608654bf0f0657687">kErrorPsAuthorizationMac</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba7f135fc70afeaf660e9e235efc3a5403">kErrorPsAuthorizationAndroid</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba82db87791d6ab617968ab97004558b4e">kErrorPsAuthorizationiOS</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55baf90f339ba6adcb2a902118305302899d">kErrorPsAuthorizationLinux</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba3603bf6f1fae75a075b4712bc3affee2">kErrorPsAuthorizationServer</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba2631efd54b442df68ef4bf66e912d847">kErrorPsAuthorizationFeature</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba0baec2dfc87e250a6be9bef8d3537bf1">kErrorPsAuthorizationDate</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba7d5cbade82a7e84a8c8046c7b57d1f58">kErrorPsAuthorizationVersion</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba928dcd423b646120af07f557105d7897">kErrorPsAuthorizationNumber</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba7c51dc3b183a497ece5dd8707c52f5bf">kErrorPsAuthorizationOsCheck</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55bace8aac1258174d9586da508dfb9d3b38">kErrorPdfFontNotEmbedded</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba365a5b8855b8d0d38df14a758f32847f">kErrorPdfFontSave</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55baaa182cbc58357dbec20ca7e73746f98c">kErrorPathNotFound</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55bad6a5058b397954ba28b99d30378ece09">kErrorPdfPageMapAddTags</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55badf1a02cc4ed955028441eb1895a8cdbf">kErrorPdfPageMapRemoveTags</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba27f8070b8ecdbcf971489dfc1db9ac68">kErrorPdfAlternateNotFound</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55bacaf4606b686ac8f3ae1eebf020acf3d2">kErrorPdfAlternateInvalid</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55bae5140afd38d2f78ed71aac13459e8167">kErrorPdfAlternateResourceNotFound</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55baa2da0778da5d242d35b406dfdb6ea69d">kErrorPdfHtmlAlternateFont</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba5efd3926a2655942db5987827be901a0">kErrorPdfHtmlAlternateCreateAF</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba554f107deb12bf355e68e4782e30a7f4">kErrorPdfHtmlAlternateWriteAF</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba9fe02505cbd37f3b811eebe582be7f35">kErrorPdfHtmlAlternateImage</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba41ea37a1cf58b562f1bb1a205826f67c">kErrorPsStreamReadProcMissing</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba1ff20d1a0f8aafbd9048292ccffc97ab">kErrorPsStreamWriteProcMissing</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba511a539941a3a4dde792d10da54e7aad">kErrorPsStreamGetSizeProcMissing</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba0ab89bbc57d195bd32a80d66a0c946cb">kErrorPdfPageMapTagAttributes</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba2bc79899cacfba0b90099556bc6c8d66">kErrorPdfPageMapTagParentTree</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba89c9f7a57f109dd1a9c9c2f7f75c1a15">kErrorPdeContentWriter</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba5067736c5a10720855e02aac833ad802">kErrorParsingDataFile</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba6c3b5581b509c6066f69d743319084d6">kErrorPsRegexSearchFail</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba011c8804368b311c3417a51db7d5cee4">kErrorDocTemplateInvalidQuery</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba57c71ef9945a6c00a405442a38bb29d3">kErrorDocTemplateInvalidValue</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba67f1a6d861125ce39e86ca64d4258cef">kErrorPdsStructTreeInvalid</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55bafc37f56d881010da66510b2bf5104cf8">kErrorInit</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55bae0d8057eb20bd6f078d1ee27d8ea19b2">kErrorIndexOutOfRange</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga06fc87d81c62e9abb8790b6e5713c55ba16ff4b6bf4efe0bce4e7e3d38670fae4">kErrorPdsStructElementNotFound</a>
-<br />
- }</td></tr>
-<tr class="memdesc:ga06fc87d81c62e9abb8790b6e5713c55b"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfErrorType.  <a href="group___enumerations___p_d_fix___s_d_k.html#ga06fc87d81c62e9abb8790b6e5713c55b">More...</a><br /></td></tr>
-<tr class="separator:ga06fc87d81c62e9abb8790b6e5713c55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae88c6d02fc9ba398de7969899b55a406"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gae88c6d02fc9ba398de7969899b55a406">PdfEventType</a> { <br />
 &#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggae88c6d02fc9ba398de7969899b55a406a04a53a82f90bb16ba9e3188e90ed13ef">kEventUnknown</a> = 0, 
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggae88c6d02fc9ba398de7969899b55a406a2b6cead1a5c96e89be05281f93f9ff60">kEventDocWillSave</a>, 
@@ -300,7 +156,7 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggae88c6d02fc9ba398de7969899b55a406a45561d9693ff45d2b5fc59253396b47c">kEventPageWillRemoveAnnot</a>, 
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggae88c6d02fc9ba398de7969899b55a406a2776536e4596d3caeae326ea80a572ba">kEventPageDidAddAnnot</a>, 
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggae88c6d02fc9ba398de7969899b55a406aac9760be8b4b36b799dc964ff103ec82">kEventPageDidRemoveAnnot</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggae88c6d02fc9ba398de7969899b55a406ae63a8212e618c65b505760692b10c969">kEventageContentsDidChange</a>
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggae88c6d02fc9ba398de7969899b55a406a15b322a906e6f076896ca206f18573f6">kEventPageContentsDidChange</a>
 <br />
  }</td></tr>
 <tr class="memdesc:gae88c6d02fc9ba398de7969899b55a406"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfEventType.  <a href="group___enumerations___p_d_fix___s_d_k.html#gae88c6d02fc9ba398de7969899b55a406">More...</a><br /></td></tr>
@@ -392,12 +248,23 @@ Enumerations</h2></td></tr>
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93a758b93f5db8a2df162f51b1f7ca8346c">kPdeHeader</a>, 
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93a556186b6a8a68cbb0151d05c8fd071ea">kPdeFooter</a>, 
 <br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93a0c53a0f7523285014e6a06567c5e138a">kPdeColumn</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93af15baba4e2b125b727fa2d3d88f0bc4f">kPdeRow</a>
+&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga1c46809f4a04b62054561924c9fe4b93a5d0f1701e0d7d29732db8de7a21c4a99">kPdeAnnot</a>
 <br />
  }</td></tr>
 <tr class="memdesc:ga1c46809f4a04b62054561924c9fe4b93"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfElementType.  <a href="group___enumerations___p_d_fix___s_d_k.html#ga1c46809f4a04b62054561924c9fe4b93">More...</a><br /></td></tr>
 <tr class="separator:ga1c46809f4a04b62054561924c9fe4b93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3907d71c6d3ff4ebe5de25ed92d64bf8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga3907d71c6d3ff4ebe5de25ed92d64bf8">PdfContainerType</a> { <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga3907d71c6d3ff4ebe5de25ed92d64bf8a7089c99d9f81c51d728c16c9570c2b99">kPdeContainerUnknown</a> = 0, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga3907d71c6d3ff4ebe5de25ed92d64bf8a41525fe2250f06d2558e5793f1d4ce80">kPdeContainerPage</a>, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga3907d71c6d3ff4ebe5de25ed92d64bf8a86c7a7391fc7535b9024a72a6516161f">kPdeContainerArt</a>
+ }</td></tr>
+<tr class="memdesc:ga3907d71c6d3ff4ebe5de25ed92d64bf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfContainerType.  <a href="group___enumerations___p_d_fix___s_d_k.html#ga3907d71c6d3ff4ebe5de25ed92d64bf8">More...</a><br /></td></tr>
+<tr class="separator:ga3907d71c6d3ff4ebe5de25ed92d64bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae457fa19b803fdc406724e06a2cd6e04"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gae457fa19b803fdc406724e06a2cd6e04">PdfTagType</a> { <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggae457fa19b803fdc406724e06a2cd6e04ae23fa6dd9d2cb07374ec32b4cf0aa27e">kTagUnknown</a> = 0, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggae457fa19b803fdc406724e06a2cd6e04abc7a31e9fec84eb2201045afefa4d92f">kTagSect</a>, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggae457fa19b803fdc406724e06a2cd6e04a1f64ebafe0f2c3b6d1e3dc737bd592a9">kTagArt</a>
+ }</td></tr>
+<tr class="memdesc:gae457fa19b803fdc406724e06a2cd6e04"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfTagType.  <a href="group___enumerations___p_d_fix___s_d_k.html#gae457fa19b803fdc406724e06a2cd6e04">More...</a><br /></td></tr>
+<tr class="separator:gae457fa19b803fdc406724e06a2cd6e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5b9c3dea60e7004a6a9bbe3a7e9b741d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga5b9c3dea60e7004a6a9bbe3a7e9b741d">PdfLineCap</a> { <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga5b9c3dea60e7004a6a9bbe3a7e9b741daebd36a0aab4aa881a380bb2c8ba4b93a">kPdfLineCapButt</a> = 0, 
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga5b9c3dea60e7004a6a9bbe3a7e9b741da51a9863a17d1f0f8399b464208181399">kPdfLineCapRound</a>, 
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga5b9c3dea60e7004a6a9bbe3a7e9b741dac45d602ab4cf9e3b966458e40b28aa6e">kPdfLineCapSquare</a>
@@ -512,9 +379,8 @@ Enumerations</h2></td></tr>
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabc6126af1d45847bc59afa0aa3216b04a03f27b7cbb5bdb09f039ca647276d3b5">kTextFlagPatternFill</a> = 0x040, 
 <br />
 &#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabc6126af1d45847bc59afa0aa3216b04ac4a94446f1fcdc38217a375a471cbddc">kTextFlagPatternStroke</a> = 0x080, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabc6126af1d45847bc59afa0aa3216b04ae136d62210316441b50087ff037aee6e">kTextFlagAngle</a> = 0x100, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabc6126af1d45847bc59afa0aa3216b04a35b9b4f4bd4882617a34bda10878d2f7">kTextFlagWhiteSpace</a> = 0x200, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabc6126af1d45847bc59afa0aa3216b04ae5be4cf72abcae0ad5131ab3ccb2cf8a">kTextFlagUnicode</a> = 0x400
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabc6126af1d45847bc59afa0aa3216b04a35b9b4f4bd4882617a34bda10878d2f7">kTextFlagWhiteSpace</a> = 0x100, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabc6126af1d45847bc59afa0aa3216b04ae5be4cf72abcae0ad5131ab3ccb2cf8a">kTextFlagUnicode</a> = 0x200
 <br />
  }</td></tr>
 <tr class="memdesc:gabc6126af1d45847bc59afa0aa3216b04"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfTextStateFlag.  <a href="group___enumerations___p_d_fix___s_d_k.html#gabc6126af1d45847bc59afa0aa3216b04">More...</a><br /></td></tr>
@@ -637,11 +503,6 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ga61dadd085c1777f559549e05962b2c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfRenderFlags.  <a href="group___enumerations___p_d_fix___s_d_k.html#ga61dadd085c1777f559549e05962b2c9e">More...</a><br /></td></tr>
 <tr class="separator:ga61dadd085c1777f559549e05962b2c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1ede2b9d3683edfec84e796be0c8491e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga1ede2b9d3683edfec84e796be0c8491e">PdfRenderMode</a> { <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga1ede2b9d3683edfec84e796be0c8491eaa34b8dbe6b6b8e61a04b1dcdc58419d8">kRenderElemNone</a> = 0, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga1ede2b9d3683edfec84e796be0c8491ea7d2424f00892a694a8fcdc8449eb9285">kRenderElem</a> = 1
- }</td></tr>
-<tr class="memdesc:ga1ede2b9d3683edfec84e796be0c8491e"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfRenderMode.  <a href="group___enumerations___p_d_fix___s_d_k.html#ga1ede2b9d3683edfec84e796be0c8491e">More...</a><br /></td></tr>
-<tr class="separator:ga1ede2b9d3683edfec84e796be0c8491e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2175c96d14cb7833e09b0ae49e719f97"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga2175c96d14cb7833e09b0ae49e719f97">PdfImageFormat</a> { <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga2175c96d14cb7833e09b0ae49e719f97abc86e23a7f2537e21c6b6cabb837a071">kImageFormatPng</a> = 0, 
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga2175c96d14cb7833e09b0ae49e719f97a21aa1ff7a64b61f9a2a9c1e927f320f1">kImageFormatJpg</a>, 
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga2175c96d14cb7833e09b0ae49e719f97a19b051430765e3bb1c27d69749a05473">kImageFormatBmp</a>, 
@@ -665,6 +526,20 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:ga726ca809ffd3d67ab4b8476646f26635"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfFontFlags.  <a href="group___enumerations___p_d_fix___s_d_k.html#ga726ca809ffd3d67ab4b8476646f26635">More...</a><br /></td></tr>
 <tr class="separator:ga726ca809ffd3d67ab4b8476646f26635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0411cd49bb5b71852cecd93bcbf0ca2d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga0411cd49bb5b71852cecd93bcbf0ca2dae7d3f67cfd878555d2f22bfb2de87296">kContentImage</a> = 0x00001, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga0411cd49bb5b71852cecd93bcbf0ca2dad83a3668baf453505e52d509761e9632">kContentText</a> = 0x00002, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga0411cd49bb5b71852cecd93bcbf0ca2dafb0f3c659e201fd792350cd39baa1fb7">kContentPath</a> = 0x00004, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga0411cd49bb5b71852cecd93bcbf0ca2da754de9d34956b51466c4493ea8786aed">kContentForm</a> = 0x00008, 
+<br />
+&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga0411cd49bb5b71852cecd93bcbf0ca2dacc6498c43ab70918152ece8026d5256c">kContentShading</a> = 0x00020, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga0411cd49bb5b71852cecd93bcbf0ca2da88de5cd50a63a39ad7104799b59d415d">kContentTextTransparent</a> = 0x00040, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga0411cd49bb5b71852cecd93bcbf0ca2da35dd98c8a359b9899dc2c194a3d20737">kContentTextFill</a> = 0x00080, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga0411cd49bb5b71852cecd93bcbf0ca2dab047554964498d7a4de985ca0b110bd7">kContentTextStroke</a> = 0x00100
+<br />
+ }</td></tr>
+<tr class="memdesc:ga0411cd49bb5b71852cecd93bcbf0ca2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfPageContentFlags.  <a href="group___enumerations___p_d_fix___s_d_k.html#ga0411cd49bb5b71852cecd93bcbf0ca2d">More...</a><br /></td></tr>
+<tr class="separator:ga0411cd49bb5b71852cecd93bcbf0ca2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga79de438f449c42eb66d0da0152515c1d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga79de438f449c42eb66d0da0152515c1d">PdfFontCharset</a> { <br />
 &#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga79de438f449c42eb66d0da0152515c1da5c52eb844ef3ea87c3bc58d54c0b4192">kFontAnsiCharset</a> = 0, 
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga79de438f449c42eb66d0da0152515c1da886833ac77f07c5f73738b9eddbf2844">kFontDefaultCharset</a> = 1, 
@@ -746,50 +621,60 @@ Enumerations</h2></td></tr>
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga2d67209ba90b9d207f3268df23a0a2e6a4c8628a0e3fdec287cf18835a014bbd5">kImageRect</a>, 
 <br />
 &#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga2d67209ba90b9d207f3268df23a0a2e6abfc9defb824d01698a9cd8355edf6074">kImageShading</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga2d67209ba90b9d207f3268df23a0a2e6a62fbe81bed26a4c234c021069fa115ea">kImageTable</a>
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga2d67209ba90b9d207f3268df23a0a2e6af0ed25e60cbea9a0e27dcd0ba1f6a008">kImageForm</a>
 <br />
  }</td></tr>
 <tr class="memdesc:ga2d67209ba90b9d207f3268df23a0a2e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfImageType.  <a href="group___enumerations___p_d_fix___s_d_k.html#ga2d67209ba90b9d207f3268df23a0a2e6">More...</a><br /></td></tr>
 <tr class="separator:ga2d67209ba90b9d207f3268df23a0a2e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa975262b1cbf1203dca6949419e8269a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gaa975262b1cbf1203dca6949419e8269a">PdfTableType</a> { <br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aa55b0a2f25f9055ad87f6af7ee6f05c50">kTableGraphic</a> = 0, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aa6f2c562f02e9a8d91b9b6d2b59aea234">kTableIsolated</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aad0b7770ef1cb53602629dab995b09637">kTableIsolatedCol</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aa143d788dc5b8f11386c529104f984177">kTableIsolatedRow</a>, 
+<tr class="memitem:gabed82baf7f470b522273a3e37c24c600"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabed82baf7f470b522273a3e37c24c600a49421568e7ebb4f8091d45e8230c5981">kTableUnknown</a> = 0x00, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabed82baf7f470b522273a3e37c24c600a55b0a2f25f9055ad87f6af7ee6f05c50">kTableGraphic</a> = 0x01, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabed82baf7f470b522273a3e37c24c600a6f2c562f02e9a8d91b9b6d2b59aea234">kTableIsolated</a> = 0x02, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabed82baf7f470b522273a3e37c24c600ad0b7770ef1cb53602629dab995b09637">kTableIsolatedCol</a> = 0x04, 
 <br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aa19e2fa94346c318a234a9871a8f91173">kTableForm</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggaa975262b1cbf1203dca6949419e8269aaddf086d5b31ad200c89943d7f68a78e2">kTableElement</a>
+&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabed82baf7f470b522273a3e37c24c600a143d788dc5b8f11386c529104f984177">kTableIsolatedRow</a> = 0x08, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabed82baf7f470b522273a3e37c24c600a19e2fa94346c318a234a9871a8f91173">kTableForm</a> = 0x10, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabed82baf7f470b522273a3e37c24c600addf086d5b31ad200c89943d7f68a78e2">kTableElement</a> = 0x20
 <br />
  }</td></tr>
-<tr class="memdesc:gaa975262b1cbf1203dca6949419e8269a"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfTableType.  <a href="group___enumerations___p_d_fix___s_d_k.html#gaa975262b1cbf1203dca6949419e8269a">More...</a><br /></td></tr>
-<tr class="separator:gaa975262b1cbf1203dca6949419e8269a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5a7aac4eee8fe845efaf925bdb062371"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga5a7aac4eee8fe845efaf925bdb062371">PdfListType</a> { <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371a1b86aeb9e1e73bf201333c89ed0ae3c7">kListUnordered</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371a03e034d0fe729a103c7ad3abae265f63">kListOrdered</a>
+<tr class="memdesc:gabed82baf7f470b522273a3e37c24c600"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfTableType.  <a href="group___enumerations___p_d_fix___s_d_k.html#gabed82baf7f470b522273a3e37c24c600">More...</a><br /></td></tr>
+<tr class="separator:gabed82baf7f470b522273a3e37c24c600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5a7aac4eee8fe845efaf925bdb062371"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga5a7aac4eee8fe845efaf925bdb062371">PdfListType</a> { <br />
+&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371a177bde4d1915b1a1cac053e1a0303b82">kListNone</a>, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371a1b86aeb9e1e73bf201333c89ed0ae3c7">kListUnordered</a>, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371a03e034d0fe729a103c7ad3abae265f63">kListOrdered</a>, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371a274aed2c8d1f923ddef559d1958c97e9">kListDecimal</a>, 
+<br />
+&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371ab39e2f0f10c4e4537832ccc3ee10a248">kListRomanUpper</a>, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371af431bbf35e73dea236319b452bf7b3bb">kListRomanLower</a>, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371abea9215641db086d0b20fc86b76c16c9">kListLetterUpper</a>, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga5a7aac4eee8fe845efaf925bdb062371ae6ad925f4830ebd897bf91a877e9d599">kListLetterLower</a>
+<br />
  }</td></tr>
 <tr class="memdesc:ga5a7aac4eee8fe845efaf925bdb062371"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfListType.  <a href="group___enumerations___p_d_fix___s_d_k.html#ga5a7aac4eee8fe845efaf925bdb062371">More...</a><br /></td></tr>
 <tr class="separator:ga5a7aac4eee8fe845efaf925bdb062371"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0411cd49bb5b71852cecd93bcbf0ca2d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga0411cd49bb5b71852cecd93bcbf0ca2da59b32105ac9c42f15eae976689be4eec">kWordHyphen</a> = 0x0001, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga0411cd49bb5b71852cecd93bcbf0ca2da4a1a3889642e972e66b16bcd9702e151">kWordBullet</a> = 0x0002, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga0411cd49bb5b71852cecd93bcbf0ca2dacc200285b6a1b163fe015396fa406b1b">kWordFilling</a> = 0x0008, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga0411cd49bb5b71852cecd93bcbf0ca2da2ebde80bc8cb706b7c73dd5b03f11f3f">kWordNumber</a> = 0x0010, 
+<tr class="memitem:gab04a0655cd1e3bcac5e8f48c18df1a57"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggab04a0655cd1e3bcac5e8f48c18df1a57a59b32105ac9c42f15eae976689be4eec">kWordHyphen</a> = 0x0001, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggab04a0655cd1e3bcac5e8f48c18df1a57a4a1a3889642e972e66b16bcd9702e151">kWordBullet</a> = 0x0002, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggab04a0655cd1e3bcac5e8f48c18df1a57acc200285b6a1b163fe015396fa406b1b">kWordFilling</a> = 0x0008, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggab04a0655cd1e3bcac5e8f48c18df1a57a2ebde80bc8cb706b7c73dd5b03f11f3f">kWordNumber</a> = 0x0010, 
 <br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga0411cd49bb5b71852cecd93bcbf0ca2da6600001ebf82df660c9d794b184ad8d8">kWordImage</a> = 0x10000
-<br />
- }</td></tr>
-<tr class="memdesc:ga0411cd49bb5b71852cecd93bcbf0ca2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfWordFlags.  <a href="group___enumerations___p_d_fix___s_d_k.html#ga0411cd49bb5b71852cecd93bcbf0ca2d">More...</a><br /></td></tr>
-<tr class="separator:ga0411cd49bb5b71852cecd93bcbf0ca2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabed82baf7f470b522273a3e37c24c600"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabed82baf7f470b522273a3e37c24c600a15113c07c85c881a547562b817515eb9">kTextLineNewLine</a> = 0x0001, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabed82baf7f470b522273a3e37c24c600ac4032cbc4ab0dcd15580f4fe5b9daa68">kTextLineBullet</a> = 0x0002, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabed82baf7f470b522273a3e37c24c600ae2b812221eadcf0828905323747f1f2f">kTextLineHyphen</a> = 0x0004, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabed82baf7f470b522273a3e37c24c600aa0f0d0e16e4c9c3ebb0d71e59e57ef92">kTextLineIndent</a> = 0x0008, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabed82baf7f470b522273a3e37c24c600a1cfa21ef1efe21d33779f178e6d97791">kTextLineDropCap</a> = 0x0010
+&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggab04a0655cd1e3bcac5e8f48c18df1a57a6600001ebf82df660c9d794b184ad8d8">kWordImage</a> = 0x10000
 <br />
  }</td></tr>
-<tr class="memdesc:gabed82baf7f470b522273a3e37c24c600"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfTextLineFlags.  <a href="group___enumerations___p_d_fix___s_d_k.html#gabed82baf7f470b522273a3e37c24c600">More...</a><br /></td></tr>
-<tr class="separator:gabed82baf7f470b522273a3e37c24c600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:gab04a0655cd1e3bcac5e8f48c18df1a57"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfWordFlags.  <a href="group___enumerations___p_d_fix___s_d_k.html#gab04a0655cd1e3bcac5e8f48c18df1a57">More...</a><br /></td></tr>
+<tr class="separator:gab04a0655cd1e3bcac5e8f48c18df1a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga385c44f6fb256e5716a2302a5b940388"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga385c44f6fb256e5716a2302a5b940388a15113c07c85c881a547562b817515eb9">kTextLineNewLine</a> = 0x0001, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga385c44f6fb256e5716a2302a5b940388ac4032cbc4ab0dcd15580f4fe5b9daa68">kTextLineBullet</a> = 0x0002, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga385c44f6fb256e5716a2302a5b940388ae2b812221eadcf0828905323747f1f2f">kTextLineHyphen</a> = 0x0004, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga385c44f6fb256e5716a2302a5b940388aa0f0d0e16e4c9c3ebb0d71e59e57ef92">kTextLineIndent</a> = 0x0008, 
+<br />
+&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga385c44f6fb256e5716a2302a5b940388a1cfa21ef1efe21d33779f178e6d97791">kTextLineDropCap</a> = 0x0010
+<br />
+ }</td></tr>
+<tr class="memdesc:ga385c44f6fb256e5716a2302a5b940388"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfTextLineFlags.  <a href="group___enumerations___p_d_fix___s_d_k.html#ga385c44f6fb256e5716a2302a5b940388">More...</a><br /></td></tr>
+<tr class="separator:ga385c44f6fb256e5716a2302a5b940388"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2cf28478abc1d02dcfe6520b9c886630"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga2cf28478abc1d02dcfe6520b9c886630">PdfTextStyle</a> { <br />
 &#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga2cf28478abc1d02dcfe6520b9c886630a9dfc8692f924ee561d7f866f46e9ca07">kTextNormal</a>, 
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga2cf28478abc1d02dcfe6520b9c886630a1c91e83f5165b524d7c795bd1390b44a">kTextH1</a>, 
@@ -802,47 +687,29 @@ Enumerations</h2></td></tr>
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga2cf28478abc1d02dcfe6520b9c886630af49b358c4cc8663a833bbaaddd15df8b">kTextH7</a>, 
 <br />
 &#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga2cf28478abc1d02dcfe6520b9c886630a8816783fed4a53a3ff54dfc71693a882">kTextH8</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga2cf28478abc1d02dcfe6520b9c886630a8b6dc11183ed3b3c8dd3553b0bb5bd63">kTextNote</a>
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga2cf28478abc1d02dcfe6520b9c886630a8b6dc11183ed3b3c8dd3553b0bb5bd63">kTextNote</a>, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga2cf28478abc1d02dcfe6520b9c886630a3edd924a7d8610d873e00ee5c1f9d1cd">kTextTitle</a>
 <br />
  }</td></tr>
 <tr class="memdesc:ga2cf28478abc1d02dcfe6520b9c886630"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfTextStyle.  <a href="group___enumerations___p_d_fix___s_d_k.html#ga2cf28478abc1d02dcfe6520b9c886630">More...</a><br /></td></tr>
 <tr class="separator:ga2cf28478abc1d02dcfe6520b9c886630"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad9a7598d5d284b41ed8fa46ca6c04983"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gad9a7598d5d284b41ed8fa46ca6c04983">PdfRegexType</a> { <br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983ab6a917079ff7b9b406efee18eb26c415">kRegexHyphen</a> = 0, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a881f8a2d781041f08c23a9d91bab8f4b">kRegexBullet</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a9ef6ab590122e1d5b3be0c078b33277a">kRegexBulletFont</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a4c062bf91c43180a4662836453e527ac">kRegexBulletLine</a>, 
+<tr class="memitem:gabc5c98fcc1211af2b80116dd6e0a035d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabc5c98fcc1211af2b80116dd6e0a035dab55231c2b11baec77c93e9acb5f644bc">kTextFlagTableCaption</a> = 0x0001, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabc5c98fcc1211af2b80116dd6e0a035dad1b930c7e53ba4a80d570ea4261c6cbb">kTextFlagImageCaption</a> = 0x0002, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabc5c98fcc1211af2b80116dd6e0a035da0460803d5e38ba8ebdf33932addd1e5e">kTextFlagChartCaption</a> = 0x0004, 
+<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabc5c98fcc1211af2b80116dd6e0a035da8db0d16a50ffe871cac7c1e36ae76ba2">kTextFlagFilling</a> = 0x008, 
 <br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983ab47618225548bf2387de4b3e60892fc9">kRegexFilling</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a1e6ee85fb3d3f4f46058e8d33aa34688">kRegexToc</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983aeb18a74cc38ed6b07ff5a0cd5559ae82">kRegexNumber</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a23efc6e6879e8b7a4a9b4d13d3369bf7">kRegexAllCaps</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a8953ad00b1427141f760cf13819dc3bd">kRegexFirstCap</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983afbbb82bf1a23181f315bad6c67f0e0e0">kRegexCurrency</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983acac7bf65194f4b2821ee4849a6ad663a">kRegexPercent</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a081775d13a7ca78f95961ec8047c8fd1">kRegexTerminal</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a990bcfcae6da3bf17368c78056a15ec5">kRegexTableCaption</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a0e7967c22ee4d507a4e29f051fc092e9">kRegexImageCaption</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a00c3781f26efd813047a8ab2d3020e74">kRegexChartCaption</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a732fa928076261417e043788058983df">kRegexNoteCaption</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a978b1a163a4af482617449cbd7fd838c">kRegexNumberedList</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a55f085c4a8bad7f4df500cd26905be72">kRegexNumberedSplit</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a628476702695663dc9e155ad9ba11c8f">kRegexSentences</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983afab4b3223964a9c9bd56a036e6dd8631">kRegexAlphaNum</a>, 
-<br />
-&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a58e8ec3f0e0a45f422385a468f6d4dbb">kRegexColon</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983ac2092d72921b8292d80a77af719dab1d">kRegexPhoneNumber</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a93213ee885ca600f032d8ef18445aec1">kRegexDate</a>, 
-<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggad9a7598d5d284b41ed8fa46ca6c04983a460b4ddfd40acfa20646445e4b50d3e0">kRegexPageNumber</a>, 
-<br />
-&#160;&#160;<b>kRegexLast</b>
+&#160;&#160;<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ggabc5c98fcc1211af2b80116dd6e0a035da355f1f5bf9a867c3bbe80cc161e2b7bd">kTextFlagLabel</a> = 0x0010
 <br />
  }</td></tr>
-<tr class="memdesc:gad9a7598d5d284b41ed8fa46ca6c04983"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfRegexType.  <a href="group___enumerations___p_d_fix___s_d_k.html#gad9a7598d5d284b41ed8fa46ca6c04983">More...</a><br /></td></tr>
-<tr class="separator:gad9a7598d5d284b41ed8fa46ca6c04983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:gabc5c98fcc1211af2b80116dd6e0a035d"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfTextRegexFlags.  <a href="group___enumerations___p_d_fix___s_d_k.html#gabc5c98fcc1211af2b80116dd6e0a035d">More...</a><br /></td></tr>
+<tr class="separator:gabc5c98fcc1211af2b80116dd6e0a035d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac36f475ca5b446f4fde4c9b90bec77c8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <b>kElemNoJoin</b> = 0x01, 
+<b>kElemNoSplit</b> = 0x02, 
+<b>kElemArtifact</b> = 0x04
+ }</td></tr>
+<tr class="memdesc:gac36f475ca5b446f4fde4c9b90bec77c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfElementFlags.  <a href="group___enumerations___p_d_fix___s_d_k.html#gac36f475ca5b446f4fde4c9b90bec77c8">More...</a><br /></td></tr>
+<tr class="separator:gac36f475ca5b446f4fde4c9b90bec77c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga9fc9b420229ff7fe7d1edc1b11e136a5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga9fc9b420229ff7fe7d1edc1b11e136a5">PsFileMode</a> { <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga9fc9b420229ff7fe7d1edc1b11e136a5af197c14fb019d8b65a7cfc19aa6476fb">kPsWrite</a> = 0, 
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga9fc9b420229ff7fe7d1edc1b11e136a5a47d8d53057bfc7b004e7c9386851988a">kPsReadOnly</a> = 1, 
 <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gga9fc9b420229ff7fe7d1edc1b11e136a5addd1e8bd6292b321373f3d16aa2e752d">kPsTruncate</a> = 2
@@ -891,143 +758,6 @@ Enumerations</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>PDFix SDK enumeration types. </p>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ga06fc87d81c62e9abb8790b6e5713c55b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga06fc87d81c62e9abb8790b6e5713c55b">&#9670;&nbsp;</a></span>anonymous enum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">anonymous enum</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PdfErrorType. </p>
-<p>Error types. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba68ea8d0b08b4beab8e60f294ae971a1b"></a>kErrorUnknown&#160;</td><td class="fielddoc"><p>Unknown error. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba240aa6b8e6e3c694dc49c77c778e0584"></a>kErrorOutOfMemory&#160;</td><td class="fielddoc"><p>Out of memory error. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba2d4adcfd78389b020bfc0618c7dc1a07"></a>kErrorMalformedInput&#160;</td><td class="fielddoc"><p>Malformed input parameter. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55baada07bc126ba0108b12fdb347067b3be"></a>kErrorMethodNotImplemented&#160;</td><td class="fielddoc"><p>Method is not implemented. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55badb13907dd4b3da6dc975b47114649e67"></a>kErrorPdfDocInvalid&#160;</td><td class="fielddoc"><p>Invalid document. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55baf1fac7495fcad8a228556e12feead0ab"></a>kErrorPdfDocOpen&#160;</td><td class="fielddoc"><p>Open document failed. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba9b744172d25e737d91d07f6b0b5a86e7"></a>kErrorPdfDocCreate&#160;</td><td class="fielddoc"><p>Create document failed. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55baaa38449003d9ad77f7952b8195060863"></a>kErrorPdfDocSave&#160;</td><td class="fielddoc"><p>Save document failed. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55bae67ec48ecbdadb5af84a34b7a43d25ab"></a>kErrorPdfDocClose&#160;</td><td class="fielddoc"><p>Close document failed. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba7f6923259acec24b083ea01eae31ca11"></a>kErrorPdfDigSigUnknownType&#160;</td><td class="fielddoc"><p>Must be one of PdfDigSigType types. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55bad93e1f3e9d5f2eefdb29393b60961921"></a>kErrorPdfDigSigCallback&#160;</td><td class="fielddoc"><p>Digital signature callbacks were not set properly. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55bada56c5d2498bdbfe11465d62b4759759"></a>kErrorPdfPageInvalidColorSpace&#160;</td><td class="fielddoc"><p>Color Space has missing entries, cannot be used propery </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55bac46c258fae1a89d552cbf776c00fed2f"></a>kErrorPdfPageMapCantInsertTj&#160;</td><td class="fielddoc"><p>Damaged text run vector. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba90a8fe1f4f90dbbf2e0de24f2a099fb5"></a>kErrorPsEventMalformed&#160;</td><td class="fielddoc"><p>Events handling error. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba7dc45a8e558ccc350d9938e5a47c2c0b"></a>kErrorPsEventExists&#160;</td><td class="fielddoc"><p>Event is already registered. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55bac40d8ed01308ecf493128eacedbd1af1"></a>kErrorPsNoEvent&#160;</td><td class="fielddoc"><p>Event is not registered. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba21c7cdfd57dde16b9328b44d7fe2a150"></a>kErrorPdfBookmarkMalformed&#160;</td><td class="fielddoc"><p>Bookmark is malformed. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55bac6dc3a798c0a046b0746ccbb4cd76f94"></a>kErrorPdfBookmarkRoot&#160;</td><td class="fielddoc"><p>Document bookmark root is malformed. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba5796c7a572e03966123398eedbc7c1c6"></a>kErrorPsAuthorizationFailed&#160;</td><td class="fielddoc"><p><a class="el" href="struct_pdfix.html" title="Pdfix class. ">Pdfix</a> is not authorized. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55baedc11e65d2f69cd50628c684925d8ee7"></a>kErrorPsAuthorizationNeeded&#160;</td><td class="fielddoc"><p>Call <a class="el" href="struct_pdfix.html#a4a09011995e1418db9a80a9b07db3df7" title="Authorizes Pdfix. ">Pdfix::Authorize</a> to authorize <a class="el" href="struct_pdfix.html" title="Pdfix class. ">Pdfix</a>. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba4415f0e2b470713a16f15ce6ae13391b"></a>kErrorPsAuthorizationCalled&#160;</td><td class="fielddoc"><p>Don't call <a class="el" href="struct_pdfix.html#a4a09011995e1418db9a80a9b07db3df7" title="Authorizes Pdfix. ">Pdfix::Authorize</a> more that once. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55bafcbea584c0971627b60ea6d9919eb369"></a>kErrorPsAuthorizationEmail&#160;</td><td class="fielddoc"><p>Serial number doesn't match an email. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55bacb73a2bd4e13eca52b37772262b8acef"></a>kErrorPsAuthorizationWin&#160;</td><td class="fielddoc"><p>Win platform is not supported with the serial number. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba429b5d376492676608654bf0f0657687"></a>kErrorPsAuthorizationMac&#160;</td><td class="fielddoc"><p>Mac platform is not supported with the serial number. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba7f135fc70afeaf660e9e235efc3a5403"></a>kErrorPsAuthorizationAndroid&#160;</td><td class="fielddoc"><p>Android platform is not supported with the serial number. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba82db87791d6ab617968ab97004558b4e"></a>kErrorPsAuthorizationiOS&#160;</td><td class="fielddoc"><p>iOS platform is not supported with the serial number. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55baf90f339ba6adcb2a902118305302899d"></a>kErrorPsAuthorizationLinux&#160;</td><td class="fielddoc"><p>Linux platform is not supported with the serial number. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba3603bf6f1fae75a075b4712bc3affee2"></a>kErrorPsAuthorizationServer&#160;</td><td class="fielddoc"><p>Server platform is not supported with the serial number. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba2631efd54b442df68ef4bf66e912d847"></a>kErrorPsAuthorizationFeature&#160;</td><td class="fielddoc"><p>Feature is not supported with the serial number. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba0baec2dfc87e250a6be9bef8d3537bf1"></a>kErrorPsAuthorizationDate&#160;</td><td class="fielddoc"><p>Serial number expired. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba7d5cbade82a7e84a8c8046c7b57d1f58"></a>kErrorPsAuthorizationVersion&#160;</td><td class="fielddoc"><p>Version number doesn't match a current version of SDK. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba928dcd423b646120af07f557105d7897"></a>kErrorPsAuthorizationNumber&#160;</td><td class="fielddoc"><p>Serial number is wrong. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba7c51dc3b183a497ece5dd8707c52f5bf"></a>kErrorPsAuthorizationOsCheck&#160;</td><td class="fielddoc"><p>Operating system check error. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55bace8aac1258174d9586da508dfb9d3b38"></a>kErrorPdfFontNotEmbedded&#160;</td><td class="fielddoc"><p>Font is not embedded. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba365a5b8855b8d0d38df14a758f32847f"></a>kErrorPdfFontSave&#160;</td><td class="fielddoc"><p>Font save error. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55baaa182cbc58357dbec20ca7e73746f98c"></a>kErrorPathNotFound&#160;</td><td class="fielddoc"><p>File or directory does not exist. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55bad6a5058b397954ba28b99d30378ece09"></a>kErrorPdfPageMapAddTags&#160;</td><td class="fielddoc"><p>Cannot create tags for the current page. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55badf1a02cc4ed955028441eb1895a8cdbf"></a>kErrorPdfPageMapRemoveTags&#160;</td><td class="fielddoc"><p>Tags for the current page cannot be removed. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba27f8070b8ecdbcf971489dfc1db9ac68"></a>kErrorPdfAlternateNotFound&#160;</td><td class="fielddoc"><p>Mathing alternate was not found. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55bacaf4606b686ac8f3ae1eebf020acf3d2"></a>kErrorPdfAlternateInvalid&#160;</td><td class="fielddoc"><p>Invalid alternate. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55bae5140afd38d2f78ed71aac13459e8167"></a>kErrorPdfAlternateResourceNotFound&#160;</td><td class="fielddoc"><p>Resource not found error. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55baa2da0778da5d242d35b406dfdb6ea69d"></a>kErrorPdfHtmlAlternateFont&#160;</td><td class="fielddoc"><p>Font for text element not found. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba5efd3926a2655942db5987827be901a0"></a>kErrorPdfHtmlAlternateCreateAF&#160;</td><td class="fielddoc"><p>Failed to create AF. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba554f107deb12bf355e68e4782e30a7f4"></a>kErrorPdfHtmlAlternateWriteAF&#160;</td><td class="fielddoc"><p>Failed to write AF. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba9fe02505cbd37f3b811eebe582be7f35"></a>kErrorPdfHtmlAlternateImage&#160;</td><td class="fielddoc"><p>FA Failed. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba41ea37a1cf58b562f1bb1a205826f67c"></a>kErrorPsStreamReadProcMissing&#160;</td><td class="fielddoc"><p>Read stream callback is missing. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba1ff20d1a0f8aafbd9048292ccffc97ab"></a>kErrorPsStreamWriteProcMissing&#160;</td><td class="fielddoc"><p>Write stream callback is missing. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba511a539941a3a4dde792d10da54e7aad"></a>kErrorPsStreamGetSizeProcMissing&#160;</td><td class="fielddoc"><p>GetSize stream callback is missing. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba0ab89bbc57d195bd32a80d66a0c946cb"></a>kErrorPdfPageMapTagAttributes&#160;</td><td class="fielddoc"><p>Attributes dictionary missing. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba2bc79899cacfba0b90099556bc6c8d66"></a>kErrorPdfPageMapTagParentTree&#160;</td><td class="fielddoc"><p>Parent tree error. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba89c9f7a57f109dd1a9c9c2f7f75c1a15"></a>kErrorPdeContentWriter&#160;</td><td class="fielddoc"><p>Error occured while writing the content. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba5067736c5a10720855e02aac833ad802"></a>kErrorParsingDataFile&#160;</td><td class="fielddoc"><p>Error occured while parsing data file. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba6c3b5581b509c6066f69d743319084d6"></a>kErrorPsRegexSearchFail&#160;</td><td class="fielddoc"><p>Regex search error. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba011c8804368b311c3417a51db7d5cee4"></a>kErrorDocTemplateInvalidQuery&#160;</td><td class="fielddoc"><p>Document template query is invalid. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba57c71ef9945a6c00a405442a38bb29d3"></a>kErrorDocTemplateInvalidValue&#160;</td><td class="fielddoc"><p>Document template value is invalid. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba67f1a6d861125ce39e86ca64d4258cef"></a>kErrorPdsStructTreeInvalid&#160;</td><td class="fielddoc"><p>Invalid document struct tree. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55bafc37f56d881010da66510b2bf5104cf8"></a>kErrorInit&#160;</td><td class="fielddoc"><p>Initialization failed. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55bae0d8057eb20bd6f078d1ee27d8ea19b2"></a>kErrorIndexOutOfRange&#160;</td><td class="fielddoc"><p>Index out of bounds of array. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga06fc87d81c62e9abb8790b6e5713c55ba16ff4b6bf4efe0bce4e7e3d38670fae4"></a>kErrorPdsStructElementNotFound&#160;</td><td class="fielddoc"><p>Struct element was not found. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
 <a id="gadf764cbdea00d65edcd07bb9953ad2b7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gadf764cbdea00d65edcd07bb9953ad2b7">&#9670;&nbsp;</a></span>anonymous enum</h2>
 
@@ -1066,6 +796,81 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="ggadf764cbdea00d65edcd07bb9953ad2b7ae59d14047bb8f0f4e85c9bf6ebbe049a"></a>kAnnotFlagLockedContents&#160;</td><td class="fielddoc"><p>If the annotation is content-locked, the user can not change its content key. </p>
 </td></tr>
 </table>
+
+</div>
+</div>
+<a id="ga385c44f6fb256e5716a2302a5b940388"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga385c44f6fb256e5716a2302a5b940388">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PdfTextLineFlags. </p>
+<p><a class="el" href="struct_pde_line.html" title="PdeLine class. ">PdeLine</a> flags. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga385c44f6fb256e5716a2302a5b940388a15113c07c85c881a547562b817515eb9"></a>kTextLineNewLine&#160;</td><td class="fielddoc"><p>New line flag </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga385c44f6fb256e5716a2302a5b940388ac4032cbc4ab0dcd15580f4fe5b9daa68"></a>kTextLineBullet&#160;</td><td class="fielddoc"><p>Bullet flag </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga385c44f6fb256e5716a2302a5b940388ae2b812221eadcf0828905323747f1f2f"></a>kTextLineHyphen&#160;</td><td class="fielddoc"><p>Line ends with hyphen </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga385c44f6fb256e5716a2302a5b940388aa0f0d0e16e4c9c3ebb0d71e59e57ef92"></a>kTextLineIndent&#160;</td><td class="fielddoc"><p>Line has indent </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga385c44f6fb256e5716a2302a5b940388a1cfa21ef1efe21d33779f178e6d97791"></a>kTextLineDropCap&#160;</td><td class="fielddoc"><p>Line starts with drop cap letter </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="gabc5c98fcc1211af2b80116dd6e0a035d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabc5c98fcc1211af2b80116dd6e0a035d">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PdfTextRegexFlags. </p>
+<p><a class="el" href="struct_pde_text.html" title="PdeText class. ">PdeText</a> flags. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggabc5c98fcc1211af2b80116dd6e0a035dab55231c2b11baec77c93e9acb5f644bc"></a>kTextFlagTableCaption&#160;</td><td class="fielddoc"><p>Table caption. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggabc5c98fcc1211af2b80116dd6e0a035dad1b930c7e53ba4a80d570ea4261c6cbb"></a>kTextFlagImageCaption&#160;</td><td class="fielddoc"><p>Image caption. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggabc5c98fcc1211af2b80116dd6e0a035da0460803d5e38ba8ebdf33932addd1e5e"></a>kTextFlagChartCaption&#160;</td><td class="fielddoc"><p>Chart caption. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggabc5c98fcc1211af2b80116dd6e0a035da8db0d16a50ffe871cac7c1e36ae76ba2"></a>kTextFlagFilling&#160;</td><td class="fielddoc"><p>Text filling only. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggabc5c98fcc1211af2b80116dd6e0a035da355f1f5bf9a867c3bbe80cc161e2b7bd"></a>kTextFlagLabel&#160;</td><td class="fielddoc"><p>Bullet text. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="gac36f475ca5b446f4fde4c9b90bec77c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac36f475ca5b446f4fde4c9b90bec77c8">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PdfElementFlags. </p>
+<p><a class="el" href="struct_pde_element.html" title="PdeElement class. ">PdeElement</a> flags. </p>
 
 </div>
 </div>
@@ -1126,8 +931,6 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="ggabc6126af1d45847bc59afa0aa3216b04a03f27b7cbb5bdb09f039ca647276d3b5"></a>kTextFlagPatternFill&#160;</td><td class="fielddoc"><p>Text is filled with pattern. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ggabc6126af1d45847bc59afa0aa3216b04ac4a94446f1fcdc38217a375a471cbddc"></a>kTextFlagPatternStroke&#160;</td><td class="fielddoc"><p>Text is stroked with pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggabc6126af1d45847bc59afa0aa3216b04ae136d62210316441b50087ff037aee6e"></a>kTextFlagAngle&#160;</td><td class="fielddoc"><p>Text is rotated. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ggabc6126af1d45847bc59afa0aa3216b04a35b9b4f4bd4882617a34bda10878d2f7"></a>kTextFlagWhiteSpace&#160;</td><td class="fielddoc"><p>Text is whitespace. </p>
 </td></tr>
@@ -1282,18 +1085,24 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>PdfWordFlags. </p>
-<p><a class="el" href="struct_pde_word.html" title="PdeWord class. ">PdeWord</a> flags. </p>
+<p>PdfPageContentFlags. </p>
+<p>Specifies various flags for specific object types in the page content. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga0411cd49bb5b71852cecd93bcbf0ca2da59b32105ac9c42f15eae976689be4eec"></a>kWordHyphen&#160;</td><td class="fielddoc"><p>Hyphen. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga0411cd49bb5b71852cecd93bcbf0ca2dae7d3f67cfd878555d2f22bfb2de87296"></a>kContentImage&#160;</td><td class="fielddoc"><p>ImageObject. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga0411cd49bb5b71852cecd93bcbf0ca2da4a1a3889642e972e66b16bcd9702e151"></a>kWordBullet&#160;</td><td class="fielddoc"><p>Bullet. </p>
+<tr><td class="fieldname"><a id="gga0411cd49bb5b71852cecd93bcbf0ca2dad83a3668baf453505e52d509761e9632"></a>kContentText&#160;</td><td class="fielddoc"><p>Text object. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga0411cd49bb5b71852cecd93bcbf0ca2dacc200285b6a1b163fe015396fa406b1b"></a>kWordFilling&#160;</td><td class="fielddoc"><p>Fills the space. i.e. Table of content. </p>
+<tr><td class="fieldname"><a id="gga0411cd49bb5b71852cecd93bcbf0ca2dafb0f3c659e201fd792350cd39baa1fb7"></a>kContentPath&#160;</td><td class="fielddoc"><p>Path objects. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga0411cd49bb5b71852cecd93bcbf0ca2da2ebde80bc8cb706b7c73dd5b03f11f3f"></a>kWordNumber&#160;</td><td class="fielddoc"><p>Any number. </p>
+<tr><td class="fieldname"><a id="gga0411cd49bb5b71852cecd93bcbf0ca2da754de9d34956b51466c4493ea8786aed"></a>kContentForm&#160;</td><td class="fielddoc"><p>Form object. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga0411cd49bb5b71852cecd93bcbf0ca2da6600001ebf82df660c9d794b184ad8d8"></a>kWordImage&#160;</td><td class="fielddoc"><p>Image, not text representation. </p>
+<tr><td class="fieldname"><a id="gga0411cd49bb5b71852cecd93bcbf0ca2dacc6498c43ab70918152ece8026d5256c"></a>kContentShading&#160;</td><td class="fielddoc"><p>Shading object . </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga0411cd49bb5b71852cecd93bcbf0ca2da88de5cd50a63a39ad7104799b59d415d"></a>kContentTextTransparent&#160;</td><td class="fielddoc"><p>Text object with rendering mode 3 - transparent text. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga0411cd49bb5b71852cecd93bcbf0ca2da35dd98c8a359b9899dc2c194a3d20737"></a>kContentTextFill&#160;</td><td class="fielddoc"><p>Text object with rendering mode 0, 2 or 4. - fill </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga0411cd49bb5b71852cecd93bcbf0ca2dab047554964498d7a4de985ca0b110bd7"></a>kContentTextStroke&#160;</td><td class="fielddoc"><p>Text object with rendering mode 1, 2 or 5. - stroke </p>
 </td></tr>
 </table>
 
@@ -1311,18 +1120,51 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>PdfTextLineFlags. </p>
-<p><a class="el" href="struct_pde_line.html" title="PdeLine class. ">PdeLine</a> flags. </p>
+<p>PdfTableType. </p>
+<p>Type of <a class="el" href="struct_pde_table.html" title="PdeTable class. ">PdeTable</a>. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggabed82baf7f470b522273a3e37c24c600a15113c07c85c881a547562b817515eb9"></a>kTextLineNewLine&#160;</td><td class="fielddoc"><p>New line flag </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggabed82baf7f470b522273a3e37c24c600a49421568e7ebb4f8091d45e8230c5981"></a>kTableUnknown&#160;</td><td class="fielddoc"><p>Unknown table. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggabed82baf7f470b522273a3e37c24c600ac4032cbc4ab0dcd15580f4fe5b9daa68"></a>kTextLineBullet&#160;</td><td class="fielddoc"><p>Bullet flag </p>
+<tr><td class="fieldname"><a id="ggabed82baf7f470b522273a3e37c24c600a55b0a2f25f9055ad87f6af7ee6f05c50"></a>kTableGraphic&#160;</td><td class="fielddoc"><p>Graphic table. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggabed82baf7f470b522273a3e37c24c600ae2b812221eadcf0828905323747f1f2f"></a>kTextLineHyphen&#160;</td><td class="fielddoc"><p>Line ends with hyphen </p>
+<tr><td class="fieldname"><a id="ggabed82baf7f470b522273a3e37c24c600a6f2c562f02e9a8d91b9b6d2b59aea234"></a>kTableIsolated&#160;</td><td class="fielddoc"><p>Isolated table. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggabed82baf7f470b522273a3e37c24c600aa0f0d0e16e4c9c3ebb0d71e59e57ef92"></a>kTextLineIndent&#160;</td><td class="fielddoc"><p>Line has indent </p>
+<tr><td class="fieldname"><a id="ggabed82baf7f470b522273a3e37c24c600ad0b7770ef1cb53602629dab995b09637"></a>kTableIsolatedCol&#160;</td><td class="fielddoc"><p>Col table. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggabed82baf7f470b522273a3e37c24c600a1cfa21ef1efe21d33779f178e6d97791"></a>kTextLineDropCap&#160;</td><td class="fielddoc"><p>Line starts with drop cap letter </p>
+<tr><td class="fieldname"><a id="ggabed82baf7f470b522273a3e37c24c600a143d788dc5b8f11386c529104f984177"></a>kTableIsolatedRow&#160;</td><td class="fielddoc"><p>Row table. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggabed82baf7f470b522273a3e37c24c600a19e2fa94346c318a234a9871a8f91173"></a>kTableForm&#160;</td><td class="fielddoc"><p>Form table. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggabed82baf7f470b522273a3e37c24c600addf086d5b31ad200c89943d7f68a78e2"></a>kTableElement&#160;</td><td class="fielddoc"><p>Element table. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="gab04a0655cd1e3bcac5e8f48c18df1a57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab04a0655cd1e3bcac5e8f48c18df1a57">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PdfWordFlags. </p>
+<p><a class="el" href="struct_pde_word.html" title="PdeWord class. ">PdeWord</a> flags. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggab04a0655cd1e3bcac5e8f48c18df1a57a59b32105ac9c42f15eae976689be4eec"></a>kWordHyphen&#160;</td><td class="fielddoc"><p>Hyphen. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggab04a0655cd1e3bcac5e8f48c18df1a57a4a1a3889642e972e66b16bcd9702e151"></a>kWordBullet&#160;</td><td class="fielddoc"><p>Bullet. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggab04a0655cd1e3bcac5e8f48c18df1a57acc200285b6a1b163fe015396fa406b1b"></a>kWordFilling&#160;</td><td class="fielddoc"><p>Fills the space. i.e. Table of content. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggab04a0655cd1e3bcac5e8f48c18df1a57a2ebde80bc8cb706b7c73dd5b03f11f3f"></a>kWordNumber&#160;</td><td class="fielddoc"><p>Any number. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggab04a0655cd1e3bcac5e8f48c18df1a57a6600001ebf82df660c9d794b184ad8d8"></a>kWordImage&#160;</td><td class="fielddoc"><p>Image, not text representation. </p>
 </td></tr>
 </table>
 
@@ -1660,6 +1502,31 @@ Enumerations</h2></td></tr>
 
 </div>
 </div>
+<a id="ga3907d71c6d3ff4ebe5de25ed92d64bf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3907d71c6d3ff4ebe5de25ed92d64bf8">&#9670;&nbsp;</a></span>PdfContainerType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga3907d71c6d3ff4ebe5de25ed92d64bf8">PdfContainerType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PdfContainerType. </p>
+<p>Specifies container type. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga3907d71c6d3ff4ebe5de25ed92d64bf8a7089c99d9f81c51d728c16c9570c2b99"></a>kPdeContainerUnknown&#160;</td><td class="fielddoc"><p>Unknown container. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga3907d71c6d3ff4ebe5de25ed92d64bf8a41525fe2250f06d2558e5793f1d4ce80"></a>kPdeContainerPage&#160;</td><td class="fielddoc"><p>Main page container. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga3907d71c6d3ff4ebe5de25ed92d64bf8a86c7a7391fc7535b9024a72a6516161f"></a>kPdeContainerArt&#160;</td><td class="fielddoc"><p>Article container. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a id="ga482bd9f4164bb6d4eda28f75c7cb1787"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga482bd9f4164bb6d4eda28f75c7cb1787">&#9670;&nbsp;</a></span>PdfDestZoomType</h2>
 
@@ -1798,9 +1665,7 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="gga1c46809f4a04b62054561924c9fe4b93a556186b6a8a68cbb0151d05c8fd071ea"></a>kPdeFooter&#160;</td><td class="fielddoc"><p><a class="el" href="struct_pde_footer.html" title="PdeFooter class. ">PdeFooter</a> element. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga1c46809f4a04b62054561924c9fe4b93a0c53a0f7523285014e6a06567c5e138a"></a>kPdeColumn&#160;</td><td class="fielddoc"><p>PdeColumn element. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga1c46809f4a04b62054561924c9fe4b93af15baba4e2b125b727fa2d3d88f0bc4f"></a>kPdeRow&#160;</td><td class="fielddoc"><p>PdeRow element. </p>
+<tr><td class="fieldname"><a id="gga1c46809f4a04b62054561924c9fe4b93a5d0f1701e0d7d29732db8de7a21c4a99"></a>kPdeAnnot&#160;</td><td class="fielddoc"><p><a class="el" href="struct_pde_annot.html" title="PdeAnnot class. ">PdeAnnot</a> element. </p>
 </td></tr>
 </table>
 
@@ -1843,7 +1708,7 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="ggae88c6d02fc9ba398de7969899b55a406aac9760be8b4b36b799dc964ff103ec82"></a>kEventPageDidRemoveAnnot&#160;</td><td class="fielddoc"><p>An annotation has been removed from a page. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggae88c6d02fc9ba398de7969899b55a406ae63a8212e618c65b505760692b10c969"></a>kEventageContentsDidChange&#160;</td><td class="fielddoc"><p>The contents of a page have changed. </p>
+<tr><td class="fieldname"><a id="ggae88c6d02fc9ba398de7969899b55a406a15b322a906e6f076896ca206f18573f6"></a>kEventPageContentsDidChange&#160;</td><td class="fielddoc"><p>The contents of a page have changed. </p>
 </td></tr>
 </table>
 
@@ -2074,7 +1939,7 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="gga2d67209ba90b9d207f3268df23a0a2e6abfc9defb824d01698a9cd8355edf6074"></a>kImageShading&#160;</td><td class="fielddoc"><p><a class="el" href="struct_pde_image.html" title="PdeImage class. ">PdeImage</a> is shading. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga2d67209ba90b9d207f3268df23a0a2e6a62fbe81bed26a4c234c021069fa115ea"></a>kImageTable&#160;</td><td class="fielddoc"><p><a class="el" href="struct_pde_image.html" title="PdeImage class. ">PdeImage</a> contains graphic table. </p>
+<tr><td class="fieldname"><a id="gga2d67209ba90b9d207f3268df23a0a2e6af0ed25e60cbea9a0e27dcd0ba1f6a008"></a>kImageForm&#160;</td><td class="fielddoc"><p><a class="el" href="struct_pde_image.html" title="PdeImage class. ">PdeImage</a> was created from form xobject. </p>
 </td></tr>
 </table>
 
@@ -2144,9 +2009,21 @@ Enumerations</h2></td></tr>
 <p>PdfListType. </p>
 <p>Type of <a class="el" href="struct_pde_list.html" title="PdeList class. ">PdeList</a>. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga5a7aac4eee8fe845efaf925bdb062371a1b86aeb9e1e73bf201333c89ed0ae3c7"></a>kListUnordered&#160;</td><td class="fielddoc"><p>Ordered list. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga5a7aac4eee8fe845efaf925bdb062371a177bde4d1915b1a1cac053e1a0303b82"></a>kListNone&#160;</td><td class="fielddoc"><p>No numbering system; Lbl elements(if present) contain arbitrary text not subject to any numbering scheme. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga5a7aac4eee8fe845efaf925bdb062371a03e034d0fe729a103c7ad3abae265f63"></a>kListOrdered&#160;</td><td class="fielddoc"><p>Unordered list. </p>
+<tr><td class="fieldname"><a id="gga5a7aac4eee8fe845efaf925bdb062371a1b86aeb9e1e73bf201333c89ed0ae3c7"></a>kListUnordered&#160;</td><td class="fielddoc"><p>Unordered list with unspecified bullets. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga5a7aac4eee8fe845efaf925bdb062371a03e034d0fe729a103c7ad3abae265f63"></a>kListOrdered&#160;</td><td class="fielddoc"><p>Ordered Ordered lists with unspecified numbering. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga5a7aac4eee8fe845efaf925bdb062371a274aed2c8d1f923ddef559d1958c97e9"></a>kListDecimal&#160;</td><td class="fielddoc"><p>Decimal Decimal Arabic numerals(1Ð9, 10Ð99, É) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga5a7aac4eee8fe845efaf925bdb062371ab39e2f0f10c4e4537832ccc3ee10a248"></a>kListRomanUpper&#160;</td><td class="fielddoc"><p>UpperRoman Uppercase Roman numerals(I, II, III, IV, É) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga5a7aac4eee8fe845efaf925bdb062371af431bbf35e73dea236319b452bf7b3bb"></a>kListRomanLower&#160;</td><td class="fielddoc"><p>LowerRoman Lowercase Roman numerals(i, ii, iii, iv, É) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga5a7aac4eee8fe845efaf925bdb062371abea9215641db086d0b20fc86b76c16c9"></a>kListLetterUpper&#160;</td><td class="fielddoc"><p>UpperAlpha Uppercase letters(A, B, C, ..) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga5a7aac4eee8fe845efaf925bdb062371ae6ad925f4830ebd897bf91a877e9d599"></a>kListLetterLower&#160;</td><td class="fielddoc"><p>LowerAlpha Lowercase letters(a, b, c, É) </p>
 </td></tr>
 </table>
 
@@ -2274,96 +2151,6 @@ Enumerations</h2></td></tr>
 
 </div>
 </div>
-<a id="gad9a7598d5d284b41ed8fa46ca6c04983"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad9a7598d5d284b41ed8fa46ca6c04983">&#9670;&nbsp;</a></span>PdfRegexType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gad9a7598d5d284b41ed8fa46ca6c04983">PdfRegexType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PdfRegexType. </p>
-<p>Regex type. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983ab6a917079ff7b9b406efee18eb26c415"></a>kRegexHyphen&#160;</td><td class="fielddoc"><p>Hyphen pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a881f8a2d781041f08c23a9d91bab8f4b"></a>kRegexBullet&#160;</td><td class="fielddoc"><p>Bullet pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a9ef6ab590122e1d5b3be0c078b33277a"></a>kRegexBulletFont&#160;</td><td class="fielddoc"><p>Bullet font type. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a4c062bf91c43180a4662836453e527ac"></a>kRegexBulletLine&#160;</td><td class="fielddoc"><p>Bullet line pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983ab47618225548bf2387de4b3e60892fc9"></a>kRegexFilling&#160;</td><td class="fielddoc"><p>Filling pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a1e6ee85fb3d3f4f46058e8d33aa34688"></a>kRegexToc&#160;</td><td class="fielddoc"><p>TOC pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983aeb18a74cc38ed6b07ff5a0cd5559ae82"></a>kRegexNumber&#160;</td><td class="fielddoc"><p>Number pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a23efc6e6879e8b7a4a9b4d13d3369bf7"></a>kRegexAllCaps&#160;</td><td class="fielddoc"><p>All capital letters. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a8953ad00b1427141f760cf13819dc3bd"></a>kRegexFirstCap&#160;</td><td class="fielddoc"><p>First capital letter </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983afbbb82bf1a23181f315bad6c67f0e0e0"></a>kRegexCurrency&#160;</td><td class="fielddoc"><p>Number with currency symbol. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983acac7bf65194f4b2821ee4849a6ad663a"></a>kRegexPercent&#160;</td><td class="fielddoc"><p>Number with % symbol. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a081775d13a7ca78f95961ec8047c8fd1"></a>kRegexTerminal&#160;</td><td class="fielddoc"><p>Terminal character with dot. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a990bcfcae6da3bf17368c78056a15ec5"></a>kRegexTableCaption&#160;</td><td class="fielddoc"><p>Table caption pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a0e7967c22ee4d507a4e29f051fc092e9"></a>kRegexImageCaption&#160;</td><td class="fielddoc"><p>Image caption pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a00c3781f26efd813047a8ab2d3020e74"></a>kRegexChartCaption&#160;</td><td class="fielddoc"><p>Chart caption pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a732fa928076261417e043788058983df"></a>kRegexNoteCaption&#160;</td><td class="fielddoc"><p>Note caption pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a978b1a163a4af482617449cbd7fd838c"></a>kRegexNumberedList&#160;</td><td class="fielddoc"><p>Numbered list pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a55f085c4a8bad7f4df500cd26905be72"></a>kRegexNumberedSplit&#160;</td><td class="fielddoc"><p>Numbered list splitters. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a628476702695663dc9e155ad9ba11c8f"></a>kRegexSentences&#160;</td><td class="fielddoc"><p>Sentences in text pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983afab4b3223964a9c9bd56a036e6dd8631"></a>kRegexAlphaNum&#160;</td><td class="fielddoc"><p>Both characters and numbers. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a58e8ec3f0e0a45f422385a468f6d4dbb"></a>kRegexColon&#160;</td><td class="fielddoc"><p>Last character is a colon. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983ac2092d72921b8292d80a77af719dab1d"></a>kRegexPhoneNumber&#160;</td><td class="fielddoc"><p>Phone number pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a93213ee885ca600f032d8ef18445aec1"></a>kRegexDate&#160;</td><td class="fielddoc"><p>Date pattern. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggad9a7598d5d284b41ed8fa46ca6c04983a460b4ddfd40acfa20646445e4b50d3e0"></a>kRegexPageNumber&#160;</td><td class="fielddoc"><p>Page number pattern. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
-<a id="ga1ede2b9d3683edfec84e796be0c8491e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga1ede2b9d3683edfec84e796be0c8491e">&#9670;&nbsp;</a></span>PdfRenderMode</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga1ede2b9d3683edfec84e796be0c8491e">PdfRenderMode</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PdfRenderMode. </p>
-<p>Element rendering mode. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga1ede2b9d3683edfec84e796be0c8491eaa34b8dbe6b6b8e61a04b1dcdc58419d8"></a>kRenderElemNone&#160;</td><td class="fielddoc"><p>Do not render element. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="gga1ede2b9d3683edfec84e796be0c8491ea7d2424f00892a694a8fcdc8449eb9285"></a>kRenderElem&#160;</td><td class="fielddoc"><p>Render each element. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
 <a id="gad84548ba31797140b44ee1dcd589aca6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#gad84548ba31797140b44ee1dcd589aca6">&#9670;&nbsp;</a></span>PdfRotate</h2>
 
@@ -2468,32 +2255,26 @@ Enumerations</h2></td></tr>
 
 </div>
 </div>
-<a id="gaa975262b1cbf1203dca6949419e8269a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa975262b1cbf1203dca6949419e8269a">&#9670;&nbsp;</a></span>PdfTableType</h2>
+<a id="gae457fa19b803fdc406724e06a2cd6e04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gae457fa19b803fdc406724e06a2cd6e04">&#9670;&nbsp;</a></span>PdfTagType</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gaa975262b1cbf1203dca6949419e8269a">PdfTableType</a></td>
+          <td class="memname">enum <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gae457fa19b803fdc406724e06a2cd6e04">PdfTagType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>PdfTableType. </p>
-<p>Type of <a class="el" href="struct_pde_table.html" title="PdeTable class. ">PdeTable</a>. </p>
+<p>PdfTagType. </p>
+<p>Specifies tag type. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggaa975262b1cbf1203dca6949419e8269aa55b0a2f25f9055ad87f6af7ee6f05c50"></a>kTableGraphic&#160;</td><td class="fielddoc"><p>Graphic table. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggae457fa19b803fdc406724e06a2cd6e04ae23fa6dd9d2cb07374ec32b4cf0aa27e"></a>kTagUnknown&#160;</td><td class="fielddoc"><p>Unknown tag. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggaa975262b1cbf1203dca6949419e8269aa6f2c562f02e9a8d91b9b6d2b59aea234"></a>kTableIsolated&#160;</td><td class="fielddoc"><p>Isolated table. </p>
+<tr><td class="fieldname"><a id="ggae457fa19b803fdc406724e06a2cd6e04abc7a31e9fec84eb2201045afefa4d92f"></a>kTagSect&#160;</td><td class="fielddoc"><p>Section. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="ggaa975262b1cbf1203dca6949419e8269aad0b7770ef1cb53602629dab995b09637"></a>kTableIsolatedCol&#160;</td><td class="fielddoc"><p>Col table. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggaa975262b1cbf1203dca6949419e8269aa143d788dc5b8f11386c529104f984177"></a>kTableIsolatedRow&#160;</td><td class="fielddoc"><p>Row table. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggaa975262b1cbf1203dca6949419e8269aa19e2fa94346c318a234a9871a8f91173"></a>kTableForm&#160;</td><td class="fielddoc"><p>Form table. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggaa975262b1cbf1203dca6949419e8269aaddf086d5b31ad200c89943d7f68a78e2"></a>kTableElement&#160;</td><td class="fielddoc"><p>Element table. </p>
+<tr><td class="fieldname"><a id="ggae457fa19b803fdc406724e06a2cd6e04a1f64ebafe0f2c3b6d1e3dc737bd592a9"></a>kTagArt&#160;</td><td class="fielddoc"><p>Article. </p>
 </td></tr>
 </table>
 
@@ -2562,6 +2343,8 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="gga2cf28478abc1d02dcfe6520b9c886630a8816783fed4a53a3ff54dfc71693a882"></a>kTextH8&#160;</td><td class="fielddoc"><p>Text is a header H8. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="gga2cf28478abc1d02dcfe6520b9c886630a8b6dc11183ed3b3c8dd3553b0bb5bd63"></a>kTextNote&#160;</td><td class="fielddoc"><p>Text is a note. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga2cf28478abc1d02dcfe6520b9c886630a3edd924a7d8610d873e00ee5c1f9d1cd"></a>kTextTitle&#160;</td><td class="fielddoc"><p>Text is a title. </p>
 </td></tr>
 </table>
 
@@ -2641,7 +2424,7 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:10 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:39 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

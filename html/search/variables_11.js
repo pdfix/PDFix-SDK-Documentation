@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['v_5falign',['v_align',['../struct___pdf_watermark_params.html#acf11c0ee119e655f96ca846fc60bb72c',1,'_PdfWatermarkParams']]],
-  ['v_5fvalue',['v_value',['../struct___pdf_watermark_params.html#aadd2a6fd39ea67de59be9c445fc0467c',1,'_PdfWatermarkParams']]],
-  ['vertical',['vertical',['../struct___pdf_font_state.html#ab9dddb912ca926972e7d7d2c0658f523',1,'_PdfFontState']]]
+  ['text_5falign',['text_align',['../struct___pdf_annot_appearance.html#a24043783c22fa3028e38e3f2c7bcf373',1,'_PdfAnnotAppearance']]],
+  ['tl',['tl',['../struct___pdf_quad.html#a219d66f02225f4f57180e1aa941a769c',1,'_PdfQuad::tl()'],['../struct___pdf_dev_quad.html#a96597c56640d246795795be7cdd5d4c0',1,'_PdfDevQuad::tl()']]],
+  ['top',['top',['../struct___pdf_rect.html#ae87ec15e24bab538776e6f98ec0efda8',1,'_PdfRect::top()'],['../struct___pdf_dev_rect.html#a5d4007e19e4ac34a699a2cd9c248f457',1,'_PdfDevRect::top()']]],
+  ['tr',['tr',['../struct___pdf_quad.html#aabd5ba4f5a2b3ba1fab12e552a179d8a',1,'_PdfQuad::tr()'],['../struct___pdf_dev_quad.html#af294c4d482651868ca33736052017e0b',1,'_PdfDevQuad::tr()']]],
+  ['type',['type',['../struct___pdf_font_state.html#a03ca7e268770d41c851d744553cb17b2',1,'_PdfFontState::type()'],['../struct___pdf_media_query_params.html#a8d61ef3d060b1e810e2061d165e40b9f',1,'_PdfMediaQueryParams::type()'],['../struct___pdf_html_params.html#a77495be14cdcf238204e93fad7c29634',1,'_PdfHtmlParams::type()']]]
 ];

@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -123,17 +123,18 @@ $(document).ready(function(){initNavTree('struct_pdf_markup_annot.html','');});
   <tr><td class="entry"><a class="el" href="struct_pdf_annot.html#a4374c3ca69cea14cc2bc96e6a20f3adf">GetFlags</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_annot.html">PdfAnnot</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_pdf_markup_annot.html#a9f10226288299d8f0d4a3c600b21f5c8">GetNumReplies</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_markup_annot.html">PdfMarkupAnnot</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="struct_pdf_markup_annot.html#a9145104af93615c6a24e63663a927d5d">GetReply</a>(int index)=0</td><td class="entry"><a class="el" href="struct_pdf_markup_annot.html">PdfMarkupAnnot</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_annot.html#a5586e89feaa0c383fd0a047d3edf9ab2">GetSubtype</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_annot.html">PdfAnnot</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pdf_annot.html#a1d807c6a8ff1d3a2d8fe524f29d83d1d">PointInAnnot</a>(PdfPoint *point)=0</td><td class="entry"><a class="el" href="struct_pdf_annot.html">PdfAnnot</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_annot.html#acc33624d0b1a0d4cb06f2c1f743dc488">RectInAnnot</a>(PdfRect *rect)=0</td><td class="entry"><a class="el" href="struct_pdf_annot.html">PdfAnnot</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="struct_pdf_markup_annot.html#ad819efa5b82773694419b054d5937173">SetAuthor</a>(const wchar_t *buffer)=0</td><td class="entry"><a class="el" href="struct_pdf_markup_annot.html">PdfMarkupAnnot</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_markup_annot.html#a53d851909cc3b458c82b70cda2009860">SetContents</a>(const wchar_t *buffer)=0</td><td class="entry"><a class="el" href="struct_pdf_markup_annot.html">PdfMarkupAnnot</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_annot.html#a9cbe9a4170277459dc49e80925e78516">GetStructObject</a>(bool struct_parent)=0</td><td class="entry"><a class="el" href="struct_pdf_annot.html">PdfAnnot</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pdf_annot.html#a5586e89feaa0c383fd0a047d3edf9ab2">GetSubtype</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_annot.html">PdfAnnot</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_annot.html#a1d807c6a8ff1d3a2d8fe524f29d83d1d">PointInAnnot</a>(PdfPoint *point)=0</td><td class="entry"><a class="el" href="struct_pdf_annot.html">PdfAnnot</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pdf_annot.html#acc33624d0b1a0d4cb06f2c1f743dc488">RectInAnnot</a>(PdfRect *rect)=0</td><td class="entry"><a class="el" href="struct_pdf_annot.html">PdfAnnot</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_markup_annot.html#a4e2b7b5cb41de935e716352f43a6db69">SetAuthor</a>(const wchar_t *author)=0</td><td class="entry"><a class="el" href="struct_pdf_markup_annot.html">PdfMarkupAnnot</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pdf_markup_annot.html#ada6ff013c139e1b814eac020a5364947">SetContents</a>(const wchar_t *contents)=0</td><td class="entry"><a class="el" href="struct_pdf_markup_annot.html">PdfMarkupAnnot</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:14 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:43 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

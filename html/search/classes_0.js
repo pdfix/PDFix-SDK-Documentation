@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['_5focrtesseractparams',['_OcrTesseractParams',['../struct___ocr_tesseract_params.html',1,'']]],
   ['_5fpdfaccessibleparams',['_PdfAccessibleParams',['../struct___pdf_accessible_params.html',1,'']]],
   ['_5fpdfannotappearance',['_PdfAnnotAppearance',['../struct___pdf_annot_appearance.html',1,'']]],
   ['_5fpdfbookmarkappearance',['_PdfBookmarkAppearance',['../struct___pdf_bookmark_appearance.html',1,'']]],
@@ -8,7 +7,6 @@ var searchData=
   ['_5fpdfdevpoint',['_PdfDevPoint',['../struct___pdf_dev_point.html',1,'']]],
   ['_5fpdfdevquad',['_PdfDevQuad',['../struct___pdf_dev_quad.html',1,'']]],
   ['_5fpdfdevrect',['_PdfDevRect',['../struct___pdf_dev_rect.html',1,'']]],
-  ['_5fpdfeventparams',['_PdfEventParams',['../struct___pdf_event_params.html',1,'']]],
   ['_5fpdfflattenannotsparams',['_PdfFlattenAnnotsParams',['../struct___pdf_flatten_annots_params.html',1,'']]],
   ['_5fpdffontstate',['_PdfFontState',['../struct___pdf_font_state.html',1,'']]],
   ['_5fpdfgraphicstate',['_PdfGraphicState',['../struct___pdf_graphic_state.html',1,'']]],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['structures',['Structures',['../group___structures___p_d_fix___s_d_k.html',1,'']]]
+  ['logical_20operators',['Logical Operators',['../group___pdf_doc_template___logical_operator.html',1,'']]]
 ];

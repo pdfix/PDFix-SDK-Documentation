@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -136,10 +136,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a73002e646e560bf1cc356f71184010b3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_array.html#a73002e646e560bf1cc356f71184010b3">Get</a> (int index)=0</td></tr>
 <tr class="memdesc:a73002e646e560bf1cc356f71184010b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the <a class="el" href="struct_pds_object.html" title="PdsObject class. ">PdsObject</a> from array by index.  <a href="#a73002e646e560bf1cc356f71184010b3">More...</a><br /></td></tr>
 <tr class="separator:a73002e646e560bf1cc356f71184010b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab39831442a3718657a04cea3ab06ab8d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_array.html#ab39831442a3718657a04cea3ab06ab8d">Put</a> (int index, <a class="el" href="struct_pds_object.html">PdsObject</a> *value)=0</td></tr>
+<tr class="separator:ab39831442a3718657a04cea3ab06ab8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bb30c712b96df7c973a41ae4825a57a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_array.html#a0bb30c712b96df7c973a41ae4825a57a">Insert</a> (int index, <a class="el" href="struct_pds_object.html">PdsObject</a> *value)=0</td></tr>
+<tr class="memdesc:a0bb30c712b96df7c973a41ae4825a57a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Method inserts object before specified position in the array. If the index is larger.  <a href="#a0bb30c712b96df7c973a41ae4825a57a">More...</a><br /></td></tr>
+<tr class="separator:a0bb30c712b96df7c973a41ae4825a57a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32bfb31dd440da5198a515e6775c5bb5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_dictionary.html">PdsDictionary</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_array.html#a32bfb31dd440da5198a515e6775c5bb5">GetDictionary</a> (int index)=0</td></tr>
+<tr class="separator:a32bfb31dd440da5198a515e6775c5bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45486674f9743800cefecf99e26e6759"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_array.html">PdsArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_array.html#a45486674f9743800cefecf99e26e6759">GetArray</a> (int index)=0</td></tr>
+<tr class="separator:a45486674f9743800cefecf99e26e6759"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a91cd637bac84ce5d61310985f2a274"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_stream.html">PdsStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_array.html#a9a91cd637bac84ce5d61310985f2a274">GetStream</a> (int index)=0</td></tr>
+<tr class="separator:a9a91cd637bac84ce5d61310985f2a274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add041f40bfef994dbcd98a5701ac7ac5"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_array.html#add041f40bfef994dbcd98a5701ac7ac5">GetString</a> (int index, _out_ char *buffer, int len)=0</td></tr>
+<tr class="separator:add041f40bfef994dbcd98a5701ac7ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adce9b1d66c704c8d0c418e791819d552"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_array.html#adce9b1d66c704c8d0c418e791819d552">GetText</a> (int index, _out_ wchar_t *buffer, int len)=0</td></tr>
+<tr class="separator:adce9b1d66c704c8d0c418e791819d552"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaac7d17cd41a837cee98c6208b8c5a5"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_array.html#acaac7d17cd41a837cee98c6208b8c5a5">GetNumber</a> (int index)=0</td></tr>
+<tr class="separator:acaac7d17cd41a837cee98c6208b8c5a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a195f2d22546efa5f88cc4d25ac08242a"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_array.html#a195f2d22546efa5f88cc4d25ac08242a">GetInteger</a> (int index)=0</td></tr>
+<tr class="separator:a195f2d22546efa5f88cc4d25ac08242a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_struct_pds_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_struct_pds_object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="struct_pds_object.html">PdsObject</a></td></tr>
 <tr class="memitem:a36bf68d87600e052fff1c82fd7cbe0de inherit pub_methods_struct_pds_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gad65489df6626d2f4ddf0fc89c9dab38d">PdfObjectType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_object.html#a36bf68d87600e052fff1c82fd7cbe0de">GetObjectType</a> ()=0</td></tr>
 <tr class="memdesc:a36bf68d87600e052fff1c82fd7cbe0de inherit pub_methods_struct_pds_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the type of an object.  <a href="struct_pds_object.html#a36bf68d87600e052fff1c82fd7cbe0de">More...</a><br /></td></tr>
 <tr class="separator:a36bf68d87600e052fff1c82fd7cbe0de inherit pub_methods_struct_pds_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a867610249a33d19f40ea2b4c0dfd4ed8 inherit pub_methods_struct_pds_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_object.html#a867610249a33d19f40ea2b4c0dfd4ed8">GetId</a> ()=0</td></tr>
+<tr class="memdesc:a867610249a33d19f40ea2b4c0dfd4ed8 inherit pub_methods_struct_pds_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the object number.  <a href="struct_pds_object.html#a867610249a33d19f40ea2b4c0dfd4ed8">More...</a><br /></td></tr>
+<tr class="separator:a867610249a33d19f40ea2b4c0dfd4ed8 inherit pub_methods_struct_pds_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pds_array.html" title="PdsArray class. ">PdsArray</a> class. </p>
@@ -175,7 +197,151 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Number of objects in the array under specified index </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The object in the array under specified index or null </dd></dl>
+
+</div>
+</div>
+<a id="a45486674f9743800cefecf99e26e6759"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45486674f9743800cefecf99e26e6759">&#9670;&nbsp;</a></span>GetArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_array.html">PdsArray</a>* PdsArray::GetArray </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the <a class="el" href="struct_pds_array.html" title="PdsArray class. ">PdsArray</a> object from array by index or null if the objecs does not exist or it's an object of the different type. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of object to be retrieved. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The object in the array under specified index or null </dd></dl>
+
+</div>
+</div>
+<a id="a32bfb31dd440da5198a515e6775c5bb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32bfb31dd440da5198a515e6775c5bb5">&#9670;&nbsp;</a></span>GetDictionary()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_dictionary.html">PdsDictionary</a>* PdsArray::GetDictionary </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the <a class="el" href="struct_pds_dictionary.html" title="PdsDictionary class. ">PdsDictionary</a> object from array by index or null if the objecs does not exist or it's an object of the different type. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of object to be retrieved. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The object in the array under specified index or null </dd></dl>
+
+</div>
+</div>
+<a id="a195f2d22546efa5f88cc4d25ac08242a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a195f2d22546efa5f88cc4d25ac08242a">&#9670;&nbsp;</a></span>GetInteger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdsArray::GetInteger </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the integer value of the <a class="el" href="struct_pds_number.html" title="PdsNumber class. ">PdsNumber</a> object from array by index. Method returns 0 if the objecs does not exist or it's an object of the different type. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of object to be retrieved. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The object in the array under specified index or 0 </dd></dl>
+
+</div>
+</div>
+<a id="acaac7d17cd41a837cee98c6208b8c5a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaac7d17cd41a837cee98c6208b8c5a5">&#9670;&nbsp;</a></span>GetNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double PdsArray::GetNumber </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the float value of the <a class="el" href="struct_pds_number.html" title="PdsNumber class. ">PdsNumber</a> object from array by index. Method returns default value if the objecs does not exist or it's an object of the different type. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of object to be retrieved. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The object in the array under specified index or 0 </dd></dl>
 
 </div>
 </div>
@@ -207,13 +373,248 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9a91cd637bac84ce5d61310985f2a274"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a91cd637bac84ce5d61310985f2a274">&#9670;&nbsp;</a></span>GetStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_stream.html">PdsStream</a>* PdsArray::GetStream </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the <a class="el" href="struct_pds_stream.html" title="PdsStream class. ">PdsStream</a> object from array by index or null if the objecs does not exist or it's an object of the different type. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of object to be retrieved. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The object in the array under specified index or null </dd></dl>
+
+</div>
+</div>
+<a id="add041f40bfef994dbcd98a5701ac7ac5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add041f40bfef994dbcd98a5701ac7ac5">&#9670;&nbsp;</a></span>GetString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdsArray::GetString </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_out_ char *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the string value of the <a class="el" href="struct_pds_string.html" title="PdsString class. ">PdsString</a> or <a class="el" href="struct_pds_name.html" title="PdsName class. ">PdsName</a> object from array by index. Method returns 0 if the objecs does not exist or it's an object of the different type. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of object to be retrieved. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string data. </td></tr>
+    <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of characters written into buffer of required length. </dd></dl>
+
+</div>
+</div>
+<a id="adce9b1d66c704c8d0c418e791819d552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adce9b1d66c704c8d0c418e791819d552">&#9670;&nbsp;</a></span>GetText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdsArray::GetText </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_out_ wchar_t *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the unicode value of the <a class="el" href="struct_pds_string.html" title="PdsString class. ">PdsString</a> or <a class="el" href="struct_pds_name.html" title="PdsName class. ">PdsName</a> object from array by index. Method returns 0 if the objecs does not exist or it's an object of the different type. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
+    <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of characters written into buffer of required length. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>PdeWord::GetValue </dd></dl>
+
+</div>
+</div>
+<a id="a0bb30c712b96df7c973a41ae4825a57a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bb30c712b96df7c973a41ae4825a57a">&#9670;&nbsp;</a></span>Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdsArray::Insert </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Method inserts object before specified position in the array. If the index is larger. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of a new position of an object. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if object was added successfully, false othervise </dd></dl>
+
+</div>
+</div>
+<a id="ab39831442a3718657a04cea3ab06ab8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab39831442a3718657a04cea3ab06ab8d">&#9670;&nbsp;</a></span>Put()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdsArray::Put </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Method puts object to specified position in the array. The array is extended and null objects are stored in empty slots <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of a new position of an object. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if object was added successfully, false othervise </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pds_array.html">PdsArray</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:14 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:44 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

@@ -1,12 +1,5 @@
 var group___structures___p_d_fix___s_d_k =
 [
-    [ "_PdfEventParams", "struct___pdf_event_params.html", [
-      [ "_PdfEventParams", "struct___pdf_event_params.html#aefa6d28de7166f099b83f9f3b9595082", null ],
-      [ "annot", "struct___pdf_event_params.html#aeacf01f121c12c71eef8675e11bebd98", null ],
-      [ "doc", "struct___pdf_event_params.html#a90e37e902f9615d50089d17f77de918d", null ],
-      [ "page", "struct___pdf_event_params.html#ad5b40484ede0758798a21a42bb62ced8", null ],
-      [ "type", "struct___pdf_event_params.html#a6575127a34fce41609f4f340f48de178", null ]
-    ] ],
     [ "_PdfPageRangeParams", "struct___pdf_page_range_params.html", [
       [ "_PdfPageRangeParams", "struct___pdf_page_range_params.html#a0548e24efab1df117a89d9280d9fe5c4", null ],
       [ "end_page", "struct___pdf_page_range_params.html#a592c43847c4f86f49f12a01e6e1000e1", null ],
@@ -117,7 +110,7 @@ var group___structures___p_d_fix___s_d_k =
     ] ],
     [ "_PdfPageRenderParams", "struct___pdf_page_render_params.html", [
       [ "_PdfPageRenderParams", "struct___pdf_page_render_params.html#a4458248669aa12e5f1f95e50027b2735", null ],
-      [ "clip_rect", "struct___pdf_page_render_params.html#a165ed89249dff2c7274f701973afcae1", null ],
+      [ "clip_box", "struct___pdf_page_render_params.html#a62ac3aae6e104b8d1fe0c11b13431493", null ],
       [ "device", "struct___pdf_page_render_params.html#af8c3c4a95b64004346e211fc608ca180", null ],
       [ "image", "struct___pdf_page_render_params.html#add58bd1321cf90682a45998892fba6e6", null ],
       [ "matrix", "struct___pdf_page_render_params.html#a5e045beeb1437db23613b7c4aa6c20b1", null ],
@@ -173,7 +166,6 @@ var group___structures___p_d_fix___s_d_k =
     [ "PdfDevPoint", "group___structures___p_d_fix___s_d_k.html#gab23c4a164b4239001a8437f3c575871c", null ],
     [ "PdfDevQuad", "group___structures___p_d_fix___s_d_k.html#ga99583ead2f27ae7e53800a5ea7e1d95e", null ],
     [ "PdfDevRect", "group___structures___p_d_fix___s_d_k.html#ga147a25fb403e6a97d5abb86c39aaf373", null ],
-    [ "PdfEventParams", "group___structures___p_d_fix___s_d_k.html#ga2b124a852f2537e29b032c80a7fbac67", null ],
     [ "PdfFlattenAnnotsParams", "group___structures___p_d_fix___s_d_k.html#ga912ea0f6208db1396cbdd730737737b3", null ],
     [ "PdfFontState", "group___structures___p_d_fix___s_d_k.html#ga5ab989ad20e4a4ab9997d70fdd1d87e7", null ],
     [ "PdfGraphicState", "group___structures___p_d_fix___s_d_k.html#ga3d472126552fc6e48026568a8f848bb3", null ],

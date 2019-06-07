@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -165,16 +165,19 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6e4b4c20361db4939c940a2e536d837c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17295a4a3b2b722e8b47bc8a0237fdcf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_ps_proc_stream.html">PsProcStream</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix.html#a17295a4a3b2b722e8b47bc8a0237fdcf">CreateCustomStream</a> (_callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga171469f202d8cec721bd4fea0e31e6ea">PsStreamProc</a> read_proc, PsStreamData client_data)=0</td></tr>
 <tr class="separator:a17295a4a3b2b722e8b47bc8a0237fdcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61777cb0e259c55d6b3f610b015006ae"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix.html#a61777cb0e259c55d6b3f610b015006ae">RegisterEvent</a> (<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gae88c6d02fc9ba398de7969899b55a406">PdfEventType</a> type, _callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#gab66a61e98fb86c7df1fe8e83fd43e411">PdfEventProc</a> proc, void *data)=0</td></tr>
+<tr class="memitem:a61777cb0e259c55d6b3f610b015006ae"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix.html#a61777cb0e259c55d6b3f610b015006ae">RegisterEvent</a> (<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gae88c6d02fc9ba398de7969899b55a406">PdfEventType</a> type, _callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#gaf45e949d9779903ca22aa80c43e5c7c3">PdfEventProc</a> proc, void *data)=0</td></tr>
 <tr class="memdesc:a61777cb0e259c55d6b3f610b015006ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a user-supplied procedure to call when the specified event occurs.  <a href="#a61777cb0e259c55d6b3f610b015006ae">More...</a><br /></td></tr>
 <tr class="separator:a61777cb0e259c55d6b3f610b015006ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af47d0c346196335677504c70e74a89b3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix.html#af47d0c346196335677504c70e74a89b3">UnregisterEvent</a> (<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gae88c6d02fc9ba398de7969899b55a406">PdfEventType</a> type, <a class="el" href="group___callback___p_d_fix___s_d_k.html#gab66a61e98fb86c7df1fe8e83fd43e411">PdfEventProc</a> proc, void *data)=0</td></tr>
+<tr class="memitem:af47d0c346196335677504c70e74a89b3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix.html#af47d0c346196335677504c70e74a89b3">UnregisterEvent</a> (<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gae88c6d02fc9ba398de7969899b55a406">PdfEventType</a> type, <a class="el" href="group___callback___p_d_fix___s_d_k.html#gaf45e949d9779903ca22aa80c43e5c7c3">PdfEventProc</a> proc, void *data)=0</td></tr>
 <tr class="separator:af47d0c346196335677504c70e74a89b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4caaa6eee87e391aa695c0840f7ba4e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix.html#ac4caaa6eee87e391aa695c0840f7ba4e">SetRegex</a> (<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gad9a7598d5d284b41ed8fa46ca6c04983">PdfRegexType</a> type, const wchar_t *regex)=0</td></tr>
-<tr class="memdesc:ac4caaa6eee87e391aa695c0840f7ba4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets regular expressions for content recognition.  <a href="#ac4caaa6eee87e391aa695c0840f7ba4e">More...</a><br /></td></tr>
-<tr class="separator:ac4caaa6eee87e391aa695c0840f7ba4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b024632f9eaac6f8688562a00a64644"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_ps_image.html">PsImage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix.html#a4b024632f9eaac6f8688562a00a64644">CreateImage</a> (int width, int height, <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga606c83e379d17b4677867b7dc476c362">PsImageDIBFormat</a> format)=0</td></tr>
 <tr class="separator:a4b024632f9eaac6f8688562a00a64644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7264cb584f041f976b62dd05e9062bed"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix.html#a7264cb584f041f976b62dd05e9062bed">RegisterPlugin</a> (<a class="el" href="struct_pdfix_plugin.html">PdfixPlugin</a> *plugin, const wchar_t *name)=0</td></tr>
+<tr class="separator:a7264cb584f041f976b62dd05e9062bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdc79d0c23dcf5a111fdf4cafb193cf3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pdfix_plugin.html">PdfixPlugin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix.html#abdc79d0c23dcf5a111fdf4cafb193cf3">GetPluginByName</a> (const wchar_t *name)=0</td></tr>
+<tr class="separator:abdc79d0c23dcf5a111fdf4cafb193cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94114570cbf7975b75e5406daa29da9b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_ps_event.html">PsEvent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix.html#a94114570cbf7975b75e5406daa29da9b">GetEvent</a> ()=0</td></tr>
+<tr class="separator:a94114570cbf7975b75e5406daa29da9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pdfix.html" title="Pdfix class. ">Pdfix</a> class. </p>
@@ -576,6 +579,71 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a94114570cbf7975b75e5406daa29da9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94114570cbf7975b75e5406daa29da9b">&#9670;&nbsp;</a></span>GetEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_ps_event.html">PsEvent</a>* Pdfix::GetEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get the object of current event. Method to retrieve the event object related with the notification. <br />
+</p>
+<p><br />
+</p><dl class="section return"><dt>Returns</dt><dd>Initialized <a class="el" href="struct_ps_event.html" title="PsEvent Class. ">PsEvent</a> object. </dd></dl>
+
+</div>
+</div>
+<a id="abdc79d0c23dcf5a111fdf4cafb193cf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdc79d0c23dcf5a111fdf4cafb193cf3">&#9670;&nbsp;</a></span>GetPluginByName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pdfix_plugin.html">PdfixPlugin</a>* Pdfix::GetPluginByName </td>
+          <td>(</td>
+          <td class="paramtype">const wchar_t *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get plugin by name. Method to retrieve the plugin by name. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Plugin registration name </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdfix.html#abdc79d0c23dcf5a111fdf4cafb193cf3">Pdfix::GetPluginByName</a> </dd></dl>
+
+</div>
+</div>
 <a id="a6f566bbdf1eff5fcb1699cf20723872e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f566bbdf1eff5fcb1699cf20723872e">&#9670;&nbsp;</a></span>GetVersionMajor()</h2>
 
@@ -863,7 +931,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">_callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#gab66a61e98fb86c7df1fe8e83fd43e411">PdfEventProc</a>&#160;</td>
+          <td class="paramtype">_callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#gaf45e949d9779903ca22aa80c43e5c7c3">PdfEventProc</a>&#160;</td>
           <td class="paramname"><em>proc</em>, </td>
         </tr>
         <tr>
@@ -895,6 +963,53 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if event was registered, false otherwise.  Sample RegisterEvent </dd></dl>
+
+</div>
+</div>
+<a id="a7264cb584f041f976b62dd05e9062bed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7264cb584f041f976b62dd05e9062bed">&#9670;&nbsp;</a></span>RegisterPlugin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Pdfix::RegisterPlugin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_pdfix_plugin.html">PdfixPlugin</a> *&#160;</td>
+          <td class="paramname"><em>plugin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const wchar_t *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Register plugin by name. Method to register plugin by name to allow other plugins to access it's functionality <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">plugin</td><td>The <a class="el" href="struct_pdfix_plugin.html" title="PdfixPlugin virtual class. ">PdfixPlugin</a> object </td></tr>
+    <tr><td class="paramname">name</td><td>Plugin registration name </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdfix.html#abdc79d0c23dcf5a111fdf4cafb193cf3">Pdfix::GetPluginByName</a> </dd></dl>
 
 </div>
 </div>
@@ -943,51 +1058,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac4caaa6eee87e391aa695c0840f7ba4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4caaa6eee87e391aa695c0840f7ba4e">&#9670;&nbsp;</a></span>SetRegex()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Pdfix::SetRegex </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gad9a7598d5d284b41ed8fa46ca6c04983">PdfRegexType</a>&#160;</td>
-          <td class="paramname"><em>type</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const wchar_t *&#160;</td>
-          <td class="paramname"><em>regex</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets regular expressions for content recognition. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">type</td><td>PdfRegexType type. </td></tr>
-    <tr><td class="paramname">regex</td><td>Regular expression pattern. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a id="af47d0c346196335677504c70e74a89b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af47d0c346196335677504c70e74a89b3">&#9670;&nbsp;</a></span>UnregisterEvent()</h2>
 
@@ -1006,7 +1076,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="group___callback___p_d_fix___s_d_k.html#gab66a61e98fb86c7df1fe8e83fd43e411">PdfEventProc</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="group___callback___p_d_fix___s_d_k.html#gaf45e949d9779903ca22aa80c43e5c7c3">PdfEventProc</a>&#160;</td>
           <td class="paramname"><em>proc</em>, </td>
         </tr>
         <tr>
@@ -1048,7 +1118,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pdfix.html">Pdfix</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:14 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:43 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -143,6 +143,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetAnnot()
 : <a class="el" href="struct_pde_annot.html#ae16e696d6c8b003d0eacbc8bf23f48b6">PdeAnnot</a>
 , <a class="el" href="struct_pdf_page.html#a0241e8eb8acbbdfffb98d55d2e335974">PdfPage</a>
+, <a class="el" href="struct_ps_event.html#af5e1bae4302bb1a0833ede30d45b873b">PsEvent</a>
 </li>
 <li>GetAnnotAtPoint()
 : <a class="el" href="struct_pdf_page.html#a160a691e3a67a629a98af69aaf14b9a0">PdfPage</a>
@@ -153,6 +154,10 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetAppearance()
 : <a class="el" href="struct_pdf_annot.html#aaa1aa9c41d76beb6e19fc72a94fae628">PdfAnnot</a>
 , <a class="el" href="struct_pdf_bookmark.html#af36c0483545ffaa0548234d6005ba6e3">PdfBookmark</a>
+</li>
+<li>GetArray()
+: <a class="el" href="struct_pds_array.html#a45486674f9743800cefecf99e26e6759">PdsArray</a>
+, <a class="el" href="struct_pds_dictionary.html#a9cebb3d736406b834368c460e2139007">PdsDictionary</a>
 </li>
 <li>GetAttrObject()
 : <a class="el" href="struct_pds_class_map.html#ae272f329ad6074b9c45a34d2d537cb59">PdsClassMap</a>
@@ -166,12 +171,15 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>GetBBox()
 : <a class="el" href="struct_pde_element.html#aecc3441eb670eeb0c059374d8cb3421b">PdeElement</a>
-, <a class="el" href="struct_pde_page_map.html#a6e811f4ad31c90d08664d247bd771345">PdePageMap</a>
+, <a class="el" href="struct_pde_page_map.html#a42aab4c3af72bd3545eacb3c91c17cda">PdePageMap</a>
 , <a class="el" href="struct_pdf_annot.html#a39fbfacedfa7901d0edf4f345296e158">PdfAnnot</a>
 , <a class="el" href="struct_pds_page_object.html#acb7e149f1aa27f890f584f9113d572fb">PdsPageObject</a>
 </li>
 <li>GetBookmarkRoot()
 : <a class="el" href="struct_pdf_doc.html#a974bdc41012b4f8cc9c86a9b848f25d7">PdfDoc</a>
+</li>
+<li>GetBoolean()
+: <a class="el" href="struct_pds_dictionary.html#a8bccbe43cb0a41d59585c1ec429e81a2">PdsDictionary</a>
 </li>
 <li>GetCalculatedFormField()
 : <a class="el" href="struct_pdf_doc.html#ab49d963e37c722dbc3327da039a1a5f7">PdfDoc</a>
@@ -186,6 +194,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>GetCharBBox()
 : <a class="el" href="struct_pde_word.html#aa763c95b66f189da7c09f94a6e0620ca">PdeWord</a>
+</li>
+<li>GetCharCode()
+: <a class="el" href="struct_pde_word.html#ae39443b25337e2501a4bc1bd9db9bfbc">PdeWord</a>
 </li>
 <li>GetCharText()
 : <a class="el" href="struct_pde_word.html#a59f1572ec352bf7c80a93081d61c6ed7">PdeWord</a>
@@ -206,11 +217,20 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetColSpan()
 : <a class="el" href="struct_pde_cell.html#a244d3f389475e9110b6dbabd49fa6787">PdeCell</a>
 </li>
+<li>GetContentFlags()
+: <a class="el" href="struct_pdf_page.html#acad1387764f141f4d4cbe669e2116f5b">PdfPage</a>
+</li>
+<li>GetContentMark()
+: <a class="el" href="struct_pds_page_object.html#aedba1cfab4e74f985c46c3127a21ad42">PdsPageObject</a>
+</li>
 <li>GetContents()
 : <a class="el" href="struct_pdf_markup_annot.html#a86f416239ebdaf720d8290212771c31f">PdfMarkupAnnot</a>
 </li>
 <li>GetCropBox()
 : <a class="el" href="struct_pdf_page.html#aff7b4438a9297997ae3401bcfec5727d">PdfPage</a>
+</li>
+<li>GetData()
+: <a class="el" href="struct_pde_element.html#afe586fb5b0c2abb54dbeecaccda2c76e">PdeElement</a>
 </li>
 <li>GetDefaultMatrix()
 : <a class="el" href="struct_pdf_page.html#a7e78de95b702561efe490d81735a722c">PdfPage</a>
@@ -221,6 +241,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetDescription()
 : <a class="el" href="struct_pdf_alternate.html#ae5fd310e4d6d6f17f8d78589389ac5ac">PdfAlternate</a>
 </li>
+<li>GetDestPageNum()
+: <a class="el" href="struct_pdf_action.html#a673c282a58d5b5c93389ea33bebef2bd">PdfAction</a>
+</li>
 <li>GetDeviceHeight()
 : <a class="el" href="struct_pdf_page_view.html#a8e45576cec266c43c1eeb8f428fbd27b">PdfPageView</a>
 </li>
@@ -230,8 +253,17 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetDeviceWidth()
 : <a class="el" href="struct_pdf_page_view.html#a093927e8068bc676c5acfb3e59134906">PdfPageView</a>
 </li>
+<li>GetDictionary()
+: <a class="el" href="struct_pds_array.html#a32bfb31dd440da5198a515e6775c5bb5">PdsArray</a>
+, <a class="el" href="struct_pds_dictionary.html#a0ea942dcc26da8f58d86f8e792fd9ea0">PdsDictionary</a>
+</li>
 <li>GetDirectMap()
 : <a class="el" href="struct_pds_role_map.html#a0cc901528e4f3ca265da6768dd133678">PdsRoleMap</a>
+</li>
+<li>GetDoc()
+: <a class="el" href="struct_pdf_page.html#a963933870e0e1b80a1abfc84124cda59">PdfPage</a>
+, <a class="el" href="struct_pds_struct_tree.html#ac37bba858374289d5623d7562c1259fe">PdsStructTree</a>
+, <a class="el" href="struct_ps_event.html#ad1e3007010570e41c0d2a0faf1f11aca">PsEvent</a>
 </li>
 <li>GetDocTemplate()
 : <a class="el" href="struct_pdf_doc.html#ae9e225e6c7b70e689b7ed38fea758bc6">PdfDoc</a>
@@ -254,6 +286,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetErrorType()
 : <a class="el" href="struct_pdfix.html#a1d5c0c288d36fcd67c0dd4fdd98ae992">Pdfix</a>
 </li>
+<li>GetEvent()
+: <a class="el" href="struct_pdfix.html#a94114570cbf7975b75e5406daa29da9b">Pdfix</a>
+</li>
 <li>GetFaceName()
 : <a class="el" href="struct_pdf_font.html#a0395182cfb96ed4d712068d91976bd1f">PdfFont</a>
 </li>
@@ -261,8 +296,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="struct_pdf_alternate.html#ae65157a5ff83e10e2ccaae890e6ef243">PdfAlternate</a>
 </li>
 <li>GetFlags()
-: <a class="el" href="struct_pde_text_line.html#acde4d705206dc282665f96932cfbbb72">PdeTextLine</a>
-, <a class="el" href="struct_pde_word.html#abe15d36dbacee36eab9af11a16c884c5">PdeWord</a>
+: <a class="el" href="struct_pde_element.html#ad42f0533265423838a3eebf4a1ea16e7">PdeElement</a>
 , <a class="el" href="struct_pdf_annot.html#a4374c3ca69cea14cc2bc96e6a20f3adf">PdfAnnot</a>
 , <a class="el" href="struct_pdf_form_field.html#acebe66e19fa513d7ceb4ef2598e27cf1">PdfFormField</a>
 </li>
@@ -288,9 +322,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>GetId()
 : <a class="el" href="struct_pde_element.html#a33d921be337f11d47ca260d5b7577c54">PdeElement</a>
-</li>
-<li>GetID()
-: <a class="el" href="struct_pds_struct_element.html#ab3fc46c644afcb48dd20a6e53f24928c">PdsStructElement</a>
+, <a class="el" href="struct_pds_object.html#a867610249a33d19f40ea2b4c0dfd4ed8">PdsObject</a>
+, <a class="el" href="struct_pds_page_object.html#af21450a12367323025232ed2f5e166bd">PdsPageObject</a>
+, <a class="el" href="struct_pds_struct_element.html#afa13e8c18b46b3213d51a68a1d86fcd1">PdsStructElement</a>
 </li>
 <li>GetImageType()
 : <a class="el" href="struct_pde_image.html#a646a85cbdb0dcfa6063b268731b91691">PdeImage</a>
@@ -302,7 +336,11 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="struct_pdf_doc.html#aa937ca51f803ed09190889b10d7ace66">PdfDoc</a>
 </li>
 <li>GetInfoObject()
-: <a class="el" href="struct_pdf_doc.html#a1651902bce0902b4e0831219b3846239">PdfDoc</a>
+: <a class="el" href="struct_pdf_doc.html#a27d82ce6a561e70cead54a105078fecf">PdfDoc</a>
+</li>
+<li>GetInteger()
+: <a class="el" href="struct_pds_array.html#a195f2d22546efa5f88cc4d25ac08242a">PdsArray</a>
+, <a class="el" href="struct_pds_dictionary.html#a573849831221f12c6275dcfdfd9baac0">PdsDictionary</a>
 </li>
 <li>GetIntegerValue()
 : <a class="el" href="struct_pds_number.html#a9a1abce8db2b4ed32ca0f3a6476126ea">PdsNumber</a>
@@ -326,6 +364,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetKidType()
 : <a class="el" href="struct_pds_struct_element.html#afb10ea580836c637cc1b85595f736045">PdsStructElement</a>
 </li>
+<li>GetLabelLevel()
+: <a class="el" href="struct_pde_text.html#af1085c0002becc0bf452e4e4c243db78">PdeText</a>
+</li>
 <li>GetLang()
 : <a class="el" href="struct_pdf_doc.html#a7996bab6277639a54161c20a322b6cb2">PdfDoc</a>
 </li>
@@ -335,14 +376,14 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetLineSpacing()
 : <a class="el" href="struct_pde_text.html#a91329002868276d6a8ec7342da0d11a0">PdeText</a>
 </li>
+<li>GetLogicalRotate()
+: <a class="el" href="struct_pdf_page.html#a9077df69e6472a75346bd09eeca55eb9">PdfPage</a>
+</li>
 <li>GetMatchText()
 : <a class="el" href="struct_ps_regex.html#a79cf9bc5284b1af18f97618d865a13eb">PsRegex</a>
 </li>
 <li>GetMaxLength()
 : <a class="el" href="struct_pdf_form_field.html#a64283cdf6d5705d4e91b3a83086ec0f1">PdfFormField</a>
-</li>
-<li>GetMcidPageObject()
-: <a class="el" href="struct_pdf_page.html#a089e95306ed99be08680de7affb81fd7">PdfPage</a>
 </li>
 <li>GetMediaBox()
 : <a class="el" href="struct_pdf_page.html#a29b062004ff7e5c5ab94e3ce72ee1922">PdfPage</a>
@@ -371,6 +412,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 </li>
 <li>GetNumber()
 : <a class="el" href="struct_pdf_page.html#a3900615960382320bee608f0c79fd2ff">PdfPage</a>
+, <a class="el" href="struct_pds_array.html#acaac7d17cd41a837cee98c6208b8c5a5">PdsArray</a>
+, <a class="el" href="struct_pds_dictionary.html#a3bf5018131d0752598391e64830b94d7">PdsDictionary</a>
 </li>
 <li>GetNumCalculatedFormFields()
 : <a class="el" href="struct_pdf_doc.html#a0a8765a84e38d279376b23932d4222e8">PdfDoc</a>
@@ -401,11 +444,12 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetNumMatches()
 : <a class="el" href="struct_ps_regex.html#ae9014df67fe982424aef331442392069">PsRegex</a>
 </li>
-<li>GetNumMcidPageObjects()
-: <a class="el" href="struct_pdf_page.html#a51a680123dea5285f5fba20367d61c4c">PdfPage</a>
-</li>
 <li>GetNumObjects()
 : <a class="el" href="struct_pds_array.html#ad5eaef9536e8817b95228edea1ef6ee3">PdsArray</a>
+</li>
+<li>GetNumPageObjects()
+: <a class="el" href="struct_pdf_page.html#a865ed996766d3bafff0116fe8318318c">PdfPage</a>
+, <a class="el" href="struct_pds_form.html#aeefc03c204b20cb3557f84da8ed16f3a">PdsForm</a>
 </li>
 <li>GetNumPages()
 : <a class="el" href="struct_pdf_doc.html#a375456c4a7f5f8d3a40047792dad92fb">PdfDoc</a>
@@ -420,6 +464,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetNumRows()
 : <a class="el" href="struct_pde_table.html#a21d8f3edd138457507d70b6bb691936d">PdeTable</a>
 </li>
+<li>GetNumTags()
+: <a class="el" href="struct_pds_content_mark.html#a6ef6ebf79fd749a1fe2b159e46b2c336">PdsContentMark</a>
+</li>
 <li>GetNumTextLines()
 : <a class="el" href="struct_pde_text.html#a687ea72561aa570e83a3e939835adeab">PdeText</a>
 </li>
@@ -427,8 +474,12 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="struct_pde_text.html#a3381eb12d63e42c84821474220b0dcb7">PdeText</a>
 , <a class="el" href="struct_pde_text_line.html#aaf81c176726a52d0ed4efef26b96cc6f">PdeTextLine</a>
 </li>
-<li>GetObjectNumber()
-: <a class="el" href="struct_pds_reference.html#a5369cd7149400729c56e23f3bb770013">PdsReference</a>
+<li>GetObject()
+: <a class="el" href="struct_pdf_page.html#a06adbe7ba7aea24851e990dfe19e8612">PdfPage</a>
+, <a class="el" href="struct_pds_struct_tree.html#a05afeb69def74d61c0c235073df4a048">PdsStructTree</a>
+</li>
+<li>GetObjectById()
+: <a class="el" href="struct_pdf_doc.html#a937f3193ed6ceb6d711b78c98019204d">PdfDoc</a>
 </li>
 <li>GetObjectType()
 : <a class="el" href="struct_pds_object.html#a36bf68d87600e052fff1c82fd7cbe0de">PdsObject</a>
@@ -446,8 +497,16 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetOrigin()
 : <a class="el" href="struct_pde_word.html#a6d673ee10b6537adb4b57107854f790e">PdeWord</a>
 </li>
+<li>GetPage()
+: <a class="el" href="struct_pds_page_object.html#af42d527c5523f011e6d2ef549aba1884">PdsPageObject</a>
+, <a class="el" href="struct_ps_event.html#a9a496a9b866a5b1f86416086a3ef51fa">PsEvent</a>
+</li>
 <li>GetPageNumber()
 : <a class="el" href="struct_pds_struct_element.html#a8715580b1335a7bb17036fbd322e843b">PdsStructElement</a>
+</li>
+<li>GetPageObject()
+: <a class="el" href="struct_pdf_page.html#a68eedffc6117a33aebc819bc1a6f95ce">PdfPage</a>
+, <a class="el" href="struct_pds_form.html#a30386d32a70848ce7828e7fdcd71e3c9">PdsForm</a>
 </li>
 <li>GetParent()
 : <a class="el" href="struct_pdf_bookmark.html#ad77a188c0e5a79ecb2cd26164eb5e3cb">PdfBookmark</a>
@@ -458,14 +517,30 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetPdfix()
 : <a class="el" href="struct_pdfix_plugin.html#ac7a8a61af7da7477b58929a4a8ea77f3">PdfixPlugin</a>
 </li>
+<li>GetPdfixVersionMajor()
+: <a class="el" href="struct_pdfix_plugin.html#a4b455fce0b51517ea234f07469c30e9e">PdfixPlugin</a>
+</li>
+<li>GetPdfixVersionMinor()
+: <a class="el" href="struct_pdfix_plugin.html#aa41e4717ef1c07489ad210a842076366">PdfixPlugin</a>
+</li>
+<li>GetPdfixVersionPatch()
+: <a class="el" href="struct_pdfix_plugin.html#a15e93e1669935c880c64315f711378c9">PdfixPlugin</a>
+</li>
+<li>GetPluginByName()
+: <a class="el" href="struct_pdfix.html#abdc79d0c23dcf5a111fdf4cafb193cf3">Pdfix</a>
+</li>
 <li>GetPointColor()
 : <a class="el" href="struct_ps_image.html#a6d7b91172affb49cb3894965045ee237">PsImage</a>
 </li>
 <li>GetPos()
-: <a class="el" href="struct_ps_stream.html#af4c58a546c630f3af1ea705aa1f3e1b8">PsStream</a>
+: <a class="el" href="struct_pds_stream.html#a37f6b88c72895b6e5ab8fe976e51a37b">PdsStream</a>
+, <a class="el" href="struct_ps_stream.html#af4c58a546c630f3af1ea705aa1f3e1b8">PsStream</a>
 </li>
 <li>GetPosition()
 : <a class="el" href="struct_ps_regex.html#a2bcc7cbe60606bb4e49bf1cc5c9eef62">PsRegex</a>
+</li>
+<li>GetProperty()
+: <a class="el" href="struct_pdf_doc_template.html#a3a0887b6e5e8edc0a057679998df641d">PdfDocTemplate</a>
 </li>
 <li>GetQuad()
 : <a class="el" href="struct_pdf_link_annot.html#a1e6c05a80e2e8802e311f1811b6d0126">PdfLinkAnnot</a>
@@ -474,14 +549,20 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetRawDataSize()
 : <a class="el" href="struct_pds_stream.html#adafe67712d77735392f4bbaa27874b48">PdsStream</a>
 </li>
+<li>GetRegex()
+: <a class="el" href="struct_pdf_doc_template.html#ac7a13feb74754e24451261f84a1d975a">PdfDocTemplate</a>
+</li>
 <li>GetReply()
 : <a class="el" href="struct_pdf_markup_annot.html#a9145104af93615c6a24e63663a927d5d">PdfMarkupAnnot</a>
+</li>
+<li>GetResources()
+: <a class="el" href="struct_pdf_page.html#a8c94f71fd6f0843ce582bd13ff924ca4">PdfPage</a>
 </li>
 <li>GetRoleMap()
 : <a class="el" href="struct_pds_struct_tree.html#ab0b2f152dd38bbd1d697a127dfc12a9e">PdsStructTree</a>
 </li>
 <li>GetRootObject()
-: <a class="el" href="struct_pdf_doc.html#a2c6acd1932aa40dd721766d16f3ef79c">PdfDoc</a>
+: <a class="el" href="struct_pdf_doc.html#aa6cce9dab0eed06d2a5d84e2fade237a">PdfDoc</a>
 </li>
 <li>GetRotate()
 : <a class="el" href="struct_pdf_page.html#a3d5a53c755a17efef74e2d9a870648a7">PdfPage</a>
@@ -493,16 +574,30 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="struct_pde_cell.html#a50fde4e4e2c5ef82c2e9c794910a3d0f">PdeCell</a>
 </li>
 <li>GetSize()
-: <a class="el" href="struct_ps_stream.html#aee86e06cbf23fc76d781e5ddbfaec7c7">PsStream</a>
+: <a class="el" href="struct_pds_stream.html#a18487c5b746b540df281b28c0401a4de">PdsStream</a>
+, <a class="el" href="struct_ps_stream.html#aee86e06cbf23fc76d781e5ddbfaec7c7">PsStream</a>
 </li>
 <li>GetSpanCell()
 : <a class="el" href="struct_pde_cell.html#a969baa9ad608c9534cc6471000c2e6ee">PdeCell</a>
 </li>
+<li>GetStream()
+: <a class="el" href="struct_pds_array.html#a9a91cd637bac84ce5d61310985f2a274">PdsArray</a>
+, <a class="el" href="struct_pds_dictionary.html#a7c90a0554106b96bb66fda9a815a55b6">PdsDictionary</a>
+</li>
 <li>GetStreamDict()
 : <a class="el" href="struct_pds_stream.html#a02f68ca96ee20c7d1fb9dda765b0370a">PdsStream</a>
 </li>
+<li>GetString()
+: <a class="el" href="struct_pds_array.html#add041f40bfef994dbcd98a5701ac7ac5">PdsArray</a>
+, <a class="el" href="struct_pds_dictionary.html#aea2c48b26ded599d1c57b71677b616df">PdsDictionary</a>
+</li>
+<li>GetStructObject()
+: <a class="el" href="struct_pdf_annot.html#a9cbe9a4170277459dc49e80925e78516">PdfAnnot</a>
+, <a class="el" href="struct_pds_page_object.html#a6724054d431e317b273c84e98e002c7b">PdsPageObject</a>
+</li>
 <li>GetStructTree()
 : <a class="el" href="struct_pdf_doc.html#a27bf932e09e7275cc327a265f78cb465">PdfDoc</a>
+, <a class="el" href="struct_pds_struct_element.html#a68f6cb33f426172eff5350366af15273">PdsStructElement</a>
 </li>
 <li>GetSubtype()
 : <a class="el" href="struct_pdf_action.html#a5aa0b8b9645ecc14d63791d83d59626a">PdfAction</a>
@@ -524,21 +619,43 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetTableType()
 : <a class="el" href="struct_pde_table.html#a4bac13769e8c27ab915fb63fb40d442d">PdeTable</a>
 </li>
+<li>GetTagArtifact()
+: <a class="el" href="struct_pds_content_mark.html#a62b0a8be0053fef163bcebc7552b1dbc">PdsContentMark</a>
+</li>
+<li>GetTagMcid()
+: <a class="el" href="struct_pds_content_mark.html#a21c1889bc4a2d09c950cd103dd763744">PdsContentMark</a>
+</li>
+<li>GetTagName()
+: <a class="el" href="struct_pds_content_mark.html#ab9f8c370529a45586790e97746df4577">PdsContentMark</a>
+</li>
+<li>GetTagObject()
+: <a class="el" href="struct_pds_content_mark.html#ad8846766992c69025c23333e46c9fc97">PdsContentMark</a>
+</li>
 <li>GetText()
 : <a class="el" href="struct_pde_text.html#a412ba79668bfd6ae7683bdfcab173daa">PdeText</a>
 , <a class="el" href="struct_pde_text_line.html#a1f94ad6048233b4a1d393cef4bef451d">PdeTextLine</a>
 , <a class="el" href="struct_pde_word.html#ab2d16b755d3358b67947217e3c94f6a8">PdeWord</a>
-, <a class="el" href="struct_pds_string.html#aeb60311b697d139cae0827dc73378434">PdsString</a>
+, <a class="el" href="struct_pds_array.html#adce9b1d66c704c8d0c418e791819d552">PdsArray</a>
+, <a class="el" href="struct_pds_dictionary.html#ad6213fded56f13142ce65ac6ce231563">PdsDictionary</a>
+, <a class="el" href="struct_pds_name.html#a404e4782a6cba22d2b370b18eab3ba59">PdsName</a>
+, <a class="el" href="struct_pds_string.html#a935e9e9f9f6fd04dfa4a5d0e5cd73661">PdsString</a>
 , <a class="el" href="struct_pds_text.html#a1253152807b6729a77d83b4334307caf">PdsText</a>
 , <a class="el" href="struct_ps_regex.html#a019cd97bbedbdb6d81ddf025edf92cc6">PsRegex</a>
 </li>
+<li>GetTextFlags()
+: <a class="el" href="struct_pde_text.html#a18760a719483b4f3c16f443757d8ab07">PdeText</a>
+</li>
 <li>GetTextLine()
 : <a class="el" href="struct_pde_text.html#aac1088c094b2dc85ff049a497a72e395">PdeText</a>
+</li>
+<li>GetTextLineFlags()
+: <a class="el" href="struct_pde_text_line.html#a6f1f07f3e042f268f4e3696d49464213">PdeTextLine</a>
 </li>
 <li>GetTextState()
 : <a class="el" href="struct_pde_text.html#ac8de21646b29534d67004c4f29d9e12d">PdeText</a>
 , <a class="el" href="struct_pde_text_line.html#a849079e8124e4cd0de03544141cf6f83">PdeTextLine</a>
 , <a class="el" href="struct_pde_word.html#a4e1bb65703f54121b4d614a78019c9da">PdeWord</a>
+, <a class="el" href="struct_pds_text.html#a59ee72e7a11610ff7d3bb6663fd3624a">PdsText</a>
 </li>
 <li>GetTextStyle()
 : <a class="el" href="struct_pde_text.html#aea7cf398931cb3657d3cb1c39c93d344">PdeText</a>
@@ -553,7 +670,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetType()
 : <a class="el" href="struct_pde_element.html#aa60261d785404f1da583ed3b50fe4c8e">PdeElement</a>
 , <a class="el" href="struct_pdf_form_field.html#a777160e75eb2e020b2f65449624234a4">PdfFormField</a>
-, <a class="el" href="struct_pds_struct_element.html#ac0cceb84b5c78035a3ebe9d23f401bdc">PdsStructElement</a>
+, <a class="el" href="struct_pds_struct_element.html#a8f7254e7f70194a75ffd597118a0c55b">PdsStructElement</a>
+, <a class="el" href="struct_ps_event.html#a0d2d2fab4f8f13228102f836ff32a82c">PsEvent</a>
 , <a class="el" href="struct_ps_stream.html#ad3fa363568cb413351c82d39d12de816">PsStream</a>
 </li>
 <li>GetURI()
@@ -562,7 +680,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 <li>GetValue()
 : <a class="el" href="struct_pdf_form_field.html#ab0afb2802341854130ab2d108ea41ed7">PdfFormField</a>
 , <a class="el" href="struct_pds_boolean.html#ad8a8080fb7ca33d07680871d634f60f6">PdsBoolean</a>
-, <a class="el" href="struct_pds_name.html#ac445a13a862c6f289d397273f2911c69">PdsName</a>
+, <a class="el" href="struct_pds_name.html#a1cf46cfb170609ea83a129d3ef06e264">PdsName</a>
 , <a class="el" href="struct_pds_number.html#add91053a04d0684b59fb0b61058333ce">PdsNumber</a>
 , <a class="el" href="struct_pds_string.html#a781e7eec3094e49ea80972d61a7c94e4">PdsString</a>
 </li>
@@ -588,13 +706,16 @@ $(document).ready(function(){initNavTree('functions_func_g.html','');});
 : <a class="el" href="struct_pde_text.html#afa11ec01b285e86dd114dfb3d1907cbc">PdeText</a>
 , <a class="el" href="struct_pde_text_line.html#ae7874c49db5ec67f4e6cde576aa0dbd9">PdeTextLine</a>
 </li>
+<li>GetWordFlags()
+: <a class="el" href="struct_pde_word.html#a6e92f00fb1f60e86f6443fb8b4e33a96">PdeWord</a>
+</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:19 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:49 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

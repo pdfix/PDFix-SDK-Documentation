@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('group___enumerations___p_d_fix___ocr__
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:gabc5c98fcc1211af2b80116dd6e0a035d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+<tr class="memitem:gaba01db17f4a2bfbc3db60dc172972a25"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
 &#160;&#160;<b>kErrorOcrTesseract</b> = 2000, 
 <b>kErrorOcrTesseractInitialization</b>, 
 <b>kErrorOcrTesseractMissingData</b>, 
@@ -125,16 +125,14 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<b>kErrorOcrTesseractMissingPageImage</b>, 
 <b>kErrorOcrTesseractProcessDoc</b>, 
-<b>kErrorOcrTesseractProcessPage</b>
+<b>kErrorOcrTesseractProcessPage</b>, 
+<b>kErrorOcrTesseractIteratePage</b>, 
+<br />
+&#160;&#160;<b>kErrorOcrTesseractMissingFont</b>
 <br />
  }</td></tr>
-<tr class="memdesc:gabc5c98fcc1211af2b80116dd6e0a035d"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfErrorType.  <a href="group___enumerations___p_d_fix___ocr___tesseract.html#gabc5c98fcc1211af2b80116dd6e0a035d">More...</a><br /></td></tr>
-<tr class="separator:gabc5c98fcc1211af2b80116dd6e0a035d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac36f475ca5b446f4fde4c9b90bec77c8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="group___enumerations___p_d_fix___ocr___tesseract.html#ggac36f475ca5b446f4fde4c9b90bec77c8a39c9ee5119bc51fd89190e63cfbd970b">kOcrNone</a> = 0x00, 
-<a class="el" href="group___enumerations___p_d_fix___ocr___tesseract.html#ggac36f475ca5b446f4fde4c9b90bec77c8a51177eb03606403a559ccf69cecf0e07">kOcrImages</a> = 0x0001
- }</td></tr>
-<tr class="memdesc:gac36f475ca5b446f4fde4c9b90bec77c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">OcrTesseractFlags.  <a href="group___enumerations___p_d_fix___ocr___tesseract.html#gac36f475ca5b446f4fde4c9b90bec77c8">More...</a><br /></td></tr>
-<tr class="separator:gac36f475ca5b446f4fde4c9b90bec77c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:gaba01db17f4a2bfbc3db60dc172972a25"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfErrorType.  <a href="group___enumerations___p_d_fix___ocr___tesseract.html#gaba01db17f4a2bfbc3db60dc172972a25">More...</a><br /></td></tr>
+<tr class="separator:gaba01db17f4a2bfbc3db60dc172972a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga946a955dd187e8c551b529548780f81c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___ocr___tesseract.html#ga946a955dd187e8c551b529548780f81c">OcrTesseractPageSegType</a> { <br />
 &#160;&#160;<a class="el" href="group___enumerations___p_d_fix___ocr___tesseract.html#gga946a955dd187e8c551b529548780f81ca8216e7dd8f89fe0b4a875533ae6be737">kOcrSegOSDOnly</a>, 
 <a class="el" href="group___enumerations___p_d_fix___ocr___tesseract.html#gga946a955dd187e8c551b529548780f81caeecd9f4857b5c3b73397bd5a08d59a93">kOcrSegAutoOSD</a>, 
@@ -155,7 +153,7 @@ Enumerations</h2></td></tr>
 <a class="el" href="group___enumerations___p_d_fix___ocr___tesseract.html#gga946a955dd187e8c551b529548780f81ca6f54ad4d402d044188b855b8fc419ae3">kOcrSegRawLine</a>
 <br />
  }</td></tr>
-<tr class="memdesc:ga946a955dd187e8c551b529548780f81c"><td class="mdescLeft">&#160;</td><td class="mdescRight">OcrTesseractPageSegType.  <a href="group___enumerations___p_d_fix___ocr___tesseract.html#ga946a955dd187e8c551b529548780f81c">More...</a><br /></td></tr>
+<tr class="memdesc:ga946a955dd187e8c551b529548780f81c"><td class="mdescLeft">&#160;</td><td class="mdescRight">OcrTesseractFlags.  <a href="group___enumerations___p_d_fix___ocr___tesseract.html#ga946a955dd187e8c551b529548780f81c">More...</a><br /></td></tr>
 <tr class="separator:ga946a955dd187e8c551b529548780f81c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0f5cf12cf5bece5b02b78292d43ffc8d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___enumerations___p_d_fix___ocr___tesseract.html#ga0f5cf12cf5bece5b02b78292d43ffc8d">OcrTesseractEngineType</a> { <a class="el" href="group___enumerations___p_d_fix___ocr___tesseract.html#gga0f5cf12cf5bece5b02b78292d43ffc8da3665141385f0bcf959666bf7059647ea">kOcrTesseractOnly</a>, 
 <a class="el" href="group___enumerations___p_d_fix___ocr___tesseract.html#gga0f5cf12cf5bece5b02b78292d43ffc8da228b226f74e7695a23bf31cbe66cf87a">kOcrTesseractLSTMOnlly</a>, 
@@ -168,8 +166,8 @@ Enumerations</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>PDFix OCR Tesseract enumeration types. </p>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="gabc5c98fcc1211af2b80116dd6e0a035d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gabc5c98fcc1211af2b80116dd6e0a035d">&#9670;&nbsp;</a></span>anonymous enum</h2>
+<a id="gaba01db17f4a2bfbc3db60dc172972a25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaba01db17f4a2bfbc3db60dc172972a25">&#9670;&nbsp;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182,29 +180,6 @@ Enumerations</h2></td></tr>
 
 <p>PdfErrorType. </p>
 <p>Error types. </p>
-
-</div>
-</div>
-<a id="gac36f475ca5b446f4fde4c9b90bec77c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gac36f475ca5b446f4fde4c9b90bec77c8">&#9670;&nbsp;</a></span>anonymous enum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">anonymous enum</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>OcrTesseractFlags. </p>
-<p>Specifies a various ocr construction flags. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggac36f475ca5b446f4fde4c9b90bec77c8a39c9ee5119bc51fd89190e63cfbd970b"></a>kOcrNone&#160;</td><td class="fielddoc"><p>Basic ORC. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="ggac36f475ca5b446f4fde4c9b90bec77c8a51177eb03606403a559ccf69cecf0e07"></a>kOcrImages&#160;</td><td class="fielddoc"><p>Process all images. </p>
-</td></tr>
-</table>
 
 </div>
 </div>
@@ -247,7 +222,8 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>OcrTesseractPageSegType. </p>
+<p>OcrTesseractFlags. </p>
+<p>Specifies a various ocr construction flags. OcrTesseractPageSegType</p>
 <p>Possible modes for page layout analysis. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga946a955dd187e8c551b529548780f81ca8216e7dd8f89fe0b4a875533ae6be737"></a>kOcrSegOSDOnly&#160;</td><td class="fielddoc"><p>Orientation and script detection only. </p>
@@ -287,7 +263,7 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:11 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:40 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

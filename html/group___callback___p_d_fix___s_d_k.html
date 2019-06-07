@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -120,9 +120,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ga74f9515158e9b37fd521fa0e792dece4"><td class="memItemLeft" align="right" valign="top">typedef _callback_ int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a>) (void *data)</td></tr>
 <tr class="memdesc:ga74f9515158e9b37fd521fa0e792dece4"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfCancelProc.  <a href="#ga74f9515158e9b37fd521fa0e792dece4">More...</a><br /></td></tr>
 <tr class="separator:ga74f9515158e9b37fd521fa0e792dece4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab66a61e98fb86c7df1fe8e83fd43e411"><td class="memItemLeft" align="right" valign="top">typedef _callback_ void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___callback___p_d_fix___s_d_k.html#gab66a61e98fb86c7df1fe8e83fd43e411">PdfEventProc</a>) (<a class="el" href="group___structures___p_d_fix___s_d_k.html#ga2b124a852f2537e29b032c80a7fbac67">PdfEventParams</a> *event, void *data)</td></tr>
-<tr class="memdesc:gab66a61e98fb86c7df1fe8e83fd43e411"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfEventProc.  <a href="#gab66a61e98fb86c7df1fe8e83fd43e411">More...</a><br /></td></tr>
-<tr class="separator:gab66a61e98fb86c7df1fe8e83fd43e411"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf45e949d9779903ca22aa80c43e5c7c3"><td class="memItemLeft" align="right" valign="top">typedef _callback_ void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___callback___p_d_fix___s_d_k.html#gaf45e949d9779903ca22aa80c43e5c7c3">PdfEventProc</a>) (void *data)</td></tr>
+<tr class="memdesc:gaf45e949d9779903ca22aa80c43e5c7c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfEventProc.  <a href="#gaf45e949d9779903ca22aa80c43e5c7c3">More...</a><br /></td></tr>
+<tr class="separator:gaf45e949d9779903ca22aa80c43e5c7c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga1d633de38c49a2174b209ea881a2afba"><td class="memItemLeft" align="right" valign="top">typedef _callback_ unsigned long(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___callback___p_d_fix___s_d_k.html#ga1d633de38c49a2174b209ea881a2afba">PdfDigestDataProc</a>) (int buffer_count, const unsigned char *buffer_to_sign[], unsigned long buffer_size[], unsigned char *sign_buff, unsigned long sign_buff_size, void *data)</td></tr>
 <tr class="memdesc:ga1d633de38c49a2174b209ea881a2afba"><td class="mdescLeft">&#160;</td><td class="mdescRight">PdfDigestDataProc.  <a href="#ga1d633de38c49a2174b209ea881a2afba">More...</a><br /></td></tr>
 <tr class="separator:ga1d633de38c49a2174b209ea881a2afba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,14 +189,14 @@ Typedefs</h2></td></tr>
 
 </div>
 </div>
-<a id="gab66a61e98fb86c7df1fe8e83fd43e411"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab66a61e98fb86c7df1fe8e83fd43e411">&#9670;&nbsp;</a></span>PdfEventProc</h2>
+<a id="gaf45e949d9779903ca22aa80c43e5c7c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf45e949d9779903ca22aa80c43e5c7c3">&#9670;&nbsp;</a></span>PdfEventProc</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef _callback_ void(* PdfEventProc) (<a class="el" href="group___structures___p_d_fix___s_d_k.html#ga2b124a852f2537e29b032c80a7fbac67">PdfEventParams</a> *event, void *data)</td>
+          <td class="memname">typedef _callback_ void(* PdfEventProc) (void *data)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -204,7 +204,6 @@ Typedefs</h2></td></tr>
 <p>PdfEventProc. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">event</td><td>PdfEventParams object filled based on registered event. </td></tr>
     <tr><td class="paramname">data</td><td>Pointer to user-supplied data to pass to PdfEventProc each time it is called. </td></tr>
   </table>
   </dd>
@@ -291,7 +290,7 @@ Typedefs</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:11 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:39 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

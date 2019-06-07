@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -136,14 +136,57 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adafe67712d77735392f4bbaa27874b48"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_stream.html#adafe67712d77735392f4bbaa27874b48">GetRawDataSize</a> ()=0</td></tr>
 <tr class="memdesc:adafe67712d77735392f4bbaa27874b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the stream raw data size.  <a href="#adafe67712d77735392f4bbaa27874b48">More...</a><br /></td></tr>
 <tr class="separator:adafe67712d77735392f4bbaa27874b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37673e60bd46141c48b3da4f5f1154cf"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_stream.html#a37673e60bd46141c48b3da4f5f1154cf">IsEof</a> ()=0</td></tr>
+<tr class="memdesc:a37673e60bd46141c48b3da4f5f1154cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the current position is end of stream.  <a href="#a37673e60bd46141c48b3da4f5f1154cf">More...</a><br /></td></tr>
+<tr class="separator:a37673e60bd46141c48b3da4f5f1154cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18487c5b746b540df281b28c0401a4de"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_stream.html#a18487c5b746b540df281b28c0401a4de">GetSize</a> ()=0</td></tr>
+<tr class="memdesc:a18487c5b746b540df281b28c0401a4de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current size of a stream.  <a href="#a18487c5b746b540df281b28c0401a4de">More...</a><br /></td></tr>
+<tr class="separator:a18487c5b746b540df281b28c0401a4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a013444c819cc9ff475f59f8e326d88ea"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_stream.html#a013444c819cc9ff475f59f8e326d88ea">Read</a> (int offset, _out_ uint8_t *buffer, int size)=0</td></tr>
+<tr class="memdesc:a013444c819cc9ff475f59f8e326d88ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads data from <a class="el" href="struct_ps_stream.html" title="PsStream class. ">PsStream</a> into memory.  <a href="#a013444c819cc9ff475f59f8e326d88ea">More...</a><br /></td></tr>
+<tr class="separator:a013444c819cc9ff475f59f8e326d88ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37f6b88c72895b6e5ab8fe976e51a37b"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_stream.html#a37f6b88c72895b6e5ab8fe976e51a37b">GetPos</a> ()=0</td></tr>
+<tr class="separator:a37f6b88c72895b6e5ab8fe976e51a37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_struct_pds_object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_struct_pds_object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="struct_pds_object.html">PdsObject</a></td></tr>
 <tr class="memitem:a36bf68d87600e052fff1c82fd7cbe0de inherit pub_methods_struct_pds_object"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gad65489df6626d2f4ddf0fc89c9dab38d">PdfObjectType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_object.html#a36bf68d87600e052fff1c82fd7cbe0de">GetObjectType</a> ()=0</td></tr>
 <tr class="memdesc:a36bf68d87600e052fff1c82fd7cbe0de inherit pub_methods_struct_pds_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the type of an object.  <a href="struct_pds_object.html#a36bf68d87600e052fff1c82fd7cbe0de">More...</a><br /></td></tr>
 <tr class="separator:a36bf68d87600e052fff1c82fd7cbe0de inherit pub_methods_struct_pds_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a867610249a33d19f40ea2b4c0dfd4ed8 inherit pub_methods_struct_pds_object"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_object.html#a867610249a33d19f40ea2b4c0dfd4ed8">GetId</a> ()=0</td></tr>
+<tr class="memdesc:a867610249a33d19f40ea2b4c0dfd4ed8 inherit pub_methods_struct_pds_object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the object number.  <a href="struct_pds_object.html#a867610249a33d19f40ea2b4c0dfd4ed8">More...</a><br /></td></tr>
+<tr class="separator:a867610249a33d19f40ea2b4c0dfd4ed8 inherit pub_methods_struct_pds_object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pds_stream.html" title="PdsStream class. ">PdsStream</a> class. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a37f6b88c72895b6e5ab8fe976e51a37b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37f6b88c72895b6e5ab8fe976e51a37b">&#9670;&nbsp;</a></span>GetPos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdsStream::GetPos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the current seek position in a stream. This is the position at which the next read or write will begin. <br />
+</p>
+<p><br />
+</p><dl class="section return"><dt>Returns</dt><dd>The current seek position. </dd></dl>
+
+</div>
+</div>
 <a id="adafe67712d77735392f4bbaa27874b48"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adafe67712d77735392f4bbaa27874b48">&#9670;&nbsp;</a></span>GetRawDataSize()</h2>
 
@@ -169,6 +212,34 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets the stream raw data size. </p>
 <dl class="section return"><dt>Returns</dt><dd>The stream's dictionary </dd></dl>
+
+</div>
+</div>
+<a id="a18487c5b746b540df281b28c0401a4de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18487c5b746b540df281b28c0401a4de">&#9670;&nbsp;</a></span>GetSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdsStream::GetSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the current size of a stream. </p>
+<dl class="section return"><dt>Returns</dt><dd>The size of the stream. </dd></dl>
 
 </div>
 </div>
@@ -200,13 +271,95 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a37673e60bd46141c48b3da4f5f1154cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37673e60bd46141c48b3da4f5f1154cf">&#9670;&nbsp;</a></span>IsEof()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdsStream::IsEof </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the current position is end of stream. </p>
+<dl class="section return"><dt>Returns</dt><dd>The size of the stream. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_ps_stream.html#aa4d4b8641ab5e2a3ee53de50a0ca6d59" title="Reads data from PsStream into memory. ">PsStream::Read</a> </dd></dl>
+
+</div>
+</div>
+<a id="a013444c819cc9ff475f59f8e326d88ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a013444c819cc9ff475f59f8e326d88ea">&#9670;&nbsp;</a></span>Read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdsStream::Read </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_out_ uint8_t *&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reads data from <a class="el" href="struct_ps_stream.html" title="PsStream class. ">PsStream</a> into memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buffer</td><td>(Filled by the method) A buffer into which data is written. </td></tr>
+    <tr><td class="paramname">offset</td><td>The position to start read from. </td></tr>
+    <tr><td class="paramname">size</td><td>The number of bytes to read. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the operation was successful, false otherwise. </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pds_stream.html">PdsStream</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:15 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:45 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

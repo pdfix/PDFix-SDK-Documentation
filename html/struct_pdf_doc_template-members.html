@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -115,16 +115,20 @@ $(document).ready(function(){initNavTree('struct_pdf_doc_template.html','');});
 
 <p>This is the complete list of members for <a class="el" href="struct_pdf_doc_template.html">PdfDocTemplate</a>, including all inherited members.</p>
 <table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc_template.html#a3a0887b6e5e8edc0a057679998df641d">GetProperty</a>(const wchar_t *name)=0</td><td class="entry"><a class="el" href="struct_pdf_doc_template.html">PdfDocTemplate</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pdf_doc_template.html#ac7a13feb74754e24451261f84a1d975a">GetRegex</a>(const wchar_t *name, _out_ wchar_t *buffer, int len)=0</td><td class="entry"><a class="el" href="struct_pdf_doc_template.html">PdfDocTemplate</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc_template.html#a92918659eb00f4600f4a1173f2d978f8">LoadFromStream</a>(PsStream *stream, PsDataFormat format)=0</td><td class="entry"><a class="el" href="struct_pdf_doc_template.html">PdfDocTemplate</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="struct_pdf_doc_template.html#a50ee55dae0745d75bb1f6741813575d7">PreflightDoc</a>(_callback_ PdfCancelProc cancel_proc, void *cancel_data)=0</td><td class="entry"><a class="el" href="struct_pdf_doc_template.html">PdfDocTemplate</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc_template.html#ae9c2273a93bfc27fc49309dd2bb5f95f">SaveToStream</a>(PsStream *stream, PsDataFormat format)=0</td><td class="entry"><a class="el" href="struct_pdf_doc_template.html">PdfDocTemplate</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="struct_pdf_doc_template.html#aa5dc86b39ba15a9b52f66cdc3539352a">SetDefaults</a>()=0</td><td class="entry"><a class="el" href="struct_pdf_doc_template.html">PdfDocTemplate</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="struct_pdf_doc_template.html#a41bb0dd4420571b340223157447f616e">SetProperty</a>(const wchar_t *name, double value)=0</td><td class="entry"><a class="el" href="struct_pdf_doc_template.html">PdfDocTemplate</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="struct_pdf_doc_template.html#a38604cd8c8112a02d71394577d8ee417">SetRegex</a>(const wchar_t *name, const wchar_t *pattern)=0</td><td class="entry"><a class="el" href="struct_pdf_doc_template.html">PdfDocTemplate</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:14 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:43 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

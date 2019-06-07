@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -150,6 +150,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1d807c6a8ff1d3a2d8fe524f29d83d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc33624d0b1a0d4cb06f2c1f743dc488"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_annot.html#acc33624d0b1a0d4cb06f2c1f743dc488">RectInAnnot</a> (<a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *rect)=0</td></tr>
 <tr class="separator:acc33624d0b1a0d4cb06f2c1f743dc488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cbe9a4170277459dc49e80925e78516"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_annot.html#a9cbe9a4170277459dc49e80925e78516">GetStructObject</a> (bool struct_parent)=0</td></tr>
+<tr class="separator:a9cbe9a4170277459dc49e80925e78516"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pdf_annot.html" title="PdfAnnot class. ">PdfAnnot</a> class. </p>
@@ -248,6 +250,43 @@ Public Member Functions</h2></td></tr>
 
 <p>Gets an annotation's flags. </p>
 <dl class="section return"><dt>Returns</dt><dd>The flags, or 0 if the annotation does not have a flags key. </dd></dl>
+
+</div>
+</div>
+<a id="a9cbe9a4170277459dc49e80925e78516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cbe9a4170277459dc49e80925e78516">&#9670;&nbsp;</a></span>GetStructObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_object.html">PdsObject</a>* PdfAnnot::GetStructObject </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>struct_parent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the corresponding struct element object from the document structure tree. Iterates hierarchy of objects from the structure tree. If there is a reference to the current annotation, a structure element object with this reference is returned. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">struct_parent</td><td>If set to true, ParentTree is used in finding the structure element to which the annotation belongs. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="struct_pds_object.html" title="PdsObject class. ">PdsObject</a> object corresponding to the found structure element, otherwise nullptr. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pds_struct_tree.html#ac4a1fca5afa17a918fa480c91adfa24f">PdsStructTree::AcquireStructElement</a> </dd></dl>
 
 </div>
 </div>
@@ -357,7 +396,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pdf_annot.html">PdfAnnot</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:13 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:43 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

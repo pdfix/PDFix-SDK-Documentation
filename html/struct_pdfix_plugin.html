@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -143,8 +143,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a918f0c78657d43caf7d604261dab969f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0364979c22b8fa3b3b300247d5788eac"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix_plugin.html#a0364979c22b8fa3b3b300247d5788eac">GetVersionPatch</a> ()=0</td></tr>
 <tr class="separator:a0364979c22b8fa3b3b300247d5788eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b455fce0b51517ea234f07469c30e9e"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix_plugin.html#a4b455fce0b51517ea234f07469c30e9e">GetPdfixVersionMajor</a> ()=0</td></tr>
+<tr class="memdesc:a4b455fce0b51517ea234f07469c30e9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the major version of the <a class="el" href="struct_pdfix.html" title="Pdfix class. ">Pdfix</a> SDK with which the plugin was built.  <a href="#a4b455fce0b51517ea234f07469c30e9e">More...</a><br /></td></tr>
+<tr class="separator:a4b455fce0b51517ea234f07469c30e9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa41e4717ef1c07489ad210a842076366"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix_plugin.html#aa41e4717ef1c07489ad210a842076366">GetPdfixVersionMinor</a> ()=0</td></tr>
+<tr class="separator:aa41e4717ef1c07489ad210a842076366"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15e93e1669935c880c64315f711378c9"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix_plugin.html#a15e93e1669935c880c64315f711378c9">GetPdfixVersionPatch</a> ()=0</td></tr>
+<tr class="separator:a15e93e1669935c880c64315f711378c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7a8a61af7da7477b58929a4a8ea77f3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pdfix.html">Pdfix</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdfix_plugin.html#ac7a8a61af7da7477b58929a4a8ea77f3">GetPdfix</a> ()=0</td></tr>
-<tr class="memdesc:ac7a8a61af7da7477b58929a4a8ea77f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="struct_pdfix.html" title="Pdfix class. ">Pdfix</a> instance.  <a href="#ac7a8a61af7da7477b58929a4a8ea77f3">More...</a><br /></td></tr>
 <tr class="separator:ac7a8a61af7da7477b58929a4a8ea77f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -201,9 +207,96 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Returns the <a class="el" href="struct_pdfix.html" title="Pdfix class. ">Pdfix</a> instance. Method should return the number defined as PDFIX_VERSION_PATCH <br />
+</p>
+<p><br />
+</p><dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="struct_pdfix.html" title="Pdfix class. ">Pdfix</a> instance. </dd></dl>
 
-<p>Returns the <a class="el" href="struct_pdfix.html" title="Pdfix class. ">Pdfix</a> instance. </p>
-<dl class="section return"><dt>Returns</dt><dd>The <a class="el" href="struct_pdfix.html" title="Pdfix class. ">Pdfix</a> instance. </dd></dl>
+</div>
+</div>
+<a id="a4b455fce0b51517ea234f07469c30e9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b455fce0b51517ea234f07469c30e9e">&#9670;&nbsp;</a></span>GetPdfixVersionMajor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdfixPlugin::GetPdfixVersionMajor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the major version of the <a class="el" href="struct_pdfix.html" title="Pdfix class. ">Pdfix</a> SDK with which the plugin was built. </p>
+<dl class="section return"><dt>Returns</dt><dd>The major version number. </dd></dl>
+
+</div>
+</div>
+<a id="aa41e4717ef1c07489ad210a842076366"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa41e4717ef1c07489ad210a842076366">&#9670;&nbsp;</a></span>GetPdfixVersionMinor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdfixPlugin::GetPdfixVersionMinor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the minor version of the <a class="el" href="struct_pdfix.html" title="Pdfix class. ">Pdfix</a> SDK with which the plugin was built. Method should return the number defined as PDFIX_VERSION_MINOR <br />
+</p>
+<p><br />
+</p><dl class="section return"><dt>Returns</dt><dd>The minor version number. </dd></dl>
+
+</div>
+</div>
+<a id="a15e93e1669935c880c64315f711378c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15e93e1669935c880c64315f711378c9">&#9670;&nbsp;</a></span>GetPdfixVersionPatch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdfixPlugin::GetPdfixVersionPatch </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the patch version of the <a class="el" href="struct_pdfix.html" title="Pdfix class. ">Pdfix</a> SDK with which the plugin was built. Method should return the number defined as PDFIX_VERSION_MAJOR <br />
+</p>
+<p><br />
+</p><dl class="section return"><dt>Returns</dt><dd>The patch version number. </dd></dl>
 
 </div>
 </div>
@@ -229,7 +322,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns the major version. This is the first integer in a version number and is increased whenever significant changes are made. <br />
+<p>Returns the major version of the plugin. This is the first integer in a version number and is increased whenever significant changes are made. <br />
 </p>
 <p><br />
 </p><dl class="section return"><dt>Returns</dt><dd>The major version number. </dd></dl>
@@ -258,7 +351,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns the minor version. This is the second integer in a compound version number. This is normally set to 0 after each major release and increased whenever smaller features or significant bug fixes have been added. <br />
+<p>Returns the minor version of the plugin. This is the second integer in a compound version number. This is normally set to 0 after each major release and increased whenever smaller features or significant bug fixes have been added. <br />
 </p>
 <p><br />
 </p><dl class="section return"><dt>Returns</dt><dd>The minor version number. </dd></dl>
@@ -287,7 +380,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Returns the patch version. The (optional) thirdinteger is the patch number, sometimes also called the revision number. Changes in patch number should imply no change to the actual API interface, only changes to the behavior of the API. <br />
+<p>Returns the patch version of the plugin. The (optional) thirdinteger is the patch number, sometimes also called the revision number. Changes in patch number should imply no change to the actual API interface, only changes to the behavior of the API. <br />
 </p>
 <p><br />
 </p><dl class="section return"><dt>Returns</dt><dd>The patch version number. </dd></dl>
@@ -329,7 +422,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pdfix_plugin.html">PdfixPlugin</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:14 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:43 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

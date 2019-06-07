@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -121,20 +121,175 @@ $(document).ready(function(){initNavTree('struct_pde_page_map.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a7bc1656739f59ee664cbf3dc50b04db9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_page_map.html#a7bc1656739f59ee664cbf3dc50b04db9">Release</a> ()=0</td></tr>
+<tr class="separator:a7bc1656739f59ee664cbf3dc50b04db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a074e532585810ca104f159c478c7b371"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pde_element.html">PdeElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_page_map.html#a074e532585810ca104f159c478c7b371">GetElement</a> ()=0</td></tr>
 <tr class="separator:a074e532585810ca104f159c478c7b371"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5f925651c81991018fe9cd38c95445e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_page_map.html#af5f925651c81991018fe9cd38c95445e">GetWhitespace</a> (<a class="el" href="group___structures___p_d_fix___s_d_k.html#ga1dc2e12535b57f0f9c2f7bedd1b31e49">PdfWhitespaceParams</a> *params, int index, _out_ <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *bbox)=0</td></tr>
 <tr class="memdesc:af5f925651c81991018fe9cd38c95445e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for whitespaces at the page. They are sorted from biggest to smallest.  <a href="#af5f925651c81991018fe9cd38c95445e">More...</a><br /></td></tr>
 <tr class="separator:af5f925651c81991018fe9cd38c95445e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e811f4ad31c90d08664d247bd771345"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_page_map.html#a6e811f4ad31c90d08664d247bd771345">GetBBox</a> (_out_ <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *bbox)=0</td></tr>
-<tr class="separator:a6e811f4ad31c90d08664d247bd771345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42aab4c3af72bd3545eacb3c91c17cda"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_page_map.html#a42aab4c3af72bd3545eacb3c91c17cda">GetBBox</a> (<a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *bbox)=0</td></tr>
+<tr class="separator:a42aab4c3af72bd3545eacb3c91c17cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61a0a06c00879f45f3072a67ed3d5840"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_page_map.html#a61a0a06c00879f45f3072a67ed3d5840">AcquireElements</a> (_callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a> cancel_proc, void *cancel_data)=0</td></tr>
+<tr class="memdesc:a61a0a06c00879f45f3072a67ed3d5840"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recreates a <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> from the <a class="el" href="struct_pdf_page.html" title="PdfPage class. ">PdfPage</a>'s elements.  <a href="#a61a0a06c00879f45f3072a67ed3d5840">More...</a><br /></td></tr>
+<tr class="separator:a61a0a06c00879f45f3072a67ed3d5840"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23c0b8d31c40731db9a46ebee9c24090"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pde_element.html">PdeElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_page_map.html#a23c0b8d31c40731db9a46ebee9c24090">CreateElement</a> (<a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga1c46809f4a04b62054561924c9fe4b93">PdfElementType</a> type, <a class="el" href="struct_pde_element.html">PdeElement</a> *parent)=0</td></tr>
+<tr class="memdesc:a23c0b8d31c40731db9a46ebee9c24090"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty element of specific type.  <a href="#a23c0b8d31c40731db9a46ebee9c24090">More...</a><br /></td></tr>
+<tr class="separator:a23c0b8d31c40731db9a46ebee9c24090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a563a9d26a597b6c8afb4a306aa15e7f1"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pde_page_map.html#a563a9d26a597b6c8afb4a306aa15e7f1">AddTags</a> (<a class="el" href="struct_pds_struct_element.html">PdsStructElement</a> *element, _callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a> cancel_proc, void *cancel_data)=0</td></tr>
+<tr class="memdesc:a563a9d26a597b6c8afb4a306aa15e7f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds tags.  <a href="#a563a9d26a597b6c8afb4a306aa15e7f1">More...</a><br /></td></tr>
+<tr class="separator:a563a9d26a597b6c8afb4a306aa15e7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> class. </p>
 <p>The <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> object is a storage of all PdeElements whose were recognized on the page. A <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> may be obtained from an existing page with the PdfPage::GetPageMap method. Once your application has the page's <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a>, it can get each logical element with GetElement method. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6e811f4ad31c90d08664d247bd771345"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e811f4ad31c90d08664d247bd771345">&#9670;&nbsp;</a></span>GetBBox()</h2>
+<a id="a61a0a06c00879f45f3072a67ed3d5840"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61a0a06c00879f45f3072a67ed3d5840">&#9670;&nbsp;</a></span>AcquireElements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdePageMap::AcquireElements </td>
+          <td>(</td>
+          <td class="paramtype">_callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a>&#160;</td>
+          <td class="paramname"><em>cancel_proc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>cancel_data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Recreates a <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> from the <a class="el" href="struct_pdf_page.html" title="PdfPage class. ">PdfPage</a>'s elements. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cancel_proc</td><td>Callback to check for canceling operations. A CancelProc is typically passed to some method that takes a long time to complete. At frequent intervals, the method calls the CancelProc. If it returns true, then the method cancels its operation; if false, it continues. </td></tr>
+    <tr><td class="paramname">cancel_data</td><td>Pointer to client data for the cancel procedure. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if pagemap was generated successfuly, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a563a9d26a597b6c8afb4a306aa15e7f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a563a9d26a597b6c8afb4a306aa15e7f1">&#9670;&nbsp;</a></span>AddTags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdePageMap::AddTags </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a> *&#160;</td>
+          <td class="paramname"><em>element</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a>&#160;</td>
+          <td class="paramname"><em>cancel_proc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>cancel_data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds tags. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">element</td><td>Parent structure element. </td></tr>
+    <tr><td class="paramname">cancel_proc</td><td>Callback to check for canceling operations. A CancelProc is typically passed to some method that takes a long time to complete. At frequent intervals, the method calls the CancelProc. If it returns true, then the method cancels its operation; if false, it continues. </td></tr>
+    <tr><td class="paramname">cancel_data</td><td>Pointer to client data for the cancel procedure. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if tags were added successfuly, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a23c0b8d31c40731db9a46ebee9c24090"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23c0b8d31c40731db9a46ebee9c24090">&#9670;&nbsp;</a></span>CreateElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pde_element.html">PdeElement</a>* PdePageMap::CreateElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga1c46809f4a04b62054561924c9fe4b93">PdfElementType</a>&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_pde_element.html">PdeElement</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates an empty element of specific type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">params</td><td>Parameters of the newly created element. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true Pointer to the newly created PDEElement. </dd></dl>
+
+</div>
+</div>
+<a id="a42aab4c3af72bd3545eacb3c91c17cda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42aab4c3af72bd3545eacb3c91c17cda">&#9670;&nbsp;</a></span>GetBBox()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145,7 +300,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual void PdePageMap::GetBBox </td>
           <td>(</td>
-          <td class="paramtype">_out_ <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *&#160;</td>
           <td class="paramname"><em>bbox</em></td><td>)</td>
           <td></td>
         </tr>
@@ -258,13 +413,43 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7bc1656739f59ee664cbf3dc50b04db9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bc1656739f59ee664cbf3dc50b04db9">&#9670;&nbsp;</a></span>Release()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PdePageMap::Release </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Releases the pagemap resources at the current page. NOTE: The caller can call <a class="el" href="struct_pde_page_map.html#a7bc1656739f59ee664cbf3dc50b04db9">PdePageMap::Release</a> to optimize a memory handling. Otherwise the page is responsible for freeing <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> resources. <br />
+</p>
+<p><br />
+</p><dl class="section return"><dt>Returns</dt><dd>true if succeeded, false otherwise. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_page.html#a286a5d41c831a8dd4c13a16cf3f0d3d0">PdfPage::AcquirePageMap</a> </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pde_page_map.html">PdePageMap</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:13 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:42 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

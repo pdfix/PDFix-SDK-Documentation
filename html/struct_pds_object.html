@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -124,15 +124,14 @@ Inheritance diagram for PdsObject:</div>
  <div class="center">
   <img src="struct_pds_object.png" usemap="#PdsObject_map" alt=""/>
   <map id="PdsObject_map" name="PdsObject_map">
-<area href="struct_pds_array.html" title="PdsArray class. " alt="PdsArray" shape="rect" coords="102,56,194,80"/>
-<area href="struct_pds_boolean.html" title="PdsBoolean class. " alt="PdsBoolean" shape="rect" coords="102,112,194,136"/>
-<area href="struct_pds_dictionary.html" title="PdsDictionary class. " alt="PdsDictionary" shape="rect" coords="102,168,194,192"/>
-<area href="struct_pds_name.html" title="PdsName class. " alt="PdsName" shape="rect" coords="102,224,194,248"/>
-<area href="struct_pds_null.html" title="PdsNull class. " alt="PdsNull" shape="rect" coords="102,280,194,304"/>
-<area href="struct_pds_number.html" title="PdsNumber class. " alt="PdsNumber" shape="rect" coords="102,336,194,360"/>
-<area href="struct_pds_reference.html" title="PdsReference class. " alt="PdsReference" shape="rect" coords="102,392,194,416"/>
-<area href="struct_pds_stream.html" title="PdsStream class. " alt="PdsStream" shape="rect" coords="102,448,194,472"/>
-<area href="struct_pds_string.html" title="PdsString class. " alt="PdsString" shape="rect" coords="102,504,194,528"/>
+<area href="struct_pds_array.html" title="PdsArray class. " alt="PdsArray" shape="rect" coords="101,56,192,80"/>
+<area href="struct_pds_boolean.html" title="PdsBoolean class. " alt="PdsBoolean" shape="rect" coords="101,112,192,136"/>
+<area href="struct_pds_dictionary.html" title="PdsDictionary class. " alt="PdsDictionary" shape="rect" coords="101,168,192,192"/>
+<area href="struct_pds_name.html" title="PdsName class. " alt="PdsName" shape="rect" coords="101,224,192,248"/>
+<area href="struct_pds_null.html" title="PdsNull class. " alt="PdsNull" shape="rect" coords="101,280,192,304"/>
+<area href="struct_pds_number.html" title="PdsNumber class. " alt="PdsNumber" shape="rect" coords="101,336,192,360"/>
+<area href="struct_pds_stream.html" title="PdsStream class. " alt="PdsStream" shape="rect" coords="101,392,192,416"/>
+<area href="struct_pds_string.html" title="PdsString class. " alt="PdsString" shape="rect" coords="101,448,192,472"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -141,11 +140,42 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a36bf68d87600e052fff1c82fd7cbe0de"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gad65489df6626d2f4ddf0fc89c9dab38d">PdfObjectType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_object.html#a36bf68d87600e052fff1c82fd7cbe0de">GetObjectType</a> ()=0</td></tr>
 <tr class="memdesc:a36bf68d87600e052fff1c82fd7cbe0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the type of an object.  <a href="#a36bf68d87600e052fff1c82fd7cbe0de">More...</a><br /></td></tr>
 <tr class="separator:a36bf68d87600e052fff1c82fd7cbe0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a867610249a33d19f40ea2b4c0dfd4ed8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_object.html#a867610249a33d19f40ea2b4c0dfd4ed8">GetId</a> ()=0</td></tr>
+<tr class="memdesc:a867610249a33d19f40ea2b4c0dfd4ed8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the object number.  <a href="#a867610249a33d19f40ea2b4c0dfd4ed8">More...</a><br /></td></tr>
+<tr class="separator:a867610249a33d19f40ea2b4c0dfd4ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pds_object.html" title="PdsObject class. ">PdsObject</a> class. </p>
 <p>A <a class="el" href="struct_pds_object.html" title="PdsObject class. ">PdsObject</a> is a general object in a PDF file, which may be of any <a class="el" href="struct_pds_object.html" title="PdsObject class. ">PdsObject</a> object type. The Object layer provides several methods that are not specific to any particular object. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a867610249a33d19f40ea2b4c0dfd4ed8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a867610249a33d19f40ea2b4c0dfd4ed8">&#9670;&nbsp;</a></span>GetId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int PdsObject::GetId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the object number. </p>
+<dl class="section return"><dt>Returns</dt><dd>Object number in orzero in case of a direct object </dd></dl>
+
+</div>
+</div>
 <a id="a36bf68d87600e052fff1c82fd7cbe0de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36bf68d87600e052fff1c82fd7cbe0de">&#9670;&nbsp;</a></span>GetObjectType()</h2>
 
@@ -180,7 +210,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pds_object.html">PdsObject</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:15 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:44 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -121,6 +121,8 @@ $(document).ready(function(){initNavTree('struct_pdf_page.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a3b715b3da8c51d04866ed714ab5742e8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a3b715b3da8c51d04866ed714ab5742e8">Release</a> ()=0</td></tr>
+<tr class="separator:a3b715b3da8c51d04866ed714ab5742e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff7b4438a9297997ae3401bcfec5727d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#aff7b4438a9297997ae3401bcfec5727d">GetCropBox</a> (_out_ <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga173122fff171e2f1f639cdc39496bcf4">PdfRect</a> *crop_box)=0</td></tr>
 <tr class="memdesc:aff7b4438a9297997ae3401bcfec5727d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the crop box for a page. The crop box is the region of the page to display and print.  <a href="#aff7b4438a9297997ae3401bcfec5727d">More...</a><br /></td></tr>
 <tr class="separator:aff7b4438a9297997ae3401bcfec5727d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,19 +131,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3d5a53c755a17efef74e2d9a870648a7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gad84548ba31797140b44ee1dcd589aca6">PdfRotate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a3d5a53c755a17efef74e2d9a870648a7">GetRotate</a> ()=0</td></tr>
 <tr class="memdesc:a3d5a53c755a17efef74e2d9a870648a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rotation value for a page.  <a href="#a3d5a53c755a17efef74e2d9a870648a7">More...</a><br /></td></tr>
 <tr class="separator:a3d5a53c755a17efef74e2d9a870648a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9077df69e6472a75346bd09eeca55eb9"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gad84548ba31797140b44ee1dcd589aca6">PdfRotate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a9077df69e6472a75346bd09eeca55eb9">GetLogicalRotate</a> ()=0</td></tr>
+<tr class="memdesc:a9077df69e6472a75346bd09eeca55eb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the rotation value of elements(texts) on a page.  <a href="#a9077df69e6472a75346bd09eeca55eb9">More...</a><br /></td></tr>
+<tr class="separator:a9077df69e6472a75346bd09eeca55eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e78de95b702561efe490d81735a722c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a7e78de95b702561efe490d81735a722c">GetDefaultMatrix</a> (_out_ <a class="el" href="group___structures___p_d_fix___s_d_k.html#ga62a284c4f97f794a307fd90589c119f0">PdfMatrix</a> *matrix)=0</td></tr>
 <tr class="separator:a7e78de95b702561efe490d81735a722c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3900615960382320bee608f0c79fd2ff"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a3900615960382320bee608f0c79fd2ff">GetNumber</a> ()=0</td></tr>
 <tr class="memdesc:a3900615960382320bee608f0c79fd2ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the page number for the specified page.  <a href="#a3900615960382320bee608f0c79fd2ff">More...</a><br /></td></tr>
 <tr class="separator:a3900615960382320bee608f0c79fd2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd938331fb79cf55870c70880d583d0a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pde_page_map.html">PdePageMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#acd938331fb79cf55870c70880d583d0a">CreatePageMap</a> ()=0</td></tr>
+<tr class="separator:acd938331fb79cf55870c70880d583d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a286a5d41c831a8dd4c13a16cf3f0d3d0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pde_page_map.html">PdePageMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a286a5d41c831a8dd4c13a16cf3f0d3d0">AcquirePageMap</a> (_callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a> cancel_proc, void *cancel_data)=0</td></tr>
 <tr class="separator:a286a5d41c831a8dd4c13a16cf3f0d3d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d01692da4f4a89f0293b0157978855f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a8d01692da4f4a89f0293b0157978855f">ReleasePageMap</a> ()=0</td></tr>
-<tr class="separator:a8d01692da4f4a89f0293b0157978855f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9b832af9f341bd61506f4354f38f732"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pdf_page_view.html">PdfPageView</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#af9b832af9f341bd61506f4354f38f732">AcquirePageView</a> (double zoom, <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gad84548ba31797140b44ee1dcd589aca6">PdfRotate</a> rotate)=0</td></tr>
 <tr class="separator:af9b832af9f341bd61506f4354f38f732"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f75d4f65d437743c4b146e597632873"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a6f75d4f65d437743c4b146e597632873">ReleasePageView</a> (<a class="el" href="struct_pdf_page_view.html">PdfPageView</a> *page_view)=0</td></tr>
-<tr class="separator:a6f75d4f65d437743c4b146e597632873"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5a8d60fab1768d107d0839d3fa3bb95"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#ac5a8d60fab1768d107d0839d3fa3bb95">GetNumAnnots</a> ()=0</td></tr>
 <tr class="separator:ac5a8d60fab1768d107d0839d3fa3bb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0241e8eb8acbbdfffb98d55d2e335974"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pdf_annot.html">PdfAnnot</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a0241e8eb8acbbdfffb98d55d2e335974">GetAnnot</a> (int index)=0</td></tr>
@@ -171,12 +174,28 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeda2d2248171abd6e4a9083e304735d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4057a74b6a4a3dfad6f489fe26b0a7b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#ac4057a74b6a4a3dfad6f489fe26b0a7b">DrawContent</a> (<a class="el" href="group___structures___p_d_fix___s_d_k.html#ga4c8aadc299bbaf1f2bf9146b7aba9da6">PdfPageRenderParams</a> *params, _callback_ <a class="el" href="group___callback___p_d_fix___s_d_k.html#ga74f9515158e9b37fd521fa0e792dece4">PdfCancelProc</a> cancel_proc, void *cancel_data)=0</td></tr>
 <tr class="separator:ac4057a74b6a4a3dfad6f489fe26b0a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51a680123dea5285f5fba20367d61c4c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a51a680123dea5285f5fba20367d61c4c">GetNumMcidPageObjects</a> (int mcid)=0</td></tr>
-<tr class="memdesc:a51a680123dea5285f5fba20367d61c4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of PdsPageObjects with the same MCID.  <a href="#a51a680123dea5285f5fba20367d61c4c">More...</a><br /></td></tr>
-<tr class="separator:a51a680123dea5285f5fba20367d61c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a089e95306ed99be08680de7affb81fd7"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_page_object.html">PdsPageObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a089e95306ed99be08680de7affb81fd7">GetMcidPageObject</a> (int mcid, int index)=0</td></tr>
-<tr class="memdesc:a089e95306ed99be08680de7affb81fd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the PdsPageObjects with MCID by index.  <a href="#a089e95306ed99be08680de7affb81fd7">More...</a><br /></td></tr>
-<tr class="separator:a089e95306ed99be08680de7affb81fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a865ed996766d3bafff0116fe8318318c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a865ed996766d3bafff0116fe8318318c">GetNumPageObjects</a> ()=0</td></tr>
+<tr class="memdesc:a865ed996766d3bafff0116fe8318318c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of page objects.  <a href="#a865ed996766d3bafff0116fe8318318c">More...</a><br /></td></tr>
+<tr class="separator:a865ed996766d3bafff0116fe8318318c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68eedffc6117a33aebc819bc1a6f95ce"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_page_object.html">PdsPageObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a68eedffc6117a33aebc819bc1a6f95ce">GetPageObject</a> (int index)=0</td></tr>
+<tr class="separator:a68eedffc6117a33aebc819bc1a6f95ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c94f71fd6f0843ce582bd13ff924ca4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_dictionary.html">PdsDictionary</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a8c94f71fd6f0843ce582bd13ff924ca4">GetResources</a> (const wchar_t *res_type, bool create)=0</td></tr>
+<tr class="separator:a8c94f71fd6f0843ce582bd13ff924ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06adbe7ba7aea24851e990dfe19e8612"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_dictionary.html">PdsDictionary</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a06adbe7ba7aea24851e990dfe19e8612">GetObject</a> ()=0</td></tr>
+<tr class="memdesc:a06adbe7ba7aea24851e990dfe19e8612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the dictionary object associated with the page.  <a href="#a06adbe7ba7aea24851e990dfe19e8612">More...</a><br /></td></tr>
+<tr class="separator:a06adbe7ba7aea24851e990dfe19e8612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade4b811362dc5628491d1460345f35ec"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#ade4b811362dc5628491d1460345f35ec">FlattenFormXObjects</a> ()=0</td></tr>
+<tr class="memdesc:ade4b811362dc5628491d1460345f35ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flatten all Form XObjects on the page into main page content.  <a href="#ade4b811362dc5628491d1460345f35ec">More...</a><br /></td></tr>
+<tr class="separator:ade4b811362dc5628491d1460345f35ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acad1387764f141f4d4cbe669e2116f5b"><td class="memItemLeft" align="right" valign="top">virtual PdfPageContentFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#acad1387764f141f4d4cbe669e2116f5b">GetContentFlags</a> ()=0</td></tr>
+<tr class="memdesc:acad1387764f141f4d4cbe669e2116f5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for various content objects in the page content.  <a href="#acad1387764f141f4d4cbe669e2116f5b">More...</a><br /></td></tr>
+<tr class="separator:acad1387764f141f4d4cbe669e2116f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab05f6791b1c442b01fb51828c8637b39"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#ab05f6791b1c442b01fb51828c8637b39">SetContent</a> ()=0</td></tr>
+<tr class="memdesc:ab05f6791b1c442b01fb51828c8637b39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write modified page content to the content stream.  <a href="#ab05f6791b1c442b01fb51828c8637b39">More...</a><br /></td></tr>
+<tr class="separator:ab05f6791b1c442b01fb51828c8637b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a963933870e0e1b80a1abfc84124cda59"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pdf_doc.html">PdfDoc</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pdf_page.html#a963933870e0e1b80a1abfc84124cda59">GetDoc</a> ()=0</td></tr>
+<tr class="memdesc:a963933870e0e1b80a1abfc84124cda59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a reference to a document object.  <a href="#a963933870e0e1b80a1abfc84124cda59">More...</a><br /></td></tr>
+<tr class="separator:a963933870e0e1b80a1abfc84124cda59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pdf_page.html" title="PdfPage class. ">PdfPage</a> class. </p>
@@ -215,19 +234,18 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Generates a <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> from the <a class="el" href="struct_pdf_page.html" title="PdfPage class. ">PdfPage</a>'s elements. The <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> is cached, so that subsequent calls on the same PDPage return the same <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a>. The <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> remains in the cache as long as page exists or ReleasePageMap was not called. Call ReleasePageMap to release pagemap resources if necessary. <br />
+<p>Generates a <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> from the <a class="el" href="struct_pdf_page.html" title="PdfPage class. ">PdfPage</a>'s elements. The <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> is cached, so that subsequent calls on the same PDPage return the same <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> and increments the reference count. The <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> remains in the cache as long as page exists or <a class="el" href="struct_pde_page_map.html#a7bc1656739f59ee664cbf3dc50b04db9">PdePageMap::Release</a> was not called. Call <a class="el" href="struct_pde_page_map.html#a7bc1656739f59ee664cbf3dc50b04db9">PdePageMap::Release</a> to release pagemap resources if necessary. <br />
 </p>
 <p><br />
 </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">params</td><td>Page map parameters that allow modify the page map algorithm. </td></tr>
     <tr><td class="paramname">cancel_proc</td><td>Callback to check for canceling operations. A CancelProc is typically passed to some method that takes a long time to complete. At frequent intervals, the method calls the CancelProc. If it returns true, then the method cancels its operation; if false, it continues. </td></tr>
     <tr><td class="paramname">cancel_data</td><td>Pointer to client data for the cancel procedure. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> for the current page. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_page.html#a8d01692da4f4a89f0293b0157978855f">PdfPage::ReleasePageMap</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pde_page_map.html#a7bc1656739f59ee664cbf3dc50b04db9">PdePageMap::Release</a> </dd></dl>
 
 </div>
 </div>
@@ -264,7 +282,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Generates a <a class="el" href="struct_pdf_page_view.html" title="PdfPageView class. ">PdfPageView</a> from the <a class="el" href="struct_pdf_page.html" title="PdfPage class. ">PdfPage</a>'s elements. The <a class="el" href="struct_pdf_page_view.html" title="PdfPageView class. ">PdfPageView</a> is cached, so that subsequent calls on the same PDPage and same input parameters return the same <a class="el" href="struct_pdf_page_view.html" title="PdfPageView class. ">PdfPageView</a>. The <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> remains in the cache as long as page exists or ReleasePageView was not called. Call ReleasePageView to release pagemap resources if necessary. <br />
+<p>Generates a <a class="el" href="struct_pdf_page_view.html" title="PdfPageView class. ">PdfPageView</a> from the <a class="el" href="struct_pdf_page.html" title="PdfPage class. ">PdfPage</a>'s elements. The <a class="el" href="struct_pdf_page_view.html" title="PdfPageView class. ">PdfPageView</a> is cached, so that subsequent calls on the same PDPage and same input parameters return the same <a class="el" href="struct_pdf_page_view.html" title="PdfPageView class. ">PdfPageView</a> and increments the reference count. The <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> remains in the cache as long as page exists or <a class="el" href="struct_pdf_page_view.html#a8174742e28a08d20b88a84468042ec25">PdfPageView::Release</a> was not called. Call <a class="el" href="struct_pdf_page_view.html#a8174742e28a08d20b88a84468042ec25">PdfPageView::Release</a> to release pagemap resources if necessary. <br />
 </p>
 <p><br />
 </p><dl class="params"><dt>Parameters</dt><dd>
@@ -275,7 +293,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>An acquired page view or null. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_page.html#a6f75d4f65d437743c4b146e597632873">PdfPage::ReleasePageView</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_page_view.html#a8174742e28a08d20b88a84468042ec25">PdfPageView::Release</a> </dd></dl>
 
 </div>
 </div>
@@ -427,6 +445,36 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="acd938331fb79cf55870c70880d583d0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd938331fb79cf55870c70880d583d0a">&#9670;&nbsp;</a></span>CreatePageMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pde_page_map.html">PdePageMap</a>* PdfPage::CreatePageMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Creates a <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> from the <a class="el" href="struct_pdf_page.html" title="PdfPage class. ">PdfPage</a>'s elements.and increments the reference count. Call <a class="el" href="struct_pde_page_map.html#a61a0a06c00879f45f3072a67ed3d5840" title="Recreates a PdePageMap from the PdfPage&#39;s elements. ">PdePageMap::AcquireElements</a> to parse page objects. The <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> remains in the cache as long as page exists or <a class="el" href="struct_pde_page_map.html#a7bc1656739f59ee664cbf3dc50b04db9">PdePageMap::Release</a> was not called. Call <a class="el" href="struct_pde_page_map.html#a7bc1656739f59ee664cbf3dc50b04db9">PdePageMap::Release</a> to release pagemap resources if necessary. <br />
+</p>
+<p><br />
+</p><dl class="section return"><dt>Returns</dt><dd><a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> for the current page. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pde_page_map.html#a7bc1656739f59ee664cbf3dc50b04db9">PdePageMap::Release</a>, <a class="el" href="struct_pde_page_map.html#a61a0a06c00879f45f3072a67ed3d5840" title="Recreates a PdePageMap from the PdfPage&#39;s elements. ">PdePageMap::AcquireElements</a> </dd></dl>
+
+</div>
+</div>
 <a id="ac4057a74b6a4a3dfad6f489fe26b0a7b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac4057a74b6a4a3dfad6f489fe26b0a7b">&#9670;&nbsp;</a></span>DrawContent()</h2>
 
@@ -479,6 +527,34 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if page was rendered, false otherwise. </dd></dl>
 <dl class="section see"><dt>See also</dt><dd>PdfPageView::GetImage  Sample RenderPage </dd></dl>
+
+</div>
+</div>
+<a id="ade4b811362dc5628491d1460345f35ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade4b811362dc5628491d1460345f35ec">&#9670;&nbsp;</a></span>FlattenFormXObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdfPage::FlattenFormXObjects </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flatten all Form XObjects on the page into main page content. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if operation was successfull. False otherwise. </dd></dl>
 
 </div>
 </div>
@@ -612,6 +688,34 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="acad1387764f141f4d4cbe669e2116f5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acad1387764f141f4d4cbe669e2116f5b">&#9670;&nbsp;</a></span>GetContentFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual PdfPageContentFlags PdfPage::GetContentFlags </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks for various content objects in the page content. </p>
+<dl class="section return"><dt>Returns</dt><dd>A combination of the page content flags </dd></dl>
+
+</div>
+</div>
 <a id="aff7b4438a9297997ae3401bcfec5727d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aff7b4438a9297997ae3401bcfec5727d">&#9670;&nbsp;</a></span>GetCropBox()</h2>
 
@@ -681,8 +785,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a089e95306ed99be08680de7affb81fd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a089e95306ed99be08680de7affb81fd7">&#9670;&nbsp;</a></span>GetMcidPageObject()</h2>
+<a id="a963933870e0e1b80a1abfc84124cda59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a963933870e0e1b80a1abfc84124cda59">&#9670;&nbsp;</a></span>GetDoc()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -691,21 +795,10 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="struct_pds_page_object.html">PdsPageObject</a>* PdfPage::GetMcidPageObject </td>
+          <td class="memname">virtual <a class="el" href="struct_pdf_doc.html">PdfDoc</a>* PdfPage::GetDoc </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>mcid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -715,16 +808,37 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the PdsPageObjects with MCID by index. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">mcid</td><td>The MCID to search for. </td></tr>
-    <tr><td class="paramname">index</td><td>Index of the page object to be retrieved. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The page object with specified MCID and index. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>PdfPageView::GetNumMcidPageObjects </dd></dl>
+<p>Gets a reference to a document object. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="struct_pdf_doc.html" title="PdfDoc class. ">PdfDoc</a> object. </dd></dl>
+
+</div>
+</div>
+<a id="a9077df69e6472a75346bd09eeca55eb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9077df69e6472a75346bd09eeca55eb9">&#9670;&nbsp;</a></span>GetLogicalRotate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gad84548ba31797140b44ee1dcd589aca6">PdfRotate</a> PdfPage::GetLogicalRotate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the rotation value of elements(texts) on a page. </p>
+<dl class="section return"><dt>Returns</dt><dd>Rotation value of elements on the page. Must be one of the PdfRotate values. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="group___enumerations___p_d_fix___s_d_k.html#gad84548ba31797140b44ee1dcd589aca6" title="PdfRotate. ">PdfRotate</a> </dd></dl>
 
 </div>
 </div>
@@ -894,8 +1008,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a51a680123dea5285f5fba20367d61c4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51a680123dea5285f5fba20367d61c4c">&#9670;&nbsp;</a></span>GetNumMcidPageObjects()</h2>
+<a id="a865ed996766d3bafff0116fe8318318c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a865ed996766d3bafff0116fe8318318c">&#9670;&nbsp;</a></span>GetNumPageObjects()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -904,10 +1018,9 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int PdfPage::GetNumMcidPageObjects </td>
+          <td class="memname">virtual int PdfPage::GetNumPageObjects </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>mcid</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -918,15 +1031,119 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the number of PdsPageObjects with the same MCID. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Gets the number of page objects. </p>
+<dl class="section return"><dt>Returns</dt><dd>Number of page objects in the page content. </dd></dl>
+
+</div>
+</div>
+<a id="a06adbe7ba7aea24851e990dfe19e8612"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06adbe7ba7aea24851e990dfe19e8612">&#9670;&nbsp;</a></span>GetObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_dictionary.html">PdsDictionary</a>* PdfPage::GetObject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the dictionary object associated with the page. </p>
+<dl class="section return"><dt>Returns</dt><dd>The requested page object. </dd></dl>
+
+</div>
+</div>
+<a id="a68eedffc6117a33aebc819bc1a6f95ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68eedffc6117a33aebc819bc1a6f95ce">&#9670;&nbsp;</a></span>GetPageObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_page_object.html">PdsPageObject</a>* PdfPage::GetPageObject </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the requested page object from a page content. NOTE: This method does not copy the page object. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">mcid</td><td>The MCID to search for. </td></tr>
+    <tr><td class="paramname">index</td><td>Index of page object to obtain. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Number of objects with requested MCID. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd>PdfPageView::GetMcidPageObject </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The requested page objects. </dd></dl>
+
+</div>
+</div>
+<a id="a8c94f71fd6f0843ce582bd13ff924ca4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c94f71fd6f0843ce582bd13ff924ca4">&#9670;&nbsp;</a></span>GetResources()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_dictionary.html">PdsDictionary</a>* PdfPage::GetResources </td>
+          <td>(</td>
+          <td class="paramtype">const wchar_t *&#160;</td>
+          <td class="paramname"><em>res_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>create</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gets the page resources dictionary. It can be either directly in the page object or it may be in the page tree stared with multiple pages. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">res_type</td><td>Name of the resource type (ExtGState, ColorSpace, Pattern, Shading, XObject, Font, and Properties). </td></tr>
+    <tr><td class="paramname">create</td><td>The page resources objects is created if does not exists. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The requested page resources objects. </dd></dl>
 
 </div>
 </div>
@@ -959,8 +1176,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a8d01692da4f4a89f0293b0157978855f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d01692da4f4a89f0293b0157978855f">&#9670;&nbsp;</a></span>ReleasePageMap()</h2>
+<a id="a3b715b3da8c51d04866ed714ab5742e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b715b3da8c51d04866ed714ab5742e8">&#9670;&nbsp;</a></span>Release()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -969,7 +1186,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool PdfPage::ReleasePageMap </td>
+          <td class="memname">virtual void PdfPage::Release </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -981,48 +1198,16 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Releases the pagemap resources at the current page. NOTE: The caller can call ReleasePageMap to optimize a memory handling. Otherwise the page is responsible for freeing <a class="el" href="struct_pde_page_map.html" title="PdePageMap class. ">PdePageMap</a> resources. <br />
-</p>
-<p><br />
-</p><dl class="section return"><dt>Returns</dt><dd>true if succeeded, false otherwise. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_page.html#a286a5d41c831a8dd4c13a16cf3f0d3d0">PdfPage::AcquirePageMap</a> </dd></dl>
-
-</div>
-</div>
-<a id="a6f75d4f65d437743c4b146e597632873"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f75d4f65d437743c4b146e597632873">&#9670;&nbsp;</a></span>ReleasePageView()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool PdfPage::ReleasePageView </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_pdf_page_view.html">PdfPageView</a> *&#160;</td>
-          <td class="paramname"><em>page_view</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Releases the page view resources. NOTE: The caller can call ReleasePageView to optimize a memory handling. Otherwise the page is responsible for freeing PdfPageViews resources. <br />
+<p>Releases page's resources. Decrements a page’s reference count. The document will not be released until the reference count is zero, or the application terminates. <br />
 </p>
 <p><br />
 </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">page_view</td><td>The page view to delete. </td></tr>
+    <tr><td class="paramname">page</td><td>The page to release. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true if succeeded, false if page view with specific params was not found. </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pdf_page.html#af9b832af9f341bd61506f4354f38f732">PdfPage::AcquirePageView</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>PdfPage::AcquirePage </dd></dl>
 
 </div>
 </div>
@@ -1074,13 +1259,41 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ab05f6791b1c442b01fb51828c8637b39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab05f6791b1c442b01fb51828c8637b39">&#9670;&nbsp;</a></span>SetContent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdfPage::SetContent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Write modified page content to the content stream. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if operation was successfull. False otherwise. </dd></dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pdf_page.html">PdfPage</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:14 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:43 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>

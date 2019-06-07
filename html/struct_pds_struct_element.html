@@ -52,7 +52,7 @@ var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"6096cce965fd
   <td id="projectlogo"><img alt="Logo" src="pdfix-documentation-logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">PDFix SDK
-   &#160;<span id="projectnumber">4.1.2</span>
+   &#160;<span id="projectnumber">5.0.27</span>
    </div>
   </td>
  </tr>
@@ -121,12 +121,17 @@ $(document).ready(function(){initNavTree('struct_pds_struct_element.html','');})
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac0cceb84b5c78035a3ebe9d23f401bdc"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#ac0cceb84b5c78035a3ebe9d23f401bdc">GetType</a> (_out_ wchar_t *text, int len)=0</td></tr>
-<tr class="separator:ac0cceb84b5c78035a3ebe9d23f401bdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5632e9457b317bd75a98ffbcabdb26d4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a5632e9457b317bd75a98ffbcabdb26d4">Release</a> ()=0</td></tr>
+<tr class="memdesc:a5632e9457b317bd75a98ffbcabdb26d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases structure element's resources.  <a href="#a5632e9457b317bd75a98ffbcabdb26d4">More...</a><br /></td></tr>
+<tr class="separator:a5632e9457b317bd75a98ffbcabdb26d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f7254e7f70194a75ffd597118a0c55b"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a8f7254e7f70194a75ffd597118a0c55b">GetType</a> (bool mapped, _out_ wchar_t *buffer, int len)=0</td></tr>
+<tr class="separator:a8f7254e7f70194a75ffd597118a0c55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb0451111805645fe2d67999d14dfd5d"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#aeb0451111805645fe2d67999d14dfd5d">GetActualText</a> (_out_ wchar_t *buffer, int len)=0</td></tr>
 <tr class="separator:aeb0451111805645fe2d67999d14dfd5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4d2a55e24891b7d5998c927cc35487d"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#af4d2a55e24891b7d5998c927cc35487d">GetAlt</a> (_out_ wchar_t *buffer, int len)=0</td></tr>
 <tr class="separator:af4d2a55e24891b7d5998c927cc35487d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a728755a78f12ddec0a88890f44137867"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a728755a78f12ddec0a88890f44137867">SetAlt</a> (const wchar_t *alt)=0</td></tr>
+<tr class="separator:a728755a78f12ddec0a88890f44137867"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af13ab18c43e745ed9a89ce2c2ba7820b"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#af13ab18c43e745ed9a89ce2c2ba7820b">GetAbbreviation</a> (_out_ wchar_t *buffer, int len)=0</td></tr>
 <tr class="memdesc:af13ab18c43e745ed9a89ce2c2ba7820b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the expanded form of an abbreviation.  <a href="#af13ab18c43e745ed9a89ce2c2ba7820b">More...</a><br /></td></tr>
 <tr class="separator:af13ab18c43e745ed9a89ce2c2ba7820b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,6 +139,11 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8715580b1335a7bb17036fbd322e843b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6053d34afe981c65dfcc59d0967b373e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a6053d34afe981c65dfcc59d0967b373e">GetAttrObject</a> (int index)=0</td></tr>
 <tr class="separator:a6053d34afe981c65dfcc59d0967b373e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d2007ec5a663805b284984f19250ab3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a1d2007ec5a663805b284984f19250ab3">AddAttrObj</a> (<a class="el" href="struct_pds_object.html">PdsObject</a> *object)=0</td></tr>
+<tr class="memdesc:a1d2007ec5a663805b284984f19250ab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Associates the specified attribute object with an element.  <a href="#a1d2007ec5a663805b284984f19250ab3">More...</a><br /></td></tr>
+<tr class="separator:a1d2007ec5a663805b284984f19250ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f4b698bf21d6c76c6ae145e6f97f79b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a7f4b698bf21d6c76c6ae145e6f97f79b">RemoveAttrObj</a> ()=0</td></tr>
+<tr class="separator:a7f4b698bf21d6c76c6ae145e6f97f79b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad297525b5e8e45f9f38206154359cad5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#ad297525b5e8e45f9f38206154359cad5">GetElementObject</a> ()=0</td></tr>
 <tr class="separator:ad297525b5e8e45f9f38206154359cad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e344761a73253316a13c9428874cebb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a8e344761a73253316a13c9428874cebb">GetKidObject</a> (int index)=0</td></tr>
@@ -141,10 +151,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afb10ea580836c637cc1b85595f736045"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group___enumerations___p_d_fix___s_d_k.html#ga53ae24c0fb62c29c6c0b3d7d8cfbfb13">PdfStructElementType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#afb10ea580836c637cc1b85595f736045">GetKidType</a> (int index)=0</td></tr>
 <tr class="separator:afb10ea580836c637cc1b85595f736045"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32e2bc56b0aeb17e5953e9f65c42af99"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a32e2bc56b0aeb17e5953e9f65c42af99">GetKidPageNumber</a> (int index)=0</td></tr>
-<tr class="memdesc:a32e2bc56b0aeb17e5953e9f65c42af99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a page number representing a page on which some or all of the content items designated by the K entry.  <a href="#a32e2bc56b0aeb17e5953e9f65c42af99">More...</a><br /></td></tr>
+<tr class="memdesc:a32e2bc56b0aeb17e5953e9f65c42af99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a page number representing a page on which the kid is rendered.  <a href="#a32e2bc56b0aeb17e5953e9f65c42af99">More...</a><br /></td></tr>
 <tr class="separator:a32e2bc56b0aeb17e5953e9f65c42af99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f489680d4320a7c9cfeeb67b0fb2818"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a8f489680d4320a7c9cfeeb67b0fb2818">GetKidMcid</a> (int index)=0</td></tr>
-<tr class="memdesc:a8f489680d4320a7c9cfeeb67b0fb2818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a kid's MCID.  <a href="#a8f489680d4320a7c9cfeeb67b0fb2818">More...</a><br /></td></tr>
 <tr class="separator:a8f489680d4320a7c9cfeeb67b0fb2818"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7372007565e37116750554f6fb7dc54"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#ac7372007565e37116750554f6fb7dc54">GetNumAttrObjects</a> ()=0</td></tr>
 <tr class="memdesc:ac7372007565e37116750554f6fb7dc54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of attribute objects directly attached to the specified element.  <a href="#ac7372007565e37116750554f6fb7dc54">More...</a><br /></td></tr>
@@ -157,13 +166,213 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5322ebef89de32af615303bf20ace4b3"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a5322ebef89de32af615303bf20ace4b3">GetTitle</a> (_out_ wchar_t *buffer, int len)=0</td></tr>
 <tr class="memdesc:a5322ebef89de32af615303bf20ace4b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the title of the specified element, returning the number of bytes in the title.  <a href="#a5322ebef89de32af615303bf20ace4b3">More...</a><br /></td></tr>
 <tr class="separator:a5322ebef89de32af615303bf20ace4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3fc46c644afcb48dd20a6e53f24928c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#ab3fc46c644afcb48dd20a6e53f24928c">GetID</a> (_out_ wchar_t *buffer, int len)=0</td></tr>
-<tr class="separator:ab3fc46c644afcb48dd20a6e53f24928c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa13e8c18b46b3213d51a68a1d86fcd1"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#afa13e8c18b46b3213d51a68a1d86fcd1">GetId</a> (_out_ wchar_t *buffer, int len)=0</td></tr>
+<tr class="separator:afa13e8c18b46b3213d51a68a1d86fcd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ff3a94931da1dd59dd3e7df7037721e"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a0ff3a94931da1dd59dd3e7df7037721e">RemoveKid</a> (int index)=0</td></tr>
+<tr class="memdesc:a0ff3a94931da1dd59dd3e7df7037721e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the specified kid from an element.  <a href="#a0ff3a94931da1dd59dd3e7df7037721e">More...</a><br /></td></tr>
+<tr class="separator:a0ff3a94931da1dd59dd3e7df7037721e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c57a14f435ce4d2888d9ed25e6db094"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="struct_pds_struct_element.html">PdsStructElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a5c57a14f435ce4d2888d9ed25e6db094">CreateStructElement</a> (const wchar_t *type, <a class="el" href="struct_pds_struct_element.html">PdsStructElement</a> *parent, int index)=0</td></tr>
+<tr class="separator:a5c57a14f435ce4d2888d9ed25e6db094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a685af9922b2b3aa3a75ee0847d1f5255"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a685af9922b2b3aa3a75ee0847d1f5255">SetParent</a> (<a class="el" href="struct_pds_struct_element.html">PdsStructElement</a> *parent, int index)=0</td></tr>
+<tr class="memdesc:a685af9922b2b3aa3a75ee0847d1f5255"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the current structure element.  <a href="#a685af9922b2b3aa3a75ee0847d1f5255">More...</a><br /></td></tr>
+<tr class="separator:a685af9922b2b3aa3a75ee0847d1f5255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e6dcd838d3f420321dcd48cf60c18ad"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a0e6dcd838d3f420321dcd48cf60c18ad">AddPageObject</a> (<a class="el" href="struct_pds_page_object.html">PdsPageObject</a> *object, int index)=0</td></tr>
+<tr class="separator:a0e6dcd838d3f420321dcd48cf60c18ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef9ce9d97ffba3cc8876837832865a14"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#aef9ce9d97ffba3cc8876837832865a14">AddAnnot</a> (<a class="el" href="struct_pdf_annot.html">PdfAnnot</a> *annot, int index)=0</td></tr>
+<tr class="separator:aef9ce9d97ffba3cc8876837832865a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68f6cb33f426172eff5350366af15273"><td class="memItemLeft" align="right" valign="top"><a id="a68f6cb33f426172eff5350366af15273"></a>
+virtual <a class="el" href="struct_pds_struct_tree.html">PdsStructTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a68f6cb33f426172eff5350366af15273">GetStructTree</a> ()=0</td></tr>
+<tr class="memdesc:a68f6cb33f426172eff5350366af15273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get pointer to the parent struct tree object. <br /></td></tr>
+<tr class="separator:a68f6cb33f426172eff5350366af15273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716613e93fba0db0f5efe7285efb396c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_pds_struct_element.html#a716613e93fba0db0f5efe7285efb396c">SetType</a> (const wchar_t *type)=0</td></tr>
+<tr class="memdesc:a716613e93fba0db0f5efe7285efb396c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the struct element type.  <a href="#a716613e93fba0db0f5efe7285efb396c">More...</a><br /></td></tr>
+<tr class="separator:a716613e93fba0db0f5efe7285efb396c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="struct_pds_struct_element.html" title="PdsStructElement class. ">PdsStructElement</a> class. </p>
 <p><a class="el" href="struct_pds_struct_element.html" title="PdsStructElement class. ">PdsStructElement</a> is the basic building block of the structure tree. It represents PDF structural elements, which are nodes in a tree, defining a PDF documentís logical structure. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aef9ce9d97ffba3cc8876837832865a14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef9ce9d97ffba3cc8876837832865a14">&#9670;&nbsp;</a></span>AddAnnot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PdsStructElement::AddAnnot </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_pdf_annot.html">PdfAnnot</a> *&#160;</td>
+          <td class="paramname"><em>annot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Inserts a reference to the specified annotation as a kid into the specified element. This method automatically creates OBJR object. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">object</td><td>The annotation to insert. </td></tr>
+    <tr><td class="paramname">index</td><td>Position where the annotation object is inserted. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1d2007ec5a663805b284984f19250ab3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d2007ec5a663805b284984f19250ab3">&#9670;&nbsp;</a></span>AddAttrObj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdsStructElement::AddAttrObj </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_pds_object.html">PdsObject</a> *&#160;</td>
+          <td class="paramname"><em>object</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Associates the specified attribute object with an element. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">object</td><td>Attribute object to associate with element. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0e6dcd838d3f420321dcd48cf60c18ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e6dcd838d3f420321dcd48cf60c18ad">&#9670;&nbsp;</a></span>AddPageObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PdsStructElement::AddPageObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_pds_page_object.html">PdsPageObject</a> *&#160;</td>
+          <td class="paramname"><em>object</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Inserts a reference to the specified page object as a kid into the specified element. This method automatically creates MCR objects if needed. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">object</td><td>The page object to insert. </td></tr>
+    <tr><td class="paramname">index</td><td>Position where the page object is inserted. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5c57a14f435ce4d2888d9ed25e6db094"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c57a14f435ce4d2888d9ed25e6db094">&#9670;&nbsp;</a></span>CreateStructElement()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="struct_pds_struct_element.html">PdsStructElement</a>* PdsStructElement::CreateStructElement </td>
+          <td>(</td>
+          <td class="paramtype">const wchar_t *&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Creates a new (but empty) <a class="el" href="struct_pds_struct_element.html" title="PdsStructElement class. ">PdsStructElement</a> of specific type. CreateStructElement increments an element’s reference count. The element will not be released until the reference count is zero, or the application terminates. NOTE: After you are done using the element, release it using <a class="el" href="struct_pds_struct_element.html#a5632e9457b317bd75a98ffbcabdb26d4" title="Releases structure element&#39;s resources. ">PdsStructElement::Release</a> to release resources. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>The name representing the element’s type. </td></tr>
+    <tr><td class="paramname">parent</td><td>The parent structure element. </td></tr>
+    <tr><td class="paramname">index</td><td>Position where the kid is inserted to parents kids. If element currently has no kids, index is ignored. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Acquired <a class="el" href="struct_pds_struct_element.html" title="PdsStructElement class. ">PdsStructElement</a>. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pds_struct_element.html#a5632e9457b317bd75a98ffbcabdb26d4" title="Releases structure element&#39;s resources. ">PdsStructElement::Release</a> </dd></dl>
+
+</div>
+</div>
 <a id="af13ab18c43e745ed9a89ce2c2ba7820b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af13ab18c43e745ed9a89ce2c2ba7820b">&#9670;&nbsp;</a></span>GetAbbreviation()</h2>
 
@@ -201,12 +410,12 @@ Public Member Functions</h2></td></tr>
 <p>Gets the expanded form of an abbreviation. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Number of characters written into buffer of required length or 0 if the alt text is empty. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of characters written into buffer of required length. </dd></dl>
 
 </div>
 </div>
@@ -248,12 +457,12 @@ Public Member Functions</h2></td></tr>
 <p><br />
 </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Number of characters written into buffer of required length or 0 if the element has no actual text. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of characters written into buffer of required length. </dd></dl>
 
 </div>
 </div>
@@ -295,12 +504,12 @@ Public Member Functions</h2></td></tr>
 <p><br />
 </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Number of characters written into buffer of required length or 0 if the alt text is empty. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of characters written into buffer of required length. </dd></dl>
 
 </div>
 </div>
@@ -369,8 +578,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab3fc46c644afcb48dd20a6e53f24928c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3fc46c644afcb48dd20a6e53f24928c">&#9670;&nbsp;</a></span>GetID()</h2>
+<a id="afa13e8c18b46b3213d51a68a1d86fcd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa13e8c18b46b3213d51a68a1d86fcd1">&#9670;&nbsp;</a></span>GetId()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -379,7 +588,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual int PdsStructElement::GetID </td>
+          <td class="memname">virtual int PdsStructElement::GetId </td>
           <td>(</td>
           <td class="paramtype">_out_ wchar_t *&#160;</td>
           <td class="paramname"><em>buffer</em>, </td>
@@ -407,7 +616,7 @@ Public Member Functions</h2></td></tr>
 <p><br />
 </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
@@ -439,9 +648,10 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Returns a kid's MCID. </p>
-<dl class="params"><dt>Parameters</dt><dd>
+<p>Returns a kid's MCID. Note: Call this method only in a case that PdfStructElement::GetKidType returns kPdsStructKidPageContent type. Otherwise this method it returns -1. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>The index of the kid. </td></tr>
   </table>
@@ -474,7 +684,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Gets the kid's object at an array index for the structure element. A PDF structural elementóunlike the structure tree rootócan have several different kinds of children : marked content ID, another structural element, or an object reference. <br />
+<p>Gets the kid's object at an array index for the structure element. A PDF structural elements unlike the structure tree rootócan have several different kinds of children : marked content ID, another structural element, or an object reference. <br />
 </p>
 <p><br />
 </p><dl class="params"><dt>Parameters</dt><dd>
@@ -512,10 +722,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a page number representing a page on which some or all of the content items designated by the K entry. </p>
-<p>Returns a page number representing a page on which the kid is rendered.</p>
-<p><br />
-</p><dl class="params"><dt>Parameters</dt><dd>
+<p>Returns a page number representing a page on which the kid is rendered. </p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>The index of the kid. </td></tr>
   </table>
@@ -548,7 +756,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Gets the kid's type at an array index for the structure element. A PDF structural elementóunlike the structure tree rootócan have several different kinds of children : marked content ID, another structure element, or an object object reference dictionary denoting a <a class="el" href="struct_pds_object.html" title="PdsObject class. ">PdsObject</a> <br />
+<p>Gets the kid's type at an array index for the structure element. A PDF structural elements unlike the structure tree root can have several different kinds of children : marked content ID, another structure element, or an object object reference dictionary denoting a <a class="el" href="struct_pds_object.html" title="PdsObject class. ">PdsObject</a>. <br />
 </p>
 <p><br />
 </p><dl class="params"><dt>Parameters</dt><dd>
@@ -677,7 +885,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>Element's parent object. If the elementís parent is the structure tree root, retuen value is nullptr. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Element's parent object. If the elementís parent is the structure tree root, return value is nullptr. </dd></dl>
 
 </div>
 </div>
@@ -718,7 +926,7 @@ Public Member Functions</h2></td></tr>
 <p>Gets the title of the specified element, returning the number of bytes in the title. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
@@ -727,8 +935,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac0cceb84b5c78035a3ebe9d23f401bdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0cceb84b5c78035a3ebe9d23f401bdc">&#9670;&nbsp;</a></span>GetType()</h2>
+<a id="a8f7254e7f70194a75ffd597118a0c55b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f7254e7f70194a75ffd597118a0c55b">&#9670;&nbsp;</a></span>GetType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -739,8 +947,14 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">virtual int PdsStructElement::GetType </td>
           <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>mapped</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">_out_ wchar_t *&#160;</td>
-          <td class="paramname"><em>text</em>, </td>
+          <td class="paramname"><em>buffer</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -765,12 +979,224 @@ Public Member Functions</h2></td></tr>
 <p><br />
 </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string data. </td></tr>
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string </td></tr>
     <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Number of characters written into buffer of required length. </dd></dl>
+
+</div>
+</div>
+<a id="a5632e9457b317bd75a98ffbcabdb26d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5632e9457b317bd75a98ffbcabdb26d4">&#9670;&nbsp;</a></span>Release()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PdsStructElement::Release </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Releases structure element's resources. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">element</td><td>The structure element to release. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="struct_pds_struct_tree.html#ac4a1fca5afa17a918fa480c91adfa24f">PdsStructTree::AcquireStructElement</a> </dd></dl>
+
+</div>
+</div>
+<a id="a7f4b698bf21d6c76c6ae145e6f97f79b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f4b698bf21d6c76c6ae145e6f97f79b">&#9670;&nbsp;</a></span>RemoveAttrObj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PdsStructElement::RemoveAttrObj </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Removes the specified attribute object from an element. If element does not have an attrObj attribute, this method does nothing. </p>
+
+</div>
+</div>
+<a id="a0ff3a94931da1dd59dd3e7df7037721e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ff3a94931da1dd59dd3e7df7037721e">&#9670;&nbsp;</a></span>RemoveKid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdsStructElement::RemoveKid </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes the specified kid from an element. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the kid. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if successfull, falsw othervise. </dd></dl>
+
+</div>
+</div>
+<a id="a728755a78f12ddec0a88890f44137867"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a728755a78f12ddec0a88890f44137867">&#9670;&nbsp;</a></span>SetAlt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdsStructElement::SetAlt </td>
+          <td>(</td>
+          <td class="paramtype">const wchar_t *&#160;</td>
+          <td class="paramname"><em>alt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sets the alternate text associated with an element. NOTE: The Alt text can be legally defined as an empty string. To differentiate between an Alt text string of zero length and no Alt text being defined, call HasAlt first. <br />
+</p>
+<p><br />
+</p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">buffer</td><td>(filled by method) If the buffer is null function returns required length of string. </td></tr>
+    <tr><td class="paramname">len</td><td>Length of a buffer to be filled in. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Number of characters written into buffer of required length or 0 if the alt text is empty. </dd></dl>
+
+</div>
+</div>
+<a id="a685af9922b2b3aa3a75ee0847d1f5255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a685af9922b2b3aa3a75ee0847d1f5255">&#9670;&nbsp;</a></span>SetParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdsStructElement::SetParent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a> *&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Moves the current structure element. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>A new parent of the structure element. </td></tr>
+    <tr><td class="paramname">index</td><td>Position where the element is inserted into parents kids. If parent element currently has no kids, index is ignored. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if element was successfully moved, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a716613e93fba0db0f5efe7285efb396c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a716613e93fba0db0f5efe7285efb396c">&#9670;&nbsp;</a></span>SetType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PdsStructElement::SetType </td>
+          <td>(</td>
+          <td class="paramtype">const wchar_t *&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the struct element type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>The name representing the element’s type. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -780,7 +1206,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="struct_pds_struct_element.html">PdsStructElement</a></li>
-    <li class="footer">Generated on Fri Nov 2 2018 01:40:15 for PDFix SDK by
+    <li class="footer">Generated on Thu Jun 6 2019 23:18:45 for PDFix SDK by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
   </ul>
